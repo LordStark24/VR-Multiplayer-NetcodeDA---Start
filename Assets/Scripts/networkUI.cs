@@ -13,14 +13,28 @@ public class networkUI : MonoBehaviour
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    // void Start()
+    // {
+    //     quickJoinButton.onClick.AddListener(connectionManager.QuickJoinOrCreateSession);
+    //     disconnectButton.onClick.AddListener(connectionManager.Disconnect);
+
+    //     UpdateUI(ConnectionManager.ConnectionState.Disconnected);
+
+    //     connectionManager.OnConnectionEvent.AddListener(UpdateUI);
+    // }
+
     void Start()
     {
         quickJoinButton.onClick.AddListener(connectionManager.QuickJoinOrCreateSession);
+
         disconnectButton.onClick.AddListener(connectionManager.Disconnect);
+
+        connectionManager.OnConnectionEvent.AddListener(UpdateUI);
 
         UpdateUI(ConnectionManager.ConnectionState.Disconnected);
 
-        connectionManager.OnConnectionEvent.AddListener(UpdateUI);
+        // Automatically connect after the UI is ready.
+        connectionManager.QuickJoinOrCreateSession();
     }
 
     public void UpdateUI(ConnectionManager.ConnectionState state)
@@ -29,4 +43,25 @@ public class networkUI : MonoBehaviour
         connectingPanel.SetActive(state == ConnectionManager.ConnectionState.Connecting || state == ConnectionManager.ConnectionState.Disconnecting);
         connectedPanel.SetActive(state == ConnectionManager.ConnectionState.Success);
     }
+
+    private void OnDestroy()
+    {
+        if (connectionManager == null)
+            return;
+
+        if (quickJoinButton != null)
+        {
+            quickJoinButton.onClick.RemoveListener(
+                connectionManager.QuickJoinOrCreateSession);
+        }
+
+        if (disconnectButton != null)
+        {
+            disconnectButton.onClick.RemoveListener(
+                connectionManager.Disconnect);
+        }
+
+        connectionManager.OnConnectionEvent?.RemoveListener(UpdateUI);
+    }
+
 }

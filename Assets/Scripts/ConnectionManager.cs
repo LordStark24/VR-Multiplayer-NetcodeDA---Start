@@ -4,55 +4,193 @@ using Unity.Services.Core;
 using Unity.Services.Multiplayer;
 using System.Threading.Tasks;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class ConnectionManager : MonoBehaviour
 {
+    private const string SocialHubSessionId = "80af543c-3012-4b16-a403-a30571739581";
+
+    private bool connectionBusy;
     public int maxPlayer = 10;
     private ISession currentSession;
+    public ISession CurrentSession => currentSession;
+    public bool IsBusy => connectionBusy;
 
     public enum ConnectionState { Connecting, Failed, Success, Disconnecting, Disconnected }
     public UnityEvent<ConnectionState> OnConnectionEvent;
+
     public async void QuickJoinOrCreateSession()
     {
-        OnConnectionEvent.Invoke(ConnectionState.Connecting);
+        // Prevent duplicate connection requests.
+        if (connectionBusy || currentSession != null)
+            return;
+
+        connectionBusy = true;
 
         try
         {
+            OnConnectionEvent?.Invoke(ConnectionState.Connecting);
+
             bool authenticated = await Authenticate();
 
             if (!authenticated)
             {
-                OnConnectionEvent.Invoke(ConnectionState.Failed);
+                OnConnectionEvent?.Invoke(ConnectionState.Failed);
                 return;
             }
 
-            var availableSessions = await MultiplayerService.Instance.QuerySessionsAsync(new QuerySessionsOptions());
-
-            foreach (var session in availableSessions.Sessions)
+            var options = new SessionOptions
             {
-                if (session.AvailableSlots <= 0)
-                    continue;
-                try
-                {
-                    currentSession = await MultiplayerService.Instance.JoinSessionByIdAsync(session.Id);
-                    OnConnectionEvent.Invoke(ConnectionState.Success);
-                    return;
-                }
-                catch
-                {
-                    continue;
-                }
+                Name = "SocialHub",
+                MaxPlayers = maxPlayer,
+                IsPrivate = false
+            }.WithDistributedAuthorityNetwork();
+
+            Debug.Log($"[SocialHub-v2] Request | " + $"Target: {SocialHubSessionId} | " + $"Cloud project: {Application.cloudProjectId} | " + $"Player: {AuthenticationService.Instance.PlayerId}");
+
+            var joinedSessionIds = await MultiplayerService.Instance.GetJoinedSessionIdsAsync();
+
+            if (joinedSessionIds.Contains(SocialHubSessionId))
+            {
+                Debug.Log("[SocialHub] Reconnecting to existing membership.");
+
+                currentSession =
+                    await MultiplayerService.Instance.ReconnectToSessionAsync(
+                        SocialHubSessionId);
+            }
+            else
+            {
+                currentSession =
+                    await MultiplayerService.Instance.CreateOrJoinSessionAsync(
+                        SocialHubSessionId,
+                        options);
             }
 
-            var options = new SessionOptions { MaxPlayers = maxPlayer }.WithDistributedAuthorityNetwork();
+            Debug.Log(
+                $"[SocialHub-v2] Connected | " +
+                $"Target: {SocialHubSessionId} | " +
+                $"Actual session: {currentSession.Id} | " +
+                $"Player: {AuthenticationService.Instance.PlayerId}");
 
-            currentSession = await MultiplayerService.Instance.CreateSessionAsync(options);
-            OnConnectionEvent.Invoke(ConnectionState.Success);
+            OnConnectionEvent?.Invoke(ConnectionState.Success);
+
+            await Task.Delay(2000);
+
+            var network = Unity.Netcode.NetworkManager.Singleton;
+
+            Debug.Log(
+                $"[SocialHub-NGO] " +
+                $"Listening: {network != null && network.IsListening} | " +
+                $"Connected: {network != null && network.IsConnectedClient}");
         }
-        catch (System.Exception e)
+        catch (System.Exception exception)
         {
-            Debug.LogException(e);
-            OnConnectionEvent.Invoke(ConnectionState.Failed);
+            Debug.LogException(exception);
+            OnConnectionEvent?.Invoke(ConnectionState.Failed);
+        }
+        finally
+        {
+            connectionBusy = false;
+        }
+    }
+
+    public async Task TravelToMansionAsync(
+    string mansionSessionId,
+    string sceneName)
+    {
+        if (connectionBusy || currentSession == null)
+        {
+            throw new System.InvalidOperationException(
+                "The connection is busy or no hub session is active.");
+        }
+
+        if (!Application.CanStreamedLevelBeLoaded(sceneName))
+        {
+            throw new System.InvalidOperationException(
+                $"Scene '{sceneName}' is missing from the enabled Scene List.");
+        }
+
+        connectionBusy = true;
+
+        try
+        {
+            Debug.Log("[Mansion] Leaving SocialHub.");
+
+            OnConnectionEvent?.Invoke(ConnectionState.Disconnecting);
+
+            await currentSession.LeaveAsync();
+            currentSession = null;
+
+            var network = Unity.Netcode.NetworkManager.Singleton;
+            float deadline = Time.realtimeSinceStartup + 15f;
+
+            // Wait for NGO to finish shutting down before connecting again.
+            while (network != null &&
+                   (network.IsListening || network.ShutdownInProgress))
+            {
+                if (Time.realtimeSinceStartup >= deadline)
+                {
+                    throw new System.TimeoutException(
+                        "NGO did not finish shutting down.");
+                }
+
+                await Task.Yield();
+            }
+
+            OnConnectionEvent?.Invoke(ConnectionState.Connecting);
+
+            Debug.Log($"[Mansion] Loading scene: {sceneName}");
+
+            var loading = SceneManager.LoadSceneAsync(
+                sceneName, LoadSceneMode.Single);
+
+            if (loading == null)
+            {
+                throw new System.InvalidOperationException(
+                    $"Could not load scene '{sceneName}'.");
+            }
+
+            while (!loading.isDone)
+            {
+                await Task.Yield();
+            }
+
+            if (VRRigReferences.Instance == null)
+            {
+                throw new System.InvalidOperationException(
+                    "The local VR rig did not survive the scene change.");
+            }
+
+            // Temporary starting position until we add mansion spawn points.
+            VRRigReferences.Instance.transform.root.SetPositionAndRotation(
+                Vector3.zero, Quaternion.identity);
+
+            var options = new SessionOptions
+            {
+                Name = sceneName,
+                MaxPlayers = 10,
+                IsPrivate = false
+            }.WithDistributedAuthorityNetwork();
+
+            currentSession =
+                await MultiplayerService.Instance.CreateOrJoinSessionAsync(
+                    mansionSessionId,
+                    options);
+
+            Debug.Log(
+                $"[Mansion] Connected | Scene: {sceneName} | " +
+                $"Session: {currentSession.Id}");
+
+            OnConnectionEvent?.Invoke(ConnectionState.Success);
+        }
+        catch
+        {
+            OnConnectionEvent?.Invoke(ConnectionState.Failed);
+            throw;
+        }
+        finally
+        {
+            connectionBusy = false;
         }
     }
 

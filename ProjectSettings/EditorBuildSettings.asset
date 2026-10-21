@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Start Scene.unity
     guid: fe0ec442d08e9b84aa4a4b7f8a71f4cf
+  - enabled: 1
+    path: Assets/Scenes/ZombieMansionLevel01.unity
+    guid: 935b9d0231eda4b76831dead96d4d974
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 779e20343dd2b1e499a94678b490b778, type: 2}
