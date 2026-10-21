@@ -74,7 +74,7 @@ public class MansionTravelManager : MonoBehaviour
             var selectedIds = session.Players
                 .OrderBy(player => player.Joined)
                 .ThenBy(player => player.Id, StringComparer.Ordinal)
-                .Take(10)
+                .Take(2)
                 .Select(player => player.Id)
                 .ToArray();
 
