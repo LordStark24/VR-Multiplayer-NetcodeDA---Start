@@ -96,7 +96,8 @@ public class ConnectionManager : MonoBehaviour
 
     public async Task TravelToMansionAsync(
     string mansionSessionId,
-    string sceneName)
+    string sceneName,
+    int spawnIndex)
     {
         if (connectionBusy || currentSession == null)
         {
@@ -161,9 +162,27 @@ public class ConnectionManager : MonoBehaviour
                     "The local VR rig did not survive the scene change.");
             }
 
-            // Temporary starting position until we add mansion spawn points.
+            var mansionSpawns =
+    UnityEngine.Object.FindFirstObjectByType<MansionSpawnPoints>();
+
+            if (mansionSpawns == null ||
+                mansionSpawns.spawnPoints == null ||
+                spawnIndex < 0 ||
+                spawnIndex >= mansionSpawns.spawnPoints.Length ||
+                mansionSpawns.spawnPoints[spawnIndex] == null)
+            {
+                throw new System.InvalidOperationException(
+                    $"Mansion spawn point {spawnIndex} is missing or invalid.");
+            }
+
+            Transform spawn = mansionSpawns.spawnPoints[spawnIndex];
+
             VRRigReferences.Instance.transform.root.SetPositionAndRotation(
-                Vector3.zero, Quaternion.identity);
+                spawn.position,
+                spawn.rotation);
+
+            Debug.Log(
+                $"[Mansion] Positioned at {spawn.name} | Index: {spawnIndex}");
 
             var options = new SessionOptions
             {

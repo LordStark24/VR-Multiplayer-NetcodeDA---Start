@@ -21,6 +21,7 @@ public class MansionTravelManager : MonoBehaviour
         public string sceneName;
         public bool readyToTravel;
         public string[] playerIds;
+        public int[] spawnIndices;
     }
 
     public async void StartMansion()
@@ -85,11 +86,27 @@ public class MansionTravelManager : MonoBehaviour
                 return;
             }
 
+            // Matches the 10 spawn markers in the mansion scene.
+            int[] shuffledSpawns = Enumerable.Range(0, 10).ToArray();
+
+            // Shuffle the indices so no two selected players get the same marker.
+            var random = new System.Random();
+
+            for (int i = shuffledSpawns.Length - 1; i > 0; i--)
+            {
+                int j = random.Next(i + 1);
+
+                int temporary = shuffledSpawns[i];
+                shuffledSpawns[i] = shuffledSpawns[j];
+                shuffledSpawns[j] = temporary;
+            }
+
             var departure = new MansionDeparture
             {
                 sessionId = Guid.NewGuid().ToString(),
                 sceneName = "ZombieMansionLevel01",
-                playerIds = selectedIds
+                playerIds = selectedIds,
+                spawnIndices = shuffledSpawns.Take(selectedIds.Length).ToArray()
             };
 
             var hostSession = session.AsHost();
@@ -145,6 +162,7 @@ public class MansionTravelManager : MonoBehaviour
         if (string.IsNullOrEmpty(json) || json == lastDepartureJson)
             return;
 
+        bool firstDepartureSeen = lastDepartureJson == null;
         lastDepartureJson = json;
 
         try
@@ -154,6 +172,14 @@ public class MansionTravelManager : MonoBehaviour
 
             if (departure == null || departure.playerIds == null)
                 return;
+
+            // Ignore a confirmed departure already present on connection.
+            if (firstDepartureSeen && departure.readyToTravel)
+            {
+                Debug.Log("[Mansion] Ignoring an existing confirmed departure.");
+                return;
+            }
+
 
             bool selected = departure.playerIds.Contains(
                 session.CurrentPlayer.Id);
@@ -351,9 +377,26 @@ public class MansionTravelManager : MonoBehaviour
             }
         }
 
+        int playerIndex = Array.IndexOf(
+    departure.playerIds,
+    hub.CurrentPlayer.Id);
+
+        if (playerIndex < 0 ||
+            departure.spawnIndices == null ||
+            playerIndex >= departure.spawnIndices.Length)
+        {
+            throw new InvalidOperationException(
+                "This player has no assigned mansion spawn point.");
+        }
+
+        int spawnIndex = departure.spawnIndices[playerIndex];
+
+        Debug.Log($"[Mansion] Assigned spawn index: {spawnIndex}");
+
         await connectionManager.TravelToMansionAsync(
             departure.sessionId,
-            departure.sceneName);
+            departure.sceneName,
+            spawnIndex);
     }
 
 }
