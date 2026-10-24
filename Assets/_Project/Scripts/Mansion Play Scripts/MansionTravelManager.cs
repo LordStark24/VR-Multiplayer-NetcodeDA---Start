@@ -396,7 +396,8 @@ public class MansionTravelManager : MonoBehaviour
         await connectionManager.TravelToMansionAsync(
             departure.sessionId,
             departure.sceneName,
-            spawnIndex);
+            spawnIndex,
+            departure.playerIds);
     }
 
 }

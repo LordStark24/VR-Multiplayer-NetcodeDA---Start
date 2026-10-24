@@ -15,6 +15,7 @@ public class ConnectionManager : MonoBehaviour
     private ISession currentSession;
     public ISession CurrentSession => currentSession;
     public bool IsBusy => connectionBusy;
+    public string[] ExpectedMansionPlayerIds { get; private set; }
 
     public enum ConnectionState { Connecting, Failed, Success, Disconnecting, Disconnected }
     public UnityEvent<ConnectionState> OnConnectionEvent;
@@ -97,7 +98,8 @@ public class ConnectionManager : MonoBehaviour
     public async Task TravelToMansionAsync(
     string mansionSessionId,
     string sceneName,
-    int spawnIndex)
+    int spawnIndex,
+    string[] expectedPlayerIds)
     {
         if (connectionBusy || currentSession == null)
         {
@@ -110,6 +112,14 @@ public class ConnectionManager : MonoBehaviour
             throw new System.InvalidOperationException(
                 $"Scene '{sceneName}' is missing from the enabled Scene List.");
         }
+
+        if (expectedPlayerIds == null || expectedPlayerIds.Length == 0)
+        {
+            throw new System.InvalidOperationException(
+                "The mansion's expected player list is missing.");
+        }
+
+        ExpectedMansionPlayerIds = (string[])expectedPlayerIds.Clone();
 
         connectionBusy = true;
 
@@ -162,8 +172,7 @@ public class ConnectionManager : MonoBehaviour
                     "The local VR rig did not survive the scene change.");
             }
 
-            var mansionSpawns =
-    UnityEngine.Object.FindFirstObjectByType<MansionSpawnPoints>();
+            var mansionSpawns = UnityEngine.Object.FindFirstObjectByType<MansionSpawnPoints>();
 
             if (mansionSpawns == null ||
                 mansionSpawns.spawnPoints == null ||
@@ -196,6 +205,8 @@ public class ConnectionManager : MonoBehaviour
                     mansionSessionId,
                     options);
 
+            await ReportMansionReadyAsync();
+
             Debug.Log(
                 $"[Mansion] Connected | Scene: {sceneName} | " +
                 $"Session: {currentSession.Id}");
@@ -213,6 +224,62 @@ public class ConnectionManager : MonoBehaviour
         }
     }
 
+    private async Task ReportMansionReadyAsync()
+    {
+        var session = currentSession;
+
+        if (session == null)
+            throw new System.InvalidOperationException(
+                "The mansion session is missing.");
+
+        float deadline = Time.realtimeSinceStartup + 25f;
+
+        while (true)
+        {
+            if (!Application.isPlaying || this == null)
+                return;
+
+            if (currentSession != session)
+                return;
+
+            var network = Unity.Netcode.NetworkManager.Singleton;
+
+            if (network != null &&
+                network.IsConnectedClient &&
+                network.LocalClient != null &&
+                network.LocalClient.PlayerObject != null &&
+                network.LocalClient.PlayerObject.IsSpawned)
+            {
+                break;
+            }
+
+            if (Time.realtimeSinceStartup >= deadline)
+            {
+                throw new System.TimeoutException(
+                    $"Mansion readiness timed out | " +
+                    $"Session: {session.Id} | " +
+                    $"Listening: {network != null && network.IsListening} | " +
+                    $"Connected: {network != null && network.IsConnectedClient} | " +
+                    $"Local client exists: {network != null && network.LocalClient != null} | " +
+                    $"Player object exists: {network != null && network.LocalClient != null && network.LocalClient.PlayerObject != null} | " +
+                    $"Player spawned: {network != null && network.LocalClient != null && network.LocalClient.PlayerObject != null && network.LocalClient.PlayerObject.IsSpawned}");
+            }
+
+            await Task.Yield();
+        }
+
+        session.CurrentPlayer.SetProperty(
+            "mansion_ready",
+            new PlayerProperty(
+                session.Id,
+                VisibilityPropertyOptions.Member));
+
+        await session.SaveCurrentPlayerDataAsync();
+
+        Debug.Log(
+            $"[Match] Spawn ready | Player: {session.CurrentPlayer.Id} | " +
+            $"Session: {session.Id}");
+    }
     public async void Disconnect()
     {
         if (currentSession != null)

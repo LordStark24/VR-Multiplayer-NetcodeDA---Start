@@ -11,18 +11,6 @@ public class networkUI : MonoBehaviour
     public GameObject connectingPanel;
     public GameObject connectedPanel;
 
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    // void Start()
-    // {
-    //     quickJoinButton.onClick.AddListener(connectionManager.QuickJoinOrCreateSession);
-    //     disconnectButton.onClick.AddListener(connectionManager.Disconnect);
-
-    //     UpdateUI(ConnectionManager.ConnectionState.Disconnected);
-
-    //     connectionManager.OnConnectionEvent.AddListener(UpdateUI);
-    // }
-
     void Start()
     {
         quickJoinButton.onClick.AddListener(connectionManager.QuickJoinOrCreateSession);
