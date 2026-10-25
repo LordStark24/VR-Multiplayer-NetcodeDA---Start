@@ -16,6 +16,7 @@ public class ConnectionManager : MonoBehaviour
     public ISession CurrentSession => currentSession;
     public bool IsBusy => connectionBusy;
     public string[] ExpectedMansionPlayerIds { get; private set; }
+    public string SocialHubSceneName { get; private set; }
 
     public enum ConnectionState { Connecting, Failed, Success, Disconnecting, Disconnected }
     public UnityEvent<ConnectionState> OnConnectionEvent;
@@ -119,6 +120,8 @@ public class ConnectionManager : MonoBehaviour
                 "The mansion's expected player list is missing.");
         }
 
+        SocialHubSceneName = SceneManager.GetActiveScene().name;
+
         ExpectedMansionPlayerIds = (string[])expectedPlayerIds.Clone();
 
         connectionBusy = true;
@@ -200,16 +203,171 @@ public class ConnectionManager : MonoBehaviour
                 IsPrivate = false
             }.WithDistributedAuthorityNetwork();
 
+            var beforeJoin = Unity.Netcode.NetworkManager.Singleton;
+
+            Debug.Log(
+                $"[Mansion-NGO] Before join | " +
+                $"Manager: {(beforeJoin != null ? beforeJoin.GetInstanceID() : 0)} | " +
+                $"Listening: {beforeJoin != null && beforeJoin.IsListening} | " +
+                $"Shutting down: {beforeJoin != null && beforeJoin.ShutdownInProgress}");
+
             currentSession =
                 await MultiplayerService.Instance.CreateOrJoinSessionAsync(
                     mansionSessionId,
                     options);
+
+            var afterJoin = Unity.Netcode.NetworkManager.Singleton;
+
+            Debug.Log(
+                $"[Mansion-NGO] Join returned | Session: {currentSession.Id} | " +
+                $"Manager: {(afterJoin != null ? afterJoin.GetInstanceID() : 0)} | " +
+                $"Active: {afterJoin != null && afterJoin.isActiveAndEnabled} | " +
+                $"Listening: {afterJoin != null && afterJoin.IsListening} | " +
+                $"Connected: {afterJoin != null && afterJoin.IsConnectedClient} | " +
+                $"Shutting down: {afterJoin != null && afterJoin.ShutdownInProgress}");
 
             await ReportMansionReadyAsync();
 
             Debug.Log(
                 $"[Mansion] Connected | Scene: {sceneName} | " +
                 $"Session: {currentSession.Id}");
+
+            OnConnectionEvent?.Invoke(ConnectionState.Success);
+        }
+        catch
+        {
+            OnConnectionEvent?.Invoke(ConnectionState.Failed);
+            throw;
+        }
+        finally
+        {
+            connectionBusy = false;
+        }
+    }
+
+    public async Task AcknowledgeMatchFinishedAsync()
+    {
+        var session = currentSession;
+
+        if (session == null)
+            throw new System.InvalidOperationException(
+                "Cannot acknowledge results without an active session.");
+
+        session.CurrentPlayer.SetProperty(
+            "match_finished_ack",
+            new PlayerProperty(
+                session.Id,
+                VisibilityPropertyOptions.Member));
+
+        await session.SaveCurrentPlayerDataAsync();
+
+        Debug.Log(
+            $"[Match] Finish acknowledged | " +
+            $"Player: {session.CurrentPlayer.Id}");
+    }
+
+    public async Task ReturnToSocialHubAsync()
+    {
+        if (connectionBusy || currentSession == null)
+        {
+            throw new System.InvalidOperationException(
+                "The connection is busy or no session is active.");
+        }
+
+        if (string.IsNullOrEmpty(SocialHubSceneName) ||
+            !Application.CanStreamedLevelBeLoaded(SocialHubSceneName))
+        {
+            throw new System.InvalidOperationException(
+                "The saved SocialHub scene is missing from the Scene List.");
+        }
+
+        connectionBusy = true;
+
+        try
+        {
+            OnConnectionEvent?.Invoke(ConnectionState.Disconnecting);
+
+            Debug.Log("[Hub] Leaving mansion.");
+
+            await currentSession.LeaveAsync();
+            currentSession = null;
+
+            var network = Unity.Netcode.NetworkManager.Singleton;
+            float deadline = Time.realtimeSinceStartup + 15f;
+
+            while (network != null &&
+                   (network.IsListening || network.ShutdownInProgress))
+            {
+                if (!Application.isPlaying || this == null)
+                    return;
+
+                if (Time.realtimeSinceStartup >= deadline)
+                {
+                    throw new System.TimeoutException(
+                        "NGO did not finish shutting down.");
+                }
+
+                await Task.Yield();
+            }
+
+            OnConnectionEvent?.Invoke(ConnectionState.Connecting);
+
+            var loading = SceneManager.LoadSceneAsync(
+                SocialHubSceneName,
+                LoadSceneMode.Single);
+
+            if (loading == null)
+            {
+                throw new System.InvalidOperationException(
+                    "Could not load SocialHub.");
+            }
+
+            while (!loading.isDone)
+                await Task.Yield();
+
+            // Allow scene initialization and duplicate removal to finish.
+            await Task.Yield();
+
+            var returnPoint =
+                UnityEngine.Object.FindFirstObjectByType<SocialHubReturnPoint>();
+
+            if (returnPoint == null || VRRigReferences.Instance == null)
+            {
+                throw new System.InvalidOperationException(
+                    "The hub return point or surviving VR rig is missing.");
+            }
+
+            VRRigReferences.Instance.transform.root.SetPositionAndRotation(
+                returnPoint.transform.position,
+                returnPoint.transform.rotation);
+
+            ExpectedMansionPlayerIds = null;
+
+            var options = new SessionOptions
+            {
+                Name = "SocialHub",
+                MaxPlayers = maxPlayer,
+                IsPrivate = false
+            }.WithDistributedAuthorityNetwork();
+
+            var joinedIds =
+                await MultiplayerService.Instance.GetJoinedSessionIdsAsync();
+
+            if (joinedIds.Contains(SocialHubSessionId))
+            {
+                currentSession =
+                    await MultiplayerService.Instance.ReconnectToSessionAsync(
+                        SocialHubSessionId);
+            }
+            else
+            {
+                currentSession =
+                    await MultiplayerService.Instance.CreateOrJoinSessionAsync(
+                        SocialHubSessionId,
+                        options);
+            }
+
+            Debug.Log($"[Hub] Returned | Session: {currentSession.Id}");
 
             OnConnectionEvent?.Invoke(ConnectionState.Success);
         }

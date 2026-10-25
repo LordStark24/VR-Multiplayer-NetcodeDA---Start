@@ -10,19 +10,52 @@ public class networkUI : MonoBehaviour
     public GameObject offlinePanel;
     public GameObject connectingPanel;
     public GameObject connectedPanel;
+    public Button playMansionButton;
+    private MansionTravelManager mansionTravelManager;
 
     void Start()
     {
-        quickJoinButton.onClick.AddListener(connectionManager.QuickJoinOrCreateSession);
+        // Find the surviving manager after duplicate objects are removed.
+        connectionManager =
+            UnityEngine.Object.FindFirstObjectByType<ConnectionManager>();
 
-        disconnectButton.onClick.AddListener(connectionManager.Disconnect);
+        if (connectionManager == null)
+        {
+            Debug.LogError("[UI] ConnectionManager was not found.");
+            UpdateUI(ConnectionManager.ConnectionState.Failed);
+            return;
+        }
+
+        mansionTravelManager = connectionManager.GetComponent<MansionTravelManager>();
+
+        if (playMansionButton != null && mansionTravelManager != null)
+        {
+            playMansionButton.onClick.AddListener(
+                mansionTravelManager.StartMansion);
+        }
+
+        quickJoinButton.onClick.AddListener(
+            connectionManager.QuickJoinOrCreateSession);
+
+        disconnectButton.onClick.AddListener(
+            connectionManager.Disconnect);
 
         connectionManager.OnConnectionEvent.AddListener(UpdateUI);
 
-        UpdateUI(ConnectionManager.ConnectionState.Disconnected);
+        if (connectionManager.IsBusy)
+        {
+            UpdateUI(ConnectionManager.ConnectionState.Connecting);
+        }
+        else if (connectionManager.CurrentSession != null)
+        {
+            UpdateUI(ConnectionManager.ConnectionState.Success);
+        }
+        else
+        {
+            UpdateUI(ConnectionManager.ConnectionState.Disconnected);
 
-        // Automatically connect after the UI is ready.
-        connectionManager.QuickJoinOrCreateSession();
+            connectionManager.QuickJoinOrCreateSession();
+        }
     }
 
     public void UpdateUI(ConnectionManager.ConnectionState state)
@@ -34,6 +67,12 @@ public class networkUI : MonoBehaviour
 
     private void OnDestroy()
     {
+        if (playMansionButton != null && mansionTravelManager != null)
+        {
+            playMansionButton.onClick.RemoveListener(
+                mansionTravelManager.StartMansion);
+        }
+
         if (connectionManager == null)
             return;
 

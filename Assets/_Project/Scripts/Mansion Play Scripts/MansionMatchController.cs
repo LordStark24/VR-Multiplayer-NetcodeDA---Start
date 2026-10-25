@@ -30,7 +30,15 @@ public class MansionMatchController : NetworkBehaviour
             NetworkVariableReadPermission.Everyone,
             NetworkVariableWritePermission.Owner);
 
+    private NetworkVariable<bool> returnToHubReady =
+    new NetworkVariable<bool>(
+        false,
+        NetworkVariableReadPermission.Everyone,
+        NetworkVariableWritePermission.Owner);
+
     private ConnectionManager connectionManager;
+    private bool finishAcknowledgementsConfirmed;
+    private bool returningToHub;
 
 
 
@@ -53,8 +61,12 @@ public class MansionMatchController : NetworkBehaviour
 
     public override void OnNetworkSpawn()
     {
+        returnToHubReady.OnValueChanged -= OnReturnToHubReadyChanged;
+
         base.OnNetworkSpawn();
         phase.OnValueChanged += OnPhaseChanged;
+
+        returnToHubReady.OnValueChanged += OnReturnToHubReadyChanged;
 
         Debug.Log(
             $"[Match] Controller spawned | " +
@@ -88,8 +100,15 @@ public class MansionMatchController : NetworkBehaviour
     }
     private void Update()
     {
+
         if (!IsSpawned || !IsOwner)
             return;
+
+        if (phase.Value == MatchPhase.Finished)
+        {
+            CheckFinishAcknowledgements();
+            return;
+        }
 
         if (phase.Value == MatchPhase.WaitingForPlayers)
         {
@@ -117,11 +136,33 @@ public class MansionMatchController : NetworkBehaviour
 
     }
 
-    private void OnPhaseChanged(
+    private async void OnPhaseChanged(
     MatchPhase previous,
     MatchPhase current)
     {
         Debug.Log($"[Match] Phase: {previous} -> {current}");
+
+        if (current != MatchPhase.Finished)
+            return;
+
+        try
+        {
+            if (connectionManager == null)
+            {
+                connectionManager =
+                    UnityEngine.Object.FindFirstObjectByType<ConnectionManager>();
+            }
+
+            if (connectionManager == null)
+                throw new System.InvalidOperationException(
+                    "ConnectionManager was not found.");
+
+            await connectionManager.AcknowledgeMatchFinishedAsync();
+        }
+        catch (System.Exception exception)
+        {
+            Debug.LogException(exception);
+        }
     }
 
     private void TryStartWhenEveryoneReady()
@@ -154,6 +195,109 @@ public class MansionMatchController : NetworkBehaviour
             NetworkManager.ServerTime.Time + matchDurationSeconds;
 
         phase.Value = MatchPhase.Playing;
+    }
+
+    private void CheckFinishAcknowledgements()
+    {
+        if (finishAcknowledgementsConfirmed || connectionManager == null)
+            return;
+
+        var session = connectionManager.CurrentSession;
+        var expectedIds = connectionManager.ExpectedMansionPlayerIds;
+
+        if (session == null || expectedIds == null || expectedIds.Length == 0)
+            return;
+
+        bool everyoneAcknowledged = expectedIds.All(id =>
+            session.Players.Any(player =>
+                player.Id == id &&
+                player.Properties.TryGetValue(
+                    "match_finished_ack", out var ack) &&
+                ack.Value == session.Id));
+
+        if (!everyoneAcknowledged)
+            return;
+
+        finishAcknowledgementsConfirmed = true;
+        returnToHubReady.Value = true;
+
+        Debug.Log(
+            "[Match] Everyone acknowledged the finish. Ready to return to SocialHub.");
+    }
+
+    private async void OnReturnToHubReadyChanged(
+    bool previous, bool current)
+    {
+        if (!current || returningToHub)
+            return;
+
+        returningToHub = true;
+
+        // Capture ownership before anyone starts leaving.
+        bool leaveLast = IsOwner;
+
+        try
+        {
+            if (connectionManager == null)
+            {
+                connectionManager =
+                    UnityEngine.Object.FindFirstObjectByType<ConnectionManager>();
+            }
+
+            if (connectionManager == null)
+            {
+                throw new System.InvalidOperationException(
+                    "ConnectionManager was not found.");
+            }
+
+            var manager = connectionManager;
+            var mansionSession = manager.CurrentSession;
+
+            if (mansionSession == null)
+            {
+                throw new System.InvalidOperationException(
+                    "The mansion session is missing.");
+            }
+
+            Debug.Log("[Match] Returning to SocialHub.");
+
+            if (leaveLast)
+            {
+                Debug.Log(
+                    "[Match] Controller owner waiting for other players to leave.");
+
+                float deadline = Time.realtimeSinceStartup + 30f;
+                string localPlayerId = mansionSession.CurrentPlayer.Id;
+
+                // Keep the controller available until the others leave.
+                while (mansionSession.Players.Any(
+                    player => player.Id != localPlayerId))
+                {
+                    if (Time.realtimeSinceStartup >= deadline)
+                    {
+                        throw new System.TimeoutException(
+                            "Timed out waiting for players to leave the mansion.");
+                    }
+
+                    await System.Threading.Tasks.Task.Delay(1500);
+
+                    if (!Application.isPlaying || this == null ||
+                        manager == null ||
+                        manager.CurrentSession != mansionSession)
+                    {
+                        return;
+                    }
+
+                    await mansionSession.RefreshAsync();
+                }
+            }
+
+            await manager.ReturnToSocialHubAsync();
+        }
+        catch (System.Exception exception)
+        {
+            Debug.LogException(exception);
+        }
     }
 
 }
