@@ -26,6 +26,9 @@ public class MansionTravelManager : MonoBehaviour
 
     public async void StartMansion()
     {
+
+        Debug.Log("[Mansion] Play button reached StartMansion.");
+
         if (publishing)
             return;
 
