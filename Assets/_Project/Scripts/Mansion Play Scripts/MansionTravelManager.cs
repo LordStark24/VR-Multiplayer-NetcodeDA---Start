@@ -22,6 +22,7 @@ public class MansionTravelManager : MonoBehaviour
         public bool readyToTravel;
         public string[] playerIds;
         public int[] spawnIndices;
+        public long createdUtcTicks;
     }
 
     public async void StartMansion()
@@ -65,9 +66,8 @@ public class MansionTravelManager : MonoBehaviour
                 var existing = JsonUtility.FromJson<MansionDeparture>(
                     existingProperty.Value);
 
-                if (existing != null && existing.playerIds != null &&
-                    session.Players.Any(
-                        player => existing.playerIds.Contains(player.Id)))
+                if (existing != null && !DepartureHasExpired(existing) && existing.playerIds != null && session.Players.Any(
+                    player => existing.playerIds.Contains(player.Id)))
                 {
                     Debug.LogWarning(
                         "[Mansion] A departure is already prepared.");
@@ -78,11 +78,11 @@ public class MansionTravelManager : MonoBehaviour
             var selectedIds = session.Players
                 .OrderBy(player => player.Joined)
                 .ThenBy(player => player.Id, StringComparer.Ordinal)
-                .Take(2)
+                .Take(3)
                 .Select(player => player.Id)
                 .ToArray();
 
-            if (selectedIds.Length < 2)
+            if (selectedIds.Length < 2) //change back to 2 for local testing and production
             {
                 Debug.LogWarning(
                     "[Mansion] At least two players are required.");
@@ -109,7 +109,8 @@ public class MansionTravelManager : MonoBehaviour
                 sessionId = Guid.NewGuid().ToString(),
                 sceneName = "ZombieMansionLevel01",
                 playerIds = selectedIds,
-                spawnIndices = shuffledSpawns.Take(selectedIds.Length).ToArray()
+                spawnIndices = shuffledSpawns.Take(selectedIds.Length).ToArray(),
+                createdUtcTicks = DateTime.UtcNow.Ticks
             };
 
             var hostSession = session.AsHost();
@@ -175,6 +176,12 @@ public class MansionTravelManager : MonoBehaviour
 
             if (departure == null || departure.playerIds == null)
                 return;
+
+            if (DepartureHasExpired(departure))
+            {
+                Debug.Log("[Mansion] Ignoring an expired departure.");
+                return;
+            }
 
             // Ignore a confirmed departure already present on connection.
             if (firstDepartureSeen && departure.readyToTravel)
@@ -286,7 +293,34 @@ public class MansionTravelManager : MonoBehaviour
             {
                 Debug.LogWarning(
                     "[Mansion] Timed out waiting for acknowledgements. " +
-                    "Everyone stays in the hub.");
+                    "Cancelling this departure.");
+
+                if (connectionManager.CurrentSession == session &&
+                    session.IsHost &&
+                    session.Properties.TryGetValue(
+                        DepartureKey, out var currentProperty) &&
+                    !string.IsNullOrEmpty(currentProperty.Value))
+                {
+                    var currentDeparture =
+                        JsonUtility.FromJson<MansionDeparture>(currentProperty.Value);
+
+                    if (currentDeparture != null &&
+                        currentDeparture.sessionId == departure.sessionId &&
+                        !currentDeparture.readyToTravel)
+                    {
+                        var hostSession = session.AsHost();
+
+                        hostSession.SetProperty(
+                            DepartureKey,
+                            new SessionProperty(
+                                "",
+                                VisibilityPropertyOptions.Member));
+
+                        await hostSession.SavePropertiesAsync();
+
+                        Debug.Log("[Mansion] Timed-out departure cleared.");
+                    }
+                }
 
                 return;
             }
@@ -401,6 +435,51 @@ public class MansionTravelManager : MonoBehaviour
             departure.sceneName,
             spawnIndex,
             departure.playerIds);
+    }
+
+    [ContextMenu("Test / Clear Stuck Departure")]
+    private async void ClearStuckDeparture()
+    {
+        var session = connectionManager != null
+            ? connectionManager.CurrentSession
+            : null;
+
+        if (session == null || !session.IsHost || publishing)
+        {
+            Debug.LogWarning(
+                "[Mansion] Clear the departure on the hub coordinator " +
+                "while connected and not publishing.");
+            return;
+        }
+
+        try
+        {
+            var hostSession = session.AsHost();
+
+            hostSession.SetProperty(
+                DepartureKey,
+                new SessionProperty(
+                    "",
+                    VisibilityPropertyOptions.Member));
+
+            await hostSession.SavePropertiesAsync();
+
+            Debug.Log("[Mansion] Stuck departure cleared for testing.");
+        }
+        catch (Exception exception)
+        {
+            Debug.LogException(exception);
+        }
+    }
+
+    private bool DepartureHasExpired(MansionDeparture departure)
+    {
+        if (departure == null || departure.createdUtcTicks <= 0)
+            return false;
+
+        long ageTicks = DateTime.UtcNow.Ticks - departure.createdUtcTicks;
+
+        return ageTicks >= TimeSpan.FromMinutes(2).Ticks;
     }
 
 }

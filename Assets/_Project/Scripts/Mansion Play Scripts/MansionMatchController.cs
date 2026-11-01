@@ -179,7 +179,7 @@ public class MansionMatchController : NetworkBehaviour
         var session = connectionManager.CurrentSession;
         var expectedIds = connectionManager.ExpectedMansionPlayerIds;
 
-        if (session == null || expectedIds == null || expectedIds.Length < 2)
+        if (session == null || expectedIds == null || expectedIds.Length < 2) //change back to 2 for testing and production
             return;
 
         bool everyoneReady = expectedIds.All(id =>

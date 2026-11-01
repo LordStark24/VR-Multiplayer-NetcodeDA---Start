@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a41330e7f434fa9898e2add1e586ee, type: 3}
+  m_Name: StarterRifle
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponDefinition
+  weaponId: starter_rifle
+  displayName: Starter Rifle
+  weaponPrefab: {fileID: 8473569956689620845, guid: c25af5b97dea8415684836e665b3ceab, type: 3}
+  requiredPlayerLevel: 1
+  damage: 20
+  fireRate: 5
+  range: 50
+  magazineCapacity: 30

@@ -337,9 +337,19 @@ public class ConnectionManager : MonoBehaviour
                     "The hub return point or surviving VR rig is missing.");
             }
 
-            VRRigReferences.Instance.transform.root.SetPositionAndRotation(
+            var rig = VRRigReferences.Instance;
+            Transform rigRoot = rig.transform.root;
+
+            rigRoot.SetPositionAndRotation(
                 returnPoint.transform.position,
                 returnPoint.transform.rotation);
+
+            // Place the player's head above the return point,
+            // accounting for its horizontal offset inside the rig.
+            Vector3 horizontalOffset = rig.head.position - rigRoot.position;
+            horizontalOffset.y = 0f;
+
+            rigRoot.position -= horizontalOffset;
 
             ExpectedMansionPlayerIds = null;
 
@@ -361,10 +371,38 @@ public class ConnectionManager : MonoBehaviour
             }
             else
             {
-                currentSession =
-                    await MultiplayerService.Instance.CreateOrJoinSessionAsync(
-                        SocialHubSessionId,
-                        options);
+                for (int attempt = 1; attempt <= 3; attempt++)
+                {
+                    try
+                    {
+                        currentSession =
+                            await MultiplayerService.Instance.CreateOrJoinSessionAsync(
+                                SocialHubSessionId,
+                                options);
+
+                        break;
+                    }
+                    catch (SessionException exception)
+                    {
+                        bool rateLimited =
+                            exception.Message != null &&
+                            exception.Message.IndexOf(
+                                "request_rate_limited",
+                                System.StringComparison.OrdinalIgnoreCase) >= 0;
+
+                        if (!rateLimited || attempt == 3)
+                            throw;
+
+                        Debug.LogWarning(
+                            $"[Hub] Join was rate-limited. Retrying " +
+                            $"after 3 seconds | Attempt: {attempt}/3");
+
+                        await Task.Delay(3000);
+
+                        if (!Application.isPlaying || this == null)
+                            return;
+                    }
+                }
             }
 
             Debug.Log($"[Hub] Returned | Session: {currentSession.Id}");
@@ -390,7 +428,7 @@ public class ConnectionManager : MonoBehaviour
             throw new System.InvalidOperationException(
                 "The mansion session is missing.");
 
-        float deadline = Time.realtimeSinceStartup + 25f;
+        float deadline = Time.realtimeSinceStartup + 60f;
 
         while (true)
         {
@@ -473,5 +511,18 @@ public class ConnectionManager : MonoBehaviour
             Debug.LogException(e);
             return false;
         }
+    }
+
+    [ContextMenu("Test / Check Hub Network")]
+    private void CheckHubNetwork()
+    {
+        var network = Unity.Netcode.NetworkManager.Singleton;
+
+        Debug.Log(
+            $"[Hub Check] Session: {currentSession?.Id ?? "none"} | " +
+            $"NetworkManager exists: {network != null} | " +
+            $"Listening: {network != null && network.IsListening} | " +
+            $"Connected: {network != null && network.IsConnectedClient} | " +
+            $"Shutting down: {network != null && network.ShutdownInProgress}");
     }
 }
