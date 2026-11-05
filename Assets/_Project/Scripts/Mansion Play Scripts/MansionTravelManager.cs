@@ -78,11 +78,11 @@ public class MansionTravelManager : MonoBehaviour
             var selectedIds = session.Players
                 .OrderBy(player => player.Joined)
                 .ThenBy(player => player.Id, StringComparer.Ordinal)
-                .Take(3)
+                .Take(1) // Change to 2 for testing, 1 for headset testing, 10 for production
                 .Select(player => player.Id)
                 .ToArray();
 
-            if (selectedIds.Length < 2) //change back to 2 for local testing and production
+            if (selectedIds.Length < 1) // Change to 2 for testing, 1 for headset testing, 10 for production
             {
                 Debug.LogWarning(
                     "[Mansion] At least two players are required.");

@@ -475,7 +475,8 @@
           {
             "name": "Sprite",
             "scenes": [
-              "Assets/_Project/Scenes/Start Scene.unity"
+              "Assets/_Project/Scenes/Start Scene.unity",
+              "Assets/_Project/Scenes/ZombieMansionLevel01.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -989,7 +990,9 @@
           },
           {
             "name": "CapsuleCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/_Project/Scenes/Start Scene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -1037,6 +1040,7 @@
           {
             "name": "Rigidbody",
             "scenes": [
+              "Assets/_Project/Scenes/Start Scene.unity",
               "Assets/_Project/Scenes/ZombieMansionLevel01.unity"
             ],
             "dependencyType": 0,
@@ -1045,7 +1049,8 @@
           {
             "name": "SphereCollider",
             "scenes": [
-              "Assets/_Project/Scenes/Start Scene.unity"
+              "Assets/_Project/Scenes/Start Scene.unity",
+              "Assets/_Project/Scenes/ZombieMansionLevel01.unity"
             ],
             "dependencyType": 0,
             "icon": null

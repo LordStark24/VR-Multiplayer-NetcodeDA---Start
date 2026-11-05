@@ -251,6 +251,7 @@ struct Comparer_1_t2FF14F26F4D678A8FA199B888FF61A2A9D1D2D80;
 struct Comparer_1_t0A03F9FBBEA32FB1528366652D3D38513E8B1137;
 struct Comparer_1_tE191E68CB394DD255CCA7A56F4D1DEFED0BD3FDB;
 struct Comparer_1_t03DA6AFB24C7CAB292D6DC3A872298EE43E6C879;
+struct Comparer_1_t156CA54426F60B4132C76BFACD5FDBD3043D437E;
 struct Comparer_1_tF59A960F33DD69C2CF0330F3FF6AD7828FF0F3FB;
 struct ConnectionSlot_t89618F8D46BDC8F0A492202E68A183958F2FC4FF;
 struct ConnectionSlot_tDBA110D3F752E674C011C313AD05A5DC8E988311;
@@ -285,6 +286,7 @@ struct EnumerableSorter_2_t335AE5FCF71D56251FCC71B920E904E0347450B8;
 struct EnumerableSorter_2_t8C8D166A1965FA01D37C2341F8373963A03A982E;
 struct EnumerableSorter_2_tE8901ABBDD0FB48137D11F2F5E9EB6B525883F83;
 struct EnumerableSorter_2_t585C06C042D5F077410C6D1F2C7643D2BF85007C;
+struct EnumerableSorter_2_tA8E6B90E61C0127DD3934D83615777EF5E9E96E7;
 struct EnumerableSorter_2_t23CC779D685906F12C1398F9A2E23FDFABE54F90;
 struct EnumerableSorter_2_tEBF47E7744F625ABF1538114F4A013019A2CFE19;
 struct Enumerator_t638C72AD7D96DD201DEA8E97277A2F9381C617A0;
@@ -329,6 +331,7 @@ struct Func_2_t9A0D493A82DCC47C9C819A3B045E02D9B5DDCE1B;
 struct Func_2_tACBF5A1656250800CE861707354491F0611F6624;
 struct Func_2_tB5C40A90702B6A6A2E315FD927EEFC9FB69F2B12;
 struct Func_2_tB86D019F1289E2D123C00796B373933613385952;
+struct Func_2_t0041BDC545AC23D00BA1439051E79D5351CF315C;
 struct Func_2_tD1C501C17092D1BC651648AF608F076CE51E810C;
 struct Func_2_t44AC78B1DB233007BF6EF0B8A5E0BB471B744261;
 struct Func_2_t7F5F5324CE2DDB7001B68FFE29A5D9F907139FB0;
@@ -338,6 +341,7 @@ struct IComparer_1_t4483F9B9F43C7B0F8D4FEEAE12FAFDD3F9CF81FD;
 struct IComparer_1_tC0A12A847AF97F369A5CE9A0CCE71CE18EE1440E;
 struct IComparer_1_t76B18C44D8838F955CF8C0F53336D6C7006E0B53;
 struct IComparer_1_t2823311A1816BF1DC53D0C642C909DD5E1804382;
+struct IComparer_1_t7E870201BF4F9A2658830A9FA35ED97BC476A8B4;
 struct IComparer_1_tCA720E7837F12C38065A4AB632B5FAAD19EC30AA;
 struct IEnumerable_1_t8F3B28051DB2F1829391E835D29D01C57037C949;
 struct IEnumerable_1_tF87C02535F5ADDDE139D4D2EE4BD06652C1791A4;
@@ -394,6 +398,7 @@ struct OrderedEnumerable_2_t51517C2F0D08851F60E9DD8FB874EC339A5F2BFA;
 struct OrderedEnumerable_2_tA9DEFB149DAA0F612AACE71C5D5A35D6308A052D;
 struct OrderedEnumerable_2_t306D33C8FAA17BF0735E8B83FCC8CDC039740B2F;
 struct OrderedEnumerable_2_t71BA6A9F8F94FD49AA530865BA9BF576305461A1;
+struct OrderedEnumerable_2_tBDFC05DFCF071FFB463A7D0E9B183F769265061A;
 struct OrderedEnumerable_2_t7FE785DB2EA911CDE5E7DABA476A368CFAF0AACC;
 struct OrderedEnumerable_2_t9AAC8DBCAA08A279256F577302501FB01E0FA1FA;
 struct OrderedEnumerable_2_tA5E665AC53BEDC7E4FD6924BFED49DE6B7A54475;
@@ -476,6 +481,7 @@ struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
 struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
 struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
 struct UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA;
+struct UInt64U5BU5D_tAB1A62450AC0899188486EDB9FC066B8BEED9299;
 struct __Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC;
 struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
 struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F;
@@ -611,6 +617,9 @@ struct Comparer_1_tE191E68CB394DD255CCA7A56F4D1DEFED0BD3FDB  : public RuntimeObj
 {
 };
 struct Comparer_1_t03DA6AFB24C7CAB292D6DC3A872298EE43E6C879  : public RuntimeObject
+{
+};
+struct Comparer_1_t156CA54426F60B4132C76BFACD5FDBD3043D437E  : public RuntimeObject
 {
 };
 struct Comparer_1_tF59A960F33DD69C2CF0330F3FF6AD7828FF0F3FB  : public RuntimeObject
@@ -892,6 +901,14 @@ struct EnumerableSorter_2_t585C06C042D5F077410C6D1F2C7643D2BF85007C  : public En
 	bool ___descending;
 	EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* ___next;
 	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___keys;
+};
+struct EnumerableSorter_2_tA8E6B90E61C0127DD3934D83615777EF5E9E96E7  : public EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD
+{
+	Func_2_t0041BDC545AC23D00BA1439051E79D5351CF315C* ___keySelector;
+	RuntimeObject* ___comparer;
+	bool ___descending;
+	EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* ___next;
+	UInt64U5BU5D_tAB1A62450AC0899188486EDB9FC066B8BEED9299* ___keys;
 };
 struct EnumerableSorter_2_t23CC779D685906F12C1398F9A2E23FDFABE54F90  : public EnumerableSorter_1_tDABF2E300F966D3EE3B2B1833085EA2EF9F7B504
 {
@@ -1258,6 +1275,13 @@ struct OrderedEnumerable_2_t71BA6A9F8F94FD49AA530865BA9BF576305461A1  : public O
 {
 	OrderedEnumerable_1_t635FACC705EB8D479616971CD818376DC3A5AF51* ___parent;
 	Func_2_tB86D019F1289E2D123C00796B373933613385952* ___keySelector;
+	RuntimeObject* ___comparer;
+	bool ___descending;
+};
+struct OrderedEnumerable_2_tBDFC05DFCF071FFB463A7D0E9B183F769265061A  : public OrderedEnumerable_1_t635FACC705EB8D479616971CD818376DC3A5AF51
+{
+	OrderedEnumerable_1_t635FACC705EB8D479616971CD818376DC3A5AF51* ___parent;
+	Func_2_t0041BDC545AC23D00BA1439051E79D5351CF315C* ___keySelector;
 	RuntimeObject* ___comparer;
 	bool ___descending;
 };
@@ -2341,10 +2365,6 @@ struct ParallelWriter_t74320445F2A5CD305AAB26311065DE4736822A2B
 	UnsafeList_1_t3C558FC5C2688389AF4264830148C53464D01E23* ___ListData;
 };
 struct ParallelWriter_tA1BBC18089DD15B75F72C9994BFEADAC8CDD174B 
-{
-	UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98* ___ListData;
-};
-struct ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE 
 {
 	UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98* ___ListData;
 };
@@ -5583,6 +5603,9 @@ struct Func_2_tB5C40A90702B6A6A2E315FD927EEFC9FB69F2B12  : public MulticastDeleg
 struct Func_2_tB86D019F1289E2D123C00796B373933613385952  : public MulticastDelegate_t
 {
 };
+struct Func_2_t0041BDC545AC23D00BA1439051E79D5351CF315C  : public MulticastDelegate_t
+{
+};
 struct Func_2_tD1C501C17092D1BC651648AF608F076CE51E810C  : public MulticastDelegate_t
 {
 };
@@ -6615,6 +6638,10 @@ struct Comparer_1_t03DA6AFB24C7CAB292D6DC3A872298EE43E6C879_StaticFields
 {
 	Comparer_1_t03DA6AFB24C7CAB292D6DC3A872298EE43E6C879* ___defaultComparer;
 };
+struct Comparer_1_t156CA54426F60B4132C76BFACD5FDBD3043D437E_StaticFields
+{
+	Comparer_1_t156CA54426F60B4132C76BFACD5FDBD3043D437E* ___defaultComparer;
+};
 struct Comparer_1_tF59A960F33DD69C2CF0330F3FF6AD7828FF0F3FB_StaticFields
 {
 	Comparer_1_tF59A960F33DD69C2CF0330F3FF6AD7828FF0F3FB* ___defaultComparer;
@@ -6894,6 +6921,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Comparer_1_t0A03F9FBBEA32FB1528366652D3D38513
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumerableSorter_2__ctor_mB95D2A170D65B5DD94C89187B660E0D2591E516E_gshared (EnumerableSorter_2_t8C8D166A1965FA01D37C2341F8373963A03A982E* __this, Func_2_tACBF5A1656250800CE861707354491F0611F6624* ___0_keySelector, RuntimeObject* ___1_comparer, bool ___2_descending, EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* ___3_next, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumerableSorter_2__ctor_m411C1AD3D4331FA8699E38A4DA8974BB7B87897D_gshared (EnumerableSorter_2_tE8901ABBDD0FB48137D11F2F5E9EB6B525883F83* __this, Func_2_tB5C40A90702B6A6A2E315FD927EEFC9FB69F2B12* ___0_keySelector, RuntimeObject* ___1_comparer, bool ___2_descending, EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* ___3_next, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumerableSorter_2__ctor_mDB44BF67CCB15E938B864B70ADD59910E995B7FC_gshared (EnumerableSorter_2_t585C06C042D5F077410C6D1F2C7643D2BF85007C* __this, Func_2_tB86D019F1289E2D123C00796B373933613385952* ___0_keySelector, RuntimeObject* ___1_comparer, bool ___2_descending, EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* ___3_next, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Comparer_1_t156CA54426F60B4132C76BFACD5FDBD3043D437E* Comparer_1_get_Default_mDCEA11B875EEB23AECDA2D76B230E1AD7B6962E4_gshared (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumerableSorter_2__ctor_m5DBC80747F22D598FA3FB6C2CE3862CE7DCD854F_gshared (EnumerableSorter_2_tA8E6B90E61C0127DD3934D83615777EF5E9E96E7* __this, Func_2_t0041BDC545AC23D00BA1439051E79D5351CF315C* ___0_keySelector, RuntimeObject* ___1_comparer, bool ___2_descending, EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* ___3_next, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_m39858063F4737BE36211B140E4261D853A61F2CB_gshared (OrderedEnumerable_1_tE937014A20E2FA93ADDB0B5E5168498BCC2854FD* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumerableSorter_2__ctor_mD16D102FFE88EC7675BBDE5A04C4284254EF818F_gshared (EnumerableSorter_2_t23CC779D685906F12C1398F9A2E23FDFABE54F90* __this, Func_2_tD1C501C17092D1BC651648AF608F076CE51E810C* ___0_keySelector, RuntimeObject* ___1_comparer, bool ___2_descending, EnumerableSorter_1_tDABF2E300F966D3EE3B2B1833085EA2EF9F7B504* ___3_next, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumerableSorter_2__ctor_m7119965C111324999E72AE385E94062852CEBC80_gshared (EnumerableSorter_2_tEBF47E7744F625ABF1538114F4A013019A2CFE19* __this, Func_2_t44AC78B1DB233007BF6EF0B8A5E0BB471B744261* ___0_keySelector, RuntimeObject* ___1_comparer, bool ___2_descending, EnumerableSorter_1_tDABF2E300F966D3EE3B2B1833085EA2EF9F7B504* ___3_next, const RuntimeMethod* method) ;
@@ -7786,11 +7815,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mD893C3F
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mCDE6CEEF9FD9580437E4E78845E7CCAECAEF45C3_gshared_inline (UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mC68A2E6C00655725A05D28928A06498C91668010_gshared (ParallelWriter_tA1BBC18089DD15B75F72C9994BFEADAC8CDD174B* __this, UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98 ___0_list, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m95BDEEEEE77CEB0A8EEFA3A1556154C597CC9C47_gshared (ParallelWriter_tA1BBC18089DD15B75F72C9994BFEADAC8CDD174B* __this, NativeList_1_t902856D039AB8993F5FC55297B678E063D0372B7 ___0_list, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m50F546FDE7D3F0DB7B540314B08598501756A171_gshared_inline (ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE* __this, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m8639D9F11CD1D03DABCFA139828448F7CA64EAAD_gshared_inline (ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE* __this, UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98* ___0_listData, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m88A5CBA3FEC2D2E8A723436C4796F6D6F7819BC7_gshared (ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE* __this, SplitInfo_t708E0734C9BC407BA5882105A9721756605C913A ___0_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mBD5A8931D9B8654BE8AC32CA13A96F43A882BF04_gshared (ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m46E2599DB6CBD7D9AC13F2FB4670C920071D9C52_gshared (ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE* __this, UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98 ___0_list, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613 UnsafePtrListExtensions_ListDataRO_TisBaselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42_mA3CF1AB36D0FC8CDC7F9EF4869EA06B4DA935D8F_gshared_inline (UnsafePtrList_1_tAD86775FD13A7BFCCD3E9ACA2796FFE62044B970 ___0_from, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613* UnsafeUtility_As_TisUnsafePtrList_1_tAD86775FD13A7BFCCD3E9ACA2796FFE62044B970_TisUnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613_m035763D163E5793AB15FC7904B94FC5BA1E3F443_gshared_inline (UnsafePtrList_1_tAD86775FD13A7BFCCD3E9ACA2796FFE62044B970* ___0_from, const RuntimeMethod* method) ;
 
@@ -8064,6 +8088,14 @@ inline void EnumerableSorter_2__ctor_m411C1AD3D4331FA8699E38A4DA8974BB7B87897D (
 inline void EnumerableSorter_2__ctor_mDB44BF67CCB15E938B864B70ADD59910E995B7FC (EnumerableSorter_2_t585C06C042D5F077410C6D1F2C7643D2BF85007C* __this, Func_2_tB86D019F1289E2D123C00796B373933613385952* ___0_keySelector, RuntimeObject* ___1_comparer, bool ___2_descending, EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* ___3_next, const RuntimeMethod* method)
 {
 	((  void (*) (EnumerableSorter_2_t585C06C042D5F077410C6D1F2C7643D2BF85007C*, Func_2_tB86D019F1289E2D123C00796B373933613385952*, RuntimeObject*, bool, EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD*, const RuntimeMethod*))EnumerableSorter_2__ctor_mDB44BF67CCB15E938B864B70ADD59910E995B7FC_gshared)(__this, ___0_keySelector, ___1_comparer, ___2_descending, ___3_next, method);
+}
+inline Comparer_1_t156CA54426F60B4132C76BFACD5FDBD3043D437E* Comparer_1_get_Default_mDCEA11B875EEB23AECDA2D76B230E1AD7B6962E4 (const RuntimeMethod* method)
+{
+	return ((  Comparer_1_t156CA54426F60B4132C76BFACD5FDBD3043D437E* (*) (const RuntimeMethod*))Comparer_1_get_Default_mDCEA11B875EEB23AECDA2D76B230E1AD7B6962E4_gshared)(method);
+}
+inline void EnumerableSorter_2__ctor_m5DBC80747F22D598FA3FB6C2CE3862CE7DCD854F (EnumerableSorter_2_tA8E6B90E61C0127DD3934D83615777EF5E9E96E7* __this, Func_2_t0041BDC545AC23D00BA1439051E79D5351CF315C* ___0_keySelector, RuntimeObject* ___1_comparer, bool ___2_descending, EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* ___3_next, const RuntimeMethod* method)
+{
+	((  void (*) (EnumerableSorter_2_tA8E6B90E61C0127DD3934D83615777EF5E9E96E7*, Func_2_t0041BDC545AC23D00BA1439051E79D5351CF315C*, RuntimeObject*, bool, EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD*, const RuntimeMethod*))EnumerableSorter_2__ctor_m5DBC80747F22D598FA3FB6C2CE3862CE7DCD854F_gshared)(__this, ___0_keySelector, ___1_comparer, ___2_descending, ___3_next, method);
 }
 inline void OrderedEnumerable_1__ctor_m39858063F4737BE36211B140E4261D853A61F2CB (OrderedEnumerable_1_tE937014A20E2FA93ADDB0B5E5168498BCC2854FD* __this, const RuntimeMethod* method)
 {
@@ -11665,26 +11697,6 @@ inline void ParallelWriter_AddRangeNoResize_m95BDEEEEE77CEB0A8EEFA3A1556154C597C
 {
 	((  void (*) (ParallelWriter_tA1BBC18089DD15B75F72C9994BFEADAC8CDD174B*, NativeList_1_t902856D039AB8993F5FC55297B678E063D0372B7, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m95BDEEEEE77CEB0A8EEFA3A1556154C597CC9C47_gshared)(__this, ___0_list, method);
 }
-inline void* ParallelWriter_get_Ptr_m50F546FDE7D3F0DB7B540314B08598501756A171_inline (ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE* __this, const RuntimeMethod* method)
-{
-	return ((  void* (*) (ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE*, const RuntimeMethod*))ParallelWriter_get_Ptr_m50F546FDE7D3F0DB7B540314B08598501756A171_gshared_inline)(__this, method);
-}
-inline void ParallelWriter__ctor_m8639D9F11CD1D03DABCFA139828448F7CA64EAAD_inline (ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE* __this, UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98* ___0_listData, const RuntimeMethod* method)
-{
-	((  void (*) (ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE*, UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98*, const RuntimeMethod*))ParallelWriter__ctor_m8639D9F11CD1D03DABCFA139828448F7CA64EAAD_gshared_inline)(__this, ___0_listData, method);
-}
-inline void ParallelWriter_AddNoResize_m88A5CBA3FEC2D2E8A723436C4796F6D6F7819BC7 (ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE* __this, SplitInfo_t708E0734C9BC407BA5882105A9721756605C913A ___0_value, const RuntimeMethod* method)
-{
-	((  void (*) (ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE*, SplitInfo_t708E0734C9BC407BA5882105A9721756605C913A, const RuntimeMethod*))ParallelWriter_AddNoResize_m88A5CBA3FEC2D2E8A723436C4796F6D6F7819BC7_gshared)(__this, ___0_value, method);
-}
-inline void ParallelWriter_AddRangeNoResize_mBD5A8931D9B8654BE8AC32CA13A96F43A882BF04 (ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
-{
-	((  void (*) (ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE*, void*, int32_t, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_mBD5A8931D9B8654BE8AC32CA13A96F43A882BF04_gshared)(__this, ___0_ptr, ___1_count, method);
-}
-inline void ParallelWriter_AddRangeNoResize_m46E2599DB6CBD7D9AC13F2FB4670C920071D9C52 (ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE* __this, UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98 ___0_list, const RuntimeMethod* method)
-{
-	((  void (*) (ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE*, UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m46E2599DB6CBD7D9AC13F2FB4670C920071D9C52_gshared)(__this, ___0_list, method);
-}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CollectionHelper_AssumePositive_mD1EC1F05F50F605141D9BA5D70C4332AC902B4B1_inline (int32_t ___0_value, const RuntimeMethod* method) ;
 inline UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613 UnsafePtrListExtensions_ListDataRO_TisBaselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42_mA3CF1AB36D0FC8CDC7F9EF4869EA06B4DA935D8F_inline (UnsafePtrList_1_tAD86775FD13A7BFCCD3E9ACA2796FFE62044B970 ___0_from, const RuntimeMethod* method)
 {
@@ -11699,7 +11711,7 @@ inline UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613* UnsafeUtility_As_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 32981
+// Method Definition Index: 32982
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observable_1_add_onValueChanged_m55DC5FBFA836863D84127B66EB70ACD87295187E_gshared (Observable_1_tC4B7917D31A29F1178971715A30289D693F17DDD* __this, Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -11743,7 +11755,7 @@ IL2CPP_EXTERN_C  void Observable_1_add_onValueChanged_m55DC5FBFA836863D84127B66E
 	_thisAdjusted = reinterpret_cast<Observable_1_tC4B7917D31A29F1178971715A30289D693F17DDD*>(__this + _offset);
 	Observable_1_add_onValueChanged_m55DC5FBFA836863D84127B66EB70ACD87295187E(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 32982
+// Method Definition Index: 32983
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observable_1_remove_onValueChanged_m1A80B4833940E34B067BE4ED78634D9988CD13A6_gshared (Observable_1_tC4B7917D31A29F1178971715A30289D693F17DDD* __this, Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -11787,7 +11799,7 @@ IL2CPP_EXTERN_C  void Observable_1_remove_onValueChanged_m1A80B4833940E34B067BE4
 	_thisAdjusted = reinterpret_cast<Observable_1_tC4B7917D31A29F1178971715A30289D693F17DDD*>(__this + _offset);
 	Observable_1_remove_onValueChanged_m1A80B4833940E34B067BE4ED78634D9988CD13A6(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 32983
+// Method Definition Index: 32984
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observable_1_get_value_m323E0AE4DAE49330E321DCA858FEDCE1B9A1B1FC_gshared (Observable_1_tC4B7917D31A29F1178971715A30289D693F17DDD* __this, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_tBB237A566A9251059433C7E02C4C22FC607480F4 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 3));
@@ -11807,7 +11819,7 @@ IL2CPP_EXTERN_C  void Observable_1_get_value_m323E0AE4DAE49330E321DCA858FEDCE1B9
 	Observable_1_get_value_m323E0AE4DAE49330E321DCA858FEDCE1B9A1B1FC_inline(_thisAdjusted, il2cppRetVal, method);
 	return;
 }
-// Method Definition Index: 32984
+// Method Definition Index: 32985
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observable_1_set_value_mAEC749FEF104D0DCFA40AE5A187A5ECB0B436E4C_gshared (Observable_1_tC4B7917D31A29F1178971715A30289D693F17DDD* __this, Il2CppFullySharedGenericAny ___0_value, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_tBB237A566A9251059433C7E02C4C22FC607480F4 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 3));
@@ -11869,7 +11881,7 @@ IL2CPP_EXTERN_C  void Observable_1_set_value_mAEC749FEF104D0DCFA40AE5A187A5ECB0B
 	_thisAdjusted = reinterpret_cast<Observable_1_tC4B7917D31A29F1178971715A30289D693F17DDD*>(__this + _offset);
 	Observable_1_set_value_mAEC749FEF104D0DCFA40AE5A187A5ECB0B436E4C(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 32985
+// Method Definition Index: 32986
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observable_1__ctor_mE311BE8E92F3AD5C6D8E2AD82CBB247DAF266A71_gshared (Observable_1_tC4B7917D31A29F1178971715A30289D693F17DDD* __this, Il2CppFullySharedGenericAny ___0_newValue, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_tBB237A566A9251059433C7E02C4C22FC607480F4 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 3));
@@ -11899,7 +11911,7 @@ IL2CPP_EXTERN_C  void Observable_1__ctor_mE311BE8E92F3AD5C6D8E2AD82CBB247DAF266A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 42590
+// Method Definition Index: 42591
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observer_1__ctor_mD1D555889C192C22513070B5EEB4E1AE8826B630_gshared (Observer_1_tA0F9A80691B69597D25B36C1C3B0B53429D94849* __this, Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99* ___0_onNext, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___1_onCompleted, const RuntimeMethod* method) 
 {
 	{
@@ -11917,7 +11929,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observer_1__ctor_mD1D555889C192C22513070
 		return;
 	}
 }
-// Method Definition Index: 42591
+// Method Definition Index: 42592
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observer_1_OnCompleted_m4F30A5156F0CB2881377538F822845D10124CB59_gshared (Observer_1_tA0F9A80691B69597D25B36C1C3B0B53429D94849* __this, const RuntimeMethod* method) 
 {
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B2_0 = NULL;
@@ -11945,7 +11957,7 @@ IL_000b:
 		return;
 	}
 }
-// Method Definition Index: 42592
+// Method Definition Index: 42593
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observer_1_OnError_m89A9C1A93DCCEF33676458995B1C497CD457689F_gshared (Observer_1_tA0F9A80691B69597D25B36C1C3B0B53429D94849* __this, Exception_t* ___0_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11963,7 +11975,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observer_1_OnError_m89A9C1A93DCCEF336764
 		return;
 	}
 }
-// Method Definition Index: 42593
+// Method Definition Index: 42594
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Observer_1_OnNext_m4637E3600444C6FCC4545E960231AC7E5A10B099_gshared (Observer_1_tA0F9A80691B69597D25B36C1C3B0B53429D94849* __this, Il2CppFullySharedGenericAny ___0_evt, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_TValue_tB4F5A7D6D97A420699A1F1405BA8A4F36B3F6591 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2));
@@ -12044,7 +12056,7 @@ void OnAuthoritativeValueChangedDelegate_Invoke_mC95CCAF5C8AD93148FD27503A6D9ABC
 	NullCheck(___0_variable);
 	GenericInterfaceActionInvoker2< Il2CppFullySharedGenericAny*, Il2CppFullySharedGenericAny* >::Invoke(method, ___0_variable, ___1_previousValue, ___2_newValue);
 }
-// Method Definition Index: 82488
+// Method Definition Index: 82491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnAuthoritativeValueChangedDelegate__ctor_m16432A4BE31CA00AD30F732245D4ED973FF7E1FC_gshared (OnAuthoritativeValueChangedDelegate_t3325D9C813EE980858ECB19251C80314B77F644F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -12098,14 +12110,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnAuthoritativeValueChangedDelegate__cto
 	}
 	__this->___extra_arg = (intptr_t)&OnAuthoritativeValueChangedDelegate_Invoke_mC95CCAF5C8AD93148FD27503A6D9ABC123F997D6_Multicast;
 }
-// Method Definition Index: 82489
+// Method Definition Index: 82492
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnAuthoritativeValueChangedDelegate_Invoke_mC95CCAF5C8AD93148FD27503A6D9ABC123F997D6_gshared (OnAuthoritativeValueChangedDelegate_t3325D9C813EE980858ECB19251C80314B77F644F* __this, AnticipatedNetworkVariable_1_t2236E7013F90DDFC877F360AA345249E4D51C2F4* ___0_variable, Il2CppFullySharedGenericAny* ___1_previousValue, Il2CppFullySharedGenericAny* ___2_newValue, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
 	typedef void (*FunctionPointerType) (RuntimeObject*, AnticipatedNetworkVariable_1_t2236E7013F90DDFC877F360AA345249E4D51C2F4*, Il2CppFullySharedGenericAny*, Il2CppFullySharedGenericAny*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_variable, ___1_previousValue, ___2_newValue, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 82490
+// Method Definition Index: 82493
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnAuthoritativeValueChangedDelegate_BeginInvoke_mD8D690037E26DFCC9F9581E94229F37139F344D1_gshared (OnAuthoritativeValueChangedDelegate_t3325D9C813EE980858ECB19251C80314B77F644F* __this, AnticipatedNetworkVariable_1_t2236E7013F90DDFC877F360AA345249E4D51C2F4* ___0_variable, Il2CppFullySharedGenericAny* ___1_previousValue, Il2CppFullySharedGenericAny* ___2_newValue, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -12117,7 +12129,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnAuthoritativeValueChangedDel
 	__d_args[2] = (il2cpp_codegen_class_is_value_type(___2_newValue_klass) ? Box(___2_newValue_klass, ___2_newValue) : (void*)*___2_newValue);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 82491
+// Method Definition Index: 82494
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnAuthoritativeValueChangedDelegate_EndInvoke_mFB9F018120B2FFB48F624B2A35D9B6955A0BED72_gshared (OnAuthoritativeValueChangedDelegate_t3325D9C813EE980858ECB19251C80314B77F644F* __this, Il2CppFullySharedGenericAny* ___0_previousValue, Il2CppFullySharedGenericAny* ___1_newValue, RuntimeObject* ___2_result, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -12154,7 +12166,7 @@ void OnListChangedDelegate_Invoke_m8470C668844556E56FF8D1AEE3FF03B7CF168369_Clos
 {
 	InvokerActionInvoker1< NetworkListEvent_1_t0A3B6D4A123FB5996F08691D2A677CEAF8AB2F05 >::Invoke((Il2CppMethodPointer)__this->___method_ptr, method, __this->___m_target, ___0_changeEvent);
 }
-// Method Definition Index: 82530
+// Method Definition Index: 82533
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnListChangedDelegate__ctor_mB1F7412CD75B42DE656F863188AE080003A75532_gshared (OnListChangedDelegate_t7C0E6A559B63225B7B6F9DC2BC43BC1CC4D97E09* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -12180,14 +12192,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnListChangedDelegate__ctor_mB1F7412CD75
 	}
 	__this->___extra_arg = (intptr_t)&OnListChangedDelegate_Invoke_m8470C668844556E56FF8D1AEE3FF03B7CF168369_Multicast;
 }
-// Method Definition Index: 82531
+// Method Definition Index: 82534
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnListChangedDelegate_Invoke_m8470C668844556E56FF8D1AEE3FF03B7CF168369_gshared (OnListChangedDelegate_t7C0E6A559B63225B7B6F9DC2BC43BC1CC4D97E09* __this, NetworkListEvent_1_t0A3B6D4A123FB5996F08691D2A677CEAF8AB2F05 ___0_changeEvent, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
 	typedef void (*FunctionPointerType) (RuntimeObject*, NetworkListEvent_1_t0A3B6D4A123FB5996F08691D2A677CEAF8AB2F05, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_changeEvent, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 82532
+// Method Definition Index: 82535
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnListChangedDelegate_BeginInvoke_m0774B7ED3DC35916BB82E9BD355E4C021A652A77_gshared (OnListChangedDelegate_t7C0E6A559B63225B7B6F9DC2BC43BC1CC4D97E09* __this, NetworkListEvent_1_t0A3B6D4A123FB5996F08691D2A677CEAF8AB2F05 ___0_changeEvent, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -12196,7 +12208,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnListChangedDelegate_BeginInv
 	__d_args[0] = Box(___0_changeEvent_klass, &___0_changeEvent);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 82533
+// Method Definition Index: 82536
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnListChangedDelegate_EndInvoke_m0246EDE2E6198C5BA439D551332D91B7417726EB_gshared (OnListChangedDelegate_t7C0E6A559B63225B7B6F9DC2BC43BC1CC4D97E09* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -12231,7 +12243,7 @@ void OnValueChangedDelegate_Invoke_m930382549E7F395FA9465F6FAD50ADC584301DF1_Ope
 	typedef void (*FunctionPointerType) (bool, bool, const RuntimeMethod*);
 	((FunctionPointerType)__this->___method_ptr)(___0_previousValue, ___1_newValue, method);
 }
-// Method Definition Index: 82553
+// Method Definition Index: 82556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate__ctor_m8539CDADEDCA89B8988551938D0039AA16B1ED49_gshared (OnValueChangedDelegate_t3691247C0F8BFFB756A365D8665008471A1826B2* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -12261,14 +12273,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate__ctor_m8539CDADED
 	}
 	__this->___extra_arg = (intptr_t)&OnValueChangedDelegate_Invoke_m930382549E7F395FA9465F6FAD50ADC584301DF1_Multicast;
 }
-// Method Definition Index: 82554
+// Method Definition Index: 82557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate_Invoke_m930382549E7F395FA9465F6FAD50ADC584301DF1_gshared (OnValueChangedDelegate_t3691247C0F8BFFB756A365D8665008471A1826B2* __this, bool ___0_previousValue, bool ___1_newValue, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
 	typedef void (*FunctionPointerType) (RuntimeObject*, bool, bool, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_previousValue, ___1_newValue, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 82555
+// Method Definition Index: 82558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnValueChangedDelegate_BeginInvoke_mA83BB01E1287A509565D05927D979843E0AF83DE_gshared (OnValueChangedDelegate_t3691247C0F8BFFB756A365D8665008471A1826B2* __this, bool ___0_previousValue, bool ___1_newValue, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -12277,7 +12289,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnValueChangedDelegate_BeginIn
 	__d_args[1] = Box(il2cpp_defaults.boolean_class, &___1_newValue);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 82556
+// Method Definition Index: 82559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate_EndInvoke_m2C3FBBBC3B71A438E7F7241E4629AE9241D639B5_gshared (OnValueChangedDelegate_t3691247C0F8BFFB756A365D8665008471A1826B2* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -12312,7 +12324,7 @@ void OnValueChangedDelegate_Invoke_m2F23A1C35C22758C88C7B88193ACF17C4DA31EDF_Ope
 	typedef void (*FunctionPointerType) (double, double, const RuntimeMethod*);
 	((FunctionPointerType)__this->___method_ptr)(___0_previousValue, ___1_newValue, method);
 }
-// Method Definition Index: 82553
+// Method Definition Index: 82556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate__ctor_mC56F4D4BC5E5DA8968B254AFD3976F9A5B6C90D4_gshared (OnValueChangedDelegate_t9F913381AAAF7E129875391AB424CFC3445825DF* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -12342,14 +12354,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate__ctor_mC56F4D4BC5
 	}
 	__this->___extra_arg = (intptr_t)&OnValueChangedDelegate_Invoke_m2F23A1C35C22758C88C7B88193ACF17C4DA31EDF_Multicast;
 }
-// Method Definition Index: 82554
+// Method Definition Index: 82557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate_Invoke_m2F23A1C35C22758C88C7B88193ACF17C4DA31EDF_gshared (OnValueChangedDelegate_t9F913381AAAF7E129875391AB424CFC3445825DF* __this, double ___0_previousValue, double ___1_newValue, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
 	typedef void (*FunctionPointerType) (RuntimeObject*, double, double, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_previousValue, ___1_newValue, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 82555
+// Method Definition Index: 82558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnValueChangedDelegate_BeginInvoke_mBDFEFC22EE2B80AD1D22A07B044BD3ED074C8564_gshared (OnValueChangedDelegate_t9F913381AAAF7E129875391AB424CFC3445825DF* __this, double ___0_previousValue, double ___1_newValue, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -12358,7 +12370,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnValueChangedDelegate_BeginIn
 	__d_args[1] = Box(il2cpp_defaults.double_class, &___1_newValue);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 82556
+// Method Definition Index: 82559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate_EndInvoke_m6989B4E3C0F1AB573BE25F59353839B1FD861C8D_gshared (OnValueChangedDelegate_t9F913381AAAF7E129875391AB424CFC3445825DF* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -12393,7 +12405,7 @@ void OnValueChangedDelegate_Invoke_mD5B629B6CB5F2AC836B96D9BC5AC3215CF1932EB_Ope
 	typedef void (*FunctionPointerType) (int32_t, int32_t, const RuntimeMethod*);
 	((FunctionPointerType)__this->___method_ptr)(___0_previousValue, ___1_newValue, method);
 }
-// Method Definition Index: 82553
+// Method Definition Index: 82556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate__ctor_mD772AC7D10F3B1391771DD68CD05B7ECD7ED4DCD_gshared (OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -12423,14 +12435,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate__ctor_mD772AC7D10
 	}
 	__this->___extra_arg = (intptr_t)&OnValueChangedDelegate_Invoke_mD5B629B6CB5F2AC836B96D9BC5AC3215CF1932EB_Multicast;
 }
-// Method Definition Index: 82554
+// Method Definition Index: 82557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate_Invoke_mD5B629B6CB5F2AC836B96D9BC5AC3215CF1932EB_gshared (OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105* __this, int32_t ___0_previousValue, int32_t ___1_newValue, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
 	typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, int32_t, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_previousValue, ___1_newValue, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 82555
+// Method Definition Index: 82558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnValueChangedDelegate_BeginInvoke_mB106CA8F2A53948AA6178B598E243F8B63CE9787_gshared (OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105* __this, int32_t ___0_previousValue, int32_t ___1_newValue, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -12439,7 +12451,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnValueChangedDelegate_BeginIn
 	__d_args[1] = Box(il2cpp_defaults.int32_class, &___1_newValue);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 82556
+// Method Definition Index: 82559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate_EndInvoke_m8C18DE06DD256EE4A80836C54DE9AFBB160DA50B_gshared (OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -12474,7 +12486,7 @@ void OnValueChangedDelegate_Invoke_m2BABBAA6AB0F347242C0BEBC3AE1109592B2FF0E_Ope
 	typedef void (*FunctionPointerType) (int32_t, int32_t, const RuntimeMethod*);
 	((FunctionPointerType)__this->___method_ptr)(___0_previousValue, ___1_newValue, method);
 }
-// Method Definition Index: 82553
+// Method Definition Index: 82556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate__ctor_m4B0200FE7D13260A114115E9C6081C94EEF92D02_gshared (OnValueChangedDelegate_tDEFD1C804D3BC9CF57CFE63DC2788C2435EAF4DF* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -12504,14 +12516,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate__ctor_m4B0200FE7D
 	}
 	__this->___extra_arg = (intptr_t)&OnValueChangedDelegate_Invoke_m2BABBAA6AB0F347242C0BEBC3AE1109592B2FF0E_Multicast;
 }
-// Method Definition Index: 82554
+// Method Definition Index: 82557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate_Invoke_m2BABBAA6AB0F347242C0BEBC3AE1109592B2FF0E_gshared (OnValueChangedDelegate_tDEFD1C804D3BC9CF57CFE63DC2788C2435EAF4DF* __this, int32_t ___0_previousValue, int32_t ___1_newValue, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
 	typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, int32_t, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_previousValue, ___1_newValue, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 82555
+// Method Definition Index: 82558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnValueChangedDelegate_BeginInvoke_m0AD26F8F45D81B0B342C7694B6AE1D2E5B1906B5_gshared (OnValueChangedDelegate_tDEFD1C804D3BC9CF57CFE63DC2788C2435EAF4DF* __this, int32_t ___0_previousValue, int32_t ___1_newValue, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12526,7 +12538,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnValueChangedDelegate_BeginIn
 	__d_args[1] = Box(Int32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_il2cpp_TypeInfo_var, &___1_newValue);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 82556
+// Method Definition Index: 82559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate_EndInvoke_m4504C44DE12EE16B3D44E28EF0E33F125EFBC20E_gshared (OnValueChangedDelegate_tDEFD1C804D3BC9CF57CFE63DC2788C2435EAF4DF* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -12588,7 +12600,7 @@ void OnValueChangedDelegate_Invoke_mACE31FC0FD6C290A154712BAC00EAF39EDCC1B9E_Ope
 	NullCheck(___0_previousValue);
 	GenericInterfaceActionInvoker1Invoker< Il2CppFullySharedGenericAny >::Invoke(method, (RuntimeObject*)___0_previousValue, ___1_newValue);
 }
-// Method Definition Index: 82553
+// Method Definition Index: 82556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate__ctor_m87C8B31FE63DD62044C25A128D90313761B47E18_gshared (OnValueChangedDelegate_t757512E494BD7ABC6AEF0375D8D8BEDCCAF79872* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -12638,14 +12650,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate__ctor_m87C8B31FE6
 	}
 	__this->___extra_arg = (intptr_t)&OnValueChangedDelegate_Invoke_mACE31FC0FD6C290A154712BAC00EAF39EDCC1B9E_Multicast;
 }
-// Method Definition Index: 82554
+// Method Definition Index: 82557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate_Invoke_mACE31FC0FD6C290A154712BAC00EAF39EDCC1B9E_gshared (OnValueChangedDelegate_t757512E494BD7ABC6AEF0375D8D8BEDCCAF79872* __this, Il2CppFullySharedGenericAny ___0_previousValue, Il2CppFullySharedGenericAny ___1_newValue, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
 	typedef void (*FunctionPointerType) (RuntimeObject*, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_previousValue, ___1_newValue, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 82555
+// Method Definition Index: 82558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnValueChangedDelegate_BeginInvoke_m7BAA4F2CFBE9F11D454E4E275C1B00B16D808532_gshared (OnValueChangedDelegate_t757512E494BD7ABC6AEF0375D8D8BEDCCAF79872* __this, Il2CppFullySharedGenericAny ___0_previousValue, Il2CppFullySharedGenericAny ___1_newValue, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -12656,7 +12668,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnValueChangedDelegate_BeginIn
 	__d_args[1] = (il2cpp_codegen_class_is_value_type(___1_newValue_klass) ? Box(___1_newValue_klass, ___1_newValue) : (void*)___1_newValue);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 82556
+// Method Definition Index: 82559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate_EndInvoke_m0EF5550334DBFCC891F9F0C4CB567804BDEDE513_gshared (OnValueChangedDelegate_t757512E494BD7ABC6AEF0375D8D8BEDCCAF79872* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -12691,7 +12703,7 @@ void OnValueChangedDelegate_Invoke_m8276514E2E97A33FE28A44F164827B2655FFAAE6_Ope
 	typedef void (*FunctionPointerType) (NetworkTransformState_tCCC77820160AFE28825DDD9C3F090B523CA8F5ED, NetworkTransformState_tCCC77820160AFE28825DDD9C3F090B523CA8F5ED, const RuntimeMethod*);
 	((FunctionPointerType)__this->___method_ptr)(___0_previousValue, ___1_newValue, method);
 }
-// Method Definition Index: 82553
+// Method Definition Index: 82556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate__ctor_m03D7ECADF2E6C389C247B29368895D36F10784DC_gshared (OnValueChangedDelegate_t33EC9C5253AFC791AFE1F34361329A415729EB11* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -12721,14 +12733,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate__ctor_m03D7ECADF2
 	}
 	__this->___extra_arg = (intptr_t)&OnValueChangedDelegate_Invoke_m8276514E2E97A33FE28A44F164827B2655FFAAE6_Multicast;
 }
-// Method Definition Index: 82554
+// Method Definition Index: 82557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate_Invoke_m8276514E2E97A33FE28A44F164827B2655FFAAE6_gshared (OnValueChangedDelegate_t33EC9C5253AFC791AFE1F34361329A415729EB11* __this, NetworkTransformState_tCCC77820160AFE28825DDD9C3F090B523CA8F5ED ___0_previousValue, NetworkTransformState_tCCC77820160AFE28825DDD9C3F090B523CA8F5ED ___1_newValue, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
 	typedef void (*FunctionPointerType) (RuntimeObject*, NetworkTransformState_tCCC77820160AFE28825DDD9C3F090B523CA8F5ED, NetworkTransformState_tCCC77820160AFE28825DDD9C3F090B523CA8F5ED, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_previousValue, ___1_newValue, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 82555
+// Method Definition Index: 82558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnValueChangedDelegate_BeginInvoke_mDCDFAAF2DA3AB646D9E7BCF3454818DA907FDDF7_gshared (OnValueChangedDelegate_t33EC9C5253AFC791AFE1F34361329A415729EB11* __this, NetworkTransformState_tCCC77820160AFE28825DDD9C3F090B523CA8F5ED ___0_previousValue, NetworkTransformState_tCCC77820160AFE28825DDD9C3F090B523CA8F5ED ___1_newValue, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12743,7 +12755,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnValueChangedDelegate_BeginIn
 	__d_args[1] = Box(NetworkTransformState_tCCC77820160AFE28825DDD9C3F090B523CA8F5ED_il2cpp_TypeInfo_var, &___1_newValue);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 82556
+// Method Definition Index: 82559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate_EndInvoke_mD4E48790DA57A4FCAD009171FD5BB8DE66A23923_gshared (OnValueChangedDelegate_t33EC9C5253AFC791AFE1F34361329A415729EB11* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -12757,7 +12769,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate_EndInvoke_mD4E487
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 42612
+// Method Definition Index: 42613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OneOrMore_2_get_Count_m56F1A11ED7D65D34D30AF7E6811E77A1F7F04FEE_gshared (OneOrMore_2_tAF606C442412A5289596368E8705C82028DBA053* __this, const RuntimeMethod* method) 
 {
 	ReadOnlyArray_1_t40B8DDDCD6ACBA3B2C0AF1387BE23D68DAEF77B5 V_0;
@@ -12792,7 +12804,7 @@ IL2CPP_EXTERN_C  int32_t OneOrMore_2_get_Count_m56F1A11ED7D65D34D30AF7E6811E77A1
 	_returnValue = OneOrMore_2_get_Count_m56F1A11ED7D65D34D30AF7E6811E77A1F7F04FEE(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 42613
+// Method Definition Index: 42614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OneOrMore_2_get_Item_mF0D25C4C8C33FE00FC6B392B3A903196E01A7BD7_gshared (OneOrMore_2_tAF606C442412A5289596368E8705C82028DBA053* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	ReadOnlyArray_1_t40B8DDDCD6ACBA3B2C0AF1387BE23D68DAEF77B5 V_0;
@@ -12856,7 +12868,7 @@ IL2CPP_EXTERN_C  RuntimeObject* OneOrMore_2_get_Item_mF0D25C4C8C33FE00FC6B392B3A
 	_returnValue = OneOrMore_2_get_Item_mF0D25C4C8C33FE00FC6B392B3A903196E01A7BD7(_thisAdjusted, ___0_index, method);
 	return _returnValue;
 }
-// Method Definition Index: 42614
+// Method Definition Index: 42615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneOrMore_2__ctor_mAD9281ADB5B698F126D9C06D89494AD21820D8A8_gshared (OneOrMore_2_tAF606C442412A5289596368E8705C82028DBA053* __this, RuntimeObject* ___0_single, const RuntimeMethod* method) 
 {
 	{
@@ -12880,7 +12892,7 @@ IL2CPP_EXTERN_C  void OneOrMore_2__ctor_mAD9281ADB5B698F126D9C06D89494AD21820D8A
 	_thisAdjusted = reinterpret_cast<OneOrMore_2_tAF606C442412A5289596368E8705C82028DBA053*>(__this + _offset);
 	OneOrMore_2__ctor_mAD9281ADB5B698F126D9C06D89494AD21820D8A8(_thisAdjusted, ___0_single, method);
 }
-// Method Definition Index: 42615
+// Method Definition Index: 42616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneOrMore_2__ctor_mC07CFC8A0BDB2CF9D8CF224F966FA9E59B74FEA6_gshared (OneOrMore_2_tAF606C442412A5289596368E8705C82028DBA053* __this, ReadOnlyArray_1_t40B8DDDCD6ACBA3B2C0AF1387BE23D68DAEF77B5 ___0_multiple, const RuntimeMethod* method) 
 {
 	{
@@ -12904,7 +12916,7 @@ IL2CPP_EXTERN_C  void OneOrMore_2__ctor_mC07CFC8A0BDB2CF9D8CF224F966FA9E59B74FEA
 	_thisAdjusted = reinterpret_cast<OneOrMore_2_tAF606C442412A5289596368E8705C82028DBA053*>(__this + _offset);
 	OneOrMore_2__ctor_mC07CFC8A0BDB2CF9D8CF224F966FA9E59B74FEA6(_thisAdjusted, ___0_multiple, method);
 }
-// Method Definition Index: 42616
+// Method Definition Index: 42617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OneOrMore_2_tAF606C442412A5289596368E8705C82028DBA053 OneOrMore_2_op_Implicit_mC8A157420CB7EF2E19B1940CCAB3B6DA34F81CF2_gshared (RuntimeObject* ___0_single, const RuntimeMethod* method) 
 {
 	{
@@ -12916,7 +12928,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OneOrMore_2_tAF606C442412A5289596368E8705C820
 		return L_1;
 	}
 }
-// Method Definition Index: 42617
+// Method Definition Index: 42618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OneOrMore_2_tAF606C442412A5289596368E8705C82028DBA053 OneOrMore_2_op_Implicit_mC87C3C09957BE94F4BA9E1E78DAF2E6F62C64590_gshared (ReadOnlyArray_1_t40B8DDDCD6ACBA3B2C0AF1387BE23D68DAEF77B5 ___0_multiple, const RuntimeMethod* method) 
 {
 	{
@@ -12928,7 +12940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OneOrMore_2_tAF606C442412A5289596368E8705C820
 		return L_1;
 	}
 }
-// Method Definition Index: 42618
+// Method Definition Index: 42619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OneOrMore_2_GetEnumerator_m88C5DBDBDD259A0F2FE924ED64456DB99902BD5F_gshared (OneOrMore_2_tAF606C442412A5289596368E8705C82028DBA053* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12955,7 +12967,7 @@ IL2CPP_EXTERN_C  RuntimeObject* OneOrMore_2_GetEnumerator_m88C5DBDBDD259A0F2FE92
 	_returnValue = OneOrMore_2_GetEnumerator_m88C5DBDBDD259A0F2FE924ED64456DB99902BD5F(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 42619
+// Method Definition Index: 42620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OneOrMore_2_System_Collections_IEnumerable_GetEnumerator_m38D381CA572AF85622022BE85DC58CC3D59FED43_gshared (OneOrMore_2_tAF606C442412A5289596368E8705C82028DBA053* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12982,7 +12994,7 @@ IL2CPP_EXTERN_C  RuntimeObject* OneOrMore_2_System_Collections_IEnumerable_GetEn
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 42612
+// Method Definition Index: 42613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OneOrMore_2_get_Count_m245CC7143DA18C5D425DCAF377D247ABCE97AEC4_gshared (OneOrMore_2_t5A71E070795273F20E34523B22469BD945BFAD32* __this, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_TList_t24D4A3E5EB19E5F7921CDD152626644B73ED360C = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -13020,7 +13032,7 @@ IL2CPP_EXTERN_C  int32_t OneOrMore_2_get_Count_m245CC7143DA18C5D425DCAF377D247AB
 	_returnValue = OneOrMore_2_get_Count_m245CC7143DA18C5D425DCAF377D247ABCE97AEC4(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 42613
+// Method Definition Index: 42614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneOrMore_2_get_Item_mA475C3FF68F6D646680A07F75C97D89036E63D69_gshared (OneOrMore_2_t5A71E070795273F20E34523B22469BD945BFAD32* __this, int32_t ___0_index, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_TList_t24D4A3E5EB19E5F7921CDD152626644B73ED360C = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -13090,7 +13102,7 @@ IL2CPP_EXTERN_C  void OneOrMore_2_get_Item_mA475C3FF68F6D646680A07F75C97D89036E6
 	OneOrMore_2_get_Item_mA475C3FF68F6D646680A07F75C97D89036E63D69(_thisAdjusted, ___0_index, il2cppRetVal, method);
 	return;
 }
-// Method Definition Index: 42614
+// Method Definition Index: 42615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneOrMore_2__ctor_m6B68DDA3DE641F88BC50CDDDCCF50FDE62A10D37_gshared (OneOrMore_2_t5A71E070795273F20E34523B22469BD945BFAD32* __this, Il2CppFullySharedGenericAny ___0_single, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_TValue_t9D0A2E5612630820A3EF76CF7B2B52FD7DCF83D0 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 6));
@@ -13115,7 +13127,7 @@ IL2CPP_EXTERN_C  void OneOrMore_2__ctor_m6B68DDA3DE641F88BC50CDDDCCF50FDE62A10D3
 	_thisAdjusted = reinterpret_cast<OneOrMore_2_t5A71E070795273F20E34523B22469BD945BFAD32*>(__this + _offset);
 	OneOrMore_2__ctor_m6B68DDA3DE641F88BC50CDDDCCF50FDE62A10D37(_thisAdjusted, ___0_single, method);
 }
-// Method Definition Index: 42615
+// Method Definition Index: 42616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneOrMore_2__ctor_mE39E74034B28B75B29A3F8836E931DE129A27239_gshared (OneOrMore_2_t5A71E070795273F20E34523B22469BD945BFAD32* __this, Il2CppFullySharedGenericAny ___0_multiple, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_TValue_t9D0A2E5612630820A3EF76CF7B2B52FD7DCF83D0 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 6));
@@ -13140,7 +13152,7 @@ IL2CPP_EXTERN_C  void OneOrMore_2__ctor_mE39E74034B28B75B29A3F8836E931DE129A2723
 	_thisAdjusted = reinterpret_cast<OneOrMore_2_t5A71E070795273F20E34523B22469BD945BFAD32*>(__this + _offset);
 	OneOrMore_2__ctor_mE39E74034B28B75B29A3F8836E931DE129A27239(_thisAdjusted, ___0_multiple, method);
 }
-// Method Definition Index: 42616
+// Method Definition Index: 42617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneOrMore_2_op_Implicit_mF9B23580F0549782F5A36F11340205FE26A123A4_gshared (Il2CppFullySharedGenericAny ___0_single, OneOrMore_2_t5A71E070795273F20E34523B22469BD945BFAD32* il2cppRetVal, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_TValue_t9D0A2E5612630820A3EF76CF7B2B52FD7DCF83D0 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 6));
@@ -13157,7 +13169,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneOrMore_2_op_Implicit_mF9B23580F054978
 		return;
 	}
 }
-// Method Definition Index: 42617
+// Method Definition Index: 42618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneOrMore_2_op_Implicit_mDB6FBD0E860E0B0F1AA5D8A1FE5092C02CE9192C_gshared (Il2CppFullySharedGenericAny ___0_multiple, OneOrMore_2_t5A71E070795273F20E34523B22469BD945BFAD32* il2cppRetVal, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_TList_t24D4A3E5EB19E5F7921CDD152626644B73ED360C = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 1));
@@ -13174,7 +13186,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneOrMore_2_op_Implicit_mDB6FBD0E860E0B0
 		return;
 	}
 }
-// Method Definition Index: 42618
+// Method Definition Index: 42619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OneOrMore_2_GetEnumerator_m0E82E96FA3F2D5002056001F7E279F5FAC600E34_gshared (OneOrMore_2_t5A71E070795273F20E34523B22469BD945BFAD32* __this, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_OneOrMore_2_t68F8BDFEDC59DFCB194CE41CF5B7DE4C721671CF = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 0));
@@ -13199,7 +13211,7 @@ IL2CPP_EXTERN_C  RuntimeObject* OneOrMore_2_GetEnumerator_m0E82E96FA3F2D50020560
 	_returnValue = OneOrMore_2_GetEnumerator_m0E82E96FA3F2D5002056001F7E279F5FAC600E34(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 42619
+// Method Definition Index: 42620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OneOrMore_2_System_Collections_IEnumerable_GetEnumerator_mB7CAC887CB3413362FA9784DF2457735A77D8744_gshared (OneOrMore_2_t5A71E070795273F20E34523B22469BD945BFAD32* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13226,7 +13238,7 @@ IL2CPP_EXTERN_C  RuntimeObject* OneOrMore_2_System_Collections_IEnumerable_GetEn
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93672
+// Method Definition Index: 93675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_GetEnumerator_m688AA0612221170B489D970D2632E5F38D8A8A18_gshared (OrderedEnumerable_1_tA9D62CD65A3DB01F66AF9B1E680A81131060F851* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13240,7 +13252,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_GetEnumera
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 93674
+// Method Definition Index: 93677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_System_Collections_IEnumerable_GetEnumerator_mE43F5AC9FC8608470DE4D1C9015F83BE0F93EF9C_gshared (OrderedEnumerable_1_tA9D62CD65A3DB01F66AF9B1E680A81131060F851* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13250,7 +13262,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_System_Col
 		return (RuntimeObject*)L_0;
 	}
 }
-// Method Definition Index: 93676
+// Method Definition Index: 93679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_m02E28E3A3BB2AC204ED6F5694B4FA9A21F842CB4_gshared (OrderedEnumerable_1_tA9D62CD65A3DB01F66AF9B1E680A81131060F851* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13267,7 +13279,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_m02E28E3A3BB2A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93672
+// Method Definition Index: 93675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_GetEnumerator_mF11C7716D71750E21E6FAC485B6BB8266FE7F982_gshared (OrderedEnumerable_1_t2F9F5060B969113C249D3BC84B7DA3D9C9DCD84B* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13281,7 +13293,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_GetEnumera
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 93674
+// Method Definition Index: 93677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_System_Collections_IEnumerable_GetEnumerator_mD2DA8FBFFC4E9AE4292D224D869D956CFDB4FF2E_gshared (OrderedEnumerable_1_t2F9F5060B969113C249D3BC84B7DA3D9C9DCD84B* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13291,7 +13303,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_System_Col
 		return (RuntimeObject*)L_0;
 	}
 }
-// Method Definition Index: 93676
+// Method Definition Index: 93679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_m69AA1E47C1123AC916ABD3E46121D5835BA47082_gshared (OrderedEnumerable_1_t2F9F5060B969113C249D3BC84B7DA3D9C9DCD84B* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13308,7 +13320,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_m69AA1E47C1123
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93672
+// Method Definition Index: 93675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_GetEnumerator_m32A688D4C046E9B02F40BACFCABBA73E90A98C3C_gshared (OrderedEnumerable_1_t8EEABC87399C51697FF13CC459FC26CA5A5857DA* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13322,7 +13334,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_GetEnumera
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 93674
+// Method Definition Index: 93677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_System_Collections_IEnumerable_GetEnumerator_m756F167C52435CCA8936EB53523A77ECFED07EA2_gshared (OrderedEnumerable_1_t8EEABC87399C51697FF13CC459FC26CA5A5857DA* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13332,7 +13344,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_System_Col
 		return (RuntimeObject*)L_0;
 	}
 }
-// Method Definition Index: 93676
+// Method Definition Index: 93679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_m1A02F96CCFE23245000C42454F5C84C90A5224B6_gshared (OrderedEnumerable_1_t8EEABC87399C51697FF13CC459FC26CA5A5857DA* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13349,7 +13361,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_m1A02F96CCFE23
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93672
+// Method Definition Index: 93675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_GetEnumerator_m8DBBEAD2E263A160E873BCAA927DEF146F248CD0_gshared (OrderedEnumerable_1_t49A81D3EAEB40201506836E577654DE2F8EC8941* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13363,7 +13375,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_GetEnumera
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 93674
+// Method Definition Index: 93677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_System_Collections_IEnumerable_GetEnumerator_m1015291A03EDCA630C192D07284F8E0722AE26EB_gshared (OrderedEnumerable_1_t49A81D3EAEB40201506836E577654DE2F8EC8941* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13373,7 +13385,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_System_Col
 		return (RuntimeObject*)L_0;
 	}
 }
-// Method Definition Index: 93676
+// Method Definition Index: 93679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_m1BDEFCB4D636A666F556BFE7479BD76D9DCD9072_gshared (OrderedEnumerable_1_t49A81D3EAEB40201506836E577654DE2F8EC8941* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13390,7 +13402,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_m1BDEFCB4D636A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93672
+// Method Definition Index: 93675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_GetEnumerator_mD50826B909E062E5DBAD4E67FC535419F831C036_gshared (OrderedEnumerable_1_tFFE2D41E419F999B45E7C9636190F547FE16EA00* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13404,7 +13416,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_GetEnumera
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 93674
+// Method Definition Index: 93677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_System_Collections_IEnumerable_GetEnumerator_m674534F9BEED07E2D13C504EB1DBC61995458811_gshared (OrderedEnumerable_1_tFFE2D41E419F999B45E7C9636190F547FE16EA00* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13414,7 +13426,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_System_Col
 		return (RuntimeObject*)L_0;
 	}
 }
-// Method Definition Index: 93676
+// Method Definition Index: 93679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_m02D3016D28F207B300B4FFE096E5D45FFF32DE4E_gshared (OrderedEnumerable_1_tFFE2D41E419F999B45E7C9636190F547FE16EA00* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13431,7 +13443,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_m02D3016D28F20
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93672
+// Method Definition Index: 93675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_GetEnumerator_m47CD7223D30B7E2D7FB2720F64DE16CAF1E7793C_gshared (OrderedEnumerable_1_t2CA7B89590CC51BDE981B85FB02BE2FC4175E2D6* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13445,7 +13457,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_GetEnumera
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 93674
+// Method Definition Index: 93677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_System_Collections_IEnumerable_GetEnumerator_m1B478087284F8BDD1BF149EA75505AE52970E810_gshared (OrderedEnumerable_1_t2CA7B89590CC51BDE981B85FB02BE2FC4175E2D6* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13455,7 +13467,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_System_Col
 		return (RuntimeObject*)L_0;
 	}
 }
-// Method Definition Index: 93676
+// Method Definition Index: 93679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_mF3CFD5B8B579FA4CAE8679E327BC45E9493E9AF4_gshared (OrderedEnumerable_1_t2CA7B89590CC51BDE981B85FB02BE2FC4175E2D6* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13472,7 +13484,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_mF3CFD5B8B579F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93672
+// Method Definition Index: 93675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_GetEnumerator_m8E372F119DA686D10A52218DD5C2B84A9AA3C535_gshared (OrderedEnumerable_1_tA6269C578EE7D3423C79F32258D574795AEF1151* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13486,7 +13498,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_GetEnumera
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 93674
+// Method Definition Index: 93677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_System_Collections_IEnumerable_GetEnumerator_m44C5C1F58ED3F60B5B12D4B9CE70917D881F3F61_gshared (OrderedEnumerable_1_tA6269C578EE7D3423C79F32258D574795AEF1151* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13496,7 +13508,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_System_Col
 		return (RuntimeObject*)L_0;
 	}
 }
-// Method Definition Index: 93676
+// Method Definition Index: 93679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_mB816D5E9F6CE021FAF36E9EBCBC786932FD3B487_gshared (OrderedEnumerable_1_tA6269C578EE7D3423C79F32258D574795AEF1151* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13513,7 +13525,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_mB816D5E9F6CE0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93672
+// Method Definition Index: 93675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_GetEnumerator_m462D09C68984095981EEBF7B4880E8E2EB2AB7D6_gshared (OrderedEnumerable_1_t635FACC705EB8D479616971CD818376DC3A5AF51* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13527,7 +13539,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_GetEnumera
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 93674
+// Method Definition Index: 93677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_System_Collections_IEnumerable_GetEnumerator_mF154234005EF69F2546226C78EFE8E4F2678199F_gshared (OrderedEnumerable_1_t635FACC705EB8D479616971CD818376DC3A5AF51* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13537,7 +13549,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_System_Col
 		return (RuntimeObject*)L_0;
 	}
 }
-// Method Definition Index: 93676
+// Method Definition Index: 93679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_m8A60D502EA29F8B3165554A91F13315B2020C791_gshared (OrderedEnumerable_1_t635FACC705EB8D479616971CD818376DC3A5AF51* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13554,7 +13566,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_m8A60D502EA29F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93672
+// Method Definition Index: 93675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_GetEnumerator_m9CC7F90738331EAD211E56A476648A8E4E8D6E44_gshared (OrderedEnumerable_1_tE937014A20E2FA93ADDB0B5E5168498BCC2854FD* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13568,7 +13580,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_GetEnumera
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 93674
+// Method Definition Index: 93677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_System_Collections_IEnumerable_GetEnumerator_mF3D74100B49DE5911B8D90C53DA64A0DAE3F62BF_gshared (OrderedEnumerable_1_tE937014A20E2FA93ADDB0B5E5168498BCC2854FD* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13578,7 +13590,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_System_Col
 		return (RuntimeObject*)L_0;
 	}
 }
-// Method Definition Index: 93676
+// Method Definition Index: 93679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_m39858063F4737BE36211B140E4261D853A61F2CB_gshared (OrderedEnumerable_1_tE937014A20E2FA93ADDB0B5E5168498BCC2854FD* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13595,7 +13607,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_m39858063F4737
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93672
+// Method Definition Index: 93675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_GetEnumerator_m93BC312F79E5C88931865F01520013FDBA3B53CB_gshared (OrderedEnumerable_1_t9FC254A996960AAA55B70FA7417B36D16C123B28* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13608,7 +13620,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_GetEnumera
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 93674
+// Method Definition Index: 93677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_System_Collections_IEnumerable_GetEnumerator_mF624A687E8C0A9FB81774F671F1BEE97AD4142AA_gshared (OrderedEnumerable_1_t9FC254A996960AAA55B70FA7417B36D16C123B28* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13618,7 +13630,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_System_Col
 		return (RuntimeObject*)L_0;
 	}
 }
-// Method Definition Index: 93676
+// Method Definition Index: 93679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_mC5D343D71A2C78D96D0654897B2F2D14DC2B515F_gshared (OrderedEnumerable_1_t9FC254A996960AAA55B70FA7417B36D16C123B28* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13635,7 +13647,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_mC5D343D71A2C7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93683
+// Method Definition Index: 93686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_2__ctor_mC4229B6360A9FDF04F63F524784B397E8D2356C5_gshared (OrderedEnumerable_2_t282CB8E61E644DBDA3F5074F25BB21DA0281D637* __this, RuntimeObject* ___0_source, Func_2_tDB4E9F84001DDA1C5BC7E200933F407B391A37BC* ___1_keySelector, RuntimeObject* ___2_comparer, bool ___3_descending, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13717,7 +13729,7 @@ IL_0045:
 		return;
 	}
 }
-// Method Definition Index: 93684
+// Method Definition Index: 93687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnumerableSorter_1_t2AB7ED59D150FD614339D3884BBD7129DCF14012* OrderedEnumerable_2_GetEnumerableSorter_m593661282B1A0D39FA7D56D67CD4F84C161EEBB9_gshared (OrderedEnumerable_2_t282CB8E61E644DBDA3F5074F25BB21DA0281D637* __this, EnumerableSorter_1_t2AB7ED59D150FD614339D3884BBD7129DCF14012* ___0_next, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13759,7 +13771,7 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93683
+// Method Definition Index: 93686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_2__ctor_m9B6E9F07CB54E0A33881E8A6B1DF3A52C8F33276_gshared (OrderedEnumerable_2_t50B3DD5D58B1EF51AC5B2955793D4354EE3A73A2* __this, RuntimeObject* ___0_source, Func_2_t0628A1BF337C31EEC0227EDFF1420E301156D17E* ___1_keySelector, RuntimeObject* ___2_comparer, bool ___3_descending, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13841,7 +13853,7 @@ IL_0045:
 		return;
 	}
 }
-// Method Definition Index: 93684
+// Method Definition Index: 93687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnumerableSorter_1_tCEB88BCDB8FD518D48EECB11790C41C8C37FDD65* OrderedEnumerable_2_GetEnumerableSorter_m7F0BDD3827C28AF178A52EA52101DD680B805012_gshared (OrderedEnumerable_2_t50B3DD5D58B1EF51AC5B2955793D4354EE3A73A2* __this, EnumerableSorter_1_tCEB88BCDB8FD518D48EECB11790C41C8C37FDD65* ___0_next, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13883,7 +13895,7 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93683
+// Method Definition Index: 93686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_2__ctor_mEA7E24E2F076FB60D9EAF35893BFDBBACBE7425B_gshared (OrderedEnumerable_2_t2E1156AEEE3A4F17736815DB1A34E1D69A031759* __this, RuntimeObject* ___0_source, Func_2_t18D3285E7B8BB290E064CE9D1D38362362D9AD9E* ___1_keySelector, RuntimeObject* ___2_comparer, bool ___3_descending, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -13965,7 +13977,7 @@ IL_0045:
 		return;
 	}
 }
-// Method Definition Index: 93684
+// Method Definition Index: 93687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnumerableSorter_1_tCEB88BCDB8FD518D48EECB11790C41C8C37FDD65* OrderedEnumerable_2_GetEnumerableSorter_m18B3A6352DBD2175E8BB631A35F8C237DD1E015D_gshared (OrderedEnumerable_2_t2E1156AEEE3A4F17736815DB1A34E1D69A031759* __this, EnumerableSorter_1_tCEB88BCDB8FD518D48EECB11790C41C8C37FDD65* ___0_next, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -14007,7 +14019,7 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93683
+// Method Definition Index: 93686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_2__ctor_m5A5492A71F9D3F956F16D4F7B1F04BE47AC7FEB7_gshared (OrderedEnumerable_2_t7FDC122207E39C88BC86800DB007E88676C33546* __this, RuntimeObject* ___0_source, Func_2_tEDCDCD7BE3F7A4F5A742A5FD711EA63155BC825E* ___1_keySelector, RuntimeObject* ___2_comparer, bool ___3_descending, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -14089,7 +14101,7 @@ IL_0045:
 		return;
 	}
 }
-// Method Definition Index: 93684
+// Method Definition Index: 93687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnumerableSorter_1_t5897E023ECB6DBE16092BDD0CD9397E8600CD0F5* OrderedEnumerable_2_GetEnumerableSorter_mBEB42669536E498DA8E120ED53E8E63894579766_gshared (OrderedEnumerable_2_t7FDC122207E39C88BC86800DB007E88676C33546* __this, EnumerableSorter_1_t5897E023ECB6DBE16092BDD0CD9397E8600CD0F5* ___0_next, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -14131,7 +14143,7 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93683
+// Method Definition Index: 93686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_2__ctor_mBE93BE0656C7137FCB68076DDD39D1CEB5BBB3F6_gshared (OrderedEnumerable_2_tB2BB1ECCB0DE7D81D21CB503C6E9B7434D24B9EC* __this, RuntimeObject* ___0_source, Func_2_tF8ACBB86793AC8EBB434A64BA219B2B144660DC7* ___1_keySelector, RuntimeObject* ___2_comparer, bool ___3_descending, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -14213,7 +14225,7 @@ IL_0045:
 		return;
 	}
 }
-// Method Definition Index: 93684
+// Method Definition Index: 93687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnumerableSorter_1_t772456040AB1CD5F32AE1ACCF8BCBA3561A0CE67* OrderedEnumerable_2_GetEnumerableSorter_m8F390541ACF329BAA489E3D6A30C97ADBAE743B8_gshared (OrderedEnumerable_2_tB2BB1ECCB0DE7D81D21CB503C6E9B7434D24B9EC* __this, EnumerableSorter_1_t772456040AB1CD5F32AE1ACCF8BCBA3561A0CE67* ___0_next, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -14255,7 +14267,7 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93683
+// Method Definition Index: 93686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_2__ctor_m0FEDB4E6B2EAC112C01BF5AC4605305543466402_gshared (OrderedEnumerable_2_t956A813D199E81970CA808468C12A778277A6692* __this, RuntimeObject* ___0_source, Func_2_tF80AFEAB653E375ACD0F49E44AE42BAE8761DB6F* ___1_keySelector, RuntimeObject* ___2_comparer, bool ___3_descending, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -14337,7 +14349,7 @@ IL_0045:
 		return;
 	}
 }
-// Method Definition Index: 93684
+// Method Definition Index: 93687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnumerableSorter_1_t33B4B1FE8E6E19EEFB45A8EC216B39E6DDF2FDDD* OrderedEnumerable_2_GetEnumerableSorter_mFB0B22271AB9C064D4D52F0001A81AF2123C4E84_gshared (OrderedEnumerable_2_t956A813D199E81970CA808468C12A778277A6692* __this, EnumerableSorter_1_t33B4B1FE8E6E19EEFB45A8EC216B39E6DDF2FDDD* ___0_next, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -14379,7 +14391,7 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93683
+// Method Definition Index: 93686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_2__ctor_mA4C9424073C1ADF71C6D1C4A093AFC11BFA78162_gshared (OrderedEnumerable_2_tD338B74543352DB35E19D630DBC13C34FB211F29* __this, RuntimeObject* ___0_source, Func_2_tE6D7532D9B01F3BFD1639BCA3C00C19CCA5FF609* ___1_keySelector, RuntimeObject* ___2_comparer, bool ___3_descending, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -14461,7 +14473,7 @@ IL_0045:
 		return;
 	}
 }
-// Method Definition Index: 93684
+// Method Definition Index: 93687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnumerableSorter_1_tC7A6BA5636DB2028E64A6A8150BE0C33E308DBF0* OrderedEnumerable_2_GetEnumerableSorter_m30FF5F3978B71770DB34BEE36E93C491B8BF1998_gshared (OrderedEnumerable_2_tD338B74543352DB35E19D630DBC13C34FB211F29* __this, EnumerableSorter_1_tC7A6BA5636DB2028E64A6A8150BE0C33E308DBF0* ___0_next, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -14503,7 +14515,7 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93683
+// Method Definition Index: 93686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_2__ctor_m74A1E4ECECDEE6443DD3588E46C32D34F3CAAAAF_gshared (OrderedEnumerable_2_tAACC54129C37109328AFDC1477A535FCF5BE8CBA* __this, RuntimeObject* ___0_source, Func_2_t7025554EC975A118D5815ACF437B2080C169F1C0* ___1_keySelector, RuntimeObject* ___2_comparer, bool ___3_descending, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -14585,7 +14597,7 @@ IL_0045:
 		return;
 	}
 }
-// Method Definition Index: 93684
+// Method Definition Index: 93687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnumerableSorter_1_t4439350BEBB5B5B9E8D43BBDBB271F1DC472270B* OrderedEnumerable_2_GetEnumerableSorter_mFC39093833E00164B2C97DC64C135A9F19618975_gshared (OrderedEnumerable_2_tAACC54129C37109328AFDC1477A535FCF5BE8CBA* __this, EnumerableSorter_1_t4439350BEBB5B5B9E8D43BBDBB271F1DC472270B* ___0_next, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -14627,7 +14639,7 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93683
+// Method Definition Index: 93686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_2__ctor_m671E1D80C36AEA40063248203EB9F12647EF85D5_gshared (OrderedEnumerable_2_t506C63CE5A75D42AF2EE8BA747CA676153C266C9* __this, RuntimeObject* ___0_source, Func_2_t1B81A262430D3552787048D67101A5DB5FB0FF1E* ___1_keySelector, RuntimeObject* ___2_comparer, bool ___3_descending, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -14709,7 +14721,7 @@ IL_0045:
 		return;
 	}
 }
-// Method Definition Index: 93684
+// Method Definition Index: 93687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* OrderedEnumerable_2_GetEnumerableSorter_m355964CC947A41A50D957EF7B8EE0ED43D0E1637_gshared (OrderedEnumerable_2_t506C63CE5A75D42AF2EE8BA747CA676153C266C9* __this, EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* ___0_next, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -14751,7 +14763,7 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93683
+// Method Definition Index: 93686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_2__ctor_m78632C3E2931DD2A78BBEFC8BF702B9299304656_gshared (OrderedEnumerable_2_t2CAE6C561A4D95B2BAE2B872DC12454CF2B4DC9B* __this, RuntimeObject* ___0_source, Func_2_t2256AEE79A3E00E71D994E8F5A8DB28B3FF8957D* ___1_keySelector, RuntimeObject* ___2_comparer, bool ___3_descending, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -14833,7 +14845,7 @@ IL_0045:
 		return;
 	}
 }
-// Method Definition Index: 93684
+// Method Definition Index: 93687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* OrderedEnumerable_2_GetEnumerableSorter_m6E8F1D2D8BA9CA3F27065BDEB8518820B0D7A076_gshared (OrderedEnumerable_2_t2CAE6C561A4D95B2BAE2B872DC12454CF2B4DC9B* __this, EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* ___0_next, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -14875,7 +14887,7 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93683
+// Method Definition Index: 93686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_2__ctor_m4431F3A473B3D54B25D0356FF817F98181A7C32F_gshared (OrderedEnumerable_2_t51517C2F0D08851F60E9DD8FB874EC339A5F2BFA* __this, RuntimeObject* ___0_source, Func_2_t9A0D493A82DCC47C9C819A3B045E02D9B5DDCE1B* ___1_keySelector, RuntimeObject* ___2_comparer, bool ___3_descending, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -14957,7 +14969,7 @@ IL_0045:
 		return;
 	}
 }
-// Method Definition Index: 93684
+// Method Definition Index: 93687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* OrderedEnumerable_2_GetEnumerableSorter_mD28A618E344381E9ACCD207404369A257DFDA60A_gshared (OrderedEnumerable_2_t51517C2F0D08851F60E9DD8FB874EC339A5F2BFA* __this, EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* ___0_next, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -14999,7 +15011,7 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93683
+// Method Definition Index: 93686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_2__ctor_m95ECD3FC3686640963CAD3DB706B668BB5C7B2DB_gshared (OrderedEnumerable_2_tA9DEFB149DAA0F612AACE71C5D5A35D6308A052D* __this, RuntimeObject* ___0_source, Func_2_tACBF5A1656250800CE861707354491F0611F6624* ___1_keySelector, RuntimeObject* ___2_comparer, bool ___3_descending, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -15081,7 +15093,7 @@ IL_0045:
 		return;
 	}
 }
-// Method Definition Index: 93684
+// Method Definition Index: 93687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* OrderedEnumerable_2_GetEnumerableSorter_m6E347C85DC5EFED1D4FBF7156286800BBE07C8DA_gshared (OrderedEnumerable_2_tA9DEFB149DAA0F612AACE71C5D5A35D6308A052D* __this, EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* ___0_next, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -15123,7 +15135,7 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93683
+// Method Definition Index: 93686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_2__ctor_m1260A1E5E67504F4015F63CD6B68D01A67D3A218_gshared (OrderedEnumerable_2_t306D33C8FAA17BF0735E8B83FCC8CDC039740B2F* __this, RuntimeObject* ___0_source, Func_2_tB5C40A90702B6A6A2E315FD927EEFC9FB69F2B12* ___1_keySelector, RuntimeObject* ___2_comparer, bool ___3_descending, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -15205,7 +15217,7 @@ IL_0045:
 		return;
 	}
 }
-// Method Definition Index: 93684
+// Method Definition Index: 93687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* OrderedEnumerable_2_GetEnumerableSorter_mCE5BD8E5ADD8689BAE2C5D43E4204B4E6236C76F_gshared (OrderedEnumerable_2_t306D33C8FAA17BF0735E8B83FCC8CDC039740B2F* __this, EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* ___0_next, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -15247,7 +15259,7 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93683
+// Method Definition Index: 93686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_2__ctor_mDBD22B8FD21EB8AA78E215E6189E6A53CC537403_gshared (OrderedEnumerable_2_t71BA6A9F8F94FD49AA530865BA9BF576305461A1* __this, RuntimeObject* ___0_source, Func_2_tB86D019F1289E2D123C00796B373933613385952* ___1_keySelector, RuntimeObject* ___2_comparer, bool ___3_descending, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -15329,7 +15341,7 @@ IL_0045:
 		return;
 	}
 }
-// Method Definition Index: 93684
+// Method Definition Index: 93687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* OrderedEnumerable_2_GetEnumerableSorter_m4B4F92651D5CA84704DCD68B1E94CB5345C2C067_gshared (OrderedEnumerable_2_t71BA6A9F8F94FD49AA530865BA9BF576305461A1* __this, EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* ___0_next, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -15371,7 +15383,131 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93683
+// Method Definition Index: 93686
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_2__ctor_m97C3209E41E8926B869207A72EB65244F676A62F_gshared (OrderedEnumerable_2_tBDFC05DFCF071FFB463A7D0E9B183F769265061A* __this, RuntimeObject* ___0_source, Func_2_t0041BDC545AC23D00BA1439051E79D5351CF315C* ___1_keySelector, RuntimeObject* ___2_comparer, bool ___3_descending, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	RuntimeObject* V_0 = NULL;
+	OrderedEnumerable_2_tBDFC05DFCF071FFB463A7D0E9B183F769265061A* G_B6_0 = NULL;
+	OrderedEnumerable_2_tBDFC05DFCF071FFB463A7D0E9B183F769265061A* G_B5_0 = NULL;
+	RuntimeObject* G_B7_0 = NULL;
+	OrderedEnumerable_2_tBDFC05DFCF071FFB463A7D0E9B183F769265061A* G_B7_1 = NULL;
+	{
+		OrderedEnumerable_1__ctor_m8A60D502EA29F8B3165554A91F13315B2020C791((OrderedEnumerable_1_t635FACC705EB8D479616971CD818376DC3A5AF51*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
+		RuntimeObject* L_0 = ___0_source;
+		if (L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Exception_t* L_1;
+		L_1 = Error_ArgumentNull_m1141D2C9AF8AB6ACC45E7488789598C5283D4EEE(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral66F9618FDA792CAB23AF2D7FFB50AB2D3E393DC5)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, method);
+	}
+
+IL_0014:
+	{
+		Func_2_t0041BDC545AC23D00BA1439051E79D5351CF315C* L_2 = ___1_keySelector;
+		if (L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		Exception_t* L_3;
+		L_3 = Error_ArgumentNull_m1141D2C9AF8AB6ACC45E7488789598C5283D4EEE(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral12D34C4D5361DBE1804B6F49EDED3C800B442095)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, method);
+	}
+
+IL_0022:
+	{
+		RuntimeObject* L_4 = ___0_source;
+		((OrderedEnumerable_1_t635FACC705EB8D479616971CD818376DC3A5AF51*)__this)->___source = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((OrderedEnumerable_1_t635FACC705EB8D479616971CD818376DC3A5AF51*)__this)->___source), (void*)L_4);
+		__this->___parent = (OrderedEnumerable_1_t635FACC705EB8D479616971CD818376DC3A5AF51*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___parent), (void*)(OrderedEnumerable_1_t635FACC705EB8D479616971CD818376DC3A5AF51*)NULL);
+		Func_2_t0041BDC545AC23D00BA1439051E79D5351CF315C* L_5 = ___1_keySelector;
+		__this->___keySelector = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___keySelector), (void*)L_5);
+		RuntimeObject* L_6 = ___2_comparer;
+		if (L_6)
+		{
+			G_B6_0 = __this;
+			goto IL_0044;
+		}
+		G_B5_0 = __this;
+	}
+	{
+		Comparer_1_t156CA54426F60B4132C76BFACD5FDBD3043D437E* L_7;
+		L_7 = Comparer_1_get_Default_mDCEA11B875EEB23AECDA2D76B230E1AD7B6962E4(il2cpp_rgctx_method(method->klass->rgctx_data, 7));
+		V_0 = (RuntimeObject*)L_7;
+		RuntimeObject* L_8 = V_0;
+		G_B7_0 = L_8;
+		G_B7_1 = G_B5_0;
+		goto IL_0045;
+	}
+
+IL_0044:
+	{
+		RuntimeObject* L_9 = ___2_comparer;
+		G_B7_0 = L_9;
+		G_B7_1 = G_B6_0;
+	}
+
+IL_0045:
+	{
+		NullCheck(G_B7_1);
+		G_B7_1->___comparer = G_B7_0;
+		Il2CppCodeGenWriteBarrier((void**)(&G_B7_1->___comparer), (void*)G_B7_0);
+		bool L_10 = ___3_descending;
+		__this->___descending = L_10;
+		return;
+	}
+}
+// Method Definition Index: 93687
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* OrderedEnumerable_2_GetEnumerableSorter_mADF0638F662B7A542F280FE6E1A5F4E5FBDA4D29_gshared (OrderedEnumerable_2_tBDFC05DFCF071FFB463A7D0E9B183F769265061A* __this, EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* ___0_next, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* V_0 = NULL;
+	{
+		Func_2_t0041BDC545AC23D00BA1439051E79D5351CF315C* L_0 = __this->___keySelector;
+		RuntimeObject* L_1 = __this->___comparer;
+		bool L_2 = __this->___descending;
+		EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* L_3 = ___0_next;
+		EnumerableSorter_2_tA8E6B90E61C0127DD3934D83615777EF5E9E96E7* L_4 = (EnumerableSorter_2_tA8E6B90E61C0127DD3934D83615777EF5E9E96E7*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 11));
+		EnumerableSorter_2__ctor_m5DBC80747F22D598FA3FB6C2CE3862CE7DCD854F(L_4, L_0, L_1, L_2, L_3, il2cpp_rgctx_method(method->klass->rgctx_data, 12));
+		V_0 = (EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD*)L_4;
+		OrderedEnumerable_1_t635FACC705EB8D479616971CD818376DC3A5AF51* L_5 = __this->___parent;
+		if (!L_5)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		OrderedEnumerable_1_t635FACC705EB8D479616971CD818376DC3A5AF51* L_6 = __this->___parent;
+		EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* L_7 = V_0;
+		NullCheck(L_6);
+		EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* L_8;
+		L_8 = VirtualFuncInvoker1< EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD*, EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* >::Invoke(7, L_6, L_7);
+		V_0 = L_8;
+	}
+
+IL_002e:
+	{
+		EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD* L_9 = V_0;
+		return L_9;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 93686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_2__ctor_m958EF2EDBDDF578033B66C1807A65C3B710EC9EA_gshared (OrderedEnumerable_2_t7FE785DB2EA911CDE5E7DABA476A368CFAF0AACC* __this, RuntimeObject* ___0_source, Func_2_tD1C501C17092D1BC651648AF608F076CE51E810C* ___1_keySelector, RuntimeObject* ___2_comparer, bool ___3_descending, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -15453,7 +15589,7 @@ IL_0045:
 		return;
 	}
 }
-// Method Definition Index: 93684
+// Method Definition Index: 93687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnumerableSorter_1_tDABF2E300F966D3EE3B2B1833085EA2EF9F7B504* OrderedEnumerable_2_GetEnumerableSorter_m54C07A67774AA00924AA8A1BDFF5370250E8D68E_gshared (OrderedEnumerable_2_t7FE785DB2EA911CDE5E7DABA476A368CFAF0AACC* __this, EnumerableSorter_1_tDABF2E300F966D3EE3B2B1833085EA2EF9F7B504* ___0_next, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -15495,7 +15631,7 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93683
+// Method Definition Index: 93686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_2__ctor_mAA9A658A87A52119D7159EBA7C35D9A020BD403E_gshared (OrderedEnumerable_2_t9AAC8DBCAA08A279256F577302501FB01E0FA1FA* __this, RuntimeObject* ___0_source, Func_2_t44AC78B1DB233007BF6EF0B8A5E0BB471B744261* ___1_keySelector, RuntimeObject* ___2_comparer, bool ___3_descending, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -15577,7 +15713,7 @@ IL_0045:
 		return;
 	}
 }
-// Method Definition Index: 93684
+// Method Definition Index: 93687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnumerableSorter_1_tDABF2E300F966D3EE3B2B1833085EA2EF9F7B504* OrderedEnumerable_2_GetEnumerableSorter_m42EBE55E448D71C73291C34997556C2DB26E2CAA_gshared (OrderedEnumerable_2_t9AAC8DBCAA08A279256F577302501FB01E0FA1FA* __this, EnumerableSorter_1_tDABF2E300F966D3EE3B2B1833085EA2EF9F7B504* ___0_next, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -15619,7 +15755,7 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 93683
+// Method Definition Index: 93686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_2__ctor_mDAE8D9606AE152FCA2FCCF1A3BDBEFE47E91B819_gshared (OrderedEnumerable_2_tA5E665AC53BEDC7E4FD6924BFED49DE6B7A54475* __this, RuntimeObject* ___0_source, Func_2_t7F5F5324CE2DDB7001B68FFE29A5D9F907139FB0* ___1_keySelector, RuntimeObject* ___2_comparer, bool ___3_descending, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -15701,7 +15837,7 @@ IL_0045:
 		return;
 	}
 }
-// Method Definition Index: 93684
+// Method Definition Index: 93687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnumerableSorter_1_t748424BBEB090E58B6D364ADABD271AC18B4C251* OrderedEnumerable_2_GetEnumerableSorter_m8CA623E1D6B4CCA559D8DC3A64779836925E822B_gshared (OrderedEnumerable_2_tA5E665AC53BEDC7E4FD6924BFED49DE6B7A54475* __this, EnumerableSorter_1_t748424BBEB090E58B6D364ADABD271AC18B4C251* ___0_next, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -15767,7 +15903,7 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 88457
+// Method Definition Index: 88460
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Pair_2__ctor_mCA54688368FE894C9F314471A3DA94A72B709F51_gshared (Pair_2_tF8A435CDED15A96555BAB1E37C58429B2FF464A6* __this, Il2CppFullySharedGenericAny ___0_k, Il2CppFullySharedGenericAny ___1_v, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_Key_tE14246D43A66068B6CBEBFCFE05D56F1A63F6AAF = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 0));
@@ -15792,7 +15928,7 @@ IL2CPP_EXTERN_C  void Pair_2__ctor_mCA54688368FE894C9F314471A3DA94A72B709F51_Adj
 	_thisAdjusted = reinterpret_cast<Pair_2_tF8A435CDED15A96555BAB1E37C58429B2FF464A6*>(__this + _offset);
 	Pair_2__ctor_mCA54688368FE894C9F314471A3DA94A72B709F51(_thisAdjusted, ___0_k, ___1_v, method);
 }
-// Method Definition Index: 88458
+// Method Definition Index: 88461
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Pair_2_ToString_m085342B96D11597F12C847BB5175075784F51E5B_gshared (Pair_2_tF8A435CDED15A96555BAB1E37C58429B2FF464A6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15833,7 +15969,7 @@ IL2CPP_EXTERN_C  String_t* Pair_2_ToString_m085342B96D11597F12C847BB5175075784F5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 16070
+// Method Definition Index: 16071
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PanelChangedEventBase_1_get_originPanel_m3E8443C7EDD04BA92941A896405FB221339A39B5_gshared (PanelChangedEventBase_1_tBD261468FE94C0F11CE3EE232C78393DEB70F0E2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15842,7 +15978,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PanelChangedEventBase_1_get_or
 		return L_0;
 	}
 }
-// Method Definition Index: 16071
+// Method Definition Index: 16072
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelChangedEventBase_1_set_originPanel_m6E7488EB94D5B13C162EA4980599250ACA8B18D6_gshared (PanelChangedEventBase_1_tBD261468FE94C0F11CE3EE232C78393DEB70F0E2* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -15853,7 +15989,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelChangedEventBase_1_set_originPanel_
 		return;
 	}
 }
-// Method Definition Index: 16072
+// Method Definition Index: 16073
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PanelChangedEventBase_1_get_destinationPanel_m7F1989B93B498769D6A6EB6A5CB991AB3B4D8FD2_gshared (PanelChangedEventBase_1_tBD261468FE94C0F11CE3EE232C78393DEB70F0E2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15862,7 +15998,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PanelChangedEventBase_1_get_de
 		return L_0;
 	}
 }
-// Method Definition Index: 16073
+// Method Definition Index: 16074
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelChangedEventBase_1_set_destinationPanel_mA80D136874E402A49C81973AC8828C74F452E76C_gshared (PanelChangedEventBase_1_tBD261468FE94C0F11CE3EE232C78393DEB70F0E2* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -15873,7 +16009,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelChangedEventBase_1_set_destinationP
 		return;
 	}
 }
-// Method Definition Index: 16074
+// Method Definition Index: 16075
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelChangedEventBase_1_Init_m6389899FCF1A0A379FF4D1C0D2D08FA4EFF98583_gshared (PanelChangedEventBase_1_tBD261468FE94C0F11CE3EE232C78393DEB70F0E2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15886,7 +16022,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelChangedEventBase_1_Init_m6389899FCF
 		return;
 	}
 }
-// Method Definition Index: 16075
+// Method Definition Index: 16076
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelChangedEventBase_1_LocalInit_mEAD1D33A122D61D216E96757CE33D64A0402C1F9_gshared (PanelChangedEventBase_1_tBD261468FE94C0F11CE3EE232C78393DEB70F0E2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15898,7 +16034,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelChangedEventBase_1_LocalInit_mEAD1D
 		return;
 	}
 }
-// Method Definition Index: 16076
+// Method Definition Index: 16077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PanelChangedEventBase_1_GetPooled_mD057B3FE69D3215EA13FC79B54251B22818E1879_gshared (RuntimeObject* ___0_originPanel, RuntimeObject* ___1_destinationPanel, const RuntimeMethod* method) 
 {
 	RuntimeObject* V_0 = NULL;
@@ -15932,7 +16068,7 @@ IL_0025:
 		return L_6;
 	}
 }
-// Method Definition Index: 16077
+// Method Definition Index: 16078
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelChangedEventBase_1__ctor_m4AC8196BE117F81955496D33C8F2F07869E87897_gshared (PanelChangedEventBase_1_tBD261468FE94C0F11CE3EE232C78393DEB70F0E2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15953,7 +16089,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelChangedEventBase_1__ctor_m4AC8196BE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_m0E9C5D5E9A53E2E86288BA20BA36B01C47C05AED_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16000,7 +16136,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_mED2529E0E28A7D3930E86DE1BB1B50EDF20F6D7A_gshared (SegmentSort_tEAAD7F55D1CEC7122DA77CE031805DCE617A0D78* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -16083,7 +16219,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mEA61C7C0E7130A3E6E3EE79AA3E3ED8429EDF0EE_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -16102,7 +16238,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mEA61C7C0E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_m01219A7473714279B681F739CA68B620DFC12F2C_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16149,7 +16285,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m120D0177EFA1FB3E0CD8B289261D3F3C625B5B17_gshared (SegmentSort_tE56792C563A7271D5083D5DB4768DCD86B9E38E8* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -16232,7 +16368,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mFCF4B520C564D290C3EE9BF87E05A04C3E9F099E_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -16251,7 +16387,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mFCF4B520C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_m82359E7FB1D5E2B15137CB395296C720835FE4B8_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16298,7 +16434,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_mB9F5605379DDC9385D646D6CA3780AF22FCABD52_gshared (AllocateBinsPerBatch_t5239CCD1592A1183C158D7DBFBCB38CFB8A65904* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -16381,7 +16517,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m98E68C3AF0FC3A1EE46B0D17686B9D30D57A323F_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -16400,7 +16536,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m98E68C3AF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_mB5820C26B4ADE7C26C28140F1FEAE2EEA06CCB96_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16447,7 +16583,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_mB0958E63588E0BCA7C7C320137CBBC64AB0524A8_gshared (AnimateCrossFadeJob_t4A6EEA489E4EE721D1878717E9FB01FC73C4E90E* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -16530,7 +16666,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m862478723273E4C62FBD19E81ADF0E93CBBA35A8_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -16549,7 +16685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m862478723
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_m1F3391B15A04827C4CD1CD775240636EC5B1B35E_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16596,7 +16732,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m2B66D5641F1EE0A722482CF6F0E5B21ABBBA1157_gshared (BuildDrawListsJob_t04305ADFB7117F4E8B5C09D5FDA60BB738D5EF56* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -16679,7 +16815,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m772524A77F47D2A31FD8F72FF0ABC5AE70A65252_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -16698,7 +16834,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m772524A77
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_m251170B538B55CC3E19CC5050CAB0368BBE2278F_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16745,7 +16881,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m5D428E8C29422E538B56C06623DED6243870B624_gshared (ComputeTerrainMeshJob_t5EACE178A4776C90C3DF775F482DB50134852FBF* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -16828,7 +16964,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m3C90F6E9B662CF382DEF591D5A88692D9D5D1D67_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -16847,7 +16983,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m3C90F6E9B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_mFA1755304A7EC3C9EBF406CAB8884B75C46864A5_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16894,7 +17030,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m5CC99A2E8D34A89EE217388DE30CA817E924D3B8_gshared (CullingJob_t4206A6B00371EC11303617597A8DA5BFCCF92681* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -16977,7 +17113,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mF76DFBD352ABBA47679319DF972D79632ADBE373_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -16996,7 +17132,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mF76DFBD35
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_m07BA40DFD91047577596EE5391A4D5C9EFCDFA3B_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17043,7 +17179,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m8328E61C3F41DA2EB7AAF372C450A6ABF7967655_gshared (DrawCommandOutputPerBatch_t4A45E11E8E7CBD974DA211971082C0ED66445215* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -17126,7 +17262,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m148EF247239C6AEDD68783C4B3F38CEF08764DBA_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -17145,7 +17281,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m148EF2472
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_mFE1CC465B4E3CA164C95204A2840778DAA3C9E11_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17192,7 +17328,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m463B2504E4C33BEA91A37C2F6FE38845253963FB_gshared (RegisterNewMaterialsJob_t00042B33E6C44FDE47805C45B5BDB053C60A3ECD* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -17275,7 +17411,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mAC785E68C4AC46699B404424A096FCED628FCE67_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -17294,7 +17430,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mAC785E68C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_m1498B304A037CC25B8A738A2B4C2F579F71FD571_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17341,7 +17477,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m3BF6F30FAD65121E1B90398874E87756D4AAC429_gshared (RegisterNewMeshesJob_t4D558BDACF2FB489756D7AB7261A37E3F352D84C* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -17424,7 +17560,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mF3672806CFEBCA439AF1D92211F3518152480909_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -17443,7 +17579,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mF3672806C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_m980BB68A8ED7295DEB44B740426C892C7031025C_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17490,7 +17626,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m0BF5BE3488BA839FC888379B1D69B768F5CB91D0_gshared (UpdateLODGroupDataJob_tA8EF5D5B28CEE31DE0AFF3156883742496D3844F* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -17573,7 +17709,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m45DA645AA41A4D200E9C7AA633B0F44EC86D711E_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -17592,7 +17728,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m45DA645AA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_m09CC4238540A9A27BCFB70B2681ACE81F23E30D7_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17639,7 +17775,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_mCED81F3084A779DB9985041B97AD23E741AE71AB_gshared (UpdateLODGroupTransformJob_t3F0746BC9FBE2CB27319561823F94091E4A0029C* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -17722,7 +17858,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m5E3181AF65EAA951BE5CBE9CBB7AFA55FC0A4793_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -17741,7 +17877,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m5E3181AF6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_m22ADDB74745F670741DE24EEB8D65919BFE84855_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17788,7 +17924,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m033D3574DC989AB97499226B65EE32D882468B99_gshared (Il2CppFullySharedGenericStruct* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	void* L_8 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 7)));
@@ -17872,7 +18008,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m99796F90E4D64E1ED5BFC39351A1010703E7F8EA_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -17891,7 +18027,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m99796F90E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_mCDDC02F98570CD3E92940BD4163BB5D464758F98_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17938,7 +18074,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m81D657C1F2FF562F69DB851818BF11CFDD251C73_gshared (ConvertCPUInstancesToGPUInstancesJob_t0C430833D5089A08CD7759319A2C2135A94C4300* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -18021,7 +18157,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mD3D80B8E873F3991BBE53E929E0DAB9B76558B98_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -18040,7 +18176,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mD3D80B8E8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_mE351256DFB2F59341662F6537BBC1AAFB702F961_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18087,7 +18223,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_mE71A3AE2812754CFA44AD401A4F5D15D6BDA9CF5_gshared (WriteInstanceDataParameterJob_t1A7E612C24AFAE78108E5FF5DBF749FFC7162A53* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -18170,7 +18306,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mFEF48571786601C062DC7A67B3E7E8387E17EF92_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -18189,7 +18325,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mFEF485717
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_mC073B8A226D9E0DEF7794C33FFB17A1B4F8D1829_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18236,7 +18372,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m66302D68FB56D391998232585A17545C78377947_gshared (CalculateInterpolatedLightAndOcclusionProbesBatchJob_tE9C041455CA23D36663116BFAD6B43917706F319* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -18319,7 +18455,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m97D76C4BBAC91EE080C7DBC4A0D5001055F861E4_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -18338,7 +18474,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m97D76C4BB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_mED52915671C6F3CDBCE6AC4058D43853A6CACD71_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18385,7 +18521,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m7DCDC28E6F2ADEB60E63D1E22525AE70267B28C4_gshared (CollectInstancesLODGroupsAndMasksJob_t8DB356214F71B334A6296B0F61AB13B52B7A608F* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -18468,7 +18604,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m180B0A00BB8954E997F9E0FA9991B204CAEE172A_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -18487,7 +18623,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m180B0A00B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_mA918E609CA765649602E3698E9C1246498A37F1A_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18534,7 +18670,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m37CD6BD9B18427AC46DDA1822FDC1B52A15FC8D4_gshared (MotionUpdateJob_tDB543A1611EFDB1D87E61D6BC4236C212A972663* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -18617,7 +18753,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m4CD7D21EC7A5263DCEFE084060660E98AD3CFB92_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -18636,7 +18772,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m4CD7D21EC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_m594295497AC37B0BC693DE98402576236BA8A83B_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18683,7 +18819,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_mEC7B09A390DA83B0B97262BD65DA23A4345BBCA4_gshared (ScatterTetrahedronCacheIndicesJob_t562BE88F37C17457794459AC793559BCDB9E463E* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -18766,7 +18902,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m3085BE1E1586FDA551B68E70EB39648E281D1C60_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -18785,7 +18921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m3085BE1E1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_m48C396A829010207519540A779EED6F475E52D51_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18832,7 +18968,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_mAF3DE313F6DB02C1895B869E892715938DE95428_gshared (UpdateRendererInstancesJob_t66273BCE97470DFA7FBEDFE71638E75897CEFDC7* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -18915,7 +19051,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m50CEAF73010C7309DED2DE6FCFE9C7968498577D_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -18934,7 +19070,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m50CEAF730
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_mFBB4CB34C10A4ADB18A1B8E8511F48C0F6E09605_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18981,7 +19117,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m7DB64360B24F0B1B35F6B82112A110A9FA9217A8_gshared (TessellationJob_t6752B373FBA1C29E9EFF3B0E46A67057B5684B76* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -19064,7 +19200,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mB693F54EECE34B86BBAC99A98164C6A0063418E4_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -19083,7 +19219,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mB693F54EE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_mB92297926E732D2CEE7B8B725636D58291E7FB22_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19130,7 +19266,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_mCFA48B12D13DFC5F3252017A37888F7D5B8C8CBB_gshared (OpacityIdUpdateJob_t44287EF1EDECBC73C16DD75791575F362A19A110* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -19213,7 +19349,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m937C76F0FBBBEEB7E1D3F80F9B2861C84E639A13_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -19232,7 +19368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m937C76F0F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_m62DC62A81381739F486BF3DC0AD85730B128271D_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19279,7 +19415,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m1F16D9EA806771BE277C83A478783E82A9480D75_gshared (Painter2DJob_t9710D46475ACC80C8731CDF99CA5393140F0D6F4* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -19362,7 +19498,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m52247CF2DA400C08C898EB7A5310F3295EA9E639_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -19381,7 +19517,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m52247CF2D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_mC9062E943029A537C775AFF491A252FAFF49FA83_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19428,7 +19564,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m9F0A80358B0A0DEFB3EC8B38A0B6958B151D6134_gshared (GetCollisionsJob_t9A21A5D8C530F486A5E489504F9790DE706D256D* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -19511,7 +19647,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m1569BAD6237066276657AE584C9C8EEE1EC25CD9_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -19530,7 +19666,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m1569BAD62
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_m3AC6406232C5D385F4B5A24891DAF7B7DAF77AF5_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19577,7 +19713,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m7D2978E2C1A5DCBB0809901499DDBF778DF9D8C3_gshared (GenerateTextJobData_t7A10E34B01929D66C91DD360ABCE0155BDDAC636* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -19660,7 +19796,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mB3B9905A84C23B2A6C09868C817A2D1A4FB1F5ED_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -19679,7 +19815,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mB3B9905A8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54716
+// Method Definition Index: 54717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Initialize_m4476A9C0B138BC3E22EFECBCA6DCDF0699833FE3_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19726,7 +19862,7 @@ IL_0042:
 		return;
 	}
 }
-// Method Definition Index: 54717
+// Method Definition Index: 54718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_mF2C8B9418B890845435D020C2B03D74394E72B44_gshared (PrepareTextJobData_t9C5B7DCAF043AFD8AF9992101B9B7BCDD02F0250* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -19809,7 +19945,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 54718
+// Method Definition Index: 54719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m011D8C82E2B7F145D728D47ACFA0B1AD375E90A4_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -19828,7 +19964,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m011D8C82E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m6464DCCDD4A54606953D9D8B555D660E238F4270_gshared (ParallelReader_t48B8B8ABB21687540DE9B86B331A7065BD072DBD* __this, ConnectionSlot_t89618F8D46BDC8F0A492202E68A183958F2FC4FF* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -19857,7 +19993,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m6464DCCDD4A54606953D9D8B555D660E238F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m1CF204378D2E9E3610B15CD16D33E6195F4C4894_gshared (ParallelReader_t9F38602502C6A4E818679A8704CE23405A06C320* __this, ConnectionSlot_tDBA110D3F752E674C011C313AD05A5DC8E988311* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -19886,7 +20022,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m1CF204378D2E9E3610B15CD16D33E6195F4C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mAE055C66502701706B7E672443FA138518B61048_gshared (ParallelReader_tC1A21DEC3C916B2113BE059E10DD324C348B661A* __this, ConnectionSlot_t1BCC06C0F60F07E29531D84899C4892ECAC0A3A9* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -19915,7 +20051,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mAE055C66502701706B7E672443FA138518B6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m6129CCC6F0FE9F29828F02F073C93853EC944560_gshared (ParallelReader_t76E6DEE42A66C85A5C9B598B7EF4897A212E9780* __this, ConnectionSlot_tFBC6B3ACE9611FE5642C0B1D89856983337DE8B2* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -19944,7 +20080,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m6129CCC6F0FE9F29828F02F073C93853EC94
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mE36E605935E4B5A93170439054A199FE3B1520A4_gshared (ParallelReader_tB18BC4289083E52E7EFE8A1D635BD5924220FF0E* __this, ConnectionSlot_t37FAC4A786F0CC30B58ECE2BD80477617DC98A33* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -19973,7 +20109,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mE36E605935E4B5A93170439054A199FE3B15
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m94F01BC5E9A2BFDDBD2914757104C25306047A4F_gshared (ParallelReader_t034D44D94C074E0885736FA6B16544A5AD470AC7* __this, ConnectionSlot_t424336CC957E4448CD318AF4AFB3360AD64144E3* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20002,7 +20138,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m94F01BC5E9A2BFDDBD2914757104C2530604
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m824AA893DABF001192039E501A80DB4C94D3562F_gshared (ParallelReader_t0D51CC40A6D2D6FF5035652AA6D3B9A6D3FBB9B1* __this, ConnectionSlot_tC0124B98FB257C2891FA55F734034FCCFE3377F4* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20031,7 +20167,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m824AA893DABF001192039E501A80DB4C94D3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mC4E5F8358DF16636B69EA836D1F9E83DDFEE5347_gshared (ParallelReader_tC795994A5BAE00601DA2D4DC6A20DDFCE2E6C3D2* __this, ConnectionSlot_tB4CAAD06D82027332DB93AF6BC08243A57FE4AF2* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20060,7 +20196,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mC4E5F8358DF16636B69EA836D1F9E83DDFEE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m3F0FF13C5458657327BC55683DDD578E60B8BA57_gshared (ParallelReader_t2ABA800F02E4E15743155776C7590EA05134E5B8* __this, ConnectionSlot_tB6A19CABA0CD55690A8B03EDF6411698184952AB* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20089,7 +20225,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m3F0FF13C5458657327BC55683DDD578E60B8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m9E1825639BEB7C082F38CD539FD6787C475D10A3_gshared (ParallelReader_t014B36AACA27EE382B837E78C31B6014D42B77CB* __this, AttachmentDescriptor_tBAC9B26B50BB0838C5C0CC22BB296F9DFF41276E* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20118,7 +20254,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m9E1825639BEB7C082F38CD539FD6787C475D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m4226F309D2D2A9B6A8BAC35A27A31D5F7BB516E6_gshared (ParallelReader_tD82D3B47F2D64AA4C73CF5E64572E9821943D979* __this, uint8_t* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20147,7 +20283,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m4226F309D2D2A9B6A8BAC35A27A31D5F7BB5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m493363DAE7270F9DDF146DCC754A6688E7E7C2D9_gshared (ParallelReader_t928D3B4BC7245A31A631C8BB9B45735523ED8526* __this, DebugOccluderStats_t7B4C48EC856FCC7FDF2811DF6C222E53DD80AD93* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20176,7 +20312,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m493363DAE7270F9DDF146DCC754A6688E7E7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mC70A1C979AA96AFEA7893F3BA15F2AC67F84234D_gshared (ParallelReader_t72344E8185789DB494024055696E335EF82F0618* __this, DrawBatch_t5B13B0C8AFD02B2878B6FA9ED48DDA1A0696F5FF* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20205,7 +20341,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mC70A1C979AA96AFEA7893F3BA15F2AC67F84
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mC2F136AF3A3784A49AF00B0013C41ADBFB1F0E6C_gshared (ParallelReader_t972BA3444BF2C1C674B9F9841E383BB711BF8C1F* __this, DrawInstance_tBE712DD78F80BD1B66343AC3B9A55ACFE80E8AF8* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20234,7 +20370,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mC2F136AF3A3784A49AF00B0013C41ADBFB1F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m90DC5E72425E283B25A07D44529BE71DCE0498D2_gshared (ParallelReader_t2ED44E7BDB3C5712EDFD3C6ABF7FB91357BF24C6* __this, DrawRange_tFF5914E68DE5FBB5AE71F729F834D72149A6B010* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20263,7 +20399,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m90DC5E72425E283B25A07D44529BE71DCE04
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mFFAC41ED96CB3410AA9DF26496303D9F0CF46C3C_gshared (ParallelReader_tE36C642703DD618BCDE0887B12604F8FF3135369* __this, EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20292,7 +20428,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mFFAC41ED96CB3410AA9DF26496303D9F0CF4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m8BEB993E6051D9EE00F1D36F54ACD830B3A24561_gshared (ParallelReader_t82AEE1DE109DBAC9100D050C06F6E04639616F2A* __this, GPUDrivenPackedMaterialData_t9AFE25D18C8FA6EB6A69AEF342C2A19DA824CF38* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20321,7 +20457,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m8BEB993E6051D9EE00F1D36F54ACD830B3A2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mCD51DD95F11A3D2A09A6A51BEBD66A97E4710D68_gshared (ParallelReader_t9B8E642F5C332B7938C0334B75517B4403D8D188* __this, GPUInstanceComponentDesc_tA386615944C32F7A0B71FF8B2F84E1A159C02E74* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20350,7 +20486,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mCD51DD95F11A3D2A09A6A51BEBD66A97E471
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mD7AC092749255199BE78DA18B433F17E500D0EAA_gshared (ParallelReader_t96E5F4CA4EECD01034AE8C6AA2B9AA4F74961288* __this, GPUInstanceIndex_t1B73FC29B273B0470A8E186E3C2F19CA6D8FBA78* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20379,7 +20515,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mD7AC092749255199BE78DA18B433F17E500D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mE4BC3F53355B7131E6334B0F099D034336D62DCE_gshared (ParallelReader_t43AED41E9BEA6D119EC4A5053F3703968B13BFEF* __this, GeometryPoolHandle_t7EF37F11E23B05A26C1F72855D269B7A772B2271* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20408,7 +20544,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mE4BC3F53355B7131E6334B0F099D034336D6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m329D9C198F6750B2F36F9E41B6A76C748C7878BC_gshared (ParallelReader_t278515F02264E021FE93212C2B647AB7E33808A0* __this, IndirectBufferContext_tC867F1E4C07484F15773E7A382CCB107C57AC805* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20437,7 +20573,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m329D9C198F6750B2F36F9E41B6A76C748C78
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m258B1F21B87DA516E68FA899F4FBDC6E2D65D42D_gshared (ParallelReader_t9A7AD8806BE2AB3DFDEEBB412565BA65E0C25816* __this, InstanceCullerViewStats_tCFA9E28BF5D8B9489040BD5DDE21173331CE2173* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20466,7 +20602,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m258B1F21B87DA516E68FA899F4FBDC6E2D65
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m020FBCA785E5DD0B00D6EA7F2AB704ACD62B4DEA_gshared (ParallelReader_t6ED7C38D720ABDDE4A07F9BB8C7BF472C5A3EBFE* __this, InstanceHandle_tE8D892B001AFFDB8FA53EB19F2B356436AC36C3B* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20495,7 +20631,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m020FBCA785E5DD0B00D6EA7F2AB704ACD62B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mCDBE00F33738EFA943BFB61780F447425969E2CF_gshared (ParallelReader_tEF922F09891B2B69A1C6E23824DA9B46C25E4122* __this, InstanceOcclusionEventStats_t39015A29B5AE8D08BF95679C8A25869BD8715AAD* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20524,7 +20660,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mCDBE00F33738EFA943BFB61780F447425969
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mB69008A161A9797BBBD950D265C52D6F6454D699_gshared (ParallelReader_t60DD51786FD0A2955CA8241876B7F16A58C3C62E* __this, int32_t* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20553,7 +20689,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mB69008A161A9797BBBD950D265C52D6F6454
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mC001917B22610EA432459BF434B70B97EF04AAC3_gshared (ParallelReader_t67A991E614050A1F16F5C0632B0830B03CF33D59* __this, int32_t* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20582,7 +20718,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mC001917B22610EA432459BF434B70B97EF04
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mE09F39FABADD4A17057576C53ECED2F73453EE7A_gshared (ParallelReader_t84537C819DEAB26F1B1553D0F295C8692E1270CA* __this, intptr_t* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20611,7 +20747,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mE09F39FABADD4A17057576C53ECED2F73453
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m76DED5203DBA2B89D3BCAB361C44E2552940FCBA_gshared (ParallelReader_tBD58C7A7C32B0806A429D7A46CA5B822B981808D* __this, LODGroupCullingData_t511A004D7CBAE84368FCAA62A0348C24CB46EABF* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20640,7 +20776,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m76DED5203DBA2B89D3BCAB361C44E2552940
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m298843C44F3E99B121DB84D1A068A1220B88F559_gshared (ParallelReader_t7284C8980281A919A845EEBD7431878C234E6030* __this, LODGroupData_t270D641C75EEBF4612A34E2398D4D0A10A5B1241* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20669,7 +20805,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m298843C44F3E99B121DB84D1A068A1220B88
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m7AD57AA642E498FD7E94B309041D6E36721E23F8_gshared (ParallelReader_tD61FECD17BF05536981ED68D3B9BBAADC6FA4AA0* __this, MetadataValue_tB24D1ECC62550B3B37D7BFA11B02907047E7F937* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20698,7 +20834,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m7AD57AA642E498FD7E94B309041D6E36721E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m27E54553781C4F52DE09EA2BF629CB4E2B70377D_gshared (ParallelReader_t631F9A4CB7308D56C2239935D545EF495FB68331* __this, NativePassData_tC0F1669A8ED49F7203325B91DF9C473D65AA9CD2* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20727,7 +20863,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m27E54553781C4F52DE09EA2BF629CB4E2B70
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mE18206ECF57EEB1189229C790E1EB8F51C3ABCD9_gshared (ParallelReader_tF7B13B6C6E25C8D91568EC53B3941330DAD9FD0A* __this, NetworkConnection_t0A1170D9665C62249582E5DAABC2EAF2D01DEDF4* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20756,7 +20892,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mE18206ECF57EEB1189229C790E1EB8F51C3A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mDD465A3DD804AD5A31744C0E89D06CC2F8D3C8DE_gshared (ParallelReader_t9C2639CC9A6F9ECA86B017D30F003409D837760D* __this, NetworkEvent_t4F520D24065EC589593AE1281E955525AD11233F* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20785,7 +20921,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mDD465A3DD804AD5A31744C0E89D06CC2F8D3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m04B6558DB8D68FE1C53DCC228B2BBBBB3524C070_gshared (ParallelReader_tFC6BFBD2987233BF4E79713DB782181DA18DBDF9* __this, NetworkLayerWrapper_t6D78DE474098851EC3C82A6085753A4BF1ADC5F8* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20814,7 +20950,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m04B6558DB8D68FE1C53DCC228B2BBBBB3524
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m4269737E6FE1F7DBCD644871ABE387DD53D421D5_gshared (ParallelReader_tDE5593B57C03A44ADEA3D1871D356745ADC83155* __this, NetworkPipelineStage_tEF17CBE5C7F718292F2E9F3E51D727D672A0400E* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20843,7 +20979,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m4269737E6FE1F7DBCD644871ABE387DD53D4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m1A3094BC9820716AE1808D0BC4680BFDC5C4DC61_gshared (ParallelReader_t27121D5C5533C24565ED1A5A3B81A3FFFDB75A80* __this, NetworkPipelineStageId_tBE4FAE81AD1922E0BEEDBC611342E3B0A7B5ECCA* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20872,7 +21008,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m1A3094BC9820716AE1808D0BC4680BFDC5C4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m74223D91F1C99557667656589B8CCAC5CD78B165_gshared (ParallelReader_t9C9C38E71E21B300E552F4B936AFFE2FCC3B02A6* __this, PassData_t88911D47229A306D70A3F6A7D3B2FC8FF12F8BAD* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20901,7 +21037,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m74223D91F1C99557667656589B8CCAC5CD78
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mDA846787F3234D52143BC389E37DEDEBAD007E77_gshared (ParallelReader_t35532AF28C9A5926FA4D247B070EF5E184F7197E* __this, PassFragmentData_t67D0B4EC16AF3DBC4233CC7537B93A27C78BFA8C* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20930,7 +21066,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mDA846787F3234D52143BC389E37DEDEBAD00
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mD68316E2731D81DA72D7F67B00E37065835B3F52_gshared (ParallelReader_t766202463F26842B4EF19A3A2E147B1ABDEE1D1F* __this, PassInputData_tA1B8624F31DDB24770D8E0C8FA54189A567FC2DE* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20959,7 +21095,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mD68316E2731D81DA72D7F67B00E37065835B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m85418019194F477C0B4AE920C1A4C6F366F14A1A_gshared (ParallelReader_tD2549E161CF77B599A509FFBD537067248FFD3AD* __this, PassOutputData_t8EA364E560775D19D285839BA06710B337503E0D* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -20988,7 +21124,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m85418019194F477C0B4AE920C1A4C6F366F1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m256E5DB96F90872763E7D81535E6A50A64D4B3C6_gshared (ParallelReader_t78064F51729E444F0B1AE8C7ECABF5AF97732D84* __this, PassRandomWriteData_t5C298F6D2CA84B027F3D8A145304B0DCFDA1961B* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21017,7 +21153,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m256E5DB96F90872763E7D81535E6A50A64D4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m253461C3D838847144E26FB4731D92B856643516_gshared (ParallelReader_tA5537884D1E2EC730ABE31C94058B4D00669A6FE* __this, Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21046,7 +21182,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m253461C3D838847144E26FB4731D92B85664
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m4EE227A5ADF24D0B8F063B3B1383700DDE663696_gshared (ParallelReader_t99E6F5D33DFD8565F6AB7DFE7AAC0E235D5850CB* __this, ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21075,7 +21211,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m4EE227A5ADF24D0B8F063B3B1383700DDE66
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mA2485FDC10D43ABDBCC977636DEDE4FD812A1427_gshared (ParallelReader_tBE220170AEF5178710DEA4FCE971715B3B292BB3* __this, ResourceReaderData_t1B57A9C4CC76875899745E115AA53FF40C6412EC* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21104,7 +21240,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mA2485FDC10D43ABDBCC977636DEDE4FD812A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mF25AD4D43611BAE800E5B36A7BA1F08A0D14302E_gshared (ParallelReader_tDCA36266066852689339D6C4A64955B854F251A4* __this, ResourceUnversionedData_t3F4B539E7806E513C53A94EAABF5F969AAA384CC* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21133,7 +21269,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mF25AD4D43611BAE800E5B36A7BA1F08A0D14
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m5027FBE51FED97A2A735015E9681CAD8E8AED631_gshared (ParallelReader_t946393178C2776CAA7753576E68551A93CD8B00B* __this, ResourceVersionedData_tC935A106FCF6C0800974D2C98DBE14E19A19B1DC* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21162,7 +21298,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m5027FBE51FED97A2A735015E9681CAD8E8AE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mB1085A1FAF57CCF92935559A5F25732B36479DEA_gshared (ParallelReader_tDB6C63890935DEED311E2B76CD0D7567656729EC* __this, SubPassDescriptor_t912FE0FF4C99BF293A1E4442353C35B2BB8997A9* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21191,7 +21327,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mB1085A1FAF57CCF92935559A5F25732B3647
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m1067F3080B44C8EF78A881E1ACA93DCBE0060ACB_gshared (ParallelReader_t54D404FCBF2296F1AA9B97DF026504EE4C5D1801* __this, uint32_t* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21220,7 +21356,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m1067F3080B44C8EF78A881E1ACA93DCBE006
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m2B520019F0F3CEC60305E050C13903EBBCC65BFF_gshared (ParallelReader_tA185DF24A05F5D2DC6111ED96CD225021DEAC0AE* __this, uint64_t* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21249,7 +21385,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m2B520019F0F3CEC60305E050C13903EBBCC6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m5B155292E6BFFEE6ECA3B1D31F862F96ACE11A7D_gshared (ParallelReader_tE9E5B90E22A4BC77DB4B327155E0A9F071FC4839* __this, Il2CppFullySharedGenericStruct* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21278,7 +21414,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m5B155292E6BFFEE6ECA3B1D31F862F96ACE1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91086
+// Method Definition Index: 91089
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mF4EB6E9148DD943793A39818901CE6C5B01CF910_gshared (ParallelReader_tC149FBEDF61DA17830C1FAD7F76EA14A6944EA59* __this, Il2CppFullySharedGenericStruct** ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21299,7 +21435,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mF4EB6E9148DD943793A39818901CE6C5B01C
 	_thisAdjusted = reinterpret_cast<ParallelReader_tC149FBEDF61DA17830C1FAD7F76EA14A6944EA59*>(__this + _offset);
 	ParallelReader__ctor_mF4EB6E9148DD943793A39818901CE6C5B01CF910(_thisAdjusted, ___0_ptr, ___1_length, method);
 }
-// Method Definition Index: 91087
+// Method Definition Index: 91090
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ParallelReader_IndexOf_m069700962EBC2F30EB064386B658CACE254491FD_gshared (ParallelReader_tC149FBEDF61DA17830C1FAD7F76EA14A6944EA59* __this, void* ___0_ptr, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -21359,7 +21495,7 @@ IL2CPP_EXTERN_C  int32_t ParallelReader_IndexOf_m069700962EBC2F30EB064386B658CAC
 	_returnValue = ParallelReader_IndexOf_m069700962EBC2F30EB064386B658CACE254491FD(_thisAdjusted, ___0_ptr, method);
 	return _returnValue;
 }
-// Method Definition Index: 91088
+// Method Definition Index: 91091
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ParallelReader_Contains_m323707C059A434BAE8C5587E1BA547439382C011_gshared (ParallelReader_tC149FBEDF61DA17830C1FAD7F76EA14A6944EA59* __this, void* ___0_ptr, const RuntimeMethod* method) 
 {
 	{
@@ -21387,7 +21523,7 @@ IL2CPP_EXTERN_C  bool ParallelReader_Contains_m323707C059A434BAE8C5587E1BA547439
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m9AE9D46A23A3FFEB6BB8B0A8412AD9353C956BEE_gshared (ParallelReader_t77220DA1BE8E7F27F65FCA0A3C37CDB7E32F93E0* __this, Sample_t3BE5915021631BD79173E66EC224867714256407* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21416,7 +21552,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m9AE9D46A23A3FFEB6BB8B0A8412AD9353C95
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91086
+// Method Definition Index: 91089
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mBC11B41164DD2F5AE921E692D9CB35F31D4B5B2B_gshared (ParallelReader_t4C6C5FD645DA1FADB20F0672644083D80B7B0497* __this, Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42** ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21437,7 +21573,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mBC11B41164DD2F5AE921E692D9CB35F31D4B
 	_thisAdjusted = reinterpret_cast<ParallelReader_t4C6C5FD645DA1FADB20F0672644083D80B7B0497*>(__this + _offset);
 	ParallelReader__ctor_mBC11B41164DD2F5AE921E692D9CB35F31D4B5B2B(_thisAdjusted, ___0_ptr, ___1_length, method);
 }
-// Method Definition Index: 91087
+// Method Definition Index: 91090
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ParallelReader_IndexOf_m9D36F29B3CE7DEAB2663C3C6CF964969141C78F8_gshared (ParallelReader_t4C6C5FD645DA1FADB20F0672644083D80B7B0497* __this, void* ___0_ptr, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -21497,7 +21633,7 @@ IL2CPP_EXTERN_C  int32_t ParallelReader_IndexOf_m9D36F29B3CE7DEAB2663C3C6CF96496
 	_returnValue = ParallelReader_IndexOf_m9D36F29B3CE7DEAB2663C3C6CF964969141C78F8(_thisAdjusted, ___0_ptr, method);
 	return _returnValue;
 }
-// Method Definition Index: 91088
+// Method Definition Index: 91091
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ParallelReader_Contains_mFD84E8CDB3EE09A71CBA728182C91C92A0BA969B_gshared (ParallelReader_t4C6C5FD645DA1FADB20F0672644083D80B7B0497* __this, void* ___0_ptr, const RuntimeMethod* method) 
 {
 	{
@@ -21525,7 +21661,7 @@ IL2CPP_EXTERN_C  bool ParallelReader_Contains_mFD84E8CDB3EE09A71CBA728182C91C92A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m4D978EFF22BC88D7518AE3783302CD4F4256084E_gshared (ParallelReader_t7705748C170DF2DF747D14E3E5FC4B2B24225E50* __this, Baselib_RegisteredNetwork_Request_t6AF2E70EE04D8C3608FB27091CDE9B4A25A9A4FE* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21554,7 +21690,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m4D978EFF22BC88D7518AE3783302CD4F4256
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mA473139FBAFB5626D818C18F47220A52910B15DD_gshared (ParallelReader_tA989ED97B7F60DD07DEE0F377B33B88FE59E12D7* __this, Block_tBD2149E220F819A66A4A0A18F237932ACD9011DE* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21583,7 +21719,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mA473139FBAFB5626D818C18F47220A52910B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m2F84D07180402A8CBA8B16A22C88BAA7B3ADDE3D_gshared (ParallelReader_t282D03F721C8D650DC0CB20830F3B1484E4811BC* __this, TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21612,7 +21748,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m2F84D07180402A8CBA8B16A22C88BAA7B3AD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m95929ECFB157AB8A970714BC4ADC1DC9216E7F3F_gshared (ParallelReader_tCA619639DFB12142035D2E3F14092EC9E4106721* __this, PlanePacket4_t2954005DBF78AC180CF45B652536CC2F5158D54B* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21641,7 +21777,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m95929ECFB157AB8A970714BC4ADC1DC9216E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m9361164408B8375EC72FF345454A0E5B249A26B3_gshared (ParallelReader_tE3A2D504CF97D95BCE59D2424DA75CBCBBFDC75B* __this, SplitInfo_t708E0734C9BC407BA5882105A9721756605C913A* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21670,7 +21806,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m9361164408B8375EC72FF345454A0E5B249A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mA3BF610A9E3805E92308A0330060BA8E9B638CFD_gshared (ParallelReader_tA8EA377A2C4DEEEE5A38EEA2B69026F54598680D* __this, GeoPoolEntrySlot_tE1B7B103A90E4C3379CED82C8D6DA55189422977* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21699,7 +21835,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mA3BF610A9E3805E92308A0330060BA8E9B63
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m7CBB77EF3516BB2B1E63132327EDE88C2AA06DCF_gshared (ParallelReader_t06DE9492BF0D48677E5DCF6ED5C3462EBD35838F* __this, IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21728,7 +21864,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m7CBB77EF3516BB2B1E63132327EDE88C2AA0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_mBB5BC1FB631880034498561040721226D9B483ED_gshared (ParallelReader_t1A4E9813C1496FCFE7A8455E4A2A5226988733DE* __this, Info_tA3039772991DEEDBC29A00439A055C5166133A27* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21757,7 +21893,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_mBB5BC1FB631880034498561040721226D9B4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m28EDE450B47F87FF95C3B5F7F360DDBF9EB3937C_gshared (ParallelReader_t613DBA6F12765B556DC0C7C44E4BE7FF1977A89A* __this, Info_tDBEB127ABB26184014A541C0CAD1FC8D1B95DE84* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21786,7 +21922,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m28EDE450B47F87FF95C3B5F7F360DDBF9EB3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m15AA59C6BF096FB63C6D087995C144FD69B8768D_gshared (ParallelReader_t3B0BD928152939A3F38D2430ECE8EC8486181C32* __this, ReceiveQueueItem_tC07D121A91E2DA50FCBD08D1720CE0B4BA0F93BE* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21815,7 +21951,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m15AA59C6BF096FB63C6D087995C144FD69B8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m6633B8A78883AA9E04BEF9411D84B8C294104EA9_gshared (ParallelReader_t4FE5B3FFE68F86A4E357E4D17D8AEB61A83AC319* __this, SendQueueItem_t028997B9499F98F8FBFDDCA6245A3CCE69A37CB7* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21844,7 +21980,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m6633B8A78883AA9E04BEF9411D84B8C29410
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m75B24D5B4E149AFC1D4FC967CE4DEFEB95AADE33_gshared (ParallelReader_t1EA5D3D179E67BE148CC2AF971505D1B5941D8A2* __this, PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21873,7 +22009,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m75B24D5B4E149AFC1D4FC967CE4DEFEB95AA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m2EA7ACCA94574BB46E7605F591CD57B1A5780FB0_gshared (ParallelReader_tA72E26C0DB866107E8CA27E179FBE6960C58D215* __this, OccluderContextSlot_t963DBFFF1612E4108D0BEB42369F78758BE71D5D* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21902,7 +22038,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m2EA7ACCA94574BB46E7605F591CD57B1A578
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m440051E91F7A9F6D3F4E4340EE276104C741533D_gshared (ParallelReader_tF39764E46BDB1046FD337B40B5FEF8B2692A8A6E* __this, SplitInfo_tBD1436BC99CBBC9658FA9219EB22657F757C4A1A* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21931,7 +22067,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m440051E91F7A9F6D3F4E4340EE276104C741
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m14280C4F5E35D5731E36C63CF28BC5EB0502C026_gshared (ParallelReader_t26538333ED30353693AB8B666EE42D8F946AE5E6* __this, Slot_tA2F29CF08EAE46C3E2B6D96DCD7C96BF887A6127* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21960,7 +22096,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m14280C4F5E35D5731E36C63CF28BC5EB0502
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m7ABEA04FBFF6A912CAE3ADA423A8ABD2C9AD4D20_gshared (ParallelReader_t3479B3844DD97B9F916874972BDE3551C4737E8B* __this, PendingPacket_t479815078D1E4D1B5441E44C39E685232AB4EE94* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -21989,7 +22125,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m7ABEA04FBFF6A912CAE3ADA423A8ABD2C9AD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m2D297FD89B39D24B9F423CA3B36816F3AC013075_gshared (ParallelReader_t3AE1013D5E7F50ED4BD62B6E7A0EB270335421A6* __this, PendingSend_tC3CE84554C44A80712A3DA2E69BD887F0300440E* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -22018,7 +22154,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m2D297FD89B39D24B9F423CA3B36816F3AC01
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91022
+// Method Definition Index: 91025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelReader__ctor_m9D39FEBA8D5599378C95BC08CFB6AF2F301B7AC4_gshared (ParallelReader_t57A6AA15CA14D0F645E404BED574494457028A4E* __this, SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	{
@@ -22047,7 +22183,7 @@ IL2CPP_EXTERN_C  void ParallelReader__ctor_m9D39FEBA8D5599378C95BC08CFB6AF2F301B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m1389C4567A173D46923C5822A229CA0FF289DD2F_gshared (ParallelWriter_t6A3860ABC7DFF20CEC910759BA16B4BC9FE7EC7D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22067,7 +22203,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m1389C4567A173D46923C5822A229CA0FF
 	_returnValue = ParallelWriter_get_Ptr_m1389C4567A173D46923C5822A229CA0FF289DD2F_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mD4D36793CA434783BF1E2E993429A247A4158DE3_gshared (ParallelWriter_t6A3860ABC7DFF20CEC910759BA16B4BC9FE7EC7D* __this, UnsafeList_1_t0313C91767243B09270C0E715AC268C2A94F1528* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -22085,7 +22221,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mD4D36793CA434783BF1E2E993429A247A415
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t6A3860ABC7DFF20CEC910759BA16B4BC9FE7EC7D*>(__this + _offset);
 	ParallelWriter__ctor_mD4D36793CA434783BF1E2E993429A247A4158DE3_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m53B9DEB4A2168FD7443442A81F869A66723910D6_gshared (ParallelWriter_t6A3860ABC7DFF20CEC910759BA16B4BC9FE7EC7D* __this, ConnectionSlot_t89618F8D46BDC8F0A492202E68A183958F2FC4FF ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -22115,7 +22251,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m53B9DEB4A2168FD7443442A81F869A
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t6A3860ABC7DFF20CEC910759BA16B4BC9FE7EC7D*>(__this + _offset);
 	ParallelWriter_AddNoResize_m53B9DEB4A2168FD7443442A81F869A66723910D6(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m1379D36C751BBA5A96A90C6A1D28C8846EB76E01_gshared (ParallelWriter_t6A3860ABC7DFF20CEC910759BA16B4BC9FE7EC7D* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -22158,7 +22294,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m1379D36C751BBA5A96A90C6A1
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t6A3860ABC7DFF20CEC910759BA16B4BC9FE7EC7D*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m1379D36C751BBA5A96A90C6A1D28C8846EB76E01(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mCA0FC4D833D8F3A85BDDD2CC9DA34895177D9651_gshared (ParallelWriter_t6A3860ABC7DFF20CEC910759BA16B4BC9FE7EC7D* __this, UnsafeList_1_t0313C91767243B09270C0E715AC268C2A94F1528 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -22179,7 +22315,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mCA0FC4D833D8F3A85BDDD2CC9
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t6A3860ABC7DFF20CEC910759BA16B4BC9FE7EC7D*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mCA0FC4D833D8F3A85BDDD2CC9DA34895177D9651(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m38E11575C9305EABA27063B9A9DF563C3DB11D7B_gshared (ParallelWriter_t6A3860ABC7DFF20CEC910759BA16B4BC9FE7EC7D* __this, NativeList_1_t6102BE14D292347941572AA084B91092F98C1269 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -22207,7 +22343,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m38E11575C9305EABA27063B9A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mD7DBD8BC5350B79D3624CF07B6FFA57DF6A4AAA7_gshared (ParallelWriter_t40C3E905DC52A06AE599B3332FF572B505B0B7CE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22227,7 +22363,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mD7DBD8BC5350B79D3624CF07B6FFA57DF
 	_returnValue = ParallelWriter_get_Ptr_mD7DBD8BC5350B79D3624CF07B6FFA57DF6A4AAA7_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m7CEB74558EA5F2A60E0BE1C683825C2AD01AB2AE_gshared (ParallelWriter_t40C3E905DC52A06AE599B3332FF572B505B0B7CE* __this, UnsafeList_1_t0313C91767243B09270C0E715AC268C2A94F1528* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -22245,7 +22381,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m7CEB74558EA5F2A60E0BE1C683825C2AD01A
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t40C3E905DC52A06AE599B3332FF572B505B0B7CE*>(__this + _offset);
 	ParallelWriter__ctor_m7CEB74558EA5F2A60E0BE1C683825C2AD01AB2AE_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mFFEFF49C2563B5B3F18AFEE84F90B113701974B2_gshared (ParallelWriter_t40C3E905DC52A06AE599B3332FF572B505B0B7CE* __this, ConnectionSlot_t89618F8D46BDC8F0A492202E68A183958F2FC4FF ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -22275,7 +22411,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mFFEFF49C2563B5B3F18AFEE84F90B1
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t40C3E905DC52A06AE599B3332FF572B505B0B7CE*>(__this + _offset);
 	ParallelWriter_AddNoResize_mFFEFF49C2563B5B3F18AFEE84F90B113701974B2(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mA54025B8F49576968BE03D7EDDBD818CFE2BCC66_gshared (ParallelWriter_t40C3E905DC52A06AE599B3332FF572B505B0B7CE* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -22314,7 +22450,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mA54025B8F49576968BE03D7ED
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t40C3E905DC52A06AE599B3332FF572B505B0B7CE*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mA54025B8F49576968BE03D7EDDBD818CFE2BCC66(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m8ADEC7FC06B97DF23AAB50F728513753EAD42A54_gshared (ParallelWriter_t40C3E905DC52A06AE599B3332FF572B505B0B7CE* __this, UnsafeList_1_t0313C91767243B09270C0E715AC268C2A94F1528 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -22343,7 +22479,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m8ADEC7FC06B97DF23AAB50F72
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mB6193D21221B5D7283BA926A73CBE8531074626C_gshared (ParallelWriter_tB1A1EF8CBD0D5CDF9295F06758B8C3EF9E1E73AC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22363,7 +22499,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mB6193D21221B5D7283BA926A73CBE8531
 	_returnValue = ParallelWriter_get_Ptr_mB6193D21221B5D7283BA926A73CBE8531074626C_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m5DDC868B10C0692784235AC58228B2A6AD3E67FD_gshared (ParallelWriter_tB1A1EF8CBD0D5CDF9295F06758B8C3EF9E1E73AC* __this, UnsafeList_1_t55586768F03058580560E9EBABE9F23F7E00EAE1* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -22381,7 +22517,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m5DDC868B10C0692784235AC58228B2A6AD3E
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB1A1EF8CBD0D5CDF9295F06758B8C3EF9E1E73AC*>(__this + _offset);
 	ParallelWriter__ctor_m5DDC868B10C0692784235AC58228B2A6AD3E67FD_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m5297EF9ABAACE11A9E9333E4D3D3BEF918D84E82_gshared (ParallelWriter_tB1A1EF8CBD0D5CDF9295F06758B8C3EF9E1E73AC* __this, ConnectionSlot_tDBA110D3F752E674C011C313AD05A5DC8E988311 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -22411,7 +22547,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m5297EF9ABAACE11A9E9333E4D3D3BE
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB1A1EF8CBD0D5CDF9295F06758B8C3EF9E1E73AC*>(__this + _offset);
 	ParallelWriter_AddNoResize_m5297EF9ABAACE11A9E9333E4D3D3BEF918D84E82(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m6850C8FA8B05C8D534194E48EA5720A5F55F64C0_gshared (ParallelWriter_tB1A1EF8CBD0D5CDF9295F06758B8C3EF9E1E73AC* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -22454,7 +22590,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m6850C8FA8B05C8D534194E48E
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB1A1EF8CBD0D5CDF9295F06758B8C3EF9E1E73AC*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m6850C8FA8B05C8D534194E48EA5720A5F55F64C0(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mD7093DA1E042C5EF571482830FD1E2BCFFD6E3CD_gshared (ParallelWriter_tB1A1EF8CBD0D5CDF9295F06758B8C3EF9E1E73AC* __this, UnsafeList_1_t55586768F03058580560E9EBABE9F23F7E00EAE1 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -22475,7 +22611,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mD7093DA1E042C5EF571482830
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB1A1EF8CBD0D5CDF9295F06758B8C3EF9E1E73AC*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mD7093DA1E042C5EF571482830FD1E2BCFFD6E3CD(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mEE37B1581238FD36706F79CC8617AEAAEF8131C1_gshared (ParallelWriter_tB1A1EF8CBD0D5CDF9295F06758B8C3EF9E1E73AC* __this, NativeList_1_t1CECB23597230DCF90F894B895C58893E526CF8B ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -22503,7 +22639,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mEE37B1581238FD36706F79CC8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mACB2E6ADBB16B14DA91B6CAF466326E25A77D3CC_gshared (ParallelWriter_t8C72DC37CDAB9A4CDADDC1756A2743F044A91109* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22523,7 +22659,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mACB2E6ADBB16B14DA91B6CAF466326E25
 	_returnValue = ParallelWriter_get_Ptr_mACB2E6ADBB16B14DA91B6CAF466326E25A77D3CC_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mE64AC5EC7D626C4D921DF868C1C447C411328114_gshared (ParallelWriter_t8C72DC37CDAB9A4CDADDC1756A2743F044A91109* __this, UnsafeList_1_t55586768F03058580560E9EBABE9F23F7E00EAE1* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -22541,7 +22677,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mE64AC5EC7D626C4D921DF868C1C447C41132
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t8C72DC37CDAB9A4CDADDC1756A2743F044A91109*>(__this + _offset);
 	ParallelWriter__ctor_mE64AC5EC7D626C4D921DF868C1C447C411328114_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m660E17D58055992C55CF9AF76FEF9B5DFC507270_gshared (ParallelWriter_t8C72DC37CDAB9A4CDADDC1756A2743F044A91109* __this, ConnectionSlot_tDBA110D3F752E674C011C313AD05A5DC8E988311 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -22571,7 +22707,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m660E17D58055992C55CF9AF76FEF9B
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t8C72DC37CDAB9A4CDADDC1756A2743F044A91109*>(__this + _offset);
 	ParallelWriter_AddNoResize_m660E17D58055992C55CF9AF76FEF9B5DFC507270(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mC99E9A1925E1DA6319E4E501A8A2BC4F235654FA_gshared (ParallelWriter_t8C72DC37CDAB9A4CDADDC1756A2743F044A91109* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -22610,7 +22746,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mC99E9A1925E1DA6319E4E501A
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t8C72DC37CDAB9A4CDADDC1756A2743F044A91109*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mC99E9A1925E1DA6319E4E501A8A2BC4F235654FA(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m8FE2A01F5EF2BA79EA5C2F877BF08FFC0F1B2311_gshared (ParallelWriter_t8C72DC37CDAB9A4CDADDC1756A2743F044A91109* __this, UnsafeList_1_t55586768F03058580560E9EBABE9F23F7E00EAE1 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -22639,7 +22775,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m8FE2A01F5EF2BA79EA5C2F877
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mA2001B495667D2A7B05C6CE765443A11F1478065_gshared (ParallelWriter_t4940FCF2E0230650079847A91D894B4502B801CE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22659,7 +22795,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mA2001B495667D2A7B05C6CE765443A11F
 	_returnValue = ParallelWriter_get_Ptr_mA2001B495667D2A7B05C6CE765443A11F1478065_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mCC0FDF7E0A2F41A2EDFD1214D02A5B4EF3B89A12_gshared (ParallelWriter_t4940FCF2E0230650079847A91D894B4502B801CE* __this, UnsafeList_1_t5DC8894378B4A7A10F15CE216A21E6ADC6365266* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -22677,7 +22813,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mCC0FDF7E0A2F41A2EDFD1214D02A5B4EF3B8
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t4940FCF2E0230650079847A91D894B4502B801CE*>(__this + _offset);
 	ParallelWriter__ctor_mCC0FDF7E0A2F41A2EDFD1214D02A5B4EF3B89A12_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mC2E05686DA725F307CC3E62A604EE2BC89E29C29_gshared (ParallelWriter_t4940FCF2E0230650079847A91D894B4502B801CE* __this, ConnectionSlot_t1BCC06C0F60F07E29531D84899C4892ECAC0A3A9 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -22707,7 +22843,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mC2E05686DA725F307CC3E62A604EE2
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t4940FCF2E0230650079847A91D894B4502B801CE*>(__this + _offset);
 	ParallelWriter_AddNoResize_mC2E05686DA725F307CC3E62A604EE2BC89E29C29(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mB526FEE24D73EC7E5BA2E997E5D7197E37174242_gshared (ParallelWriter_t4940FCF2E0230650079847A91D894B4502B801CE* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -22750,7 +22886,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mB526FEE24D73EC7E5BA2E997E
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t4940FCF2E0230650079847A91D894B4502B801CE*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mB526FEE24D73EC7E5BA2E997E5D7197E37174242(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m3718A09D3019C28C4B4BEC666A25CCE231E6F651_gshared (ParallelWriter_t4940FCF2E0230650079847A91D894B4502B801CE* __this, UnsafeList_1_t5DC8894378B4A7A10F15CE216A21E6ADC6365266 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -22771,7 +22907,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m3718A09D3019C28C4B4BEC666
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t4940FCF2E0230650079847A91D894B4502B801CE*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m3718A09D3019C28C4B4BEC666A25CCE231E6F651(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mA4DA9BC6E792772F6683F94FC76682D78D0D66B9_gshared (ParallelWriter_t4940FCF2E0230650079847A91D894B4502B801CE* __this, NativeList_1_t160A7982780B613FD320D07F49CE0B160490CB6D ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -22799,7 +22935,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mA4DA9BC6E792772F6683F94FC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m26816DDFC83D0EEC2916A4781BC06CAA07BC22B2_gshared (ParallelWriter_t8C2AB97458DC7323E9E6F7B1C0725B573FC1061F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22819,7 +22955,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m26816DDFC83D0EEC2916A4781BC06CAA0
 	_returnValue = ParallelWriter_get_Ptr_m26816DDFC83D0EEC2916A4781BC06CAA07BC22B2_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m46D203CEA0850B41D82558EB96534F5399B1CA80_gshared (ParallelWriter_t8C2AB97458DC7323E9E6F7B1C0725B573FC1061F* __this, UnsafeList_1_t5DC8894378B4A7A10F15CE216A21E6ADC6365266* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -22837,7 +22973,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m46D203CEA0850B41D82558EB96534F5399B1
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t8C2AB97458DC7323E9E6F7B1C0725B573FC1061F*>(__this + _offset);
 	ParallelWriter__ctor_m46D203CEA0850B41D82558EB96534F5399B1CA80_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mC4CCB47696FD6BADBA63201DDBBF8866F9EB7F37_gshared (ParallelWriter_t8C2AB97458DC7323E9E6F7B1C0725B573FC1061F* __this, ConnectionSlot_t1BCC06C0F60F07E29531D84899C4892ECAC0A3A9 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -22867,7 +23003,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mC4CCB47696FD6BADBA63201DDBBF88
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t8C2AB97458DC7323E9E6F7B1C0725B573FC1061F*>(__this + _offset);
 	ParallelWriter_AddNoResize_mC4CCB47696FD6BADBA63201DDBBF8866F9EB7F37(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m88C592A7E5646FA02F06BBCA929862296C067A08_gshared (ParallelWriter_t8C2AB97458DC7323E9E6F7B1C0725B573FC1061F* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -22906,7 +23042,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m88C592A7E5646FA02F06BBCA9
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t8C2AB97458DC7323E9E6F7B1C0725B573FC1061F*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m88C592A7E5646FA02F06BBCA929862296C067A08(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m666553EA067C4787F21EC57958E55FDF6967E15C_gshared (ParallelWriter_t8C2AB97458DC7323E9E6F7B1C0725B573FC1061F* __this, UnsafeList_1_t5DC8894378B4A7A10F15CE216A21E6ADC6365266 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -22935,7 +23071,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m666553EA067C4787F21EC5795
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m6F235FE7D942E63EF1A86224C1DE9A500CE7B738_gshared (ParallelWriter_tB99413A2327C49B6E02D765FDEFEA2DFFE808B86* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22955,7 +23091,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m6F235FE7D942E63EF1A86224C1DE9A500
 	_returnValue = ParallelWriter_get_Ptr_m6F235FE7D942E63EF1A86224C1DE9A500CE7B738_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mB8BB54B7186DEDAA44A314DAE315E7A02020F317_gshared (ParallelWriter_tB99413A2327C49B6E02D765FDEFEA2DFFE808B86* __this, UnsafeList_1_t8E60B67C4831F66A4FAA2AACA176DEDFD8241B14* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -22973,7 +23109,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mB8BB54B7186DEDAA44A314DAE315E7A02020
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB99413A2327C49B6E02D765FDEFEA2DFFE808B86*>(__this + _offset);
 	ParallelWriter__ctor_mB8BB54B7186DEDAA44A314DAE315E7A02020F317_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mAAD6DFAE2232F50C669A736F6034B302A17582FF_gshared (ParallelWriter_tB99413A2327C49B6E02D765FDEFEA2DFFE808B86* __this, ConnectionSlot_tFBC6B3ACE9611FE5642C0B1D89856983337DE8B2 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -23003,7 +23139,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mAAD6DFAE2232F50C669A736F6034B3
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB99413A2327C49B6E02D765FDEFEA2DFFE808B86*>(__this + _offset);
 	ParallelWriter_AddNoResize_mAAD6DFAE2232F50C669A736F6034B302A17582FF(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m730B37EB46FC81DEE9AE27212C8A3558FE80064D_gshared (ParallelWriter_tB99413A2327C49B6E02D765FDEFEA2DFFE808B86* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -23046,7 +23182,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m730B37EB46FC81DEE9AE27212
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB99413A2327C49B6E02D765FDEFEA2DFFE808B86*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m730B37EB46FC81DEE9AE27212C8A3558FE80064D(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mBB4DDB945899299E954A337EF31142E68AD3FCC4_gshared (ParallelWriter_tB99413A2327C49B6E02D765FDEFEA2DFFE808B86* __this, UnsafeList_1_t8E60B67C4831F66A4FAA2AACA176DEDFD8241B14 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -23067,7 +23203,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mBB4DDB945899299E954A337EF
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB99413A2327C49B6E02D765FDEFEA2DFFE808B86*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mBB4DDB945899299E954A337EF31142E68AD3FCC4(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m0BC636A6C7CCD0A4D3762497CF6EF0555104D463_gshared (ParallelWriter_tB99413A2327C49B6E02D765FDEFEA2DFFE808B86* __this, NativeList_1_tA7FB461AC6EB9F8A70023766986F65D88C8D8BF5 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -23095,7 +23231,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m0BC636A6C7CCD0A4D3762497C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mAC2F93C3073C98105995D47F591536B6CA47FBF3_gshared (ParallelWriter_t564176413C9F9FDA4D36629CA8CAAB92CBDE533D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23115,7 +23251,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mAC2F93C3073C98105995D47F591536B6C
 	_returnValue = ParallelWriter_get_Ptr_mAC2F93C3073C98105995D47F591536B6CA47FBF3_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mDD6CE71CB1EF8F39F803A5F7C4B3FF8A8EE52F94_gshared (ParallelWriter_t564176413C9F9FDA4D36629CA8CAAB92CBDE533D* __this, UnsafeList_1_t8E60B67C4831F66A4FAA2AACA176DEDFD8241B14* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -23133,7 +23269,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mDD6CE71CB1EF8F39F803A5F7C4B3FF8A8EE5
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t564176413C9F9FDA4D36629CA8CAAB92CBDE533D*>(__this + _offset);
 	ParallelWriter__ctor_mDD6CE71CB1EF8F39F803A5F7C4B3FF8A8EE52F94_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mC7127E24128EDDF3EAED89C41D03634E865467C2_gshared (ParallelWriter_t564176413C9F9FDA4D36629CA8CAAB92CBDE533D* __this, ConnectionSlot_tFBC6B3ACE9611FE5642C0B1D89856983337DE8B2 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -23163,7 +23299,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mC7127E24128EDDF3EAED89C41D0363
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t564176413C9F9FDA4D36629CA8CAAB92CBDE533D*>(__this + _offset);
 	ParallelWriter_AddNoResize_mC7127E24128EDDF3EAED89C41D03634E865467C2(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mED59916CF6759FE6C1D7B628962E1977062CF63C_gshared (ParallelWriter_t564176413C9F9FDA4D36629CA8CAAB92CBDE533D* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -23202,7 +23338,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mED59916CF6759FE6C1D7B6289
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t564176413C9F9FDA4D36629CA8CAAB92CBDE533D*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mED59916CF6759FE6C1D7B628962E1977062CF63C(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mAE25EF26CE26AC84D74345DC4582ECD9B3FA877B_gshared (ParallelWriter_t564176413C9F9FDA4D36629CA8CAAB92CBDE533D* __this, UnsafeList_1_t8E60B67C4831F66A4FAA2AACA176DEDFD8241B14 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -23231,7 +23367,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mAE25EF26CE26AC84D74345DC4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m5F2AD83D060F76E166B580482F0AC4188E32EB53_gshared (ParallelWriter_t1F37593232A7EEFF8C8772C369704BEE099B6BB8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23251,7 +23387,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m5F2AD83D060F76E166B580482F0AC4188
 	_returnValue = ParallelWriter_get_Ptr_m5F2AD83D060F76E166B580482F0AC4188E32EB53_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m15155BA21617CFED9518A7DDFB11D2CFD4E5732C_gshared (ParallelWriter_t1F37593232A7EEFF8C8772C369704BEE099B6BB8* __this, UnsafeList_1_t920EEA6A1B2E9F33EB313E95EA12E527BEE9B3D9* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -23269,7 +23405,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m15155BA21617CFED9518A7DDFB11D2CFD4E5
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t1F37593232A7EEFF8C8772C369704BEE099B6BB8*>(__this + _offset);
 	ParallelWriter__ctor_m15155BA21617CFED9518A7DDFB11D2CFD4E5732C_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mED33E249F4F1786B815868EF10CCD57FAB1BA263_gshared (ParallelWriter_t1F37593232A7EEFF8C8772C369704BEE099B6BB8* __this, ConnectionSlot_t37FAC4A786F0CC30B58ECE2BD80477617DC98A33 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -23299,7 +23435,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mED33E249F4F1786B815868EF10CCD5
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t1F37593232A7EEFF8C8772C369704BEE099B6BB8*>(__this + _offset);
 	ParallelWriter_AddNoResize_mED33E249F4F1786B815868EF10CCD57FAB1BA263(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m2EE645D0DEC83956160B089917D70827CD319228_gshared (ParallelWriter_t1F37593232A7EEFF8C8772C369704BEE099B6BB8* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -23342,7 +23478,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m2EE645D0DEC83956160B08991
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t1F37593232A7EEFF8C8772C369704BEE099B6BB8*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m2EE645D0DEC83956160B089917D70827CD319228(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m52C4D5383438C7C4E84146C4A993E7295D39E674_gshared (ParallelWriter_t1F37593232A7EEFF8C8772C369704BEE099B6BB8* __this, UnsafeList_1_t920EEA6A1B2E9F33EB313E95EA12E527BEE9B3D9 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -23363,7 +23499,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m52C4D5383438C7C4E84146C4A
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t1F37593232A7EEFF8C8772C369704BEE099B6BB8*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m52C4D5383438C7C4E84146C4A993E7295D39E674(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m9A35D901BA81ADE879E4D007B0ADFD41421A91B0_gshared (ParallelWriter_t1F37593232A7EEFF8C8772C369704BEE099B6BB8* __this, NativeList_1_tB24601352A4B5D832B14F9D1D32E8327F49351FF ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -23391,7 +23527,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m9A35D901BA81ADE879E4D007B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mFF568FFD5D418A74EA880A833EC63EF9B2009FEC_gshared (ParallelWriter_t826A6299B2AB497A59CA817D845C848A27740C05* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23411,7 +23547,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mFF568FFD5D418A74EA880A833EC63EF9B
 	_returnValue = ParallelWriter_get_Ptr_mFF568FFD5D418A74EA880A833EC63EF9B2009FEC_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m054E1656D7B68A0DED16A7BCDA7AC7682DE3B535_gshared (ParallelWriter_t826A6299B2AB497A59CA817D845C848A27740C05* __this, UnsafeList_1_t920EEA6A1B2E9F33EB313E95EA12E527BEE9B3D9* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -23429,7 +23565,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m054E1656D7B68A0DED16A7BCDA7AC7682DE3
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t826A6299B2AB497A59CA817D845C848A27740C05*>(__this + _offset);
 	ParallelWriter__ctor_m054E1656D7B68A0DED16A7BCDA7AC7682DE3B535_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mAB412F5F0DA71A8B5F1A97AFFD4BEE184815371C_gshared (ParallelWriter_t826A6299B2AB497A59CA817D845C848A27740C05* __this, ConnectionSlot_t37FAC4A786F0CC30B58ECE2BD80477617DC98A33 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -23459,7 +23595,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mAB412F5F0DA71A8B5F1A97AFFD4BEE
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t826A6299B2AB497A59CA817D845C848A27740C05*>(__this + _offset);
 	ParallelWriter_AddNoResize_mAB412F5F0DA71A8B5F1A97AFFD4BEE184815371C(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m5668A6F40D1679E0806C6D5B41D4668A8483B125_gshared (ParallelWriter_t826A6299B2AB497A59CA817D845C848A27740C05* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -23498,7 +23634,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m5668A6F40D1679E0806C6D5B4
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t826A6299B2AB497A59CA817D845C848A27740C05*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m5668A6F40D1679E0806C6D5B41D4668A8483B125(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m0EDD2596D9F86D762AAE8F46715FFE831250C494_gshared (ParallelWriter_t826A6299B2AB497A59CA817D845C848A27740C05* __this, UnsafeList_1_t920EEA6A1B2E9F33EB313E95EA12E527BEE9B3D9 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -23527,7 +23663,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m0EDD2596D9F86D762AAE8F467
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m5D77637BF40F4CD85955D7B7C9A1DF34F7AE08FD_gshared (ParallelWriter_tB7CA1317CA3E4A8B2847FB6D9CE9C9C760931172* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23547,7 +23683,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m5D77637BF40F4CD85955D7B7C9A1DF34F
 	_returnValue = ParallelWriter_get_Ptr_m5D77637BF40F4CD85955D7B7C9A1DF34F7AE08FD_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m9B91FFF69CDD6613D964796A6DB0B22A929C2EB8_gshared (ParallelWriter_tB7CA1317CA3E4A8B2847FB6D9CE9C9C760931172* __this, UnsafeList_1_tAA9B4088AD983FB4435266FFDB9BAA6F142EAC19* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -23565,7 +23701,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m9B91FFF69CDD6613D964796A6DB0B22A929C
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB7CA1317CA3E4A8B2847FB6D9CE9C9C760931172*>(__this + _offset);
 	ParallelWriter__ctor_m9B91FFF69CDD6613D964796A6DB0B22A929C2EB8_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m076E7733558C80B33B351EB64A12F2B0EEB0DBD5_gshared (ParallelWriter_tB7CA1317CA3E4A8B2847FB6D9CE9C9C760931172* __this, ConnectionSlot_t424336CC957E4448CD318AF4AFB3360AD64144E3 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -23595,7 +23731,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m076E7733558C80B33B351EB64A12F2
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB7CA1317CA3E4A8B2847FB6D9CE9C9C760931172*>(__this + _offset);
 	ParallelWriter_AddNoResize_m076E7733558C80B33B351EB64A12F2B0EEB0DBD5(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m9AE11E05A277E6638D650D549A3D3EFDA55F6102_gshared (ParallelWriter_tB7CA1317CA3E4A8B2847FB6D9CE9C9C760931172* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -23638,7 +23774,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m9AE11E05A277E6638D650D549
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB7CA1317CA3E4A8B2847FB6D9CE9C9C760931172*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m9AE11E05A277E6638D650D549A3D3EFDA55F6102(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m9FFCE9F82E09B503CD4BB017EDC02EE9C349864A_gshared (ParallelWriter_tB7CA1317CA3E4A8B2847FB6D9CE9C9C760931172* __this, UnsafeList_1_tAA9B4088AD983FB4435266FFDB9BAA6F142EAC19 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -23659,7 +23795,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m9FFCE9F82E09B503CD4BB017E
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB7CA1317CA3E4A8B2847FB6D9CE9C9C760931172*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m9FFCE9F82E09B503CD4BB017EDC02EE9C349864A(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m99076D4EEED9F72E8D0AE175AFA9F292AD4B665F_gshared (ParallelWriter_tB7CA1317CA3E4A8B2847FB6D9CE9C9C760931172* __this, NativeList_1_tB3371DA22B61107D96D81A13730DD97882452B78 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -23687,7 +23823,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m99076D4EEED9F72E8D0AE175A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m060F4D94CE468EED707F74CFB2099EA7CDCF07FC_gshared (ParallelWriter_t7CFE8347E7E9771D1FC7DE84DABB93E976A71E7B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23707,7 +23843,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m060F4D94CE468EED707F74CFB2099EA7C
 	_returnValue = ParallelWriter_get_Ptr_m060F4D94CE468EED707F74CFB2099EA7CDCF07FC_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m6DC8475070EF139C07541DA8970B3B2991074F2A_gshared (ParallelWriter_t7CFE8347E7E9771D1FC7DE84DABB93E976A71E7B* __this, UnsafeList_1_tAA9B4088AD983FB4435266FFDB9BAA6F142EAC19* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -23725,7 +23861,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m6DC8475070EF139C07541DA8970B3B299107
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t7CFE8347E7E9771D1FC7DE84DABB93E976A71E7B*>(__this + _offset);
 	ParallelWriter__ctor_m6DC8475070EF139C07541DA8970B3B2991074F2A_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mB8E3C43CFE817B31F4B8A606DF225C5FCCB47902_gshared (ParallelWriter_t7CFE8347E7E9771D1FC7DE84DABB93E976A71E7B* __this, ConnectionSlot_t424336CC957E4448CD318AF4AFB3360AD64144E3 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -23755,7 +23891,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mB8E3C43CFE817B31F4B8A606DF225C
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t7CFE8347E7E9771D1FC7DE84DABB93E976A71E7B*>(__this + _offset);
 	ParallelWriter_AddNoResize_mB8E3C43CFE817B31F4B8A606DF225C5FCCB47902(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m80AFA714DCA3CD93E689CFAA73B9DF4A17325476_gshared (ParallelWriter_t7CFE8347E7E9771D1FC7DE84DABB93E976A71E7B* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -23794,7 +23930,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m80AFA714DCA3CD93E689CFAA7
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t7CFE8347E7E9771D1FC7DE84DABB93E976A71E7B*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m80AFA714DCA3CD93E689CFAA73B9DF4A17325476(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mFAB38B3C9E175C772DE36702DDE7507B1601B22E_gshared (ParallelWriter_t7CFE8347E7E9771D1FC7DE84DABB93E976A71E7B* __this, UnsafeList_1_tAA9B4088AD983FB4435266FFDB9BAA6F142EAC19 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -23823,7 +23959,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mFAB38B3C9E175C772DE36702D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mB1C8B55EB09A4A25413169929C49D2C3E9D62E03_gshared (ParallelWriter_t9FE3CDD3FDB7217E3591DE43BB643051F533897F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23843,7 +23979,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mB1C8B55EB09A4A25413169929C49D2C3E
 	_returnValue = ParallelWriter_get_Ptr_mB1C8B55EB09A4A25413169929C49D2C3E9D62E03_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m64EF65D8B19429CA7B17285159556998CC55C7D0_gshared (ParallelWriter_t9FE3CDD3FDB7217E3591DE43BB643051F533897F* __this, UnsafeList_1_tF062DD1BCBB62BEC18F3CA54F2BFA91EE544F763* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -23861,7 +23997,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m64EF65D8B19429CA7B17285159556998CC55
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t9FE3CDD3FDB7217E3591DE43BB643051F533897F*>(__this + _offset);
 	ParallelWriter__ctor_m64EF65D8B19429CA7B17285159556998CC55C7D0_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mB66353A42767B59D6CB559F37DAA6B917C3CABDE_gshared (ParallelWriter_t9FE3CDD3FDB7217E3591DE43BB643051F533897F* __this, ConnectionSlot_tC0124B98FB257C2891FA55F734034FCCFE3377F4 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -23891,7 +24027,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mB66353A42767B59D6CB559F37DAA6B
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t9FE3CDD3FDB7217E3591DE43BB643051F533897F*>(__this + _offset);
 	ParallelWriter_AddNoResize_mB66353A42767B59D6CB559F37DAA6B917C3CABDE(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mB10DC75BCF047F2FA53C208B23D32E55555E6DF0_gshared (ParallelWriter_t9FE3CDD3FDB7217E3591DE43BB643051F533897F* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -23934,7 +24070,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mB10DC75BCF047F2FA53C208B2
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t9FE3CDD3FDB7217E3591DE43BB643051F533897F*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mB10DC75BCF047F2FA53C208B23D32E55555E6DF0(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m29DEAD96B6A17F1D07CB89EF2FF8D8E0007FB4EF_gshared (ParallelWriter_t9FE3CDD3FDB7217E3591DE43BB643051F533897F* __this, UnsafeList_1_tF062DD1BCBB62BEC18F3CA54F2BFA91EE544F763 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -23955,7 +24091,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m29DEAD96B6A17F1D07CB89EF2
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t9FE3CDD3FDB7217E3591DE43BB643051F533897F*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m29DEAD96B6A17F1D07CB89EF2FF8D8E0007FB4EF(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m9D81A4A6DC368A954370CACB797CEEBBE8BD056D_gshared (ParallelWriter_t9FE3CDD3FDB7217E3591DE43BB643051F533897F* __this, NativeList_1_tE7B764103B42BD31401D3048EE4817CE46519249 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -23983,7 +24119,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m9D81A4A6DC368A954370CACB7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m60F89C72784D372C4CB3EABDB67608D4C79E8D03_gshared (ParallelWriter_t3F88CB09A9256D6519A4397C5C80B2D5D7D739CE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24003,7 +24139,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m60F89C72784D372C4CB3EABDB67608D4C
 	_returnValue = ParallelWriter_get_Ptr_m60F89C72784D372C4CB3EABDB67608D4C79E8D03_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m0CDADBF7BBF936402D6FBFE56D5120CD7820BAF2_gshared (ParallelWriter_t3F88CB09A9256D6519A4397C5C80B2D5D7D739CE* __this, UnsafeList_1_tF062DD1BCBB62BEC18F3CA54F2BFA91EE544F763* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -24021,7 +24157,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m0CDADBF7BBF936402D6FBFE56D5120CD7820
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t3F88CB09A9256D6519A4397C5C80B2D5D7D739CE*>(__this + _offset);
 	ParallelWriter__ctor_m0CDADBF7BBF936402D6FBFE56D5120CD7820BAF2_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mC97D3FB630DA62A64788DEC12E3846A06BF4317F_gshared (ParallelWriter_t3F88CB09A9256D6519A4397C5C80B2D5D7D739CE* __this, ConnectionSlot_tC0124B98FB257C2891FA55F734034FCCFE3377F4 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24051,7 +24187,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mC97D3FB630DA62A64788DEC12E3846
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t3F88CB09A9256D6519A4397C5C80B2D5D7D739CE*>(__this + _offset);
 	ParallelWriter_AddNoResize_mC97D3FB630DA62A64788DEC12E3846A06BF4317F(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mF4D416293AC9D297076CE9B0D6C4DDEECBCC18AF_gshared (ParallelWriter_t3F88CB09A9256D6519A4397C5C80B2D5D7D739CE* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24090,7 +24226,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mF4D416293AC9D297076CE9B0D
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t3F88CB09A9256D6519A4397C5C80B2D5D7D739CE*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mF4D416293AC9D297076CE9B0D6C4DDEECBCC18AF(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mEC1110E4F931F54E811DEBF358116A0CD4CC837A_gshared (ParallelWriter_t3F88CB09A9256D6519A4397C5C80B2D5D7D739CE* __this, UnsafeList_1_tF062DD1BCBB62BEC18F3CA54F2BFA91EE544F763 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -24119,7 +24255,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mEC1110E4F931F54E811DEBF35
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m3D074BD7EC7765292086D1650AC89C3A784880E1_gshared (ParallelWriter_tD877294300B9D5C8223310D239CCF51132ED6EAE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24139,7 +24275,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m3D074BD7EC7765292086D1650AC89C3A7
 	_returnValue = ParallelWriter_get_Ptr_m3D074BD7EC7765292086D1650AC89C3A784880E1_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mE15EF530C6BFF53F50E460C14D6A2C9328B524BF_gshared (ParallelWriter_tD877294300B9D5C8223310D239CCF51132ED6EAE* __this, UnsafeList_1_t434504A1800B1FDBD803A3FF34A3A18F4490E1FE* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -24157,7 +24293,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mE15EF530C6BFF53F50E460C14D6A2C9328B5
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tD877294300B9D5C8223310D239CCF51132ED6EAE*>(__this + _offset);
 	ParallelWriter__ctor_mE15EF530C6BFF53F50E460C14D6A2C9328B524BF_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m87086D7AB3A48600D44767A7C97ED47AD36F3139_gshared (ParallelWriter_tD877294300B9D5C8223310D239CCF51132ED6EAE* __this, ConnectionSlot_tB4CAAD06D82027332DB93AF6BC08243A57FE4AF2 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24187,7 +24323,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m87086D7AB3A48600D44767A7C97ED4
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tD877294300B9D5C8223310D239CCF51132ED6EAE*>(__this + _offset);
 	ParallelWriter_AddNoResize_m87086D7AB3A48600D44767A7C97ED47AD36F3139(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m10F35B2CF9051C68039ED060854F6FAAD54C2500_gshared (ParallelWriter_tD877294300B9D5C8223310D239CCF51132ED6EAE* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24230,7 +24366,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m10F35B2CF9051C68039ED0608
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tD877294300B9D5C8223310D239CCF51132ED6EAE*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m10F35B2CF9051C68039ED060854F6FAAD54C2500(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mC40F239937AEFEA73C8F48D80D2B855135B3F52F_gshared (ParallelWriter_tD877294300B9D5C8223310D239CCF51132ED6EAE* __this, UnsafeList_1_t434504A1800B1FDBD803A3FF34A3A18F4490E1FE ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -24251,7 +24387,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mC40F239937AEFEA73C8F48D80
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tD877294300B9D5C8223310D239CCF51132ED6EAE*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mC40F239937AEFEA73C8F48D80D2B855135B3F52F(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m547C21AE2236B81DA96BE1C471323296785579FC_gshared (ParallelWriter_tD877294300B9D5C8223310D239CCF51132ED6EAE* __this, NativeList_1_t2A27443734F8D5984057B2A9185C1E6D10358708 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -24279,7 +24415,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m547C21AE2236B81DA96BE1C47
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mB65C789BA96EB119CA843752E9E7F0189D177EAD_gshared (ParallelWriter_t70EB7A918DBACD735A2A1C66E02DF6182C89CED1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24299,7 +24435,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mB65C789BA96EB119CA843752E9E7F0189
 	_returnValue = ParallelWriter_get_Ptr_mB65C789BA96EB119CA843752E9E7F0189D177EAD_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m561AE0344692882BA736ADAB5B4D49AED043294D_gshared (ParallelWriter_t70EB7A918DBACD735A2A1C66E02DF6182C89CED1* __this, UnsafeList_1_t434504A1800B1FDBD803A3FF34A3A18F4490E1FE* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -24317,7 +24453,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m561AE0344692882BA736ADAB5B4D49AED043
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t70EB7A918DBACD735A2A1C66E02DF6182C89CED1*>(__this + _offset);
 	ParallelWriter__ctor_m561AE0344692882BA736ADAB5B4D49AED043294D_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m293DE5C7D34C09D4CF6FFF030FC652555051DEC3_gshared (ParallelWriter_t70EB7A918DBACD735A2A1C66E02DF6182C89CED1* __this, ConnectionSlot_tB4CAAD06D82027332DB93AF6BC08243A57FE4AF2 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24347,7 +24483,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m293DE5C7D34C09D4CF6FFF030FC652
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t70EB7A918DBACD735A2A1C66E02DF6182C89CED1*>(__this + _offset);
 	ParallelWriter_AddNoResize_m293DE5C7D34C09D4CF6FFF030FC652555051DEC3(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mB168E42F889FD8D07D54DE510666AC46CB55C4A2_gshared (ParallelWriter_t70EB7A918DBACD735A2A1C66E02DF6182C89CED1* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24386,7 +24522,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mB168E42F889FD8D07D54DE510
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t70EB7A918DBACD735A2A1C66E02DF6182C89CED1*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mB168E42F889FD8D07D54DE510666AC46CB55C4A2(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mFE351B3A3D70A6AA18FA450D556A1EB4F0D62DD2_gshared (ParallelWriter_t70EB7A918DBACD735A2A1C66E02DF6182C89CED1* __this, UnsafeList_1_t434504A1800B1FDBD803A3FF34A3A18F4490E1FE ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -24415,7 +24551,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mFE351B3A3D70A6AA18FA450D5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m988F88488013ACB652A5C1B08D95FFA136501600_gshared (ParallelWriter_t545B0D9A70763EE0F74F6158A440A7D651FBCDE8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24435,7 +24571,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m988F88488013ACB652A5C1B08D95FFA13
 	_returnValue = ParallelWriter_get_Ptr_m988F88488013ACB652A5C1B08D95FFA136501600_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m903C12AD86651C31574960DA1537F210EA2BCC68_gshared (ParallelWriter_t545B0D9A70763EE0F74F6158A440A7D651FBCDE8* __this, UnsafeList_1_t1285B03D332D32C2E94E3215FFD520400D6C7FA4* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -24453,7 +24589,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m903C12AD86651C31574960DA1537F210EA2B
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t545B0D9A70763EE0F74F6158A440A7D651FBCDE8*>(__this + _offset);
 	ParallelWriter__ctor_m903C12AD86651C31574960DA1537F210EA2BCC68_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m7261CCD5E9F1CEB61AADBCA2240005829F06A121_gshared (ParallelWriter_t545B0D9A70763EE0F74F6158A440A7D651FBCDE8* __this, ConnectionSlot_tB6A19CABA0CD55690A8B03EDF6411698184952AB ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24483,7 +24619,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m7261CCD5E9F1CEB61AADBCA2240005
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t545B0D9A70763EE0F74F6158A440A7D651FBCDE8*>(__this + _offset);
 	ParallelWriter_AddNoResize_m7261CCD5E9F1CEB61AADBCA2240005829F06A121(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mE55AC9A8989B5027F436424CE1915ABA46233DC6_gshared (ParallelWriter_t545B0D9A70763EE0F74F6158A440A7D651FBCDE8* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24526,7 +24662,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mE55AC9A8989B5027F436424CE
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t545B0D9A70763EE0F74F6158A440A7D651FBCDE8*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mE55AC9A8989B5027F436424CE1915ABA46233DC6(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m94ACE0C713A99CDFAD781323E36C5AE51F7E0CDA_gshared (ParallelWriter_t545B0D9A70763EE0F74F6158A440A7D651FBCDE8* __this, UnsafeList_1_t1285B03D332D32C2E94E3215FFD520400D6C7FA4 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -24547,7 +24683,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m94ACE0C713A99CDFAD781323E
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t545B0D9A70763EE0F74F6158A440A7D651FBCDE8*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m94ACE0C713A99CDFAD781323E36C5AE51F7E0CDA(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m39417B552A2C202BF22A87F204BE657522DAAEE2_gshared (ParallelWriter_t545B0D9A70763EE0F74F6158A440A7D651FBCDE8* __this, NativeList_1_t6425109D46A7A86E1C15E98595D1DCC7E45A0927 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -24575,7 +24711,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m39417B552A2C202BF22A87F20
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mDE571CF9FFA07B340E111EBA6E78CC03C1F90556_gshared (ParallelWriter_tE7E98ACD97CFE0433F5990FE7DEEA98F8F0CDE6A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24595,7 +24731,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mDE571CF9FFA07B340E111EBA6E78CC03C
 	_returnValue = ParallelWriter_get_Ptr_mDE571CF9FFA07B340E111EBA6E78CC03C1F90556_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m9F7CCD7BBE49048706306B9F7928174E17AB3869_gshared (ParallelWriter_tE7E98ACD97CFE0433F5990FE7DEEA98F8F0CDE6A* __this, UnsafeList_1_t1285B03D332D32C2E94E3215FFD520400D6C7FA4* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -24613,7 +24749,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m9F7CCD7BBE49048706306B9F7928174E17AB
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tE7E98ACD97CFE0433F5990FE7DEEA98F8F0CDE6A*>(__this + _offset);
 	ParallelWriter__ctor_m9F7CCD7BBE49048706306B9F7928174E17AB3869_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mBAEF7291E05114B4CDC40E3A102C99AB7ADC522D_gshared (ParallelWriter_tE7E98ACD97CFE0433F5990FE7DEEA98F8F0CDE6A* __this, ConnectionSlot_tB6A19CABA0CD55690A8B03EDF6411698184952AB ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24643,7 +24779,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mBAEF7291E05114B4CDC40E3A102C99
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tE7E98ACD97CFE0433F5990FE7DEEA98F8F0CDE6A*>(__this + _offset);
 	ParallelWriter_AddNoResize_mBAEF7291E05114B4CDC40E3A102C99AB7ADC522D(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mD9E31BBAAC01E660EDBA9F0C0C28FED3471AF720_gshared (ParallelWriter_tE7E98ACD97CFE0433F5990FE7DEEA98F8F0CDE6A* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24682,7 +24818,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mD9E31BBAAC01E660EDBA9F0C0
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tE7E98ACD97CFE0433F5990FE7DEEA98F8F0CDE6A*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mD9E31BBAAC01E660EDBA9F0C0C28FED3471AF720(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m3C3CDEA36202091137C45673D10DC53C7D317360_gshared (ParallelWriter_tE7E98ACD97CFE0433F5990FE7DEEA98F8F0CDE6A* __this, UnsafeList_1_t1285B03D332D32C2E94E3215FFD520400D6C7FA4 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -24711,7 +24847,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m3C3CDEA36202091137C45673D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m129F08ECE7D855CCF8147862A0E788A045378B69_gshared (ParallelWriter_tE08C210C0F484D43066EC401FFC88ED59A7C90F9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24731,7 +24867,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m129F08ECE7D855CCF8147862A0E788A04
 	_returnValue = ParallelWriter_get_Ptr_m129F08ECE7D855CCF8147862A0E788A045378B69_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mF24052F6AF54964CD2492DD3494AFCE3D2815AA0_gshared (ParallelWriter_tE08C210C0F484D43066EC401FFC88ED59A7C90F9* __this, UnsafeList_1_t82CE3FFA6BE851C496ACF9DA72A3729B89D7DFDC* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -24749,7 +24885,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mF24052F6AF54964CD2492DD3494AFCE3D281
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tE08C210C0F484D43066EC401FFC88ED59A7C90F9*>(__this + _offset);
 	ParallelWriter__ctor_mF24052F6AF54964CD2492DD3494AFCE3D2815AA0_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m2D66B6D8D06D8595BA8521783643731601BD043C_gshared (ParallelWriter_tE08C210C0F484D43066EC401FFC88ED59A7C90F9* __this, AttachmentDescriptor_tBAC9B26B50BB0838C5C0CC22BB296F9DFF41276E ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24779,7 +24915,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m2D66B6D8D06D8595BA852178364373
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tE08C210C0F484D43066EC401FFC88ED59A7C90F9*>(__this + _offset);
 	ParallelWriter_AddNoResize_m2D66B6D8D06D8595BA8521783643731601BD043C(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m783C68230B4E223D546AADEF1818D0B6DE760D22_gshared (ParallelWriter_tE08C210C0F484D43066EC401FFC88ED59A7C90F9* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24822,7 +24958,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m783C68230B4E223D546AADEF1
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tE08C210C0F484D43066EC401FFC88ED59A7C90F9*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m783C68230B4E223D546AADEF1818D0B6DE760D22(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m114C7738CA4D2BB13BDD26AE7B45374039B19E5D_gshared (ParallelWriter_tE08C210C0F484D43066EC401FFC88ED59A7C90F9* __this, UnsafeList_1_t82CE3FFA6BE851C496ACF9DA72A3729B89D7DFDC ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -24843,7 +24979,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m114C7738CA4D2BB13BDD26AE7
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tE08C210C0F484D43066EC401FFC88ED59A7C90F9*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m114C7738CA4D2BB13BDD26AE7B45374039B19E5D(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m6FCD54BBE29FFDED0D496472BA786289A998C7B2_gshared (ParallelWriter_tE08C210C0F484D43066EC401FFC88ED59A7C90F9* __this, NativeList_1_t5FE7A3B332F53D2975AE4D120047503D463799CB ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -24871,7 +25007,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m6FCD54BBE29FFDED0D496472B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mAA31667C9EBAA614B263C4012A3550D80FCFE8CA_gshared (ParallelWriter_t15B09D1F7CB39A58D3636460A4EB24DD03F4FA52* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24891,7 +25027,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mAA31667C9EBAA614B263C4012A3550D80
 	_returnValue = ParallelWriter_get_Ptr_mAA31667C9EBAA614B263C4012A3550D80FCFE8CA_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mB762B6553B3D12E238909CFAF06140798A97293B_gshared (ParallelWriter_t15B09D1F7CB39A58D3636460A4EB24DD03F4FA52* __this, UnsafeList_1_t82CE3FFA6BE851C496ACF9DA72A3729B89D7DFDC* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -24909,7 +25045,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mB762B6553B3D12E238909CFAF06140798A97
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t15B09D1F7CB39A58D3636460A4EB24DD03F4FA52*>(__this + _offset);
 	ParallelWriter__ctor_mB762B6553B3D12E238909CFAF06140798A97293B_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mAC679DB39C0574729171AC1DBF41401563A3B18F_gshared (ParallelWriter_t15B09D1F7CB39A58D3636460A4EB24DD03F4FA52* __this, AttachmentDescriptor_tBAC9B26B50BB0838C5C0CC22BB296F9DFF41276E ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24939,7 +25075,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mAC679DB39C0574729171AC1DBF4140
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t15B09D1F7CB39A58D3636460A4EB24DD03F4FA52*>(__this + _offset);
 	ParallelWriter_AddNoResize_mAC679DB39C0574729171AC1DBF41401563A3B18F(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mB832A536096B250C05D963B4008BDABE9CBFD86B_gshared (ParallelWriter_t15B09D1F7CB39A58D3636460A4EB24DD03F4FA52* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24978,7 +25114,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mB832A536096B250C05D963B40
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t15B09D1F7CB39A58D3636460A4EB24DD03F4FA52*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mB832A536096B250C05D963B4008BDABE9CBFD86B(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m1691B2F41D7B740E2B20E82F8E1BBD44251CC765_gshared (ParallelWriter_t15B09D1F7CB39A58D3636460A4EB24DD03F4FA52* __this, UnsafeList_1_t82CE3FFA6BE851C496ACF9DA72A3729B89D7DFDC ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -25007,7 +25143,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m1691B2F41D7B740E2B20E82F8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m942FA4BBFF9F09B66C3CCD447CA630E6050C149B_gshared (ParallelWriter_tA4791D5BBC26CFC5E88E2C885C1663F5426C5E1C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25027,7 +25163,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m942FA4BBFF9F09B66C3CCD447CA630E60
 	_returnValue = ParallelWriter_get_Ptr_m942FA4BBFF9F09B66C3CCD447CA630E6050C149B_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mB83D7404B72FC4E05DBEB6F76BD1E565BAD4F28C_gshared (ParallelWriter_tA4791D5BBC26CFC5E88E2C885C1663F5426C5E1C* __this, UnsafeList_1_t5C65DCA6782B7C9860C859C2F0C07A2C497E822D* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -25045,7 +25181,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mB83D7404B72FC4E05DBEB6F76BD1E565BAD4
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tA4791D5BBC26CFC5E88E2C885C1663F5426C5E1C*>(__this + _offset);
 	ParallelWriter__ctor_mB83D7404B72FC4E05DBEB6F76BD1E565BAD4F28C_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m59BF91AB04CFAB22C8F92E40F6BC959C3839F4BE_gshared (ParallelWriter_tA4791D5BBC26CFC5E88E2C885C1663F5426C5E1C* __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25075,7 +25211,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m59BF91AB04CFAB22C8F92E40F6BC95
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tA4791D5BBC26CFC5E88E2C885C1663F5426C5E1C*>(__this + _offset);
 	ParallelWriter_AddNoResize_m59BF91AB04CFAB22C8F92E40F6BC959C3839F4BE(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m0663F757B1148662D1AF905EF56EAD723811660A_gshared (ParallelWriter_tA4791D5BBC26CFC5E88E2C885C1663F5426C5E1C* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25118,7 +25254,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m0663F757B1148662D1AF905EF
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tA4791D5BBC26CFC5E88E2C885C1663F5426C5E1C*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m0663F757B1148662D1AF905EF56EAD723811660A(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m4558B5CF86D39FD5C418648131698EEE4FDCB888_gshared (ParallelWriter_tA4791D5BBC26CFC5E88E2C885C1663F5426C5E1C* __this, UnsafeList_1_t5C65DCA6782B7C9860C859C2F0C07A2C497E822D ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -25139,7 +25275,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m4558B5CF86D39FD5C41864813
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tA4791D5BBC26CFC5E88E2C885C1663F5426C5E1C*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m4558B5CF86D39FD5C418648131698EEE4FDCB888(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mB5F7F6AED4718645DB712A19AB7B9376AAEE756E_gshared (ParallelWriter_tA4791D5BBC26CFC5E88E2C885C1663F5426C5E1C* __this, NativeList_1_tEEE3A07B710DA14F96F06ECF1D5D8D7353698B94 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -25167,7 +25303,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mB5F7F6AED4718645DB712A19A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m5B18893329F0C58DDF17F6493A3F09FA24F7008A_gshared (ParallelWriter_t7BE944D18DEFD0D698B75FCADBEBF9929745EFBF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25187,7 +25323,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m5B18893329F0C58DDF17F6493A3F09FA2
 	_returnValue = ParallelWriter_get_Ptr_m5B18893329F0C58DDF17F6493A3F09FA24F7008A_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mAFA5D7196F9FA1543FAD13B1F99DABF576CBA2F0_gshared (ParallelWriter_t7BE944D18DEFD0D698B75FCADBEBF9929745EFBF* __this, UnsafeList_1_t5C65DCA6782B7C9860C859C2F0C07A2C497E822D* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -25205,7 +25341,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mAFA5D7196F9FA1543FAD13B1F99DABF576CB
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t7BE944D18DEFD0D698B75FCADBEBF9929745EFBF*>(__this + _offset);
 	ParallelWriter__ctor_mAFA5D7196F9FA1543FAD13B1F99DABF576CBA2F0_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m5501D83FD54E0DD591217BB345A79579234BA868_gshared (ParallelWriter_t7BE944D18DEFD0D698B75FCADBEBF9929745EFBF* __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25235,7 +25371,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m5501D83FD54E0DD591217BB345A795
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t7BE944D18DEFD0D698B75FCADBEBF9929745EFBF*>(__this + _offset);
 	ParallelWriter_AddNoResize_m5501D83FD54E0DD591217BB345A79579234BA868(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m4D7A4B7365C3AA94F75DC3D2F76DC39C71B07444_gshared (ParallelWriter_t7BE944D18DEFD0D698B75FCADBEBF9929745EFBF* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25274,7 +25410,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m4D7A4B7365C3AA94F75DC3D2F
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t7BE944D18DEFD0D698B75FCADBEBF9929745EFBF*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m4D7A4B7365C3AA94F75DC3D2F76DC39C71B07444(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mFBEB7658806BF2578C6AC566C6D1F9EC0285E4E7_gshared (ParallelWriter_t7BE944D18DEFD0D698B75FCADBEBF9929745EFBF* __this, UnsafeList_1_t5C65DCA6782B7C9860C859C2F0C07A2C497E822D ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -25303,7 +25439,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mFBEB7658806BF2578C6AC566C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90243
+// Method Definition Index: 90246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_m1766822517718DA66B6FA331DFA4DEC5868245F6_gshared (ParallelWriter_tB7E83317A1DDA5406C1EFF5508A7619F4C137A5B* __this, ConnectionId_tEA78CDC27F3C855E62B4A8046ECAFF5DB06128EB ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -25322,7 +25458,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_Enqueue_m1766822517718DA66B6FA331DFA4DEC586
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB7E83317A1DDA5406C1EFF5508A7619F4C137A5B*>(__this + _offset);
 	ParallelWriter_Enqueue_m1766822517718DA66B6FA331DFA4DEC5868245F6(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 90244
+// Method Definition Index: 90247
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_mAAB52D983644C28E2926301A2860E09047C52988_gshared (ParallelWriter_tB7E83317A1DDA5406C1EFF5508A7619F4C137A5B* __this, ConnectionId_tEA78CDC27F3C855E62B4A8046ECAFF5DB06128EB ___0_value, int32_t ___1_threadIndexOverride, const RuntimeMethod* method) 
 {
 	{
@@ -25350,7 +25486,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_Enqueue_mAAB52D983644C28E2926301A2860E09047
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90655
+// Method Definition Index: 90658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_m4424DEFEC45A5D4AA2AF167A9842E0DE959E698B_gshared (ParallelWriter_tA4975297C97D47BEB903B7592C729F0170FFA986* __this, ConnectionId_tEA78CDC27F3C855E62B4A8046ECAFF5DB06128EB ___0_value, const RuntimeMethod* method) 
 {
 	UnsafeQueueBlockHeader_t93BDD5BE3C4A0486BE2A07B68862CFF1F5870D9C* V_0 = NULL;
@@ -25388,7 +25524,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_Enqueue_m4424DEFEC45A5D4AA2AF167A9842E0DE95
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tA4975297C97D47BEB903B7592C729F0170FFA986*>(__this + _offset);
 	ParallelWriter_Enqueue_m4424DEFEC45A5D4AA2AF167A9842E0DE959E698B(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 90656
+// Method Definition Index: 90659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_mE59F5689102EBAF3D137960B61DB5CB47FF6AFCE_gshared (ParallelWriter_tA4975297C97D47BEB903B7592C729F0170FFA986* __this, ConnectionId_tEA78CDC27F3C855E62B4A8046ECAFF5DB06128EB ___0_value, int32_t ___1_threadIndexOverride, const RuntimeMethod* method) 
 {
 	UnsafeQueueBlockHeader_t93BDD5BE3C4A0486BE2A07B68862CFF1F5870D9C* V_0 = NULL;
@@ -25434,7 +25570,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_Enqueue_mE59F5689102EBAF3D137960B61DB5CB47F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mAC5737F328979A37EC3D9E3EA7B52919ED7A36B5_gshared (ParallelWriter_t6DD08F822AF2AD652515CF78C60BE726D6031DBC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25454,7 +25590,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mAC5737F328979A37EC3D9E3EA7B52919E
 	_returnValue = ParallelWriter_get_Ptr_mAC5737F328979A37EC3D9E3EA7B52919ED7A36B5_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m97031B0F5278DA8978E9B8F62A22BCF9E69DFCCE_gshared (ParallelWriter_t6DD08F822AF2AD652515CF78C60BE726D6031DBC* __this, UnsafeList_1_t992261DF45A734DEB130F79025C5BF88D0C2CDC7* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -25472,7 +25608,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m97031B0F5278DA8978E9B8F62A22BCF9E69D
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t6DD08F822AF2AD652515CF78C60BE726D6031DBC*>(__this + _offset);
 	ParallelWriter__ctor_m97031B0F5278DA8978E9B8F62A22BCF9E69DFCCE_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mA5105543F18AB12E04D79F1B914D9466B6C74DAC_gshared (ParallelWriter_t6DD08F822AF2AD652515CF78C60BE726D6031DBC* __this, DebugOccluderStats_t7B4C48EC856FCC7FDF2811DF6C222E53DD80AD93 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25502,7 +25638,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mA5105543F18AB12E04D79F1B914D94
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t6DD08F822AF2AD652515CF78C60BE726D6031DBC*>(__this + _offset);
 	ParallelWriter_AddNoResize_mA5105543F18AB12E04D79F1B914D9466B6C74DAC(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mFFEBE0722533EC237CB25C090957EA57CE0C266D_gshared (ParallelWriter_t6DD08F822AF2AD652515CF78C60BE726D6031DBC* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25545,7 +25681,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mFFEBE0722533EC237CB25C090
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t6DD08F822AF2AD652515CF78C60BE726D6031DBC*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mFFEBE0722533EC237CB25C090957EA57CE0C266D(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mC64ACB283894A26669785611596EB440257040DF_gshared (ParallelWriter_t6DD08F822AF2AD652515CF78C60BE726D6031DBC* __this, UnsafeList_1_t992261DF45A734DEB130F79025C5BF88D0C2CDC7 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -25566,7 +25702,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mC64ACB283894A266697856115
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t6DD08F822AF2AD652515CF78C60BE726D6031DBC*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mC64ACB283894A26669785611596EB440257040DF(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m9E65E3D4FF346F93384B1DD5FBAF30119C1F3E90_gshared (ParallelWriter_t6DD08F822AF2AD652515CF78C60BE726D6031DBC* __this, NativeList_1_t1A94CC8D245554512B29D5AFB5727CF7838B8373 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -25594,7 +25730,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m9E65E3D4FF346F93384B1DD5F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m66CE9156CF85FABE251C93E6FF85A6E503BF1BEC_gshared (ParallelWriter_tFBF598E17FF67775FA14067B3AEA59D0E7BCF65B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25614,7 +25750,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m66CE9156CF85FABE251C93E6FF85A6E50
 	_returnValue = ParallelWriter_get_Ptr_m66CE9156CF85FABE251C93E6FF85A6E503BF1BEC_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m1C81AFF27344DFA45458EA73FE04D7717D8716D1_gshared (ParallelWriter_tFBF598E17FF67775FA14067B3AEA59D0E7BCF65B* __this, UnsafeList_1_t992261DF45A734DEB130F79025C5BF88D0C2CDC7* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -25632,7 +25768,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m1C81AFF27344DFA45458EA73FE04D7717D87
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tFBF598E17FF67775FA14067B3AEA59D0E7BCF65B*>(__this + _offset);
 	ParallelWriter__ctor_m1C81AFF27344DFA45458EA73FE04D7717D8716D1_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m605B3DE5C480387BA0199F6E09311A3DFF12C9D5_gshared (ParallelWriter_tFBF598E17FF67775FA14067B3AEA59D0E7BCF65B* __this, DebugOccluderStats_t7B4C48EC856FCC7FDF2811DF6C222E53DD80AD93 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25662,7 +25798,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m605B3DE5C480387BA0199F6E09311A
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tFBF598E17FF67775FA14067B3AEA59D0E7BCF65B*>(__this + _offset);
 	ParallelWriter_AddNoResize_m605B3DE5C480387BA0199F6E09311A3DFF12C9D5(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m7B31B003544252E03847A70386AC1086CFC27BC0_gshared (ParallelWriter_tFBF598E17FF67775FA14067B3AEA59D0E7BCF65B* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25701,7 +25837,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m7B31B003544252E03847A7038
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tFBF598E17FF67775FA14067B3AEA59D0E7BCF65B*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m7B31B003544252E03847A70386AC1086CFC27BC0(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m0E2BC346104FA20D7A41B1059A56E8A1ED0697B5_gshared (ParallelWriter_tFBF598E17FF67775FA14067B3AEA59D0E7BCF65B* __this, UnsafeList_1_t992261DF45A734DEB130F79025C5BF88D0C2CDC7 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -25730,7 +25866,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m0E2BC346104FA20D7A41B1059
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m1694681A8309051135E8E2380AC633730E4640A7_gshared (ParallelWriter_t57D29FAB67034865CFDC254B0B44DC72825C54B6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25750,7 +25886,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m1694681A8309051135E8E2380AC633730
 	_returnValue = ParallelWriter_get_Ptr_m1694681A8309051135E8E2380AC633730E4640A7_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mB322C68AE8009D410AD82AE0B98BD08B6B7A2F4C_gshared (ParallelWriter_t57D29FAB67034865CFDC254B0B44DC72825C54B6* __this, UnsafeList_1_tCC883249B8F95C4AD5632E72EAD324BA3F53915A* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -25768,7 +25904,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mB322C68AE8009D410AD82AE0B98BD08B6B7A
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t57D29FAB67034865CFDC254B0B44DC72825C54B6*>(__this + _offset);
 	ParallelWriter__ctor_mB322C68AE8009D410AD82AE0B98BD08B6B7A2F4C_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m68675D2819F0E24A32BC72753D2E79033DC31512_gshared (ParallelWriter_t57D29FAB67034865CFDC254B0B44DC72825C54B6* __this, DrawBatch_t5B13B0C8AFD02B2878B6FA9ED48DDA1A0696F5FF ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25798,7 +25934,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m68675D2819F0E24A32BC72753D2E79
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t57D29FAB67034865CFDC254B0B44DC72825C54B6*>(__this + _offset);
 	ParallelWriter_AddNoResize_m68675D2819F0E24A32BC72753D2E79033DC31512(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m7ED666AF8A2A3E33680CCAFA60ED6CA4FC3B1A22_gshared (ParallelWriter_t57D29FAB67034865CFDC254B0B44DC72825C54B6* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25841,7 +25977,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m7ED666AF8A2A3E33680CCAFA6
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t57D29FAB67034865CFDC254B0B44DC72825C54B6*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m7ED666AF8A2A3E33680CCAFA60ED6CA4FC3B1A22(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m3312FF561A7B990DA270D6ED889F2FD4B435CECD_gshared (ParallelWriter_t57D29FAB67034865CFDC254B0B44DC72825C54B6* __this, UnsafeList_1_tCC883249B8F95C4AD5632E72EAD324BA3F53915A ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -25862,7 +25998,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m3312FF561A7B990DA270D6ED8
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t57D29FAB67034865CFDC254B0B44DC72825C54B6*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m3312FF561A7B990DA270D6ED889F2FD4B435CECD(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m0FE6B43F3259B30B45C03F2AEC09CE6793665EA5_gshared (ParallelWriter_t57D29FAB67034865CFDC254B0B44DC72825C54B6* __this, NativeList_1_tFE5AD86174D6ECCD4E4CC6D775C090AAC0F53B30 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -25890,7 +26026,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m0FE6B43F3259B30B45C03F2AE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mE9ACD5374CD08ECCE7F4CEF0891B5E516BEE31CE_gshared (ParallelWriter_t6DE31A74AC2159D800A0EDB78D367613B18E8360* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25910,7 +26046,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mE9ACD5374CD08ECCE7F4CEF0891B5E516
 	_returnValue = ParallelWriter_get_Ptr_mE9ACD5374CD08ECCE7F4CEF0891B5E516BEE31CE_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m99CCD297018BB5079EFBB270B78AE6C60DD6B52E_gshared (ParallelWriter_t6DE31A74AC2159D800A0EDB78D367613B18E8360* __this, UnsafeList_1_tCC883249B8F95C4AD5632E72EAD324BA3F53915A* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -25928,7 +26064,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m99CCD297018BB5079EFBB270B78AE6C60DD6
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t6DE31A74AC2159D800A0EDB78D367613B18E8360*>(__this + _offset);
 	ParallelWriter__ctor_m99CCD297018BB5079EFBB270B78AE6C60DD6B52E_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m16D98600234143B00E151C8C8C7B2EFB925CE8E6_gshared (ParallelWriter_t6DE31A74AC2159D800A0EDB78D367613B18E8360* __this, DrawBatch_t5B13B0C8AFD02B2878B6FA9ED48DDA1A0696F5FF ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25958,7 +26094,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m16D98600234143B00E151C8C8C7B2E
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t6DE31A74AC2159D800A0EDB78D367613B18E8360*>(__this + _offset);
 	ParallelWriter_AddNoResize_m16D98600234143B00E151C8C8C7B2EFB925CE8E6(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mB6645FFEFFF1703FDEE9CF83C37865EE6EE8F258_gshared (ParallelWriter_t6DE31A74AC2159D800A0EDB78D367613B18E8360* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25997,7 +26133,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mB6645FFEFFF1703FDEE9CF83C
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t6DE31A74AC2159D800A0EDB78D367613B18E8360*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mB6645FFEFFF1703FDEE9CF83C37865EE6EE8F258(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mC806ED11B3D0ABD74DC912C43DE2BFC8E6AB4269_gshared (ParallelWriter_t6DE31A74AC2159D800A0EDB78D367613B18E8360* __this, UnsafeList_1_tCC883249B8F95C4AD5632E72EAD324BA3F53915A ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -26026,7 +26162,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mC806ED11B3D0ABD74DC912C43
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mD3EC4827821EE4AA3CEA486D4902D527D66F445B_gshared (ParallelWriter_t76E4826FF70D4EF8AC90910F4F882C5CF9212FD4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26046,7 +26182,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mD3EC4827821EE4AA3CEA486D4902D527D
 	_returnValue = ParallelWriter_get_Ptr_mD3EC4827821EE4AA3CEA486D4902D527D66F445B_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m7BDB368BED4E760625E37224B93267A168FAE529_gshared (ParallelWriter_t76E4826FF70D4EF8AC90910F4F882C5CF9212FD4* __this, UnsafeList_1_tC398CC6607C9075D2AE819DE88719D2168E0FCEC* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -26064,7 +26200,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m7BDB368BED4E760625E37224B93267A168FA
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t76E4826FF70D4EF8AC90910F4F882C5CF9212FD4*>(__this + _offset);
 	ParallelWriter__ctor_m7BDB368BED4E760625E37224B93267A168FAE529_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m1AD9B44527F95B19FB5D59CA0556ABFBFC7F0C0D_gshared (ParallelWriter_t76E4826FF70D4EF8AC90910F4F882C5CF9212FD4* __this, DrawInstance_tBE712DD78F80BD1B66343AC3B9A55ACFE80E8AF8 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26094,7 +26230,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m1AD9B44527F95B19FB5D59CA0556AB
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t76E4826FF70D4EF8AC90910F4F882C5CF9212FD4*>(__this + _offset);
 	ParallelWriter_AddNoResize_m1AD9B44527F95B19FB5D59CA0556ABFBFC7F0C0D(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m368ACF8AC3F565A589BEBD50130A8055C2A8C0B5_gshared (ParallelWriter_t76E4826FF70D4EF8AC90910F4F882C5CF9212FD4* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26137,7 +26273,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m368ACF8AC3F565A589BEBD501
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t76E4826FF70D4EF8AC90910F4F882C5CF9212FD4*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m368ACF8AC3F565A589BEBD50130A8055C2A8C0B5(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mE5B2C71DB8E5EC8AA19F3847EA8EE72C05D33AF3_gshared (ParallelWriter_t76E4826FF70D4EF8AC90910F4F882C5CF9212FD4* __this, UnsafeList_1_tC398CC6607C9075D2AE819DE88719D2168E0FCEC ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -26158,7 +26294,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mE5B2C71DB8E5EC8AA19F3847E
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t76E4826FF70D4EF8AC90910F4F882C5CF9212FD4*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mE5B2C71DB8E5EC8AA19F3847EA8EE72C05D33AF3(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m26B98B13B089DE3B309F385BE0B61034A4C82B8D_gshared (ParallelWriter_t76E4826FF70D4EF8AC90910F4F882C5CF9212FD4* __this, NativeList_1_t0E8F99CBD0349EB2EDB94A940345E760399356C0 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -26186,7 +26322,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m26B98B13B089DE3B309F385BE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m1B0434E5060E517497ED5C7822944E0AA5A26C83_gshared (ParallelWriter_t10BEEB18AD636CC8F2BDD14448BA927FF5210AED* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26206,7 +26342,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m1B0434E5060E517497ED5C7822944E0AA
 	_returnValue = ParallelWriter_get_Ptr_m1B0434E5060E517497ED5C7822944E0AA5A26C83_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m91A6A6A157EB70EA737B2DA6D57A5FBB4C931F29_gshared (ParallelWriter_t10BEEB18AD636CC8F2BDD14448BA927FF5210AED* __this, UnsafeList_1_tC398CC6607C9075D2AE819DE88719D2168E0FCEC* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -26224,7 +26360,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m91A6A6A157EB70EA737B2DA6D57A5FBB4C93
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t10BEEB18AD636CC8F2BDD14448BA927FF5210AED*>(__this + _offset);
 	ParallelWriter__ctor_m91A6A6A157EB70EA737B2DA6D57A5FBB4C931F29_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mB9139F993CF449041E87E641C5ABB146D85B7D38_gshared (ParallelWriter_t10BEEB18AD636CC8F2BDD14448BA927FF5210AED* __this, DrawInstance_tBE712DD78F80BD1B66343AC3B9A55ACFE80E8AF8 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26254,7 +26390,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mB9139F993CF449041E87E641C5ABB1
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t10BEEB18AD636CC8F2BDD14448BA927FF5210AED*>(__this + _offset);
 	ParallelWriter_AddNoResize_mB9139F993CF449041E87E641C5ABB146D85B7D38(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m3FFEAD988EF111340E30431B4436F1D156CB6EC7_gshared (ParallelWriter_t10BEEB18AD636CC8F2BDD14448BA927FF5210AED* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26293,7 +26429,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m3FFEAD988EF111340E30431B4
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t10BEEB18AD636CC8F2BDD14448BA927FF5210AED*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m3FFEAD988EF111340E30431B4436F1D156CB6EC7(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mD20A6D33B63E9DAC0002B013990A73331E770B17_gshared (ParallelWriter_t10BEEB18AD636CC8F2BDD14448BA927FF5210AED* __this, UnsafeList_1_tC398CC6607C9075D2AE819DE88719D2168E0FCEC ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -26322,7 +26458,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mD20A6D33B63E9DAC0002B0139
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mE55A5CFE3F632907DD3B38E6178FC177F9B877C8_gshared (ParallelWriter_tD5BB8102F842D0BB3A9A28F2EE59B6B4A9D18E50* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26342,7 +26478,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mE55A5CFE3F632907DD3B38E6178FC177F
 	_returnValue = ParallelWriter_get_Ptr_mE55A5CFE3F632907DD3B38E6178FC177F9B877C8_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mCED059977D0BCD265D86ECEC14797E39A2FBEA4B_gshared (ParallelWriter_tD5BB8102F842D0BB3A9A28F2EE59B6B4A9D18E50* __this, UnsafeList_1_tCFDCC580A90753F362AA7EA5DFE667A1452664F8* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -26360,7 +26496,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mCED059977D0BCD265D86ECEC14797E39A2FB
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tD5BB8102F842D0BB3A9A28F2EE59B6B4A9D18E50*>(__this + _offset);
 	ParallelWriter__ctor_mCED059977D0BCD265D86ECEC14797E39A2FBEA4B_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mCEEAF4F534A4322A86A63E00F2BCFE81574249F9_gshared (ParallelWriter_tD5BB8102F842D0BB3A9A28F2EE59B6B4A9D18E50* __this, DrawRange_tFF5914E68DE5FBB5AE71F729F834D72149A6B010 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26390,7 +26526,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mCEEAF4F534A4322A86A63E00F2BCFE
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tD5BB8102F842D0BB3A9A28F2EE59B6B4A9D18E50*>(__this + _offset);
 	ParallelWriter_AddNoResize_mCEEAF4F534A4322A86A63E00F2BCFE81574249F9(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m15F16DA5B2CD021EC22819E787298C85E339630B_gshared (ParallelWriter_tD5BB8102F842D0BB3A9A28F2EE59B6B4A9D18E50* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26433,7 +26569,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m15F16DA5B2CD021EC22819E78
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tD5BB8102F842D0BB3A9A28F2EE59B6B4A9D18E50*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m15F16DA5B2CD021EC22819E787298C85E339630B(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m21C2C7150467FEE03508879E260C5D2688756DD3_gshared (ParallelWriter_tD5BB8102F842D0BB3A9A28F2EE59B6B4A9D18E50* __this, UnsafeList_1_tCFDCC580A90753F362AA7EA5DFE667A1452664F8 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -26454,7 +26590,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m21C2C7150467FEE03508879E2
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tD5BB8102F842D0BB3A9A28F2EE59B6B4A9D18E50*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m21C2C7150467FEE03508879E260C5D2688756DD3(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mB1A193CC613BF29096A26E09A20CBE67B1892F21_gshared (ParallelWriter_tD5BB8102F842D0BB3A9A28F2EE59B6B4A9D18E50* __this, NativeList_1_t50EF7494D5DE96412C6EA67378B11EE5C5C8EE89 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -26482,7 +26618,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mB1A193CC613BF29096A26E09A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mEC0C41E08B6CAF1A7899A85E6251F8CFB3E300A2_gshared (ParallelWriter_tF22C5622D1A663F61C29A66A0AEA3B5B5FEE7952* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26502,7 +26638,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mEC0C41E08B6CAF1A7899A85E6251F8CFB
 	_returnValue = ParallelWriter_get_Ptr_mEC0C41E08B6CAF1A7899A85E6251F8CFB3E300A2_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m1120E394502706D18BB2371AC69CAC9BB7EC76A7_gshared (ParallelWriter_tF22C5622D1A663F61C29A66A0AEA3B5B5FEE7952* __this, UnsafeList_1_tCFDCC580A90753F362AA7EA5DFE667A1452664F8* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -26520,7 +26656,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m1120E394502706D18BB2371AC69CAC9BB7EC
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tF22C5622D1A663F61C29A66A0AEA3B5B5FEE7952*>(__this + _offset);
 	ParallelWriter__ctor_m1120E394502706D18BB2371AC69CAC9BB7EC76A7_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m0CC9215ECD73A52F6073B07184EF874577072386_gshared (ParallelWriter_tF22C5622D1A663F61C29A66A0AEA3B5B5FEE7952* __this, DrawRange_tFF5914E68DE5FBB5AE71F729F834D72149A6B010 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26550,7 +26686,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m0CC9215ECD73A52F6073B07184EF87
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tF22C5622D1A663F61C29A66A0AEA3B5B5FEE7952*>(__this + _offset);
 	ParallelWriter_AddNoResize_m0CC9215ECD73A52F6073B07184EF874577072386(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m88301E192E7FF911A5A10873F005B1026A7D037B_gshared (ParallelWriter_tF22C5622D1A663F61C29A66A0AEA3B5B5FEE7952* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26589,7 +26725,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m88301E192E7FF911A5A10873F
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tF22C5622D1A663F61C29A66A0AEA3B5B5FEE7952*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m88301E192E7FF911A5A10873F005B1026A7D037B(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m223EE7C238C2D620F4E7E7816F4DD3FA68321E44_gshared (ParallelWriter_tF22C5622D1A663F61C29A66A0AEA3B5B5FEE7952* __this, UnsafeList_1_tCFDCC580A90753F362AA7EA5DFE667A1452664F8 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -26618,7 +26754,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m223EE7C238C2D620F4E7E7816
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m09454EF434940449FA1EFEDD0E1CE54012D137A1_gshared (ParallelWriter_t457D3669BDB558B929169F5583CD09240779798C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26638,7 +26774,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m09454EF434940449FA1EFEDD0E1CE5401
 	_returnValue = ParallelWriter_get_Ptr_m09454EF434940449FA1EFEDD0E1CE54012D137A1_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m5CAE5AE4BB23EEF046DB31B2FADB0A1A6DB171CD_gshared (ParallelWriter_t457D3669BDB558B929169F5583CD09240779798C* __this, UnsafeList_1_t239C74D869DA59B0CA5E63716E71208DEC68A70B* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -26656,7 +26792,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m5CAE5AE4BB23EEF046DB31B2FADB0A1A6DB1
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t457D3669BDB558B929169F5583CD09240779798C*>(__this + _offset);
 	ParallelWriter__ctor_m5CAE5AE4BB23EEF046DB31B2FADB0A1A6DB171CD_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m1DD4B758FEAC4D4ABEF707F682D98FEA9AD9414F_gshared (ParallelWriter_t457D3669BDB558B929169F5583CD09240779798C* __this, EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26686,7 +26822,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m1DD4B758FEAC4D4ABEF707F682D98F
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t457D3669BDB558B929169F5583CD09240779798C*>(__this + _offset);
 	ParallelWriter_AddNoResize_m1DD4B758FEAC4D4ABEF707F682D98FEA9AD9414F(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m6123AE3C3C75D8E414EDC10C3DF032FDE1D86E46_gshared (ParallelWriter_t457D3669BDB558B929169F5583CD09240779798C* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26729,7 +26865,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m6123AE3C3C75D8E414EDC10C3
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t457D3669BDB558B929169F5583CD09240779798C*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m6123AE3C3C75D8E414EDC10C3DF032FDE1D86E46(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mBFFE6AEEA2A519B45634555081EF3E0AD7B385B2_gshared (ParallelWriter_t457D3669BDB558B929169F5583CD09240779798C* __this, UnsafeList_1_t239C74D869DA59B0CA5E63716E71208DEC68A70B ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -26750,7 +26886,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mBFFE6AEEA2A519B4563455508
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t457D3669BDB558B929169F5583CD09240779798C*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mBFFE6AEEA2A519B45634555081EF3E0AD7B385B2(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m5458983BCA3EABB3A471F0EE78102016D474944B_gshared (ParallelWriter_t457D3669BDB558B929169F5583CD09240779798C* __this, NativeList_1_t9823396F5F6C10E21D3D7F9029C9EB52F74F7F53 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -26778,7 +26914,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m5458983BCA3EABB3A471F0EE7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mCDBB3FFEF88B6499A0B516E7C32E4E1799DE8FD6_gshared (ParallelWriter_tB3125E41A82B30C56F91EC59CD41C7129E0089B3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26798,7 +26934,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mCDBB3FFEF88B6499A0B516E7C32E4E179
 	_returnValue = ParallelWriter_get_Ptr_mCDBB3FFEF88B6499A0B516E7C32E4E1799DE8FD6_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mF95E41BFC8D8E40D95FC212581D5D880F05477A6_gshared (ParallelWriter_tB3125E41A82B30C56F91EC59CD41C7129E0089B3* __this, UnsafeList_1_t239C74D869DA59B0CA5E63716E71208DEC68A70B* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -26816,7 +26952,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mF95E41BFC8D8E40D95FC212581D5D880F054
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB3125E41A82B30C56F91EC59CD41C7129E0089B3*>(__this + _offset);
 	ParallelWriter__ctor_mF95E41BFC8D8E40D95FC212581D5D880F05477A6_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mC30001C95C2210DDEAD846C1A047F23E572F99A3_gshared (ParallelWriter_tB3125E41A82B30C56F91EC59CD41C7129E0089B3* __this, EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26846,7 +26982,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mC30001C95C2210DDEAD846C1A047F2
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB3125E41A82B30C56F91EC59CD41C7129E0089B3*>(__this + _offset);
 	ParallelWriter_AddNoResize_mC30001C95C2210DDEAD846C1A047F23E572F99A3(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mAD787E7C34E22EC1A8319E88562A4156F3F1A9E7_gshared (ParallelWriter_tB3125E41A82B30C56F91EC59CD41C7129E0089B3* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26885,7 +27021,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mAD787E7C34E22EC1A8319E885
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB3125E41A82B30C56F91EC59CD41C7129E0089B3*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mAD787E7C34E22EC1A8319E88562A4156F3F1A9E7(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m2B7F0A5635139E6E85996168D6364A5895BBAD2E_gshared (ParallelWriter_tB3125E41A82B30C56F91EC59CD41C7129E0089B3* __this, UnsafeList_1_t239C74D869DA59B0CA5E63716E71208DEC68A70B ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -26914,7 +27050,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m2B7F0A5635139E6E85996168D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mC1F8E9E6399756F9C480EBE8F4318996CBF741A6_gshared (ParallelWriter_t097B24377DB83F9B4CFA8228BA82BA2ADC512015* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26934,7 +27070,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mC1F8E9E6399756F9C480EBE8F4318996C
 	_returnValue = ParallelWriter_get_Ptr_mC1F8E9E6399756F9C480EBE8F4318996CBF741A6_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m2EF7C10497D66B33249458483F2D98ADD4756732_gshared (ParallelWriter_t097B24377DB83F9B4CFA8228BA82BA2ADC512015* __this, UnsafeList_1_t351F89A5CF75078D7E3B02E4493645958D245575* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -26952,7 +27088,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m2EF7C10497D66B33249458483F2D98ADD475
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t097B24377DB83F9B4CFA8228BA82BA2ADC512015*>(__this + _offset);
 	ParallelWriter__ctor_m2EF7C10497D66B33249458483F2D98ADD4756732_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mBE46A75DAFE3AD5EE48B86CBFFFEA6C8023F0E01_gshared (ParallelWriter_t097B24377DB83F9B4CFA8228BA82BA2ADC512015* __this, GPUDrivenPackedMaterialData_t9AFE25D18C8FA6EB6A69AEF342C2A19DA824CF38 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26982,7 +27118,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mBE46A75DAFE3AD5EE48B86CBFFFEA6
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t097B24377DB83F9B4CFA8228BA82BA2ADC512015*>(__this + _offset);
 	ParallelWriter_AddNoResize_mBE46A75DAFE3AD5EE48B86CBFFFEA6C8023F0E01(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mD1A19D075818FAEED7B4FFBAB47FC5B789CE6112_gshared (ParallelWriter_t097B24377DB83F9B4CFA8228BA82BA2ADC512015* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27025,7 +27161,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mD1A19D075818FAEED7B4FFBAB
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t097B24377DB83F9B4CFA8228BA82BA2ADC512015*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mD1A19D075818FAEED7B4FFBAB47FC5B789CE6112(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mE076299B937B9623BE4907417814BE35FCF067B9_gshared (ParallelWriter_t097B24377DB83F9B4CFA8228BA82BA2ADC512015* __this, UnsafeList_1_t351F89A5CF75078D7E3B02E4493645958D245575 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -27046,7 +27182,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mE076299B937B9623BE4907417
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t097B24377DB83F9B4CFA8228BA82BA2ADC512015*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mE076299B937B9623BE4907417814BE35FCF067B9(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mA55C5A1E1875E2A8120CCD50DD11FB8DF825AE1F_gshared (ParallelWriter_t097B24377DB83F9B4CFA8228BA82BA2ADC512015* __this, NativeList_1_tFD044146ECB2F0E841E5631252564AC68D2BD52B ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -27074,7 +27210,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mA55C5A1E1875E2A8120CCD50D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mE79E2EA30208E64B9ED35D3FF050CE7A83E34AEE_gshared (ParallelWriter_tAED20B42532E2AAAB555920A6570A03C1149E04F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27094,7 +27230,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mE79E2EA30208E64B9ED35D3FF050CE7A8
 	_returnValue = ParallelWriter_get_Ptr_mE79E2EA30208E64B9ED35D3FF050CE7A83E34AEE_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mD1A0048ABE411001DD75408DD882CE629733F116_gshared (ParallelWriter_tAED20B42532E2AAAB555920A6570A03C1149E04F* __this, UnsafeList_1_t351F89A5CF75078D7E3B02E4493645958D245575* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -27112,7 +27248,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mD1A0048ABE411001DD75408DD882CE629733
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tAED20B42532E2AAAB555920A6570A03C1149E04F*>(__this + _offset);
 	ParallelWriter__ctor_mD1A0048ABE411001DD75408DD882CE629733F116_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mE2B32892417635C79240629FD79A7B7E43655EE7_gshared (ParallelWriter_tAED20B42532E2AAAB555920A6570A03C1149E04F* __this, GPUDrivenPackedMaterialData_t9AFE25D18C8FA6EB6A69AEF342C2A19DA824CF38 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27142,7 +27278,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mE2B32892417635C79240629FD79A7B
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tAED20B42532E2AAAB555920A6570A03C1149E04F*>(__this + _offset);
 	ParallelWriter_AddNoResize_mE2B32892417635C79240629FD79A7B7E43655EE7(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m0BD566BD66913E74DE67211B96EE78D58660D9D0_gshared (ParallelWriter_tAED20B42532E2AAAB555920A6570A03C1149E04F* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27181,7 +27317,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m0BD566BD66913E74DE67211B9
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tAED20B42532E2AAAB555920A6570A03C1149E04F*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m0BD566BD66913E74DE67211B96EE78D58660D9D0(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m3136AE43A0DC9838D8E626151C0BA27B09BC210B_gshared (ParallelWriter_tAED20B42532E2AAAB555920A6570A03C1149E04F* __this, UnsafeList_1_t351F89A5CF75078D7E3B02E4493645958D245575 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -27210,7 +27346,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m3136AE43A0DC9838D8E626151
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m316C7DD766D858A48202BDDF4ECB3F8969623E30_gshared (ParallelWriter_t6C8482DFB496C3103B54E484B7C533519F0EFD37* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27230,7 +27366,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m316C7DD766D858A48202BDDF4ECB3F896
 	_returnValue = ParallelWriter_get_Ptr_m316C7DD766D858A48202BDDF4ECB3F8969623E30_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m4B607310D9CCAB3EE9F45B21D1F71FCC933BE720_gshared (ParallelWriter_t6C8482DFB496C3103B54E484B7C533519F0EFD37* __this, UnsafeList_1_tED362B173BBF71D34F0DD132675AB962081FEBAB* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -27248,7 +27384,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m4B607310D9CCAB3EE9F45B21D1F71FCC933B
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t6C8482DFB496C3103B54E484B7C533519F0EFD37*>(__this + _offset);
 	ParallelWriter__ctor_m4B607310D9CCAB3EE9F45B21D1F71FCC933BE720_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m1136F51607E8CAD357FE11714673F6A7566FDB16_gshared (ParallelWriter_t6C8482DFB496C3103B54E484B7C533519F0EFD37* __this, GPUInstanceComponentDesc_tA386615944C32F7A0B71FF8B2F84E1A159C02E74 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27278,7 +27414,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m1136F51607E8CAD357FE11714673F6
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t6C8482DFB496C3103B54E484B7C533519F0EFD37*>(__this + _offset);
 	ParallelWriter_AddNoResize_m1136F51607E8CAD357FE11714673F6A7566FDB16(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m3BEB4B000EF58C2FFB470C9D62A4C57BEBE0FA07_gshared (ParallelWriter_t6C8482DFB496C3103B54E484B7C533519F0EFD37* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27321,7 +27457,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m3BEB4B000EF58C2FFB470C9D6
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t6C8482DFB496C3103B54E484B7C533519F0EFD37*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m3BEB4B000EF58C2FFB470C9D62A4C57BEBE0FA07(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mAF693E21F47CB5D736BFEC6B4D677CB2EC8B6B7D_gshared (ParallelWriter_t6C8482DFB496C3103B54E484B7C533519F0EFD37* __this, UnsafeList_1_tED362B173BBF71D34F0DD132675AB962081FEBAB ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -27342,7 +27478,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mAF693E21F47CB5D736BFEC6B4
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t6C8482DFB496C3103B54E484B7C533519F0EFD37*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mAF693E21F47CB5D736BFEC6B4D677CB2EC8B6B7D(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mC482853C5D3AC9D7425386DCAE57C2808A59D313_gshared (ParallelWriter_t6C8482DFB496C3103B54E484B7C533519F0EFD37* __this, NativeList_1_t0C5987871D198C5E0E8BFE6CAAEC095CDEF0E71A ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -27370,7 +27506,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mC482853C5D3AC9D7425386DCA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m218DDD8888B68FC7F5CB2CE17BE161C2AD9DD03F_gshared (ParallelWriter_tC08556BD2DB2A0221C930952F67870F31A0C29FD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27390,7 +27526,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m218DDD8888B68FC7F5CB2CE17BE161C2A
 	_returnValue = ParallelWriter_get_Ptr_m218DDD8888B68FC7F5CB2CE17BE161C2AD9DD03F_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m5C04B7786E3D2CBF29D986DAE84F82B0F75F25E2_gshared (ParallelWriter_tC08556BD2DB2A0221C930952F67870F31A0C29FD* __this, UnsafeList_1_tED362B173BBF71D34F0DD132675AB962081FEBAB* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -27408,7 +27544,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m5C04B7786E3D2CBF29D986DAE84F82B0F75F
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tC08556BD2DB2A0221C930952F67870F31A0C29FD*>(__this + _offset);
 	ParallelWriter__ctor_m5C04B7786E3D2CBF29D986DAE84F82B0F75F25E2_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m8A93752AACA36DD3124471A6B371ED65E87A561A_gshared (ParallelWriter_tC08556BD2DB2A0221C930952F67870F31A0C29FD* __this, GPUInstanceComponentDesc_tA386615944C32F7A0B71FF8B2F84E1A159C02E74 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27438,7 +27574,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m8A93752AACA36DD3124471A6B371ED
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tC08556BD2DB2A0221C930952F67870F31A0C29FD*>(__this + _offset);
 	ParallelWriter_AddNoResize_m8A93752AACA36DD3124471A6B371ED65E87A561A(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m05ED234FF6BB39888088CBB0ECCD6CA92116785D_gshared (ParallelWriter_tC08556BD2DB2A0221C930952F67870F31A0C29FD* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27477,7 +27613,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m05ED234FF6BB39888088CBB0E
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tC08556BD2DB2A0221C930952F67870F31A0C29FD*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m05ED234FF6BB39888088CBB0ECCD6CA92116785D(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m68A774CE2EA8BC396933E1D77FB5F560D9AFB278_gshared (ParallelWriter_tC08556BD2DB2A0221C930952F67870F31A0C29FD* __this, UnsafeList_1_tED362B173BBF71D34F0DD132675AB962081FEBAB ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -27506,7 +27642,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m68A774CE2EA8BC396933E1D77
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m4C968ED7EB3C7504BF217362B1371ECEE33AEF40_gshared (ParallelWriter_t979DE2F7DD35615E94FD4F140460008B1C7D204F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27526,7 +27662,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m4C968ED7EB3C7504BF217362B1371ECEE
 	_returnValue = ParallelWriter_get_Ptr_m4C968ED7EB3C7504BF217362B1371ECEE33AEF40_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mC828BE77C2E96F20CE298FF401DBC1E02486EE6A_gshared (ParallelWriter_t979DE2F7DD35615E94FD4F140460008B1C7D204F* __this, UnsafeList_1_t63B5C5C34A6F0AA798780FFCAB916CE54ABF71AE* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -27544,7 +27680,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mC828BE77C2E96F20CE298FF401DBC1E02486
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t979DE2F7DD35615E94FD4F140460008B1C7D204F*>(__this + _offset);
 	ParallelWriter__ctor_mC828BE77C2E96F20CE298FF401DBC1E02486EE6A_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m66C0E2E911140A39DA1EA0FEE9399BB7E3BF0035_gshared (ParallelWriter_t979DE2F7DD35615E94FD4F140460008B1C7D204F* __this, GPUInstanceIndex_t1B73FC29B273B0470A8E186E3C2F19CA6D8FBA78 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27574,7 +27710,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m66C0E2E911140A39DA1EA0FEE9399B
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t979DE2F7DD35615E94FD4F140460008B1C7D204F*>(__this + _offset);
 	ParallelWriter_AddNoResize_m66C0E2E911140A39DA1EA0FEE9399BB7E3BF0035(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m82AA30221DA2BD5FB7330885A5DC917281F58D5A_gshared (ParallelWriter_t979DE2F7DD35615E94FD4F140460008B1C7D204F* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27617,7 +27753,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m82AA30221DA2BD5FB7330885A
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t979DE2F7DD35615E94FD4F140460008B1C7D204F*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m82AA30221DA2BD5FB7330885A5DC917281F58D5A(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mAABBC771C2D8EC41C22EDCAEF7E1B54F8838755D_gshared (ParallelWriter_t979DE2F7DD35615E94FD4F140460008B1C7D204F* __this, UnsafeList_1_t63B5C5C34A6F0AA798780FFCAB916CE54ABF71AE ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -27638,7 +27774,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mAABBC771C2D8EC41C22EDCAEF
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t979DE2F7DD35615E94FD4F140460008B1C7D204F*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mAABBC771C2D8EC41C22EDCAEF7E1B54F8838755D(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m397482308DC66699010F0701979F3EC2FB57D162_gshared (ParallelWriter_t979DE2F7DD35615E94FD4F140460008B1C7D204F* __this, NativeList_1_tB02983DE9435CC8A61E19981200774644353DFBB ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -27666,7 +27802,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m397482308DC66699010F07019
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mDFAD73D8EF195E4FCF919818E223BBB4DEAB10CB_gshared (ParallelWriter_tBB2965350481BEC3804397BA10013362D8B1ADE8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27686,7 +27822,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mDFAD73D8EF195E4FCF919818E223BBB4D
 	_returnValue = ParallelWriter_get_Ptr_mDFAD73D8EF195E4FCF919818E223BBB4DEAB10CB_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mE67C8B237FACBA514C0113BA42A57D92CDD84F40_gshared (ParallelWriter_tBB2965350481BEC3804397BA10013362D8B1ADE8* __this, UnsafeList_1_t63B5C5C34A6F0AA798780FFCAB916CE54ABF71AE* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -27704,7 +27840,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mE67C8B237FACBA514C0113BA42A57D92CDD8
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tBB2965350481BEC3804397BA10013362D8B1ADE8*>(__this + _offset);
 	ParallelWriter__ctor_mE67C8B237FACBA514C0113BA42A57D92CDD84F40_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m2891DD601852962E4660931B95416D4A5EC103CF_gshared (ParallelWriter_tBB2965350481BEC3804397BA10013362D8B1ADE8* __this, GPUInstanceIndex_t1B73FC29B273B0470A8E186E3C2F19CA6D8FBA78 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27734,7 +27870,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m2891DD601852962E4660931B95416D
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tBB2965350481BEC3804397BA10013362D8B1ADE8*>(__this + _offset);
 	ParallelWriter_AddNoResize_m2891DD601852962E4660931B95416D4A5EC103CF(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mE98A493434268B2BA15A2510DF1CDD3C83FBF0E4_gshared (ParallelWriter_tBB2965350481BEC3804397BA10013362D8B1ADE8* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27773,7 +27909,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mE98A493434268B2BA15A2510D
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tBB2965350481BEC3804397BA10013362D8B1ADE8*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mE98A493434268B2BA15A2510DF1CDD3C83FBF0E4(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mDC7EB203AD2BE5EDA1374DA44A68B4837A3F8EAA_gshared (ParallelWriter_tBB2965350481BEC3804397BA10013362D8B1ADE8* __this, UnsafeList_1_t63B5C5C34A6F0AA798780FFCAB916CE54ABF71AE ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -27802,7 +27938,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mDC7EB203AD2BE5EDA1374DA44
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mF8E29E661D08F8524287DD75FEF9A7A577ED518A_gshared (ParallelWriter_tC98F417D051F5644BAD89C4672974E13317C930A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27822,7 +27958,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mF8E29E661D08F8524287DD75FEF9A7A57
 	_returnValue = ParallelWriter_get_Ptr_mF8E29E661D08F8524287DD75FEF9A7A577ED518A_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m199C2587222216DCFFDAB20E5507776D32721FAB_gshared (ParallelWriter_tC98F417D051F5644BAD89C4672974E13317C930A* __this, UnsafeList_1_t4F0DCEE28AF174C1FF34795C317FD1022095F786* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -27840,7 +27976,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m199C2587222216DCFFDAB20E5507776D3272
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tC98F417D051F5644BAD89C4672974E13317C930A*>(__this + _offset);
 	ParallelWriter__ctor_m199C2587222216DCFFDAB20E5507776D32721FAB_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m87199CF13DD38E52E21A3DB679B7793B91D8D959_gshared (ParallelWriter_tC98F417D051F5644BAD89C4672974E13317C930A* __this, GeometryPoolHandle_t7EF37F11E23B05A26C1F72855D269B7A772B2271 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27870,7 +28006,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m87199CF13DD38E52E21A3DB679B779
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tC98F417D051F5644BAD89C4672974E13317C930A*>(__this + _offset);
 	ParallelWriter_AddNoResize_m87199CF13DD38E52E21A3DB679B7793B91D8D959(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mE3E7BFB0020012D293EA3BE57EC9B580DA3E91F9_gshared (ParallelWriter_tC98F417D051F5644BAD89C4672974E13317C930A* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27913,7 +28049,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mE3E7BFB0020012D293EA3BE57
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tC98F417D051F5644BAD89C4672974E13317C930A*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mE3E7BFB0020012D293EA3BE57EC9B580DA3E91F9(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mEA5659B6847103408E836B71E5A949738C5C43BA_gshared (ParallelWriter_tC98F417D051F5644BAD89C4672974E13317C930A* __this, UnsafeList_1_t4F0DCEE28AF174C1FF34795C317FD1022095F786 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -27934,7 +28070,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mEA5659B6847103408E836B71E
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tC98F417D051F5644BAD89C4672974E13317C930A*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mEA5659B6847103408E836B71E5A949738C5C43BA(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m24CF3B616F977326A9840A70A05361D61D04DA94_gshared (ParallelWriter_tC98F417D051F5644BAD89C4672974E13317C930A* __this, NativeList_1_t6AC4A04FDEE7A1D3CA3E82A492E5151FA252D685 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -27962,7 +28098,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m24CF3B616F977326A9840A70A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m3962B7808F55A4BEE476021621CD4468070BB66A_gshared (ParallelWriter_tE36E1C8517CBB25ACB5E78A124D30191AE26A3A5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27982,7 +28118,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m3962B7808F55A4BEE476021621CD44680
 	_returnValue = ParallelWriter_get_Ptr_m3962B7808F55A4BEE476021621CD4468070BB66A_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m4108FDFC5389C3F004B0199506CF91717FEEB16D_gshared (ParallelWriter_tE36E1C8517CBB25ACB5E78A124D30191AE26A3A5* __this, UnsafeList_1_t4F0DCEE28AF174C1FF34795C317FD1022095F786* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -28000,7 +28136,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m4108FDFC5389C3F004B0199506CF91717FEE
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tE36E1C8517CBB25ACB5E78A124D30191AE26A3A5*>(__this + _offset);
 	ParallelWriter__ctor_m4108FDFC5389C3F004B0199506CF91717FEEB16D_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m1D77FEDBB884CF6A226B131E5C395F5AA7A2F2E3_gshared (ParallelWriter_tE36E1C8517CBB25ACB5E78A124D30191AE26A3A5* __this, GeometryPoolHandle_t7EF37F11E23B05A26C1F72855D269B7A772B2271 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28030,7 +28166,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m1D77FEDBB884CF6A226B131E5C395F
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tE36E1C8517CBB25ACB5E78A124D30191AE26A3A5*>(__this + _offset);
 	ParallelWriter_AddNoResize_m1D77FEDBB884CF6A226B131E5C395F5AA7A2F2E3(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m4D89450972F38412FE7AD4BF6DE8FAF6EDF71D32_gshared (ParallelWriter_tE36E1C8517CBB25ACB5E78A124D30191AE26A3A5* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28069,7 +28205,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m4D89450972F38412FE7AD4BF6
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tE36E1C8517CBB25ACB5E78A124D30191AE26A3A5*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m4D89450972F38412FE7AD4BF6DE8FAF6EDF71D32(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m28DD044D38D923529AAE9E23DC39F43112D70A7E_gshared (ParallelWriter_tE36E1C8517CBB25ACB5E78A124D30191AE26A3A5* __this, UnsafeList_1_t4F0DCEE28AF174C1FF34795C317FD1022095F786 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -28098,7 +28234,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m28DD044D38D923529AAE9E23D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mC573BB087342915794F89AEA0A61A79E3D9FCEED_gshared (ParallelWriter_t793AC06D3572BDA307BC9538169832107396F347* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28118,7 +28254,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mC573BB087342915794F89AEA0A61A79E3
 	_returnValue = ParallelWriter_get_Ptr_mC573BB087342915794F89AEA0A61A79E3D9FCEED_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m8007861CF39A746AD19AE1405DC4164051BDBBFE_gshared (ParallelWriter_t793AC06D3572BDA307BC9538169832107396F347* __this, UnsafeList_1_t34AEFBE320B1031BD5A746EFCFCA94DF69D9044C* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -28136,7 +28272,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m8007861CF39A746AD19AE1405DC4164051BD
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t793AC06D3572BDA307BC9538169832107396F347*>(__this + _offset);
 	ParallelWriter__ctor_m8007861CF39A746AD19AE1405DC4164051BDBBFE_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mECDC55D345934E82783AC34D73C4EE5F3DFC90D3_gshared (ParallelWriter_t793AC06D3572BDA307BC9538169832107396F347* __this, IndirectBufferContext_tC867F1E4C07484F15773E7A382CCB107C57AC805 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28166,7 +28302,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mECDC55D345934E82783AC34D73C4EE
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t793AC06D3572BDA307BC9538169832107396F347*>(__this + _offset);
 	ParallelWriter_AddNoResize_mECDC55D345934E82783AC34D73C4EE5F3DFC90D3(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m844415DFEEDE36101BDB8C8D6D5014F2ABE40987_gshared (ParallelWriter_t793AC06D3572BDA307BC9538169832107396F347* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28209,7 +28345,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m844415DFEEDE36101BDB8C8D6
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t793AC06D3572BDA307BC9538169832107396F347*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m844415DFEEDE36101BDB8C8D6D5014F2ABE40987(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m73AB52149B497FF7DF92E6E99CA5B27C3E1FE6E0_gshared (ParallelWriter_t793AC06D3572BDA307BC9538169832107396F347* __this, UnsafeList_1_t34AEFBE320B1031BD5A746EFCFCA94DF69D9044C ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -28230,7 +28366,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m73AB52149B497FF7DF92E6E99
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t793AC06D3572BDA307BC9538169832107396F347*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m73AB52149B497FF7DF92E6E99CA5B27C3E1FE6E0(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mFA0BEB54C0BDBEA47C2FBCAB033C41955C6A10CF_gshared (ParallelWriter_t793AC06D3572BDA307BC9538169832107396F347* __this, NativeList_1_t8241184D23A22BA25C6CF82158DE1ACE4143D075 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -28258,7 +28394,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mFA0BEB54C0BDBEA47C2FBCAB0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m235751BCC5061468E3A9BB96BB88CB4EAF4F2606_gshared (ParallelWriter_t626523E34459CE2D379FE3AB861490ED206126B5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28278,7 +28414,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m235751BCC5061468E3A9BB96BB88CB4EA
 	_returnValue = ParallelWriter_get_Ptr_m235751BCC5061468E3A9BB96BB88CB4EAF4F2606_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m9D8C943A98F908AA8E342EF53CCAEDC2EC48FC9C_gshared (ParallelWriter_t626523E34459CE2D379FE3AB861490ED206126B5* __this, UnsafeList_1_t34AEFBE320B1031BD5A746EFCFCA94DF69D9044C* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -28296,7 +28432,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m9D8C943A98F908AA8E342EF53CCAEDC2EC48
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t626523E34459CE2D379FE3AB861490ED206126B5*>(__this + _offset);
 	ParallelWriter__ctor_m9D8C943A98F908AA8E342EF53CCAEDC2EC48FC9C_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m551E702D771B98A1715386E0E15C72BA96878737_gshared (ParallelWriter_t626523E34459CE2D379FE3AB861490ED206126B5* __this, IndirectBufferContext_tC867F1E4C07484F15773E7A382CCB107C57AC805 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28326,7 +28462,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m551E702D771B98A1715386E0E15C72
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t626523E34459CE2D379FE3AB861490ED206126B5*>(__this + _offset);
 	ParallelWriter_AddNoResize_m551E702D771B98A1715386E0E15C72BA96878737(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m745472A98AA96AD6976DC6BF16A2A6BD5946E047_gshared (ParallelWriter_t626523E34459CE2D379FE3AB861490ED206126B5* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28365,7 +28501,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m745472A98AA96AD6976DC6BF1
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t626523E34459CE2D379FE3AB861490ED206126B5*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m745472A98AA96AD6976DC6BF16A2A6BD5946E047(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mB7270E12AF3F186672AC596C7F2258DD94B2E6D7_gshared (ParallelWriter_t626523E34459CE2D379FE3AB861490ED206126B5* __this, UnsafeList_1_t34AEFBE320B1031BD5A746EFCFCA94DF69D9044C ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -28394,7 +28530,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mB7270E12AF3F186672AC596C7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mA0428FA74DF2375F9EAC29EDDE499A344577A336_gshared (ParallelWriter_t7428BAD2977D46D9218885FB35153EEA2D619AAA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28414,7 +28550,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mA0428FA74DF2375F9EAC29EDDE499A344
 	_returnValue = ParallelWriter_get_Ptr_mA0428FA74DF2375F9EAC29EDDE499A344577A336_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mAD3D5D065664394CA3B9EC7B3751CEC4CDABEE92_gshared (ParallelWriter_t7428BAD2977D46D9218885FB35153EEA2D619AAA* __this, UnsafeList_1_t72FFFA60411F6BB2F2C776571F608CDA569E5999* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -28432,7 +28568,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mAD3D5D065664394CA3B9EC7B3751CEC4CDAB
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t7428BAD2977D46D9218885FB35153EEA2D619AAA*>(__this + _offset);
 	ParallelWriter__ctor_mAD3D5D065664394CA3B9EC7B3751CEC4CDABEE92_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mC7E36166BF7869DE86BF98D6DDB56BCB0234D24F_gshared (ParallelWriter_t7428BAD2977D46D9218885FB35153EEA2D619AAA* __this, InstanceCullerViewStats_tCFA9E28BF5D8B9489040BD5DDE21173331CE2173 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28462,7 +28598,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mC7E36166BF7869DE86BF98D6DDB56B
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t7428BAD2977D46D9218885FB35153EEA2D619AAA*>(__this + _offset);
 	ParallelWriter_AddNoResize_mC7E36166BF7869DE86BF98D6DDB56BCB0234D24F(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m2B9C66865F69834D7784F50B21D030CFE4D12A4A_gshared (ParallelWriter_t7428BAD2977D46D9218885FB35153EEA2D619AAA* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28505,7 +28641,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m2B9C66865F69834D7784F50B2
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t7428BAD2977D46D9218885FB35153EEA2D619AAA*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m2B9C66865F69834D7784F50B21D030CFE4D12A4A(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mCB1F18DE8A7FAD3150C0E623B6C0E3DAD27EFB1A_gshared (ParallelWriter_t7428BAD2977D46D9218885FB35153EEA2D619AAA* __this, UnsafeList_1_t72FFFA60411F6BB2F2C776571F608CDA569E5999 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -28526,7 +28662,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mCB1F18DE8A7FAD3150C0E623B
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t7428BAD2977D46D9218885FB35153EEA2D619AAA*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mCB1F18DE8A7FAD3150C0E623B6C0E3DAD27EFB1A(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mF8055951664A5D3D6323625DD71A08F459DBB051_gshared (ParallelWriter_t7428BAD2977D46D9218885FB35153EEA2D619AAA* __this, NativeList_1_t1D61E7A10C219D777910F52AFB34761004F5A1A0 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -28554,7 +28690,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mF8055951664A5D3D6323625DD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m46BFADBFB35BAE5470E0E01C06CD4812240B6196_gshared (ParallelWriter_t6EBDCDFFFDDF7EDFF42843022C873E00B9091A3C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28574,7 +28710,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m46BFADBFB35BAE5470E0E01C06CD48122
 	_returnValue = ParallelWriter_get_Ptr_m46BFADBFB35BAE5470E0E01C06CD4812240B6196_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m9DA84D87159E2F9440E22285961A6ED9A6163292_gshared (ParallelWriter_t6EBDCDFFFDDF7EDFF42843022C873E00B9091A3C* __this, UnsafeList_1_t72FFFA60411F6BB2F2C776571F608CDA569E5999* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -28592,7 +28728,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m9DA84D87159E2F9440E22285961A6ED9A616
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t6EBDCDFFFDDF7EDFF42843022C873E00B9091A3C*>(__this + _offset);
 	ParallelWriter__ctor_m9DA84D87159E2F9440E22285961A6ED9A6163292_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m935A7600D13CF701FE25ACE5E23B186FB2B0A5C1_gshared (ParallelWriter_t6EBDCDFFFDDF7EDFF42843022C873E00B9091A3C* __this, InstanceCullerViewStats_tCFA9E28BF5D8B9489040BD5DDE21173331CE2173 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28622,7 +28758,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m935A7600D13CF701FE25ACE5E23B18
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t6EBDCDFFFDDF7EDFF42843022C873E00B9091A3C*>(__this + _offset);
 	ParallelWriter_AddNoResize_m935A7600D13CF701FE25ACE5E23B186FB2B0A5C1(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m6789DF3B2D5BECA9B15703E05F4D28D3E227BB51_gshared (ParallelWriter_t6EBDCDFFFDDF7EDFF42843022C873E00B9091A3C* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28661,7 +28797,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m6789DF3B2D5BECA9B15703E05
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t6EBDCDFFFDDF7EDFF42843022C873E00B9091A3C*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m6789DF3B2D5BECA9B15703E05F4D28D3E227BB51(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mCCAECD461262DAE5C4BEA9F76E37F7702964DF5B_gshared (ParallelWriter_t6EBDCDFFFDDF7EDFF42843022C873E00B9091A3C* __this, UnsafeList_1_t72FFFA60411F6BB2F2C776571F608CDA569E5999 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -28690,7 +28826,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mCCAECD461262DAE5C4BEA9F76
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mA0D4BA805DCA306EA406A286885CBA0957DEA164_gshared (ParallelWriter_t0BF6A41D4C01A77466ED4EB4C0EF4661A3DD9AC0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28710,7 +28846,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mA0D4BA805DCA306EA406A286885CBA095
 	_returnValue = ParallelWriter_get_Ptr_mA0D4BA805DCA306EA406A286885CBA0957DEA164_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mBC27D9E1AD61C17AEDFEE15443C0C57CCFF697C2_gshared (ParallelWriter_t0BF6A41D4C01A77466ED4EB4C0EF4661A3DD9AC0* __this, UnsafeList_1_t7F7887FAE17B6FDBF7C159C37BC83911C5F9A184* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -28728,7 +28864,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mBC27D9E1AD61C17AEDFEE15443C0C57CCFF6
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t0BF6A41D4C01A77466ED4EB4C0EF4661A3DD9AC0*>(__this + _offset);
 	ParallelWriter__ctor_mBC27D9E1AD61C17AEDFEE15443C0C57CCFF697C2_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m871813697696AE09796FDB0E19B9D556327033A8_gshared (ParallelWriter_t0BF6A41D4C01A77466ED4EB4C0EF4661A3DD9AC0* __this, InstanceHandle_tE8D892B001AFFDB8FA53EB19F2B356436AC36C3B ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28758,7 +28894,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m871813697696AE09796FDB0E19B9D5
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t0BF6A41D4C01A77466ED4EB4C0EF4661A3DD9AC0*>(__this + _offset);
 	ParallelWriter_AddNoResize_m871813697696AE09796FDB0E19B9D556327033A8(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mD3CEB1D5FF6F806DE98CA42524E62444BFA81AFC_gshared (ParallelWriter_t0BF6A41D4C01A77466ED4EB4C0EF4661A3DD9AC0* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28801,7 +28937,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mD3CEB1D5FF6F806DE98CA4252
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t0BF6A41D4C01A77466ED4EB4C0EF4661A3DD9AC0*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mD3CEB1D5FF6F806DE98CA42524E62444BFA81AFC(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mB16C646B9A149557B9234490DA8D88408F5FAB74_gshared (ParallelWriter_t0BF6A41D4C01A77466ED4EB4C0EF4661A3DD9AC0* __this, UnsafeList_1_t7F7887FAE17B6FDBF7C159C37BC83911C5F9A184 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -28822,7 +28958,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mB16C646B9A149557B9234490D
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t0BF6A41D4C01A77466ED4EB4C0EF4661A3DD9AC0*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mB16C646B9A149557B9234490DA8D88408F5FAB74(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mA519D65F331F9D433C78A74E06953D087A3131B8_gshared (ParallelWriter_t0BF6A41D4C01A77466ED4EB4C0EF4661A3DD9AC0* __this, NativeList_1_tFE7952B5C306B3ABF1A85DF42956B696B4BCF5DC ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -28850,7 +28986,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mA519D65F331F9D433C78A74E0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mACAB0524E669ACA79CCBE5C495EB8CDBA034A4C1_gshared (ParallelWriter_tE0469BD3333EB98E597A755DA545031A048BD68F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28870,7 +29006,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mACAB0524E669ACA79CCBE5C495EB8CDBA
 	_returnValue = ParallelWriter_get_Ptr_mACAB0524E669ACA79CCBE5C495EB8CDBA034A4C1_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mED7E9CB8E4234F8AD12C63F51DDD28E122D5AA48_gshared (ParallelWriter_tE0469BD3333EB98E597A755DA545031A048BD68F* __this, UnsafeList_1_t7F7887FAE17B6FDBF7C159C37BC83911C5F9A184* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -28888,7 +29024,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mED7E9CB8E4234F8AD12C63F51DDD28E122D5
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tE0469BD3333EB98E597A755DA545031A048BD68F*>(__this + _offset);
 	ParallelWriter__ctor_mED7E9CB8E4234F8AD12C63F51DDD28E122D5AA48_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mAD9F5A81FFDE3588F2D2F9E5D5F3B3E39B4B5F9E_gshared (ParallelWriter_tE0469BD3333EB98E597A755DA545031A048BD68F* __this, InstanceHandle_tE8D892B001AFFDB8FA53EB19F2B356436AC36C3B ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28918,7 +29054,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mAD9F5A81FFDE3588F2D2F9E5D5F3B3
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tE0469BD3333EB98E597A755DA545031A048BD68F*>(__this + _offset);
 	ParallelWriter_AddNoResize_mAD9F5A81FFDE3588F2D2F9E5D5F3B3E39B4B5F9E(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m94B910F27E84911F083F2DCBB4460ED0F367CEC3_gshared (ParallelWriter_tE0469BD3333EB98E597A755DA545031A048BD68F* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28957,7 +29093,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m94B910F27E84911F083F2DCBB
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tE0469BD3333EB98E597A755DA545031A048BD68F*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m94B910F27E84911F083F2DCBB4460ED0F367CEC3(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mA7203CA50F885C8A59E0245342BD5273AE7E0143_gshared (ParallelWriter_tE0469BD3333EB98E597A755DA545031A048BD68F* __this, UnsafeList_1_t7F7887FAE17B6FDBF7C159C37BC83911C5F9A184 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -28986,7 +29122,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mA7203CA50F885C8A59E024534
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m8487F255BC52B0260FF356697FBFEE1E22E794D1_gshared (ParallelWriter_t04EFABCE7F16C233C4253AF05AA13510C8B46A28* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29006,7 +29142,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m8487F255BC52B0260FF356697FBFEE1E2
 	_returnValue = ParallelWriter_get_Ptr_m8487F255BC52B0260FF356697FBFEE1E22E794D1_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mDE5A5A270B12F720085B9886106CF311AB31068F_gshared (ParallelWriter_t04EFABCE7F16C233C4253AF05AA13510C8B46A28* __this, UnsafeList_1_t86D2231E0AF64C72BA7C266D36B9F3FE399B41EB* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -29024,7 +29160,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mDE5A5A270B12F720085B9886106CF311AB31
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t04EFABCE7F16C233C4253AF05AA13510C8B46A28*>(__this + _offset);
 	ParallelWriter__ctor_mDE5A5A270B12F720085B9886106CF311AB31068F_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m6CA754B6370C96952CA103DE175971F4CD80FBC7_gshared (ParallelWriter_t04EFABCE7F16C233C4253AF05AA13510C8B46A28* __this, InstanceOcclusionEventStats_t39015A29B5AE8D08BF95679C8A25869BD8715AAD ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -29054,7 +29190,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m6CA754B6370C96952CA103DE175971
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t04EFABCE7F16C233C4253AF05AA13510C8B46A28*>(__this + _offset);
 	ParallelWriter_AddNoResize_m6CA754B6370C96952CA103DE175971F4CD80FBC7(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m9BEC8955EEB037854B216B38EB4CAE6E63CE69C3_gshared (ParallelWriter_t04EFABCE7F16C233C4253AF05AA13510C8B46A28* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -29097,7 +29233,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m9BEC8955EEB037854B216B38E
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t04EFABCE7F16C233C4253AF05AA13510C8B46A28*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m9BEC8955EEB037854B216B38EB4CAE6E63CE69C3(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m7375CE7DCAAE8E84C10D8CCD61B27DCDA38DB712_gshared (ParallelWriter_t04EFABCE7F16C233C4253AF05AA13510C8B46A28* __this, UnsafeList_1_t86D2231E0AF64C72BA7C266D36B9F3FE399B41EB ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -29118,7 +29254,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m7375CE7DCAAE8E84C10D8CCD6
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t04EFABCE7F16C233C4253AF05AA13510C8B46A28*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m7375CE7DCAAE8E84C10D8CCD61B27DCDA38DB712(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mE655FB1CC8A3200582A329F0C05BFE9004595A17_gshared (ParallelWriter_t04EFABCE7F16C233C4253AF05AA13510C8B46A28* __this, NativeList_1_t7C049872825FD2E53BA2AD96FB06944DF07AFF08 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -29146,7 +29282,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mE655FB1CC8A3200582A329F0C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mA9833F396DCCF5560FC7070A668B64311BEB8767_gshared (ParallelWriter_tFFC7E4A35E71E35FF6BF45CFD4E24C679B34C0E5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29166,7 +29302,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mA9833F396DCCF5560FC7070A668B64311
 	_returnValue = ParallelWriter_get_Ptr_mA9833F396DCCF5560FC7070A668B64311BEB8767_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m89A69FC4BE897E4046869F7E556721F407D672FD_gshared (ParallelWriter_tFFC7E4A35E71E35FF6BF45CFD4E24C679B34C0E5* __this, UnsafeList_1_t86D2231E0AF64C72BA7C266D36B9F3FE399B41EB* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -29184,7 +29320,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m89A69FC4BE897E4046869F7E556721F407D6
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tFFC7E4A35E71E35FF6BF45CFD4E24C679B34C0E5*>(__this + _offset);
 	ParallelWriter__ctor_m89A69FC4BE897E4046869F7E556721F407D672FD_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m25CD8A00A4A2EE56950F8130AABD9C54C7A2817E_gshared (ParallelWriter_tFFC7E4A35E71E35FF6BF45CFD4E24C679B34C0E5* __this, InstanceOcclusionEventStats_t39015A29B5AE8D08BF95679C8A25869BD8715AAD ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -29214,7 +29350,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m25CD8A00A4A2EE56950F8130AABD9C
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tFFC7E4A35E71E35FF6BF45CFD4E24C679B34C0E5*>(__this + _offset);
 	ParallelWriter_AddNoResize_m25CD8A00A4A2EE56950F8130AABD9C54C7A2817E(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m43E3EA6D9D20C36E588F0CC08B57722F3474C31B_gshared (ParallelWriter_tFFC7E4A35E71E35FF6BF45CFD4E24C679B34C0E5* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -29253,7 +29389,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m43E3EA6D9D20C36E588F0CC08
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tFFC7E4A35E71E35FF6BF45CFD4E24C679B34C0E5*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m43E3EA6D9D20C36E588F0CC08B57722F3474C31B(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m0A2BBA39EF78A2298DFD36DD7B91D621E7EF7CBD_gshared (ParallelWriter_tFFC7E4A35E71E35FF6BF45CFD4E24C679B34C0E5* __this, UnsafeList_1_t86D2231E0AF64C72BA7C266D36B9F3FE399B41EB ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -29282,7 +29418,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m0A2BBA39EF78A2298DFD36DD7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m95DA6F5400DB3942F37A2EAB6AA3B353992A332E_gshared (ParallelWriter_t80A8984CE4AF82D8AD8D75CA7F04FDB95E5A6587* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29302,7 +29438,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m95DA6F5400DB3942F37A2EAB6AA3B3539
 	_returnValue = ParallelWriter_get_Ptr_m95DA6F5400DB3942F37A2EAB6AA3B353992A332E_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m19FEA48D205CDE35C4C774522A8496227AF7817F_gshared (ParallelWriter_t80A8984CE4AF82D8AD8D75CA7F04FDB95E5A6587* __this, UnsafeList_1_t6C5E84D303190B625F3759C244502E1735453718* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -29320,7 +29456,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m19FEA48D205CDE35C4C774522A8496227AF7
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t80A8984CE4AF82D8AD8D75CA7F04FDB95E5A6587*>(__this + _offset);
 	ParallelWriter__ctor_m19FEA48D205CDE35C4C774522A8496227AF7817F_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m24250239237FC184FB89C97DC4DC35B7327B6B6D_gshared (ParallelWriter_t80A8984CE4AF82D8AD8D75CA7F04FDB95E5A6587* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -29350,7 +29486,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m24250239237FC184FB89C97DC4DC35
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t80A8984CE4AF82D8AD8D75CA7F04FDB95E5A6587*>(__this + _offset);
 	ParallelWriter_AddNoResize_m24250239237FC184FB89C97DC4DC35B7327B6B6D(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mD31E0D3828906AD492E2136E0D6D27D212856C2D_gshared (ParallelWriter_t80A8984CE4AF82D8AD8D75CA7F04FDB95E5A6587* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -29393,7 +29529,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mD31E0D3828906AD492E2136E0
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t80A8984CE4AF82D8AD8D75CA7F04FDB95E5A6587*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mD31E0D3828906AD492E2136E0D6D27D212856C2D(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m3539B02CE651E6C6E92CC4F55A8FA7151B9215D4_gshared (ParallelWriter_t80A8984CE4AF82D8AD8D75CA7F04FDB95E5A6587* __this, UnsafeList_1_t6C5E84D303190B625F3759C244502E1735453718 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -29414,7 +29550,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m3539B02CE651E6C6E92CC4F55
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t80A8984CE4AF82D8AD8D75CA7F04FDB95E5A6587*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m3539B02CE651E6C6E92CC4F55A8FA7151B9215D4(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m9FE64999FA1B79BBC4CD75B1AF503AFE13501D40_gshared (ParallelWriter_t80A8984CE4AF82D8AD8D75CA7F04FDB95E5A6587* __this, NativeList_1_t0EA735A94E6EBF8FE7F3B79411C98BF692EA2213 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -29442,7 +29578,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m9FE64999FA1B79BBC4CD75B1A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90243
+// Method Definition Index: 90246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_m731A1A2D073BC50F0362578517E1D2CCBC4C1FB9_gshared (ParallelWriter_t94994EEA7B64AE8FB5F6BADBB828B7D5E2FB2200* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -29461,7 +29597,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_Enqueue_m731A1A2D073BC50F0362578517E1D2CCBC
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t94994EEA7B64AE8FB5F6BADBB828B7D5E2FB2200*>(__this + _offset);
 	ParallelWriter_Enqueue_m731A1A2D073BC50F0362578517E1D2CCBC4C1FB9(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 90244
+// Method Definition Index: 90247
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_mD4E46B5DB6120617149EEE08C50AF3EB523FC02B_gshared (ParallelWriter_t94994EEA7B64AE8FB5F6BADBB828B7D5E2FB2200* __this, int32_t ___0_value, int32_t ___1_threadIndexOverride, const RuntimeMethod* method) 
 {
 	{
@@ -29489,7 +29625,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_Enqueue_mD4E46B5DB6120617149EEE08C50AF3EB52
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m289511E08E12C9F86CA6863237292700DD2A3A54_gshared (ParallelWriter_t2B0EB8D5AC3F3063AF66A5BFC28D16597DAED947* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29509,7 +29645,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m289511E08E12C9F86CA6863237292700D
 	_returnValue = ParallelWriter_get_Ptr_m289511E08E12C9F86CA6863237292700DD2A3A54_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mAF83B29266E2947A63F4AB7A5B2F2C4401EEC02A_gshared (ParallelWriter_t2B0EB8D5AC3F3063AF66A5BFC28D16597DAED947* __this, UnsafeList_1_t6C5E84D303190B625F3759C244502E1735453718* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -29527,7 +29663,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mAF83B29266E2947A63F4AB7A5B2F2C4401EE
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t2B0EB8D5AC3F3063AF66A5BFC28D16597DAED947*>(__this + _offset);
 	ParallelWriter__ctor_mAF83B29266E2947A63F4AB7A5B2F2C4401EEC02A_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m39294CD402E9D00D76B4C2725539BB278B53C398_gshared (ParallelWriter_t2B0EB8D5AC3F3063AF66A5BFC28D16597DAED947* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -29557,7 +29693,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m39294CD402E9D00D76B4C2725539BB
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t2B0EB8D5AC3F3063AF66A5BFC28D16597DAED947*>(__this + _offset);
 	ParallelWriter_AddNoResize_m39294CD402E9D00D76B4C2725539BB278B53C398(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mF15A2BEE09249BB5BF8995D276886AAE13195BE8_gshared (ParallelWriter_t2B0EB8D5AC3F3063AF66A5BFC28D16597DAED947* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -29596,7 +29732,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mF15A2BEE09249BB5BF8995D27
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t2B0EB8D5AC3F3063AF66A5BFC28D16597DAED947*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mF15A2BEE09249BB5BF8995D276886AAE13195BE8(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m7254CCA8C9A5FD73C61C98565C2CE1ED4B7E3F7A_gshared (ParallelWriter_t2B0EB8D5AC3F3063AF66A5BFC28D16597DAED947* __this, UnsafeList_1_t6C5E84D303190B625F3759C244502E1735453718 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -29625,7 +29761,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m7254CCA8C9A5FD73C61C98565
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90655
+// Method Definition Index: 90658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_mD93878D3694E1309BFA89EDA837411B7AADE2B08_gshared (ParallelWriter_t31FA6295F2B51E9C13A212F6727A877DAD428EFA* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	UnsafeQueueBlockHeader_t93BDD5BE3C4A0486BE2A07B68862CFF1F5870D9C* V_0 = NULL;
@@ -29663,7 +29799,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_Enqueue_mD93878D3694E1309BFA89EDA837411B7AA
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t31FA6295F2B51E9C13A212F6727A877DAD428EFA*>(__this + _offset);
 	ParallelWriter_Enqueue_mD93878D3694E1309BFA89EDA837411B7AADE2B08(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 90656
+// Method Definition Index: 90659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_mC30E431352231F686F4F846D1E9B41DD7D23D1FC_gshared (ParallelWriter_t31FA6295F2B51E9C13A212F6727A877DAD428EFA* __this, int32_t ___0_value, int32_t ___1_threadIndexOverride, const RuntimeMethod* method) 
 {
 	UnsafeQueueBlockHeader_t93BDD5BE3C4A0486BE2A07B68862CFF1F5870D9C* V_0 = NULL;
@@ -29709,7 +29845,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_Enqueue_mC30E431352231F686F4F846D1E9B41DD7D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m7A8E15D0DBDAE594FDFADA436EE503622509450B_gshared (ParallelWriter_t9712EF5FAAEA116BC33D159CB478674935575578* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29729,7 +29865,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m7A8E15D0DBDAE594FDFADA436EE503622
 	_returnValue = ParallelWriter_get_Ptr_m7A8E15D0DBDAE594FDFADA436EE503622509450B_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m2E5A2FB2AFE7962F62F6A32E3BB022B7B83C8794_gshared (ParallelWriter_t9712EF5FAAEA116BC33D159CB478674935575578* __this, UnsafeList_1_t6B33FA0D43DCA4560A225E333E6722C55B5E2FC9* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -29747,7 +29883,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m2E5A2FB2AFE7962F62F6A32E3BB022B7B83C
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t9712EF5FAAEA116BC33D159CB478674935575578*>(__this + _offset);
 	ParallelWriter__ctor_m2E5A2FB2AFE7962F62F6A32E3BB022B7B83C8794_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mD118CB8EEBCCBAA94B5A566BEFD01C125A08ED01_gshared (ParallelWriter_t9712EF5FAAEA116BC33D159CB478674935575578* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -29777,7 +29913,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mD118CB8EEBCCBAA94B5A566BEFD01C
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t9712EF5FAAEA116BC33D159CB478674935575578*>(__this + _offset);
 	ParallelWriter_AddNoResize_mD118CB8EEBCCBAA94B5A566BEFD01C125A08ED01(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m16D2E5369308083BC5D0A1F9EAA7C1A74F10D5FF_gshared (ParallelWriter_t9712EF5FAAEA116BC33D159CB478674935575578* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -29820,7 +29956,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m16D2E5369308083BC5D0A1F9E
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t9712EF5FAAEA116BC33D159CB478674935575578*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m16D2E5369308083BC5D0A1F9EAA7C1A74F10D5FF(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m9EBF9C43A21ABBCA6A785DCC62F730982C77A476_gshared (ParallelWriter_t9712EF5FAAEA116BC33D159CB478674935575578* __this, UnsafeList_1_t6B33FA0D43DCA4560A225E333E6722C55B5E2FC9 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -29841,7 +29977,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m9EBF9C43A21ABBCA6A785DCC6
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t9712EF5FAAEA116BC33D159CB478674935575578*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m9EBF9C43A21ABBCA6A785DCC62F730982C77A476(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m7A790FA7B5B0CA36CEFDA793D92EA94D0711A9FE_gshared (ParallelWriter_t9712EF5FAAEA116BC33D159CB478674935575578* __this, NativeList_1_tF05833EAAE5AC2EE627773E213F31E568613D11C ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -29869,7 +30005,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m7A790FA7B5B0CA36CEFDA793D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m2EB61A71DD9BA71E8BCDFE0686668730F56A8793_gshared (ParallelWriter_tAA0A67F001D0A22044782F21A898C84C3A2E11C9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29889,7 +30025,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m2EB61A71DD9BA71E8BCDFE0686668730F
 	_returnValue = ParallelWriter_get_Ptr_m2EB61A71DD9BA71E8BCDFE0686668730F56A8793_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m0D536E16B33C9BD97045BC13A435581069F5281F_gshared (ParallelWriter_tAA0A67F001D0A22044782F21A898C84C3A2E11C9* __this, UnsafeList_1_t6B33FA0D43DCA4560A225E333E6722C55B5E2FC9* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -29907,7 +30043,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m0D536E16B33C9BD97045BC13A435581069F5
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tAA0A67F001D0A22044782F21A898C84C3A2E11C9*>(__this + _offset);
 	ParallelWriter__ctor_m0D536E16B33C9BD97045BC13A435581069F5281F_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m28F7BC50C720CE2D16CCE213B8278ADE92F0753D_gshared (ParallelWriter_tAA0A67F001D0A22044782F21A898C84C3A2E11C9* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -29937,7 +30073,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m28F7BC50C720CE2D16CCE213B8278A
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tAA0A67F001D0A22044782F21A898C84C3A2E11C9*>(__this + _offset);
 	ParallelWriter_AddNoResize_m28F7BC50C720CE2D16CCE213B8278ADE92F0753D(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mF626A199CCDFB29D55AA1EE2C0CE6C6F0D60142E_gshared (ParallelWriter_tAA0A67F001D0A22044782F21A898C84C3A2E11C9* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -29976,7 +30112,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mF626A199CCDFB29D55AA1EE2C
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tAA0A67F001D0A22044782F21A898C84C3A2E11C9*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mF626A199CCDFB29D55AA1EE2C0CE6C6F0D60142E(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m1187334E4A04F86B0F58F55EAAD18D815155BFCB_gshared (ParallelWriter_tAA0A67F001D0A22044782F21A898C84C3A2E11C9* __this, UnsafeList_1_t6B33FA0D43DCA4560A225E333E6722C55B5E2FC9 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -30005,7 +30141,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m1187334E4A04F86B0F58F55EA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mB6444B6996E40021451A164BB5164E623F7CF769_gshared (ParallelWriter_t3805924DF32C8DA3B217A4785923FAE249A35B23* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30025,7 +30161,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mB6444B6996E40021451A164BB5164E623
 	_returnValue = ParallelWriter_get_Ptr_mB6444B6996E40021451A164BB5164E623F7CF769_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m3A176CD2F4AA9260C63F9F79136A162C798FE349_gshared (ParallelWriter_t3805924DF32C8DA3B217A4785923FAE249A35B23* __this, UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -30043,7 +30179,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m3A176CD2F4AA9260C63F9F79136A162C798F
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t3805924DF32C8DA3B217A4785923FAE249A35B23*>(__this + _offset);
 	ParallelWriter__ctor_m3A176CD2F4AA9260C63F9F79136A162C798FE349_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m874F06D75E248E74083DFE66C7D8893E137991EF_gshared (ParallelWriter_t3805924DF32C8DA3B217A4785923FAE249A35B23* __this, intptr_t ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -30073,7 +30209,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m874F06D75E248E74083DFE66C7D889
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t3805924DF32C8DA3B217A4785923FAE249A35B23*>(__this + _offset);
 	ParallelWriter_AddNoResize_m874F06D75E248E74083DFE66C7D8893E137991EF(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m7A2F5EAA006A70C600264E3C39C385F0681477AF_gshared (ParallelWriter_t3805924DF32C8DA3B217A4785923FAE249A35B23* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -30112,7 +30248,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m7A2F5EAA006A70C600264E3C3
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t3805924DF32C8DA3B217A4785923FAE249A35B23*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m7A2F5EAA006A70C600264E3C39C385F0681477AF(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m25FA2ADF7888ADFD4E8675D1CDD09C7BC8892183_gshared (ParallelWriter_t3805924DF32C8DA3B217A4785923FAE249A35B23* __this, UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -30141,7 +30277,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m25FA2ADF7888ADFD4E8675D1C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90243
+// Method Definition Index: 90246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_m3DDA83B692E63BD5F8493636E943200DABA53702_gshared (ParallelWriter_t06A25EF360CFD2B4DD6514DADBB15916BCD9AD55* __this, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -30160,7 +30296,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_Enqueue_m3DDA83B692E63BD5F8493636E943200DAB
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t06A25EF360CFD2B4DD6514DADBB15916BCD9AD55*>(__this + _offset);
 	ParallelWriter_Enqueue_m3DDA83B692E63BD5F8493636E943200DABA53702(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 90244
+// Method Definition Index: 90247
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_m2B1ABEA2A62351EFAB2DDE42D05B0201F0B098EA_gshared (ParallelWriter_t06A25EF360CFD2B4DD6514DADBB15916BCD9AD55* __this, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___0_value, int32_t ___1_threadIndexOverride, const RuntimeMethod* method) 
 {
 	{
@@ -30188,7 +30324,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_Enqueue_m2B1ABEA2A62351EFAB2DDE42D05B0201F0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90655
+// Method Definition Index: 90658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_m08BF14ACAD7829298C841912C2E98C82CA4BB2C7_gshared (ParallelWriter_t8829B2E21DE917C15501B27B08A9CCD2B6084A31* __this, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___0_value, const RuntimeMethod* method) 
 {
 	UnsafeQueueBlockHeader_t93BDD5BE3C4A0486BE2A07B68862CFF1F5870D9C* V_0 = NULL;
@@ -30226,7 +30362,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_Enqueue_m08BF14ACAD7829298C841912C2E98C82CA
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t8829B2E21DE917C15501B27B08A9CCD2B6084A31*>(__this + _offset);
 	ParallelWriter_Enqueue_m08BF14ACAD7829298C841912C2E98C82CA4BB2C7(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 90656
+// Method Definition Index: 90659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_m05B5098B687DAB97A0441824B4A2D36B46862D07_gshared (ParallelWriter_t8829B2E21DE917C15501B27B08A9CCD2B6084A31* __this, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___0_value, int32_t ___1_threadIndexOverride, const RuntimeMethod* method) 
 {
 	UnsafeQueueBlockHeader_t93BDD5BE3C4A0486BE2A07B68862CFF1F5870D9C* V_0 = NULL;
@@ -30272,7 +30408,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_Enqueue_m05B5098B687DAB97A0441824B4A2D36B46
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m617EE3173698C0FC21FC3703B759BAB16A8BBC96_gshared (ParallelWriter_tDE3D3EAD7695DE76EBDD02128557F7FBDEBF5858* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30292,7 +30428,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m617EE3173698C0FC21FC3703B759BAB16
 	_returnValue = ParallelWriter_get_Ptr_m617EE3173698C0FC21FC3703B759BAB16A8BBC96_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m7023485F3CD131D0373F8F0A0543CEDFB386365F_gshared (ParallelWriter_tDE3D3EAD7695DE76EBDD02128557F7FBDEBF5858* __this, UnsafeList_1_tF1A798781EDA1BEAD331A2241888A227A6E2891D* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -30310,7 +30446,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m7023485F3CD131D0373F8F0A0543CEDFB386
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tDE3D3EAD7695DE76EBDD02128557F7FBDEBF5858*>(__this + _offset);
 	ParallelWriter__ctor_m7023485F3CD131D0373F8F0A0543CEDFB386365F_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m73E1B25B0FDD649E3EE68367CC3E8AB9FE4CF5BE_gshared (ParallelWriter_tDE3D3EAD7695DE76EBDD02128557F7FBDEBF5858* __this, LODGroupCullingData_t511A004D7CBAE84368FCAA62A0348C24CB46EABF ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -30340,7 +30476,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m73E1B25B0FDD649E3EE68367CC3E8A
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tDE3D3EAD7695DE76EBDD02128557F7FBDEBF5858*>(__this + _offset);
 	ParallelWriter_AddNoResize_m73E1B25B0FDD649E3EE68367CC3E8AB9FE4CF5BE(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mB8BB4B11D1C6D29174FB37B71AD5D75AE55349F0_gshared (ParallelWriter_tDE3D3EAD7695DE76EBDD02128557F7FBDEBF5858* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -30383,7 +30519,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mB8BB4B11D1C6D29174FB37B71
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tDE3D3EAD7695DE76EBDD02128557F7FBDEBF5858*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mB8BB4B11D1C6D29174FB37B71AD5D75AE55349F0(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m33AAA46D8B8F6D6EAB1DBF888725C55A9F8E6C1E_gshared (ParallelWriter_tDE3D3EAD7695DE76EBDD02128557F7FBDEBF5858* __this, UnsafeList_1_tF1A798781EDA1BEAD331A2241888A227A6E2891D ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -30404,7 +30540,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m33AAA46D8B8F6D6EAB1DBF888
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tDE3D3EAD7695DE76EBDD02128557F7FBDEBF5858*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m33AAA46D8B8F6D6EAB1DBF888725C55A9F8E6C1E(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mDBCAEF535FF8CA1E03B05D291273F02274B465DE_gshared (ParallelWriter_tDE3D3EAD7695DE76EBDD02128557F7FBDEBF5858* __this, NativeList_1_t53EAF24037BDCAF4EBF0C2060BFD6694AFAC35AD ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -30432,7 +30568,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mDBCAEF535FF8CA1E03B05D291
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m0DA9E8B243A63237562507CCD24B0B5FA32F1C33_gshared (ParallelWriter_tEBE84DF59A55B3F03D59A3412F035B540D93DF9D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30452,7 +30588,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m0DA9E8B243A63237562507CCD24B0B5FA
 	_returnValue = ParallelWriter_get_Ptr_m0DA9E8B243A63237562507CCD24B0B5FA32F1C33_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m914D0A768535FFE3203912DBCED9C1AC32172493_gshared (ParallelWriter_tEBE84DF59A55B3F03D59A3412F035B540D93DF9D* __this, UnsafeList_1_tF1A798781EDA1BEAD331A2241888A227A6E2891D* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -30470,7 +30606,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m914D0A768535FFE3203912DBCED9C1AC3217
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tEBE84DF59A55B3F03D59A3412F035B540D93DF9D*>(__this + _offset);
 	ParallelWriter__ctor_m914D0A768535FFE3203912DBCED9C1AC32172493_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m9869542AA96163F9F92D2967E1D3A2FDBB46F4C6_gshared (ParallelWriter_tEBE84DF59A55B3F03D59A3412F035B540D93DF9D* __this, LODGroupCullingData_t511A004D7CBAE84368FCAA62A0348C24CB46EABF ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -30500,7 +30636,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m9869542AA96163F9F92D2967E1D3A2
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tEBE84DF59A55B3F03D59A3412F035B540D93DF9D*>(__this + _offset);
 	ParallelWriter_AddNoResize_m9869542AA96163F9F92D2967E1D3A2FDBB46F4C6(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m8A20A892E4DEB9A74C163ECB356909A5DDEB7109_gshared (ParallelWriter_tEBE84DF59A55B3F03D59A3412F035B540D93DF9D* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -30539,7 +30675,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m8A20A892E4DEB9A74C163ECB3
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tEBE84DF59A55B3F03D59A3412F035B540D93DF9D*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m8A20A892E4DEB9A74C163ECB356909A5DDEB7109(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mF6C9AA7038955804C0DAC9C6FF14EA3B82F45911_gshared (ParallelWriter_tEBE84DF59A55B3F03D59A3412F035B540D93DF9D* __this, UnsafeList_1_tF1A798781EDA1BEAD331A2241888A227A6E2891D ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -30568,7 +30704,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mF6C9AA7038955804C0DAC9C6F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m745A835A726297BDF55B4E52F9207A27F8608207_gshared (ParallelWriter_t627D118BC39DF2293273C7B13E27FC2D53BC8AE3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30588,7 +30724,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m745A835A726297BDF55B4E52F9207A27F
 	_returnValue = ParallelWriter_get_Ptr_m745A835A726297BDF55B4E52F9207A27F8608207_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mD8D0B1C277AAE5832390C7F17BC9A5FCB5C7FAB5_gshared (ParallelWriter_t627D118BC39DF2293273C7B13E27FC2D53BC8AE3* __this, UnsafeList_1_t466025709A4C0CCFAD422C17FFAB3956BEBAF9D2* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -30606,7 +30742,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mD8D0B1C277AAE5832390C7F17BC9A5FCB5C7
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t627D118BC39DF2293273C7B13E27FC2D53BC8AE3*>(__this + _offset);
 	ParallelWriter__ctor_mD8D0B1C277AAE5832390C7F17BC9A5FCB5C7FAB5_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mB7A425F472DACADD8E38B899B8105D0F10E172B8_gshared (ParallelWriter_t627D118BC39DF2293273C7B13E27FC2D53BC8AE3* __this, LODGroupData_t270D641C75EEBF4612A34E2398D4D0A10A5B1241 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -30636,7 +30772,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mB7A425F472DACADD8E38B899B8105D
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t627D118BC39DF2293273C7B13E27FC2D53BC8AE3*>(__this + _offset);
 	ParallelWriter_AddNoResize_mB7A425F472DACADD8E38B899B8105D0F10E172B8(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mE7579EF53ECC6D04C78C12BA1B130A8D95584870_gshared (ParallelWriter_t627D118BC39DF2293273C7B13E27FC2D53BC8AE3* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -30679,7 +30815,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mE7579EF53ECC6D04C78C12BA1
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t627D118BC39DF2293273C7B13E27FC2D53BC8AE3*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mE7579EF53ECC6D04C78C12BA1B130A8D95584870(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mF14B8FFD0C009FE9059CA337247871567FBCFE6E_gshared (ParallelWriter_t627D118BC39DF2293273C7B13E27FC2D53BC8AE3* __this, UnsafeList_1_t466025709A4C0CCFAD422C17FFAB3956BEBAF9D2 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -30700,7 +30836,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mF14B8FFD0C009FE9059CA3372
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t627D118BC39DF2293273C7B13E27FC2D53BC8AE3*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mF14B8FFD0C009FE9059CA337247871567FBCFE6E(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m621385E658946EF633E7119B335178ABC0F1B93E_gshared (ParallelWriter_t627D118BC39DF2293273C7B13E27FC2D53BC8AE3* __this, NativeList_1_t985BEF7B4509E25DDC0567AA7F3E7BBD8115E2CB ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -30728,7 +30864,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m621385E658946EF633E7119B3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mB552162CE1AC64A0501C522D1451FB39BA057E70_gshared (ParallelWriter_tC198AFE01A4BFEAB4D0886B7A6D700281239856E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30748,7 +30884,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mB552162CE1AC64A0501C522D1451FB39B
 	_returnValue = ParallelWriter_get_Ptr_mB552162CE1AC64A0501C522D1451FB39BA057E70_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m2F54636FC031471CDA081F9B72152F76C0169259_gshared (ParallelWriter_tC198AFE01A4BFEAB4D0886B7A6D700281239856E* __this, UnsafeList_1_t466025709A4C0CCFAD422C17FFAB3956BEBAF9D2* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -30766,7 +30902,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m2F54636FC031471CDA081F9B72152F76C016
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tC198AFE01A4BFEAB4D0886B7A6D700281239856E*>(__this + _offset);
 	ParallelWriter__ctor_m2F54636FC031471CDA081F9B72152F76C0169259_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mE69C923B99CD716C765E5CB973FE59D2F01A0EF1_gshared (ParallelWriter_tC198AFE01A4BFEAB4D0886B7A6D700281239856E* __this, LODGroupData_t270D641C75EEBF4612A34E2398D4D0A10A5B1241 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -30796,7 +30932,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mE69C923B99CD716C765E5CB973FE59
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tC198AFE01A4BFEAB4D0886B7A6D700281239856E*>(__this + _offset);
 	ParallelWriter_AddNoResize_mE69C923B99CD716C765E5CB973FE59D2F01A0EF1(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m64ABEE2904411FA56B504CA1B6DA65DA4C2978EE_gshared (ParallelWriter_tC198AFE01A4BFEAB4D0886B7A6D700281239856E* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -30835,7 +30971,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m64ABEE2904411FA56B504CA1B
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tC198AFE01A4BFEAB4D0886B7A6D700281239856E*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m64ABEE2904411FA56B504CA1B6DA65DA4C2978EE(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mD1D952437225AA40247EAE2BD1F619E29DF7D369_gshared (ParallelWriter_tC198AFE01A4BFEAB4D0886B7A6D700281239856E* __this, UnsafeList_1_t466025709A4C0CCFAD422C17FFAB3956BEBAF9D2 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -30864,7 +31000,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mD1D952437225AA40247EAE2BD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m8FAD310D0C80984D37E8D170938CEA34C7D729C1_gshared (ParallelWriter_tA6D01046C9AEB68C198B0670BCA2543E227EC428* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30884,7 +31020,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m8FAD310D0C80984D37E8D170938CEA34C
 	_returnValue = ParallelWriter_get_Ptr_m8FAD310D0C80984D37E8D170938CEA34C7D729C1_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mEDD8112CC1CBD417D991D63633EB903D61613855_gshared (ParallelWriter_tA6D01046C9AEB68C198B0670BCA2543E227EC428* __this, UnsafeList_1_tC35C17A98C45EDE2BAEEF51E5546B6AE96871E29* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -30902,7 +31038,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mEDD8112CC1CBD417D991D63633EB903D6161
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tA6D01046C9AEB68C198B0670BCA2543E227EC428*>(__this + _offset);
 	ParallelWriter__ctor_mEDD8112CC1CBD417D991D63633EB903D61613855_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mAD088285C65848232A55E9BDED82119A6CD1AC67_gshared (ParallelWriter_tA6D01046C9AEB68C198B0670BCA2543E227EC428* __this, MetadataValue_tB24D1ECC62550B3B37D7BFA11B02907047E7F937 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -30932,7 +31068,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mAD088285C65848232A55E9BDED8211
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tA6D01046C9AEB68C198B0670BCA2543E227EC428*>(__this + _offset);
 	ParallelWriter_AddNoResize_mAD088285C65848232A55E9BDED82119A6CD1AC67(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m512C03BA1B9677CBBF6110E2E525B73896125C9C_gshared (ParallelWriter_tA6D01046C9AEB68C198B0670BCA2543E227EC428* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -30975,7 +31111,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m512C03BA1B9677CBBF6110E2E
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tA6D01046C9AEB68C198B0670BCA2543E227EC428*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m512C03BA1B9677CBBF6110E2E525B73896125C9C(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m032E10C1FDF2FABCABB31FA11CFEAD5E17329AFB_gshared (ParallelWriter_tA6D01046C9AEB68C198B0670BCA2543E227EC428* __this, UnsafeList_1_tC35C17A98C45EDE2BAEEF51E5546B6AE96871E29 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -30996,7 +31132,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m032E10C1FDF2FABCABB31FA11
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tA6D01046C9AEB68C198B0670BCA2543E227EC428*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m032E10C1FDF2FABCABB31FA11CFEAD5E17329AFB(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m1880920887A6E91E9E5862C1130B361536105851_gshared (ParallelWriter_tA6D01046C9AEB68C198B0670BCA2543E227EC428* __this, NativeList_1_t6979B4DD02A6530CBD36841E5BAF6B7975E55CBB ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -31024,7 +31160,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m1880920887A6E91E9E5862C11
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mBD07767C1234FA0526B1EAC13B365C1C5BCEA227_gshared (ParallelWriter_t7AD9879E1DD772F00992C83AEB96359BA4C7AE01* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31044,7 +31180,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mBD07767C1234FA0526B1EAC13B365C1C5
 	_returnValue = ParallelWriter_get_Ptr_mBD07767C1234FA0526B1EAC13B365C1C5BCEA227_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m2EA277A4F5D90178DF18018A17C385F64A298122_gshared (ParallelWriter_t7AD9879E1DD772F00992C83AEB96359BA4C7AE01* __this, UnsafeList_1_tC35C17A98C45EDE2BAEEF51E5546B6AE96871E29* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -31062,7 +31198,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m2EA277A4F5D90178DF18018A17C385F64A29
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t7AD9879E1DD772F00992C83AEB96359BA4C7AE01*>(__this + _offset);
 	ParallelWriter__ctor_m2EA277A4F5D90178DF18018A17C385F64A298122_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mFE13A23FFB0DA57741F429D3360265C0AE85EB3F_gshared (ParallelWriter_t7AD9879E1DD772F00992C83AEB96359BA4C7AE01* __this, MetadataValue_tB24D1ECC62550B3B37D7BFA11B02907047E7F937 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -31092,7 +31228,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mFE13A23FFB0DA57741F429D3360265
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t7AD9879E1DD772F00992C83AEB96359BA4C7AE01*>(__this + _offset);
 	ParallelWriter_AddNoResize_mFE13A23FFB0DA57741F429D3360265C0AE85EB3F(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m5F36FC994ACBCCE04A4FDB25F7B970A78A9DF840_gshared (ParallelWriter_t7AD9879E1DD772F00992C83AEB96359BA4C7AE01* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -31131,7 +31267,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m5F36FC994ACBCCE04A4FDB25F
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t7AD9879E1DD772F00992C83AEB96359BA4C7AE01*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m5F36FC994ACBCCE04A4FDB25F7B970A78A9DF840(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m48AC9FCB50C5A648087ABF451DD14BF4AC984FD0_gshared (ParallelWriter_t7AD9879E1DD772F00992C83AEB96359BA4C7AE01* __this, UnsafeList_1_tC35C17A98C45EDE2BAEEF51E5546B6AE96871E29 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -31160,7 +31296,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m48AC9FCB50C5A648087ABF451
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m24D1FB8DADDCDDFB3B91504E6C0775589462ECDC_gshared (ParallelWriter_tD27D0A6035F6A4252D31002FB7D4459F6D9794A6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31180,7 +31316,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m24D1FB8DADDCDDFB3B91504E6C0775589
 	_returnValue = ParallelWriter_get_Ptr_m24D1FB8DADDCDDFB3B91504E6C0775589462ECDC_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m240244A9BDE8D7AAD540CD8BB6CA4BA15522A958_gshared (ParallelWriter_tD27D0A6035F6A4252D31002FB7D4459F6D9794A6* __this, UnsafeList_1_t2698BCDA35C9A619C8B06830DF4348F090657175* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -31198,7 +31334,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m240244A9BDE8D7AAD540CD8BB6CA4BA15522
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tD27D0A6035F6A4252D31002FB7D4459F6D9794A6*>(__this + _offset);
 	ParallelWriter__ctor_m240244A9BDE8D7AAD540CD8BB6CA4BA15522A958_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m8B1069E052F3FE226340A65C038F6867014AA91D_gshared (ParallelWriter_tD27D0A6035F6A4252D31002FB7D4459F6D9794A6* __this, NativePassData_tC0F1669A8ED49F7203325B91DF9C473D65AA9CD2 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -31228,7 +31364,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m8B1069E052F3FE226340A65C038F68
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tD27D0A6035F6A4252D31002FB7D4459F6D9794A6*>(__this + _offset);
 	ParallelWriter_AddNoResize_m8B1069E052F3FE226340A65C038F6867014AA91D(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m9286836F449DBF346C0693D30B337D757A20D8F4_gshared (ParallelWriter_tD27D0A6035F6A4252D31002FB7D4459F6D9794A6* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -31271,7 +31407,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m9286836F449DBF346C0693D30
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tD27D0A6035F6A4252D31002FB7D4459F6D9794A6*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m9286836F449DBF346C0693D30B337D757A20D8F4(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mDD3310EB17EF5EF79FB8040B63FBC996B82101D9_gshared (ParallelWriter_tD27D0A6035F6A4252D31002FB7D4459F6D9794A6* __this, UnsafeList_1_t2698BCDA35C9A619C8B06830DF4348F090657175 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -31292,7 +31428,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mDD3310EB17EF5EF79FB8040B6
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tD27D0A6035F6A4252D31002FB7D4459F6D9794A6*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mDD3310EB17EF5EF79FB8040B63FBC996B82101D9(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m701F2EE0055117C3872E4851CD2BA4235ADF9491_gshared (ParallelWriter_tD27D0A6035F6A4252D31002FB7D4459F6D9794A6* __this, NativeList_1_tCE9294F8D50CBBA2C6B0936EF47668AABCBFC129 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -31320,7 +31456,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m701F2EE0055117C3872E4851C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mFA2138915FD6681E83ACF2C0AA2DE5A297BC3799_gshared (ParallelWriter_t33A4C62492F806A2005DED2DACA398F654DF2EB4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31340,7 +31476,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mFA2138915FD6681E83ACF2C0AA2DE5A29
 	_returnValue = ParallelWriter_get_Ptr_mFA2138915FD6681E83ACF2C0AA2DE5A297BC3799_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mF6A18DBCDD4F68DA5F3ECE0B317AD8C4A583E1C7_gshared (ParallelWriter_t33A4C62492F806A2005DED2DACA398F654DF2EB4* __this, UnsafeList_1_t2698BCDA35C9A619C8B06830DF4348F090657175* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -31358,7 +31494,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mF6A18DBCDD4F68DA5F3ECE0B317AD8C4A583
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t33A4C62492F806A2005DED2DACA398F654DF2EB4*>(__this + _offset);
 	ParallelWriter__ctor_mF6A18DBCDD4F68DA5F3ECE0B317AD8C4A583E1C7_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m18F98087CAEBEAF2792A7C0C09FCB51CB0C18177_gshared (ParallelWriter_t33A4C62492F806A2005DED2DACA398F654DF2EB4* __this, NativePassData_tC0F1669A8ED49F7203325B91DF9C473D65AA9CD2 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -31388,7 +31524,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m18F98087CAEBEAF2792A7C0C09FCB5
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t33A4C62492F806A2005DED2DACA398F654DF2EB4*>(__this + _offset);
 	ParallelWriter_AddNoResize_m18F98087CAEBEAF2792A7C0C09FCB51CB0C18177(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mD826DEE61D5BDD80242A243245FF05A0B94780AE_gshared (ParallelWriter_t33A4C62492F806A2005DED2DACA398F654DF2EB4* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -31427,7 +31563,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mD826DEE61D5BDD80242A24324
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t33A4C62492F806A2005DED2DACA398F654DF2EB4*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mD826DEE61D5BDD80242A243245FF05A0B94780AE(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m0FC375E6EF77875B7C7F49BAA4601B5DB92E05BB_gshared (ParallelWriter_t33A4C62492F806A2005DED2DACA398F654DF2EB4* __this, UnsafeList_1_t2698BCDA35C9A619C8B06830DF4348F090657175 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -31456,7 +31592,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m0FC375E6EF77875B7C7F49BAA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m750DE0EB2B4670062674705113A75887364CD751_gshared (ParallelWriter_tFB66EF5AA95DFBAE8E94F2839BF9E33146B8A2A0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31476,7 +31612,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m750DE0EB2B4670062674705113A758873
 	_returnValue = ParallelWriter_get_Ptr_m750DE0EB2B4670062674705113A75887364CD751_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mBDCB7B72235D3F905DFD7AEF4FBEDCE50A393B82_gshared (ParallelWriter_tFB66EF5AA95DFBAE8E94F2839BF9E33146B8A2A0* __this, UnsafeList_1_t4CF84C305ED85C51E777A9CBE5A23188FE9BBC3F* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -31494,7 +31630,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mBDCB7B72235D3F905DFD7AEF4FBEDCE50A39
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tFB66EF5AA95DFBAE8E94F2839BF9E33146B8A2A0*>(__this + _offset);
 	ParallelWriter__ctor_mBDCB7B72235D3F905DFD7AEF4FBEDCE50A393B82_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mDB94636D520B016A7613EE6FF52A47147C15D04C_gshared (ParallelWriter_tFB66EF5AA95DFBAE8E94F2839BF9E33146B8A2A0* __this, NetworkConnection_t0A1170D9665C62249582E5DAABC2EAF2D01DEDF4 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -31524,7 +31660,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mDB94636D520B016A7613EE6FF52A47
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tFB66EF5AA95DFBAE8E94F2839BF9E33146B8A2A0*>(__this + _offset);
 	ParallelWriter_AddNoResize_mDB94636D520B016A7613EE6FF52A47147C15D04C(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mBD5EE0927C3AA31FFDFC2B1394D856F285033FF6_gshared (ParallelWriter_tFB66EF5AA95DFBAE8E94F2839BF9E33146B8A2A0* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -31567,7 +31703,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mBD5EE0927C3AA31FFDFC2B139
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tFB66EF5AA95DFBAE8E94F2839BF9E33146B8A2A0*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mBD5EE0927C3AA31FFDFC2B1394D856F285033FF6(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m51B80A14D7F64CF1ECA6848C9B566F4EE2748F72_gshared (ParallelWriter_tFB66EF5AA95DFBAE8E94F2839BF9E33146B8A2A0* __this, UnsafeList_1_t4CF84C305ED85C51E777A9CBE5A23188FE9BBC3F ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -31588,7 +31724,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m51B80A14D7F64CF1ECA6848C9
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tFB66EF5AA95DFBAE8E94F2839BF9E33146B8A2A0*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m51B80A14D7F64CF1ECA6848C9B566F4EE2748F72(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m92EC1F0BD97FD0A1DD970EB55AC9576838553979_gshared (ParallelWriter_tFB66EF5AA95DFBAE8E94F2839BF9E33146B8A2A0* __this, NativeList_1_tCFEA7428111C7EC0E35D8A73935C63873810271B ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -31616,7 +31752,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m92EC1F0BD97FD0A1DD970EB55
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m956DCE7FD53CF9060F916D3A70E5675977A9AADE_gshared (ParallelWriter_tA20A0546BD0CEFE3DA8A2CE9070AE6450D7498DF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31636,7 +31772,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m956DCE7FD53CF9060F916D3A70E567597
 	_returnValue = ParallelWriter_get_Ptr_m956DCE7FD53CF9060F916D3A70E5675977A9AADE_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m3C2D9D62AB535E2CE7110A0B9C10E20F9FC98440_gshared (ParallelWriter_tA20A0546BD0CEFE3DA8A2CE9070AE6450D7498DF* __this, UnsafeList_1_t4CF84C305ED85C51E777A9CBE5A23188FE9BBC3F* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -31654,7 +31790,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m3C2D9D62AB535E2CE7110A0B9C10E20F9FC9
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tA20A0546BD0CEFE3DA8A2CE9070AE6450D7498DF*>(__this + _offset);
 	ParallelWriter__ctor_m3C2D9D62AB535E2CE7110A0B9C10E20F9FC98440_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m74F413A78A09F11FABE53866129FB228F62B1049_gshared (ParallelWriter_tA20A0546BD0CEFE3DA8A2CE9070AE6450D7498DF* __this, NetworkConnection_t0A1170D9665C62249582E5DAABC2EAF2D01DEDF4 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -31684,7 +31820,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m74F413A78A09F11FABE53866129FB2
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tA20A0546BD0CEFE3DA8A2CE9070AE6450D7498DF*>(__this + _offset);
 	ParallelWriter_AddNoResize_m74F413A78A09F11FABE53866129FB228F62B1049(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m1DBBB10C7B60BF931A05DF409278AE0E89E47273_gshared (ParallelWriter_tA20A0546BD0CEFE3DA8A2CE9070AE6450D7498DF* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -31723,7 +31859,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m1DBBB10C7B60BF931A05DF409
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tA20A0546BD0CEFE3DA8A2CE9070AE6450D7498DF*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m1DBBB10C7B60BF931A05DF409278AE0E89E47273(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mA6843A6A0F6EC57CF5E39A7F33F0298947F432C7_gshared (ParallelWriter_tA20A0546BD0CEFE3DA8A2CE9070AE6450D7498DF* __this, UnsafeList_1_t4CF84C305ED85C51E777A9CBE5A23188FE9BBC3F ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -31752,7 +31888,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mA6843A6A0F6EC57CF5E39A7F3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m1FBFEE0C059FB2FEBB600DBE85397551D8F6E761_gshared (ParallelWriter_tE2A1A7E9999C0DB8F40A7DC886161CD552AF608A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31772,7 +31908,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m1FBFEE0C059FB2FEBB600DBE85397551D
 	_returnValue = ParallelWriter_get_Ptr_m1FBFEE0C059FB2FEBB600DBE85397551D8F6E761_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mF08F33337AA6530E55FF0E4F3214172541391636_gshared (ParallelWriter_tE2A1A7E9999C0DB8F40A7DC886161CD552AF608A* __this, UnsafeList_1_tFD7DB6B00333C2C114D553F48DA91C512E033F99* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -31790,7 +31926,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mF08F33337AA6530E55FF0E4F321417254139
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tE2A1A7E9999C0DB8F40A7DC886161CD552AF608A*>(__this + _offset);
 	ParallelWriter__ctor_mF08F33337AA6530E55FF0E4F3214172541391636_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m300A3711CDF9E6A1074447A9D0B717A53C7B170F_gshared (ParallelWriter_tE2A1A7E9999C0DB8F40A7DC886161CD552AF608A* __this, NetworkEvent_t4F520D24065EC589593AE1281E955525AD11233F ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -31820,7 +31956,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m300A3711CDF9E6A1074447A9D0B717
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tE2A1A7E9999C0DB8F40A7DC886161CD552AF608A*>(__this + _offset);
 	ParallelWriter_AddNoResize_m300A3711CDF9E6A1074447A9D0B717A53C7B170F(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mCB0221793DCA29028A85B1E9919CFA5DF6EEB249_gshared (ParallelWriter_tE2A1A7E9999C0DB8F40A7DC886161CD552AF608A* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -31863,7 +31999,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mCB0221793DCA29028A85B1E99
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tE2A1A7E9999C0DB8F40A7DC886161CD552AF608A*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mCB0221793DCA29028A85B1E9919CFA5DF6EEB249(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mC2E7C7F9893C7A82DE78467D4A43A3E56ABD4F2F_gshared (ParallelWriter_tE2A1A7E9999C0DB8F40A7DC886161CD552AF608A* __this, UnsafeList_1_tFD7DB6B00333C2C114D553F48DA91C512E033F99 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -31884,7 +32020,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mC2E7C7F9893C7A82DE78467D4
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tE2A1A7E9999C0DB8F40A7DC886161CD552AF608A*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mC2E7C7F9893C7A82DE78467D4A43A3E56ABD4F2F(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m79D54A01D7724D9E9E7DAF5F5F181A5BAA5A3DA1_gshared (ParallelWriter_tE2A1A7E9999C0DB8F40A7DC886161CD552AF608A* __this, NativeList_1_t163E4B6B8B23750406A8688DA1D7FD433EF9EDC1 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -31912,7 +32048,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m79D54A01D7724D9E9E7DAF5F5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mC42222AE7816C4A8E93295E54854447D2BA64ABF_gshared (ParallelWriter_t686A959212CDF73BF39B4492A388DF4460D5278F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31932,7 +32068,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mC42222AE7816C4A8E93295E54854447D2
 	_returnValue = ParallelWriter_get_Ptr_mC42222AE7816C4A8E93295E54854447D2BA64ABF_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mB410BEDBD576FF9BF798EA007D3C6EBD6FDCEB36_gshared (ParallelWriter_t686A959212CDF73BF39B4492A388DF4460D5278F* __this, UnsafeList_1_tFD7DB6B00333C2C114D553F48DA91C512E033F99* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -31950,7 +32086,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mB410BEDBD576FF9BF798EA007D3C6EBD6FDC
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t686A959212CDF73BF39B4492A388DF4460D5278F*>(__this + _offset);
 	ParallelWriter__ctor_mB410BEDBD576FF9BF798EA007D3C6EBD6FDCEB36_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m49738F4CAF8892145B9A73CE3CDE36AC9EEC7CD2_gshared (ParallelWriter_t686A959212CDF73BF39B4492A388DF4460D5278F* __this, NetworkEvent_t4F520D24065EC589593AE1281E955525AD11233F ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -31980,7 +32116,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m49738F4CAF8892145B9A73CE3CDE36
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t686A959212CDF73BF39B4492A388DF4460D5278F*>(__this + _offset);
 	ParallelWriter_AddNoResize_m49738F4CAF8892145B9A73CE3CDE36AC9EEC7CD2(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m7A3ECF3C786DA53F44E2E99B96D5D7A203E22BE2_gshared (ParallelWriter_t686A959212CDF73BF39B4492A388DF4460D5278F* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -32019,7 +32155,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m7A3ECF3C786DA53F44E2E99B9
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t686A959212CDF73BF39B4492A388DF4460D5278F*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m7A3ECF3C786DA53F44E2E99B96D5D7A203E22BE2(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mA89C1C6B6FCF8A53939C52C2710AD011C66DA559_gshared (ParallelWriter_t686A959212CDF73BF39B4492A388DF4460D5278F* __this, UnsafeList_1_tFD7DB6B00333C2C114D553F48DA91C512E033F99 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -32048,7 +32184,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mA89C1C6B6FCF8A53939C52C27
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m5C097F72A188AA37F4622C729B4575BD2B38F20D_gshared (ParallelWriter_tF0DE601F22A188204494B99F560C08838CB87E31* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32068,7 +32204,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m5C097F72A188AA37F4622C729B4575BD2
 	_returnValue = ParallelWriter_get_Ptr_m5C097F72A188AA37F4622C729B4575BD2B38F20D_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m031C94204A290185286EA2C183DE46FE875701E0_gshared (ParallelWriter_tF0DE601F22A188204494B99F560C08838CB87E31* __this, UnsafeList_1_t82F42318A0459C3699EAFEFFF8A8BA3D3A098E33* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -32086,7 +32222,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m031C94204A290185286EA2C183DE46FE8757
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tF0DE601F22A188204494B99F560C08838CB87E31*>(__this + _offset);
 	ParallelWriter__ctor_m031C94204A290185286EA2C183DE46FE875701E0_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m5426C602ADBA195D0784695BF6F259A251BF04E1_gshared (ParallelWriter_tF0DE601F22A188204494B99F560C08838CB87E31* __this, NetworkLayerWrapper_t6D78DE474098851EC3C82A6085753A4BF1ADC5F8 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -32116,7 +32252,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m5426C602ADBA195D0784695BF6F259
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tF0DE601F22A188204494B99F560C08838CB87E31*>(__this + _offset);
 	ParallelWriter_AddNoResize_m5426C602ADBA195D0784695BF6F259A251BF04E1(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mC96EC614293B806D1928F9227621AB3BD410BD86_gshared (ParallelWriter_tF0DE601F22A188204494B99F560C08838CB87E31* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -32159,7 +32295,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mC96EC614293B806D1928F9227
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tF0DE601F22A188204494B99F560C08838CB87E31*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mC96EC614293B806D1928F9227621AB3BD410BD86(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m906E672E7715BBEAB9B7D01E104A18CB84C9BADA_gshared (ParallelWriter_tF0DE601F22A188204494B99F560C08838CB87E31* __this, UnsafeList_1_t82F42318A0459C3699EAFEFFF8A8BA3D3A098E33 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -32180,7 +32316,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m906E672E7715BBEAB9B7D01E1
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tF0DE601F22A188204494B99F560C08838CB87E31*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m906E672E7715BBEAB9B7D01E104A18CB84C9BADA(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mD8375D913676BCAA7F3120A3491757134585FC69_gshared (ParallelWriter_tF0DE601F22A188204494B99F560C08838CB87E31* __this, NativeList_1_tAB6AB8742D716D9C57C12B774FB35CFF814456B4 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -32208,7 +32344,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mD8375D913676BCAA7F3120A34
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m05F5EE4EE7F36A35B3BE269FBC0A3F549FE9984B_gshared (ParallelWriter_t846D7A757955C4389216B448798015B3BB074B3C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32228,7 +32364,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m05F5EE4EE7F36A35B3BE269FBC0A3F549
 	_returnValue = ParallelWriter_get_Ptr_m05F5EE4EE7F36A35B3BE269FBC0A3F549FE9984B_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m69411FAC16C46D5E847BD3978FB09A91ACF7C586_gshared (ParallelWriter_t846D7A757955C4389216B448798015B3BB074B3C* __this, UnsafeList_1_t82F42318A0459C3699EAFEFFF8A8BA3D3A098E33* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -32246,7 +32382,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m69411FAC16C46D5E847BD3978FB09A91ACF7
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t846D7A757955C4389216B448798015B3BB074B3C*>(__this + _offset);
 	ParallelWriter__ctor_m69411FAC16C46D5E847BD3978FB09A91ACF7C586_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m36656FE2BAAE77284FDDB8A03E3635F7FF1B202B_gshared (ParallelWriter_t846D7A757955C4389216B448798015B3BB074B3C* __this, NetworkLayerWrapper_t6D78DE474098851EC3C82A6085753A4BF1ADC5F8 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -32276,7 +32412,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m36656FE2BAAE77284FDDB8A03E3635
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t846D7A757955C4389216B448798015B3BB074B3C*>(__this + _offset);
 	ParallelWriter_AddNoResize_m36656FE2BAAE77284FDDB8A03E3635F7FF1B202B(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m1129124B29E5299AE55BAC92049ADBC514FF915B_gshared (ParallelWriter_t846D7A757955C4389216B448798015B3BB074B3C* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -32315,7 +32451,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m1129124B29E5299AE55BAC920
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t846D7A757955C4389216B448798015B3BB074B3C*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m1129124B29E5299AE55BAC92049ADBC514FF915B(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m3453203367242A0E87BDC5F113B7916062E159C9_gshared (ParallelWriter_t846D7A757955C4389216B448798015B3BB074B3C* __this, UnsafeList_1_t82F42318A0459C3699EAFEFFF8A8BA3D3A098E33 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -32344,7 +32480,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m3453203367242A0E87BDC5F11
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mF274FAE0FFB64EA42DAFAEFE04FBF9B9029DE4D0_gshared (ParallelWriter_t0508F4E35CC9F6EE81D945F16749301E98A25D5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32364,7 +32500,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mF274FAE0FFB64EA42DAFAEFE04FBF9B90
 	_returnValue = ParallelWriter_get_Ptr_mF274FAE0FFB64EA42DAFAEFE04FBF9B9029DE4D0_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m786DFFB6E7978D815E22204D8AB72ADDCFB23384_gshared (ParallelWriter_t0508F4E35CC9F6EE81D945F16749301E98A25D5F* __this, UnsafeList_1_t663E4C6332C30AD19F05EF986ECCEDC60B61CF52* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -32382,7 +32518,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m786DFFB6E7978D815E22204D8AB72ADDCFB2
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t0508F4E35CC9F6EE81D945F16749301E98A25D5F*>(__this + _offset);
 	ParallelWriter__ctor_m786DFFB6E7978D815E22204D8AB72ADDCFB23384_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m3D6780008D76063B4CC3B3BD68EB2BAF1A36113B_gshared (ParallelWriter_t0508F4E35CC9F6EE81D945F16749301E98A25D5F* __this, NetworkPipelineStage_tEF17CBE5C7F718292F2E9F3E51D727D672A0400E ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -32412,7 +32548,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m3D6780008D76063B4CC3B3BD68EB2B
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t0508F4E35CC9F6EE81D945F16749301E98A25D5F*>(__this + _offset);
 	ParallelWriter_AddNoResize_m3D6780008D76063B4CC3B3BD68EB2BAF1A36113B(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mC706FCD4D9D7FE17F71FCBF780C7FADDAFF1C723_gshared (ParallelWriter_t0508F4E35CC9F6EE81D945F16749301E98A25D5F* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -32455,7 +32591,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mC706FCD4D9D7FE17F71FCBF78
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t0508F4E35CC9F6EE81D945F16749301E98A25D5F*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mC706FCD4D9D7FE17F71FCBF780C7FADDAFF1C723(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mE6A9DEF121180BBB67E3031FBD12AE7570163B5C_gshared (ParallelWriter_t0508F4E35CC9F6EE81D945F16749301E98A25D5F* __this, UnsafeList_1_t663E4C6332C30AD19F05EF986ECCEDC60B61CF52 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -32476,7 +32612,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mE6A9DEF121180BBB67E3031FB
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t0508F4E35CC9F6EE81D945F16749301E98A25D5F*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mE6A9DEF121180BBB67E3031FBD12AE7570163B5C(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mC7560B81002101F819C6ADBAE3C4B845D9EC6B5F_gshared (ParallelWriter_t0508F4E35CC9F6EE81D945F16749301E98A25D5F* __this, NativeList_1_t6991118F5186CB8652760C0D202019D02FDD453E ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -32504,7 +32640,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mC7560B81002101F819C6ADBAE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m3F810FD5099CFE74EDC96024F38726A4F2A4847C_gshared (ParallelWriter_t3F7AB01E2FA1138EB87B6415022AECEE55F2B105* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32524,7 +32660,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m3F810FD5099CFE74EDC96024F38726A4F
 	_returnValue = ParallelWriter_get_Ptr_m3F810FD5099CFE74EDC96024F38726A4F2A4847C_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mD1F3FEEB2DB0A5A1E8388F8223E5EE4C488F879D_gshared (ParallelWriter_t3F7AB01E2FA1138EB87B6415022AECEE55F2B105* __this, UnsafeList_1_t663E4C6332C30AD19F05EF986ECCEDC60B61CF52* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -32542,7 +32678,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mD1F3FEEB2DB0A5A1E8388F8223E5EE4C488F
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t3F7AB01E2FA1138EB87B6415022AECEE55F2B105*>(__this + _offset);
 	ParallelWriter__ctor_mD1F3FEEB2DB0A5A1E8388F8223E5EE4C488F879D_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mF555E3CC7A78A98961484C62A66DF5E49FFB2098_gshared (ParallelWriter_t3F7AB01E2FA1138EB87B6415022AECEE55F2B105* __this, NetworkPipelineStage_tEF17CBE5C7F718292F2E9F3E51D727D672A0400E ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -32572,7 +32708,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mF555E3CC7A78A98961484C62A66DF5
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t3F7AB01E2FA1138EB87B6415022AECEE55F2B105*>(__this + _offset);
 	ParallelWriter_AddNoResize_mF555E3CC7A78A98961484C62A66DF5E49FFB2098(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mE7CBAF7D7DEA6845E2510E0FA4CDECAC32753FA3_gshared (ParallelWriter_t3F7AB01E2FA1138EB87B6415022AECEE55F2B105* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -32611,7 +32747,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mE7CBAF7D7DEA6845E2510E0FA
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t3F7AB01E2FA1138EB87B6415022AECEE55F2B105*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mE7CBAF7D7DEA6845E2510E0FA4CDECAC32753FA3(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m3AFA86F17705108E41ABB7FDD14ED243EAF7A389_gshared (ParallelWriter_t3F7AB01E2FA1138EB87B6415022AECEE55F2B105* __this, UnsafeList_1_t663E4C6332C30AD19F05EF986ECCEDC60B61CF52 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -32640,7 +32776,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m3AFA86F17705108E41ABB7FDD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m17D97B45180F3CF6EC7F0B9BCEDB8DCBFD15D2C7_gshared (ParallelWriter_t34A2606A9E7BAE8C77A56C9C53064AB9106E1E6B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32660,7 +32796,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m17D97B45180F3CF6EC7F0B9BCEDB8DCBF
 	_returnValue = ParallelWriter_get_Ptr_m17D97B45180F3CF6EC7F0B9BCEDB8DCBFD15D2C7_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m59245B2DEC41281BF8701B135551BF8A4AA1674F_gshared (ParallelWriter_t34A2606A9E7BAE8C77A56C9C53064AB9106E1E6B* __this, UnsafeList_1_t3B699AD7B2AAAB1ECC45766BCC7D8994E28DF28D* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -32678,7 +32814,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m59245B2DEC41281BF8701B135551BF8A4AA1
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t34A2606A9E7BAE8C77A56C9C53064AB9106E1E6B*>(__this + _offset);
 	ParallelWriter__ctor_m59245B2DEC41281BF8701B135551BF8A4AA1674F_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m9750A202E6681D31D8421422C5A9591E42499B43_gshared (ParallelWriter_t34A2606A9E7BAE8C77A56C9C53064AB9106E1E6B* __this, NetworkPipelineStageId_tBE4FAE81AD1922E0BEEDBC611342E3B0A7B5ECCA ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -32708,7 +32844,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m9750A202E6681D31D8421422C5A959
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t34A2606A9E7BAE8C77A56C9C53064AB9106E1E6B*>(__this + _offset);
 	ParallelWriter_AddNoResize_m9750A202E6681D31D8421422C5A9591E42499B43(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m0FDCB9C3B472556A51CB6A76E231C004ED9D6D41_gshared (ParallelWriter_t34A2606A9E7BAE8C77A56C9C53064AB9106E1E6B* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -32751,7 +32887,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m0FDCB9C3B472556A51CB6A76E
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t34A2606A9E7BAE8C77A56C9C53064AB9106E1E6B*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m0FDCB9C3B472556A51CB6A76E231C004ED9D6D41(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mD9E0B5175E70FA1CB420440ABBF5E95242B6BCBF_gshared (ParallelWriter_t34A2606A9E7BAE8C77A56C9C53064AB9106E1E6B* __this, UnsafeList_1_t3B699AD7B2AAAB1ECC45766BCC7D8994E28DF28D ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -32772,7 +32908,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mD9E0B5175E70FA1CB420440AB
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t34A2606A9E7BAE8C77A56C9C53064AB9106E1E6B*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mD9E0B5175E70FA1CB420440ABBF5E95242B6BCBF(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m9512085EF29F9A85930FA51014BE600931C1FA1B_gshared (ParallelWriter_t34A2606A9E7BAE8C77A56C9C53064AB9106E1E6B* __this, NativeList_1_tABB80F41A867425794A066A582A476F0FA6C969A ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -32800,7 +32936,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m9512085EF29F9A85930FA5101
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m05B9D8EC5EA97F6D3F77EDCDAE523AE9D7B31EC0_gshared (ParallelWriter_tB33017D4F0CE85EC8E0DED9D6E3A4D0C7AEBC2F2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32820,7 +32956,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m05B9D8EC5EA97F6D3F77EDCDAE523AE9D
 	_returnValue = ParallelWriter_get_Ptr_m05B9D8EC5EA97F6D3F77EDCDAE523AE9D7B31EC0_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mD5A42D85651E877409820ADFCEFD16E06DA0BEFE_gshared (ParallelWriter_tB33017D4F0CE85EC8E0DED9D6E3A4D0C7AEBC2F2* __this, UnsafeList_1_t3B699AD7B2AAAB1ECC45766BCC7D8994E28DF28D* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -32838,7 +32974,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mD5A42D85651E877409820ADFCEFD16E06DA0
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB33017D4F0CE85EC8E0DED9D6E3A4D0C7AEBC2F2*>(__this + _offset);
 	ParallelWriter__ctor_mD5A42D85651E877409820ADFCEFD16E06DA0BEFE_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m933994604E10EE93275CF50B3E1B885D10EB3893_gshared (ParallelWriter_tB33017D4F0CE85EC8E0DED9D6E3A4D0C7AEBC2F2* __this, NetworkPipelineStageId_tBE4FAE81AD1922E0BEEDBC611342E3B0A7B5ECCA ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -32868,7 +33004,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m933994604E10EE93275CF50B3E1B88
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB33017D4F0CE85EC8E0DED9D6E3A4D0C7AEBC2F2*>(__this + _offset);
 	ParallelWriter_AddNoResize_m933994604E10EE93275CF50B3E1B885D10EB3893(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mFD8611751D2582F986C44B1899599D3607F9D97F_gshared (ParallelWriter_tB33017D4F0CE85EC8E0DED9D6E3A4D0C7AEBC2F2* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -32907,7 +33043,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mFD8611751D2582F986C44B189
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB33017D4F0CE85EC8E0DED9D6E3A4D0C7AEBC2F2*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mFD8611751D2582F986C44B1899599D3607F9D97F(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mD9308051115EE08344D93CCC9B457363097C0AD0_gshared (ParallelWriter_tB33017D4F0CE85EC8E0DED9D6E3A4D0C7AEBC2F2* __this, UnsafeList_1_t3B699AD7B2AAAB1ECC45766BCC7D8994E28DF28D ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -32936,7 +33072,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mD9308051115EE08344D93CCC9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m52819A09CEC77C1E2916C5E811BCEAEDE9608A86_gshared (ParallelWriter_tF6E9B588153FDA64C9B0A210E3227F707F0E8AB6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32956,7 +33092,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m52819A09CEC77C1E2916C5E811BCEAEDE
 	_returnValue = ParallelWriter_get_Ptr_m52819A09CEC77C1E2916C5E811BCEAEDE9608A86_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mE24790B4875F70BB8C2FA22AB5F9BA5CF78A04F2_gshared (ParallelWriter_tF6E9B588153FDA64C9B0A210E3227F707F0E8AB6* __this, UnsafeList_1_tAF9272F566E901F8A09846C464F6535AF6B6B16B* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -32974,7 +33110,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mE24790B4875F70BB8C2FA22AB5F9BA5CF78A
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tF6E9B588153FDA64C9B0A210E3227F707F0E8AB6*>(__this + _offset);
 	ParallelWriter__ctor_mE24790B4875F70BB8C2FA22AB5F9BA5CF78A04F2_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m953BEB2100ABE0929D5357B6E8955B0FA607D9FA_gshared (ParallelWriter_tF6E9B588153FDA64C9B0A210E3227F707F0E8AB6* __this, PassData_t88911D47229A306D70A3F6A7D3B2FC8FF12F8BAD ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -33004,7 +33140,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m953BEB2100ABE0929D5357B6E8955B
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tF6E9B588153FDA64C9B0A210E3227F707F0E8AB6*>(__this + _offset);
 	ParallelWriter_AddNoResize_m953BEB2100ABE0929D5357B6E8955B0FA607D9FA(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mBAA0E8A3D810C85D64014EBDADDC704112799F56_gshared (ParallelWriter_tF6E9B588153FDA64C9B0A210E3227F707F0E8AB6* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -33047,7 +33183,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mBAA0E8A3D810C85D64014EBDA
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tF6E9B588153FDA64C9B0A210E3227F707F0E8AB6*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mBAA0E8A3D810C85D64014EBDADDC704112799F56(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m338FCE5A04B198B8907ECA02F7A0F6DBA5C9AB9B_gshared (ParallelWriter_tF6E9B588153FDA64C9B0A210E3227F707F0E8AB6* __this, UnsafeList_1_tAF9272F566E901F8A09846C464F6535AF6B6B16B ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -33068,7 +33204,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m338FCE5A04B198B8907ECA02F
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tF6E9B588153FDA64C9B0A210E3227F707F0E8AB6*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m338FCE5A04B198B8907ECA02F7A0F6DBA5C9AB9B(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m8036141CCF39481AFA8EC218E331DA6787F2B90C_gshared (ParallelWriter_tF6E9B588153FDA64C9B0A210E3227F707F0E8AB6* __this, NativeList_1_tA510052F24CA28040AE5D7A8BE6C6002296124A7 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -33096,7 +33232,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m8036141CCF39481AFA8EC218E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mBB3840BAF37DD8911356FC5A6AD9AB5228BD0C0A_gshared (ParallelWriter_tD241843F5C474AC82074A5FD54C2F27B45DE1E6D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -33116,7 +33252,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mBB3840BAF37DD8911356FC5A6AD9AB522
 	_returnValue = ParallelWriter_get_Ptr_mBB3840BAF37DD8911356FC5A6AD9AB5228BD0C0A_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m77B0986EA4BCDCF8A27BED3CEB62C3696521D93B_gshared (ParallelWriter_tD241843F5C474AC82074A5FD54C2F27B45DE1E6D* __this, UnsafeList_1_tAF9272F566E901F8A09846C464F6535AF6B6B16B* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -33134,7 +33270,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m77B0986EA4BCDCF8A27BED3CEB62C3696521
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tD241843F5C474AC82074A5FD54C2F27B45DE1E6D*>(__this + _offset);
 	ParallelWriter__ctor_m77B0986EA4BCDCF8A27BED3CEB62C3696521D93B_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mDBBE191192ECFD485CD9BF0653E0ECAD4CF24F4F_gshared (ParallelWriter_tD241843F5C474AC82074A5FD54C2F27B45DE1E6D* __this, PassData_t88911D47229A306D70A3F6A7D3B2FC8FF12F8BAD ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -33164,7 +33300,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mDBBE191192ECFD485CD9BF0653E0EC
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tD241843F5C474AC82074A5FD54C2F27B45DE1E6D*>(__this + _offset);
 	ParallelWriter_AddNoResize_mDBBE191192ECFD485CD9BF0653E0ECAD4CF24F4F(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mA7F453FDDD4730D98C26D6D50BB3AFD1DB3FA080_gshared (ParallelWriter_tD241843F5C474AC82074A5FD54C2F27B45DE1E6D* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -33203,7 +33339,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mA7F453FDDD4730D98C26D6D50
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tD241843F5C474AC82074A5FD54C2F27B45DE1E6D*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mA7F453FDDD4730D98C26D6D50BB3AFD1DB3FA080(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mBFEE2859D97ACD610A53D49E75A494B17A7094FE_gshared (ParallelWriter_tD241843F5C474AC82074A5FD54C2F27B45DE1E6D* __this, UnsafeList_1_tAF9272F566E901F8A09846C464F6535AF6B6B16B ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -33232,7 +33368,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mBFEE2859D97ACD610A53D49E7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m0BA6FD1C3F4A4660ED6C6539BD693183231DC2BF_gshared (ParallelWriter_tBCBD59837B61CBCEAFA96A9F6A7BF6A6CE9252AD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -33252,7 +33388,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m0BA6FD1C3F4A4660ED6C6539BD6931832
 	_returnValue = ParallelWriter_get_Ptr_m0BA6FD1C3F4A4660ED6C6539BD693183231DC2BF_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mCF624C9211942F3EA1E38E091B3CE696FDE98208_gshared (ParallelWriter_tBCBD59837B61CBCEAFA96A9F6A7BF6A6CE9252AD* __this, UnsafeList_1_t173126F6552F1541EC0D24B76A2112626EA85FC5* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -33270,7 +33406,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mCF624C9211942F3EA1E38E091B3CE696FDE9
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tBCBD59837B61CBCEAFA96A9F6A7BF6A6CE9252AD*>(__this + _offset);
 	ParallelWriter__ctor_mCF624C9211942F3EA1E38E091B3CE696FDE98208_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mE30904BF0A4AA1C55F1016630F3C87587DEE5228_gshared (ParallelWriter_tBCBD59837B61CBCEAFA96A9F6A7BF6A6CE9252AD* __this, PassFragmentData_t67D0B4EC16AF3DBC4233CC7537B93A27C78BFA8C ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -33300,7 +33436,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mE30904BF0A4AA1C55F1016630F3C87
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tBCBD59837B61CBCEAFA96A9F6A7BF6A6CE9252AD*>(__this + _offset);
 	ParallelWriter_AddNoResize_mE30904BF0A4AA1C55F1016630F3C87587DEE5228(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mE42F18F1FE7C06BBCD59ED0AAB828E4959AEE582_gshared (ParallelWriter_tBCBD59837B61CBCEAFA96A9F6A7BF6A6CE9252AD* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -33343,7 +33479,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mE42F18F1FE7C06BBCD59ED0AA
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tBCBD59837B61CBCEAFA96A9F6A7BF6A6CE9252AD*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mE42F18F1FE7C06BBCD59ED0AAB828E4959AEE582(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m6CDBD6C0A9F3889E7E6ADBA1EE32A8BBED4A51D5_gshared (ParallelWriter_tBCBD59837B61CBCEAFA96A9F6A7BF6A6CE9252AD* __this, UnsafeList_1_t173126F6552F1541EC0D24B76A2112626EA85FC5 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -33364,7 +33500,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m6CDBD6C0A9F3889E7E6ADBA1E
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tBCBD59837B61CBCEAFA96A9F6A7BF6A6CE9252AD*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m6CDBD6C0A9F3889E7E6ADBA1EE32A8BBED4A51D5(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m2B126CB682B3E913DED29A88CE90899E7F303F25_gshared (ParallelWriter_tBCBD59837B61CBCEAFA96A9F6A7BF6A6CE9252AD* __this, NativeList_1_tC4B04B5B98BEA4587A1187DC60F8C87F0920C4B1 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -33392,7 +33528,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m2B126CB682B3E913DED29A88C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m995BE05730378782B492DD13E6C4EFCDAB663CC6_gshared (ParallelWriter_t2C404D7EAA37FA02C208BEE451B0E8CB3517F157* __this, const RuntimeMethod* method) 
 {
 	{
@@ -33412,7 +33548,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m995BE05730378782B492DD13E6C4EFCDA
 	_returnValue = ParallelWriter_get_Ptr_m995BE05730378782B492DD13E6C4EFCDAB663CC6_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m076669DD61DB1EEEEECC0FC511658A11211E9191_gshared (ParallelWriter_t2C404D7EAA37FA02C208BEE451B0E8CB3517F157* __this, UnsafeList_1_t173126F6552F1541EC0D24B76A2112626EA85FC5* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -33430,7 +33566,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m076669DD61DB1EEEEECC0FC511658A11211E
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t2C404D7EAA37FA02C208BEE451B0E8CB3517F157*>(__this + _offset);
 	ParallelWriter__ctor_m076669DD61DB1EEEEECC0FC511658A11211E9191_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m369C7C7F2758D71D9D702408C1A79B7EF47C4471_gshared (ParallelWriter_t2C404D7EAA37FA02C208BEE451B0E8CB3517F157* __this, PassFragmentData_t67D0B4EC16AF3DBC4233CC7537B93A27C78BFA8C ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -33460,7 +33596,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m369C7C7F2758D71D9D702408C1A79B
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t2C404D7EAA37FA02C208BEE451B0E8CB3517F157*>(__this + _offset);
 	ParallelWriter_AddNoResize_m369C7C7F2758D71D9D702408C1A79B7EF47C4471(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m6DB11AAF253A679991A848125A1C93BA0411BC65_gshared (ParallelWriter_t2C404D7EAA37FA02C208BEE451B0E8CB3517F157* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -33499,7 +33635,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m6DB11AAF253A679991A848125
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t2C404D7EAA37FA02C208BEE451B0E8CB3517F157*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m6DB11AAF253A679991A848125A1C93BA0411BC65(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mDC87617D36C6066CC2EC72FFDA0ABBD5F6C03C2D_gshared (ParallelWriter_t2C404D7EAA37FA02C208BEE451B0E8CB3517F157* __this, UnsafeList_1_t173126F6552F1541EC0D24B76A2112626EA85FC5 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -33528,7 +33664,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mDC87617D36C6066CC2EC72FFD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m9633F885CE151E6F1B34A408CD0E565A51978E86_gshared (ParallelWriter_t16A00727E8E0CB5CBE280D1EB18EA38F6C97A294* __this, const RuntimeMethod* method) 
 {
 	{
@@ -33548,7 +33684,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m9633F885CE151E6F1B34A408CD0E565A5
 	_returnValue = ParallelWriter_get_Ptr_m9633F885CE151E6F1B34A408CD0E565A51978E86_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m9EB7C0C49EA0412F92DB744D3E82596129E55D14_gshared (ParallelWriter_t16A00727E8E0CB5CBE280D1EB18EA38F6C97A294* __this, UnsafeList_1_t71F5F4076B4F42633307814D517033CCA6FE8E34* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -33566,7 +33702,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m9EB7C0C49EA0412F92DB744D3E82596129E5
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t16A00727E8E0CB5CBE280D1EB18EA38F6C97A294*>(__this + _offset);
 	ParallelWriter__ctor_m9EB7C0C49EA0412F92DB744D3E82596129E55D14_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m2D34B6862CFAA7E2409940887281A3C7D1F5223C_gshared (ParallelWriter_t16A00727E8E0CB5CBE280D1EB18EA38F6C97A294* __this, PassInputData_tA1B8624F31DDB24770D8E0C8FA54189A567FC2DE ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -33596,7 +33732,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m2D34B6862CFAA7E2409940887281A3
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t16A00727E8E0CB5CBE280D1EB18EA38F6C97A294*>(__this + _offset);
 	ParallelWriter_AddNoResize_m2D34B6862CFAA7E2409940887281A3C7D1F5223C(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mA10AF91CD5B7941CA66F1E3E3C76B9D33D57AC60_gshared (ParallelWriter_t16A00727E8E0CB5CBE280D1EB18EA38F6C97A294* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -33639,7 +33775,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mA10AF91CD5B7941CA66F1E3E3
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t16A00727E8E0CB5CBE280D1EB18EA38F6C97A294*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mA10AF91CD5B7941CA66F1E3E3C76B9D33D57AC60(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m2C7764043020AD65C55256D3528212BE2C2A9160_gshared (ParallelWriter_t16A00727E8E0CB5CBE280D1EB18EA38F6C97A294* __this, UnsafeList_1_t71F5F4076B4F42633307814D517033CCA6FE8E34 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -33660,7 +33796,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m2C7764043020AD65C55256D35
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t16A00727E8E0CB5CBE280D1EB18EA38F6C97A294*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m2C7764043020AD65C55256D3528212BE2C2A9160(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m49ECF79CBA2D783B42CA7C79D8930648DBFF01B4_gshared (ParallelWriter_t16A00727E8E0CB5CBE280D1EB18EA38F6C97A294* __this, NativeList_1_t60650BAC55FA3E0806E2A7B303C8A4B1B3176735 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -33688,7 +33824,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m49ECF79CBA2D783B42CA7C79D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m844A629038D39CF5E53A4783726B93431A19F96A_gshared (ParallelWriter_t67FF8C27EC019BEDC7A747E12EC42FF6B0784F6D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -33708,7 +33844,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m844A629038D39CF5E53A4783726B93431
 	_returnValue = ParallelWriter_get_Ptr_m844A629038D39CF5E53A4783726B93431A19F96A_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mB6D4A3F44E1153FD92F2790B2EAD9EA9406F86C3_gshared (ParallelWriter_t67FF8C27EC019BEDC7A747E12EC42FF6B0784F6D* __this, UnsafeList_1_t71F5F4076B4F42633307814D517033CCA6FE8E34* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -33726,7 +33862,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mB6D4A3F44E1153FD92F2790B2EAD9EA9406F
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t67FF8C27EC019BEDC7A747E12EC42FF6B0784F6D*>(__this + _offset);
 	ParallelWriter__ctor_mB6D4A3F44E1153FD92F2790B2EAD9EA9406F86C3_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m3C5D40D1A6E61B5D152F20A72C59BCB266E7D3CE_gshared (ParallelWriter_t67FF8C27EC019BEDC7A747E12EC42FF6B0784F6D* __this, PassInputData_tA1B8624F31DDB24770D8E0C8FA54189A567FC2DE ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -33756,7 +33892,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m3C5D40D1A6E61B5D152F20A72C59BC
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t67FF8C27EC019BEDC7A747E12EC42FF6B0784F6D*>(__this + _offset);
 	ParallelWriter_AddNoResize_m3C5D40D1A6E61B5D152F20A72C59BCB266E7D3CE(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mDA3C769C408413E1240AE382E683344FE633DF51_gshared (ParallelWriter_t67FF8C27EC019BEDC7A747E12EC42FF6B0784F6D* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -33795,7 +33931,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mDA3C769C408413E1240AE382E
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t67FF8C27EC019BEDC7A747E12EC42FF6B0784F6D*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mDA3C769C408413E1240AE382E683344FE633DF51(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m76206B7F232E819B0C683EE56BA187BE128EEF67_gshared (ParallelWriter_t67FF8C27EC019BEDC7A747E12EC42FF6B0784F6D* __this, UnsafeList_1_t71F5F4076B4F42633307814D517033CCA6FE8E34 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -33824,7 +33960,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m76206B7F232E819B0C683EE56
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mC419FCDD516E42FA88C37FB1A1C51FE1E15CD603_gshared (ParallelWriter_t62FE984E720FD9C03E7C23DB1B7837577CE32736* __this, const RuntimeMethod* method) 
 {
 	{
@@ -33844,7 +33980,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mC419FCDD516E42FA88C37FB1A1C51FE1E
 	_returnValue = ParallelWriter_get_Ptr_mC419FCDD516E42FA88C37FB1A1C51FE1E15CD603_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m5969E3DB8569101056DB30A37577EBA5E538F603_gshared (ParallelWriter_t62FE984E720FD9C03E7C23DB1B7837577CE32736* __this, UnsafeList_1_tB9426D20C074F7429E5534019CDCC127142BAC51* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -33862,7 +33998,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m5969E3DB8569101056DB30A37577EBA5E538
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t62FE984E720FD9C03E7C23DB1B7837577CE32736*>(__this + _offset);
 	ParallelWriter__ctor_m5969E3DB8569101056DB30A37577EBA5E538F603_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mBC7282A036C1532BF0CEDDEC8D449AB34110F99B_gshared (ParallelWriter_t62FE984E720FD9C03E7C23DB1B7837577CE32736* __this, PassOutputData_t8EA364E560775D19D285839BA06710B337503E0D ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -33892,7 +34028,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mBC7282A036C1532BF0CEDDEC8D449A
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t62FE984E720FD9C03E7C23DB1B7837577CE32736*>(__this + _offset);
 	ParallelWriter_AddNoResize_mBC7282A036C1532BF0CEDDEC8D449AB34110F99B(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m1F77E2033CFA7D170F4CB0A6867A449B1437ADCE_gshared (ParallelWriter_t62FE984E720FD9C03E7C23DB1B7837577CE32736* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -33935,7 +34071,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m1F77E2033CFA7D170F4CB0A68
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t62FE984E720FD9C03E7C23DB1B7837577CE32736*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m1F77E2033CFA7D170F4CB0A6867A449B1437ADCE(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m767439ADEF45ABD8EF2C52783D45F0DFFE246EE5_gshared (ParallelWriter_t62FE984E720FD9C03E7C23DB1B7837577CE32736* __this, UnsafeList_1_tB9426D20C074F7429E5534019CDCC127142BAC51 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -33956,7 +34092,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m767439ADEF45ABD8EF2C52783
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t62FE984E720FD9C03E7C23DB1B7837577CE32736*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m767439ADEF45ABD8EF2C52783D45F0DFFE246EE5(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m5A060CEC9EC83C2F4DE2E4EF1737E7ED6AC97EA7_gshared (ParallelWriter_t62FE984E720FD9C03E7C23DB1B7837577CE32736* __this, NativeList_1_tAD91DD25D285B5D001ACB76D5C1B638BA3E8E74D ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -33984,7 +34120,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m5A060CEC9EC83C2F4DE2E4EF1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m58E1E60D769F603BA961C0D62665438810EF2545_gshared (ParallelWriter_tDD334A59B4EFBF52CA610D5AD62C225034BC9990* __this, const RuntimeMethod* method) 
 {
 	{
@@ -34004,7 +34140,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m58E1E60D769F603BA961C0D6266543881
 	_returnValue = ParallelWriter_get_Ptr_m58E1E60D769F603BA961C0D62665438810EF2545_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mC00CE1511B84E08964519935C1B80B478FA9AE36_gshared (ParallelWriter_tDD334A59B4EFBF52CA610D5AD62C225034BC9990* __this, UnsafeList_1_tB9426D20C074F7429E5534019CDCC127142BAC51* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -34022,7 +34158,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mC00CE1511B84E08964519935C1B80B478FA9
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tDD334A59B4EFBF52CA610D5AD62C225034BC9990*>(__this + _offset);
 	ParallelWriter__ctor_mC00CE1511B84E08964519935C1B80B478FA9AE36_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m05C963CB71C738D184A277D368E95785E57731CE_gshared (ParallelWriter_tDD334A59B4EFBF52CA610D5AD62C225034BC9990* __this, PassOutputData_t8EA364E560775D19D285839BA06710B337503E0D ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -34052,7 +34188,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m05C963CB71C738D184A277D368E957
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tDD334A59B4EFBF52CA610D5AD62C225034BC9990*>(__this + _offset);
 	ParallelWriter_AddNoResize_m05C963CB71C738D184A277D368E95785E57731CE(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mFA708A4E10ADC175D44A7DF170D21C8ACD34D1B9_gshared (ParallelWriter_tDD334A59B4EFBF52CA610D5AD62C225034BC9990* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -34091,7 +34227,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mFA708A4E10ADC175D44A7DF17
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tDD334A59B4EFBF52CA610D5AD62C225034BC9990*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mFA708A4E10ADC175D44A7DF170D21C8ACD34D1B9(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m5D747ABD59D49BF5CE3DE8FBD9672F73C4DF277B_gshared (ParallelWriter_tDD334A59B4EFBF52CA610D5AD62C225034BC9990* __this, UnsafeList_1_tB9426D20C074F7429E5534019CDCC127142BAC51 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -34120,7 +34256,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m5D747ABD59D49BF5CE3DE8FBD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mA89BCD7AA96BBA1C77D6484CD90817810872663F_gshared (ParallelWriter_tB2B3C8340C3DACD09A7E524191BB3215917FE9AE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -34140,7 +34276,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mA89BCD7AA96BBA1C77D6484CD90817810
 	_returnValue = ParallelWriter_get_Ptr_mA89BCD7AA96BBA1C77D6484CD90817810872663F_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m7EEC05EDD12831E2D162FBDE830B02587C44CA46_gshared (ParallelWriter_tB2B3C8340C3DACD09A7E524191BB3215917FE9AE* __this, UnsafeList_1_tDFCE3387AE8658A87077253BEC37F88FD603DF84* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -34158,7 +34294,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m7EEC05EDD12831E2D162FBDE830B02587C44
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB2B3C8340C3DACD09A7E524191BB3215917FE9AE*>(__this + _offset);
 	ParallelWriter__ctor_m7EEC05EDD12831E2D162FBDE830B02587C44CA46_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mFDAF42C1E52D6BB1B2E111D180D7D3BFCF27D755_gshared (ParallelWriter_tB2B3C8340C3DACD09A7E524191BB3215917FE9AE* __this, PassRandomWriteData_t5C298F6D2CA84B027F3D8A145304B0DCFDA1961B ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -34188,7 +34324,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mFDAF42C1E52D6BB1B2E111D180D7D3
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB2B3C8340C3DACD09A7E524191BB3215917FE9AE*>(__this + _offset);
 	ParallelWriter_AddNoResize_mFDAF42C1E52D6BB1B2E111D180D7D3BFCF27D755(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m06D51BDBA49C2AC38717E69F74F9312839BA0ABC_gshared (ParallelWriter_tB2B3C8340C3DACD09A7E524191BB3215917FE9AE* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -34231,7 +34367,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m06D51BDBA49C2AC38717E69F7
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB2B3C8340C3DACD09A7E524191BB3215917FE9AE*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m06D51BDBA49C2AC38717E69F74F9312839BA0ABC(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mFFC6C037D89AE5B261AB8EAA8F7AF3A17F5650BA_gshared (ParallelWriter_tB2B3C8340C3DACD09A7E524191BB3215917FE9AE* __this, UnsafeList_1_tDFCE3387AE8658A87077253BEC37F88FD603DF84 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -34252,7 +34388,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mFFC6C037D89AE5B261AB8EAA8
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB2B3C8340C3DACD09A7E524191BB3215917FE9AE*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mFFC6C037D89AE5B261AB8EAA8F7AF3A17F5650BA(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m04ADD2E99DE63521EBC2EA9A1DD9633DB1FD66D9_gshared (ParallelWriter_tB2B3C8340C3DACD09A7E524191BB3215917FE9AE* __this, NativeList_1_tB3DABDBC2CD98907BC398426279D21CF380DD910 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -34280,7 +34416,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m04ADD2E99DE63521EBC2EA9A1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m469CA4EB54D2F80AEC2196EE7E899BD15AAD2D76_gshared (ParallelWriter_t8EE41665E0EC18B597877B24685E1809F936E805* __this, const RuntimeMethod* method) 
 {
 	{
@@ -34300,7 +34436,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m469CA4EB54D2F80AEC2196EE7E899BD15
 	_returnValue = ParallelWriter_get_Ptr_m469CA4EB54D2F80AEC2196EE7E899BD15AAD2D76_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mA320EC18E00E2D2EB42603629DAF9101110E6B18_gshared (ParallelWriter_t8EE41665E0EC18B597877B24685E1809F936E805* __this, UnsafeList_1_tDFCE3387AE8658A87077253BEC37F88FD603DF84* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -34318,7 +34454,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mA320EC18E00E2D2EB42603629DAF9101110E
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t8EE41665E0EC18B597877B24685E1809F936E805*>(__this + _offset);
 	ParallelWriter__ctor_mA320EC18E00E2D2EB42603629DAF9101110E6B18_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m4173012134A4E673F291FE2109110FED2F6B5381_gshared (ParallelWriter_t8EE41665E0EC18B597877B24685E1809F936E805* __this, PassRandomWriteData_t5C298F6D2CA84B027F3D8A145304B0DCFDA1961B ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -34348,7 +34484,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m4173012134A4E673F291FE2109110F
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t8EE41665E0EC18B597877B24685E1809F936E805*>(__this + _offset);
 	ParallelWriter_AddNoResize_m4173012134A4E673F291FE2109110FED2F6B5381(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m20E8D1D5579049F2EB2171CF5C91FAC815FA805F_gshared (ParallelWriter_t8EE41665E0EC18B597877B24685E1809F936E805* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -34387,7 +34523,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m20E8D1D5579049F2EB2171CF5
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t8EE41665E0EC18B597877B24685E1809F936E805*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m20E8D1D5579049F2EB2171CF5C91FAC815FA805F(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m719FA07485044961545676E90F3D2C3DA4096D68_gshared (ParallelWriter_t8EE41665E0EC18B597877B24685E1809F936E805* __this, UnsafeList_1_tDFCE3387AE8658A87077253BEC37F88FD603DF84 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -34416,7 +34552,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m719FA07485044961545676E90
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m8754550D6B7CF1FDFB847D2E168607FEE6F73DCE_gshared (ParallelWriter_tE9CED4730372549C6B54ADA34D1BA9D8C765F16A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -34436,7 +34572,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m8754550D6B7CF1FDFB847D2E168607FEE
 	_returnValue = ParallelWriter_get_Ptr_m8754550D6B7CF1FDFB847D2E168607FEE6F73DCE_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m4CA72B0EBC2B502445E914135563AD857DC2BFFB_gshared (ParallelWriter_tE9CED4730372549C6B54ADA34D1BA9D8C765F16A* __this, UnsafeList_1_t96307A04898BD0C49DFF733D301684A2628959F2* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -34454,7 +34590,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m4CA72B0EBC2B502445E914135563AD857DC2
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tE9CED4730372549C6B54ADA34D1BA9D8C765F16A*>(__this + _offset);
 	ParallelWriter__ctor_m4CA72B0EBC2B502445E914135563AD857DC2BFFB_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m8388B47C365F64AE9B1DECD670D62CB0A32ACEBE_gshared (ParallelWriter_tE9CED4730372549C6B54ADA34D1BA9D8C765F16A* __this, Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -34484,7 +34620,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m8388B47C365F64AE9B1DECD670D62C
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tE9CED4730372549C6B54ADA34D1BA9D8C765F16A*>(__this + _offset);
 	ParallelWriter_AddNoResize_m8388B47C365F64AE9B1DECD670D62CB0A32ACEBE(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m51C5F827FC4E7763736D86A3B03AA2A15AD90675_gshared (ParallelWriter_tE9CED4730372549C6B54ADA34D1BA9D8C765F16A* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -34527,7 +34663,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m51C5F827FC4E7763736D86A3B
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tE9CED4730372549C6B54ADA34D1BA9D8C765F16A*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m51C5F827FC4E7763736D86A3B03AA2A15AD90675(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mFDAF378ECB582829F47B47820FB394C5C25E7495_gshared (ParallelWriter_tE9CED4730372549C6B54ADA34D1BA9D8C765F16A* __this, UnsafeList_1_t96307A04898BD0C49DFF733D301684A2628959F2 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -34548,7 +34684,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mFDAF378ECB582829F47B47820
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tE9CED4730372549C6B54ADA34D1BA9D8C765F16A*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mFDAF378ECB582829F47B47820FB394C5C25E7495(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mE9A938ACF0CDF2AD636527DDB896AD2F73BCC8D0_gshared (ParallelWriter_tE9CED4730372549C6B54ADA34D1BA9D8C765F16A* __this, NativeList_1_t63E603CC13098D57EE39281831362F9D13564D34 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -34576,7 +34712,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mE9A938ACF0CDF2AD636527DDB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m0955BF7A7C2AC346C57F6123B94C65FCF7F7B9E6_gshared (ParallelWriter_t380BBE49682A5A6C8435C300E3B27A0481EA2AE3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -34596,7 +34732,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m0955BF7A7C2AC346C57F6123B94C65FCF
 	_returnValue = ParallelWriter_get_Ptr_m0955BF7A7C2AC346C57F6123B94C65FCF7F7B9E6_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m92354D41D00B90C8E65B56CE12589B86902FF911_gshared (ParallelWriter_t380BBE49682A5A6C8435C300E3B27A0481EA2AE3* __this, UnsafeList_1_t96307A04898BD0C49DFF733D301684A2628959F2* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -34614,7 +34750,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m92354D41D00B90C8E65B56CE12589B86902F
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t380BBE49682A5A6C8435C300E3B27A0481EA2AE3*>(__this + _offset);
 	ParallelWriter__ctor_m92354D41D00B90C8E65B56CE12589B86902FF911_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mB01C65F996B4B2BAFEAF114306F6E2C483225515_gshared (ParallelWriter_t380BBE49682A5A6C8435C300E3B27A0481EA2AE3* __this, Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -34644,7 +34780,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mB01C65F996B4B2BAFEAF114306F6E2
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t380BBE49682A5A6C8435C300E3B27A0481EA2AE3*>(__this + _offset);
 	ParallelWriter_AddNoResize_mB01C65F996B4B2BAFEAF114306F6E2C483225515(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m41CDF1960D60420E79CD10ED9A9BC4C15825F7DF_gshared (ParallelWriter_t380BBE49682A5A6C8435C300E3B27A0481EA2AE3* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -34683,7 +34819,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m41CDF1960D60420E79CD10ED9
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t380BBE49682A5A6C8435C300E3B27A0481EA2AE3*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m41CDF1960D60420E79CD10ED9A9BC4C15825F7DF(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m72473264A3A463E890FBA7565CCEA8F0543159C0_gshared (ParallelWriter_t380BBE49682A5A6C8435C300E3B27A0481EA2AE3* __this, UnsafeList_1_t96307A04898BD0C49DFF733D301684A2628959F2 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -34712,7 +34848,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m72473264A3A463E890FBA7565
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mF83B3CC7A1B800A229D7B32CAE6A22245CB863A3_gshared (ParallelWriter_t2BB58265AAFA12B449A34034DA5BDF6529FB3D8F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -34732,7 +34868,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mF83B3CC7A1B800A229D7B32CAE6A22245
 	_returnValue = ParallelWriter_get_Ptr_mF83B3CC7A1B800A229D7B32CAE6A22245CB863A3_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m075F0F2E0A0E2166348C49E6D030D22DC107B06E_gshared (ParallelWriter_t2BB58265AAFA12B449A34034DA5BDF6529FB3D8F* __this, UnsafeList_1_tAAB699F827C515727975973202558FB27BEC605E* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -34750,7 +34886,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m075F0F2E0A0E2166348C49E6D030D22DC107
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t2BB58265AAFA12B449A34034DA5BDF6529FB3D8F*>(__this + _offset);
 	ParallelWriter__ctor_m075F0F2E0A0E2166348C49E6D030D22DC107B06E_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m5EDD2DE08C184A5E565A10381F6B37857E64B333_gshared (ParallelWriter_t2BB58265AAFA12B449A34034DA5BDF6529FB3D8F* __this, ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -34780,7 +34916,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m5EDD2DE08C184A5E565A10381F6B37
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t2BB58265AAFA12B449A34034DA5BDF6529FB3D8F*>(__this + _offset);
 	ParallelWriter_AddNoResize_m5EDD2DE08C184A5E565A10381F6B37857E64B333(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mA5C84661CA344292955B682A2C02E518DAE657C8_gshared (ParallelWriter_t2BB58265AAFA12B449A34034DA5BDF6529FB3D8F* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -34823,7 +34959,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mA5C84661CA344292955B682A2
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t2BB58265AAFA12B449A34034DA5BDF6529FB3D8F*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mA5C84661CA344292955B682A2C02E518DAE657C8(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m5E5A7B109EF1EB3D92CD6E431094B9FBB940F664_gshared (ParallelWriter_t2BB58265AAFA12B449A34034DA5BDF6529FB3D8F* __this, UnsafeList_1_tAAB699F827C515727975973202558FB27BEC605E ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -34844,7 +34980,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m5E5A7B109EF1EB3D92CD6E431
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t2BB58265AAFA12B449A34034DA5BDF6529FB3D8F*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m5E5A7B109EF1EB3D92CD6E431094B9FBB940F664(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m7FB4C40DAC5F592ACA96BB4D0631E06CC8E31E91_gshared (ParallelWriter_t2BB58265AAFA12B449A34034DA5BDF6529FB3D8F* __this, NativeList_1_t7E4EB94D72E542AD9AE709E29DD6C427017735C8 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -34872,7 +35008,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m7FB4C40DAC5F592ACA96BB4D0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m4DA9A374BEE1F17DF931BBA8908C842FECE80160_gshared (ParallelWriter_t1160DA76966FA49C47CCB42BBC95DD22196C666E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -34892,7 +35028,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m4DA9A374BEE1F17DF931BBA8908C842FE
 	_returnValue = ParallelWriter_get_Ptr_m4DA9A374BEE1F17DF931BBA8908C842FECE80160_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m1BF3373ED076D22C11E3DF5BCCBBE50A3F3AFF8E_gshared (ParallelWriter_t1160DA76966FA49C47CCB42BBC95DD22196C666E* __this, UnsafeList_1_tAAB699F827C515727975973202558FB27BEC605E* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -34910,7 +35046,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m1BF3373ED076D22C11E3DF5BCCBBE50A3F3A
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t1160DA76966FA49C47CCB42BBC95DD22196C666E*>(__this + _offset);
 	ParallelWriter__ctor_m1BF3373ED076D22C11E3DF5BCCBBE50A3F3AFF8E_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mC4E3B752D20A75E35CDA751986CD88218A818825_gshared (ParallelWriter_t1160DA76966FA49C47CCB42BBC95DD22196C666E* __this, ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -34940,7 +35076,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mC4E3B752D20A75E35CDA751986CD88
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t1160DA76966FA49C47CCB42BBC95DD22196C666E*>(__this + _offset);
 	ParallelWriter_AddNoResize_mC4E3B752D20A75E35CDA751986CD88218A818825(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m1DC009492E26936722A80999D6B75CF34366BE92_gshared (ParallelWriter_t1160DA76966FA49C47CCB42BBC95DD22196C666E* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -34979,7 +35115,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m1DC009492E26936722A80999D
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t1160DA76966FA49C47CCB42BBC95DD22196C666E*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m1DC009492E26936722A80999D6B75CF34366BE92(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m4FC7630BE63B69337E7AAD7079318A10BC5EC97D_gshared (ParallelWriter_t1160DA76966FA49C47CCB42BBC95DD22196C666E* __this, UnsafeList_1_tAAB699F827C515727975973202558FB27BEC605E ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -35008,7 +35144,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m4FC7630BE63B69337E7AAD707
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mEC1F179B1A5DDA138E606BB9C76AF5F6F63CE99C_gshared (ParallelWriter_t7E969FF101126BD681E04E0D1DB9409904F2FE18* __this, const RuntimeMethod* method) 
 {
 	{
@@ -35028,7 +35164,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mEC1F179B1A5DDA138E606BB9C76AF5F6F
 	_returnValue = ParallelWriter_get_Ptr_mEC1F179B1A5DDA138E606BB9C76AF5F6F63CE99C_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mDFFC4A7722452F3A18730FFCA9AE6C4181A591DB_gshared (ParallelWriter_t7E969FF101126BD681E04E0D1DB9409904F2FE18* __this, UnsafeList_1_tACD8CB556CD69F1AC50A8B4894D6B230BE884C2A* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -35046,7 +35182,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mDFFC4A7722452F3A18730FFCA9AE6C4181A5
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t7E969FF101126BD681E04E0D1DB9409904F2FE18*>(__this + _offset);
 	ParallelWriter__ctor_mDFFC4A7722452F3A18730FFCA9AE6C4181A591DB_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mE9559A6D418E33C535A5389DB6751E6DF9D1F09D_gshared (ParallelWriter_t7E969FF101126BD681E04E0D1DB9409904F2FE18* __this, ResourceReaderData_t1B57A9C4CC76875899745E115AA53FF40C6412EC ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -35076,7 +35212,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mE9559A6D418E33C535A5389DB6751E
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t7E969FF101126BD681E04E0D1DB9409904F2FE18*>(__this + _offset);
 	ParallelWriter_AddNoResize_mE9559A6D418E33C535A5389DB6751E6DF9D1F09D(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m19E16112FF231B59B7D90F9E6A73C97ABCFE9CC0_gshared (ParallelWriter_t7E969FF101126BD681E04E0D1DB9409904F2FE18* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -35119,7 +35255,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m19E16112FF231B59B7D90F9E6
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t7E969FF101126BD681E04E0D1DB9409904F2FE18*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m19E16112FF231B59B7D90F9E6A73C97ABCFE9CC0(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m1CB1AA33CCA20A04CB225C2943E75C421C58D048_gshared (ParallelWriter_t7E969FF101126BD681E04E0D1DB9409904F2FE18* __this, UnsafeList_1_tACD8CB556CD69F1AC50A8B4894D6B230BE884C2A ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -35140,7 +35276,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m1CB1AA33CCA20A04CB225C294
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t7E969FF101126BD681E04E0D1DB9409904F2FE18*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m1CB1AA33CCA20A04CB225C2943E75C421C58D048(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m8A644515CF7EA15831653A192EFA8A908B7E4B62_gshared (ParallelWriter_t7E969FF101126BD681E04E0D1DB9409904F2FE18* __this, NativeList_1_t849341A90D92C0EDCE3EB2109A577334F76D37DA ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -35168,7 +35304,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m8A644515CF7EA15831653A192
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m5BD43706CF7A55AC609AACA5DD00850BF4CD6B1C_gshared (ParallelWriter_t3113F4A6027D52F720D90175C95C42421729F101* __this, const RuntimeMethod* method) 
 {
 	{
@@ -35188,7 +35324,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m5BD43706CF7A55AC609AACA5DD00850BF
 	_returnValue = ParallelWriter_get_Ptr_m5BD43706CF7A55AC609AACA5DD00850BF4CD6B1C_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m11075C3864FD92CE81A32B1D317AF2CAC43AAA11_gshared (ParallelWriter_t3113F4A6027D52F720D90175C95C42421729F101* __this, UnsafeList_1_tACD8CB556CD69F1AC50A8B4894D6B230BE884C2A* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -35206,7 +35342,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m11075C3864FD92CE81A32B1D317AF2CAC43A
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t3113F4A6027D52F720D90175C95C42421729F101*>(__this + _offset);
 	ParallelWriter__ctor_m11075C3864FD92CE81A32B1D317AF2CAC43AAA11_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m11D45017CEC0272D68F6FC3932492AD13D9D1CB7_gshared (ParallelWriter_t3113F4A6027D52F720D90175C95C42421729F101* __this, ResourceReaderData_t1B57A9C4CC76875899745E115AA53FF40C6412EC ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -35236,7 +35372,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m11D45017CEC0272D68F6FC3932492A
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t3113F4A6027D52F720D90175C95C42421729F101*>(__this + _offset);
 	ParallelWriter_AddNoResize_m11D45017CEC0272D68F6FC3932492AD13D9D1CB7(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mCC1FB96F5CD2856E57EE35C5F34C76FF5690A04D_gshared (ParallelWriter_t3113F4A6027D52F720D90175C95C42421729F101* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -35275,7 +35411,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mCC1FB96F5CD2856E57EE35C5F
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t3113F4A6027D52F720D90175C95C42421729F101*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mCC1FB96F5CD2856E57EE35C5F34C76FF5690A04D(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mA33058E5F74747CB90DCDEE1029BD1A91558A4A1_gshared (ParallelWriter_t3113F4A6027D52F720D90175C95C42421729F101* __this, UnsafeList_1_tACD8CB556CD69F1AC50A8B4894D6B230BE884C2A ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -35304,7 +35440,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mA33058E5F74747CB90DCDEE10
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m3375AEE778142759BBE4ACA09E8BC12D9331C6A5_gshared (ParallelWriter_tB624378829791B0BED092893173400E3D7F7C302* __this, const RuntimeMethod* method) 
 {
 	{
@@ -35324,7 +35460,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m3375AEE778142759BBE4ACA09E8BC12D9
 	_returnValue = ParallelWriter_get_Ptr_m3375AEE778142759BBE4ACA09E8BC12D9331C6A5_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m86B8557FBB4094BEB43E1FDA8F7195AEC050F535_gshared (ParallelWriter_tB624378829791B0BED092893173400E3D7F7C302* __this, UnsafeList_1_tE0925972F51EBAB33C5335A86B2E02801BEF7D8C* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -35342,7 +35478,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m86B8557FBB4094BEB43E1FDA8F7195AEC050
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB624378829791B0BED092893173400E3D7F7C302*>(__this + _offset);
 	ParallelWriter__ctor_m86B8557FBB4094BEB43E1FDA8F7195AEC050F535_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m26CF3FB22818CC4DCBC2DA28126D3962A3FC5400_gshared (ParallelWriter_tB624378829791B0BED092893173400E3D7F7C302* __this, ResourceUnversionedData_t3F4B539E7806E513C53A94EAABF5F969AAA384CC ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -35372,7 +35508,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m26CF3FB22818CC4DCBC2DA28126D39
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB624378829791B0BED092893173400E3D7F7C302*>(__this + _offset);
 	ParallelWriter_AddNoResize_m26CF3FB22818CC4DCBC2DA28126D3962A3FC5400(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mC65A69FD19E3DC1729FEC3F087650435A1D92437_gshared (ParallelWriter_tB624378829791B0BED092893173400E3D7F7C302* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -35415,7 +35551,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mC65A69FD19E3DC1729FEC3F08
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB624378829791B0BED092893173400E3D7F7C302*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mC65A69FD19E3DC1729FEC3F087650435A1D92437(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mE900F2FF51F2A585C1894489C3B3EA3F9799C6CF_gshared (ParallelWriter_tB624378829791B0BED092893173400E3D7F7C302* __this, UnsafeList_1_tE0925972F51EBAB33C5335A86B2E02801BEF7D8C ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -35436,7 +35572,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mE900F2FF51F2A585C1894489C
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tB624378829791B0BED092893173400E3D7F7C302*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mE900F2FF51F2A585C1894489C3B3EA3F9799C6CF(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m0A3ABA2FAC4BC97A4976DF2BA9060653EF88BD3C_gshared (ParallelWriter_tB624378829791B0BED092893173400E3D7F7C302* __this, NativeList_1_t8669CE2F5F28A2FCC6C5AFE126A15F0661AE0B6D ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -35464,7 +35600,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m0A3ABA2FAC4BC97A4976DF2BA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m96AB9F4B4360D1AAD6FBEFC322522799BE305C38_gshared (ParallelWriter_t3716D718EC4099534F27E6224E5EE0822C325BCA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -35484,7 +35620,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m96AB9F4B4360D1AAD6FBEFC322522799B
 	_returnValue = ParallelWriter_get_Ptr_m96AB9F4B4360D1AAD6FBEFC322522799BE305C38_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m57554D00F8ABB63FCC119C063F28F6ABF3E7DDC6_gshared (ParallelWriter_t3716D718EC4099534F27E6224E5EE0822C325BCA* __this, UnsafeList_1_tE0925972F51EBAB33C5335A86B2E02801BEF7D8C* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -35502,7 +35638,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m57554D00F8ABB63FCC119C063F28F6ABF3E7
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t3716D718EC4099534F27E6224E5EE0822C325BCA*>(__this + _offset);
 	ParallelWriter__ctor_m57554D00F8ABB63FCC119C063F28F6ABF3E7DDC6_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mD02952C24F17CAD59104E36B998D42243D4DC00C_gshared (ParallelWriter_t3716D718EC4099534F27E6224E5EE0822C325BCA* __this, ResourceUnversionedData_t3F4B539E7806E513C53A94EAABF5F969AAA384CC ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -35532,7 +35668,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mD02952C24F17CAD59104E36B998D42
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t3716D718EC4099534F27E6224E5EE0822C325BCA*>(__this + _offset);
 	ParallelWriter_AddNoResize_mD02952C24F17CAD59104E36B998D42243D4DC00C(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mDBD19FC635C6C0F954E2868CF80624069308654A_gshared (ParallelWriter_t3716D718EC4099534F27E6224E5EE0822C325BCA* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -35571,7 +35707,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mDBD19FC635C6C0F954E2868CF
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t3716D718EC4099534F27E6224E5EE0822C325BCA*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mDBD19FC635C6C0F954E2868CF80624069308654A(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mFA1AFD084371123E572967F636A9FC148FDB2B40_gshared (ParallelWriter_t3716D718EC4099534F27E6224E5EE0822C325BCA* __this, UnsafeList_1_tE0925972F51EBAB33C5335A86B2E02801BEF7D8C ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -35600,7 +35736,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mFA1AFD084371123E572967F63
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m1F0866E6EB260949B58EDA751B80D37A4089117E_gshared (ParallelWriter_tDB23FD623491CFFADE159DC3868BB285A599A61D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -35620,7 +35756,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m1F0866E6EB260949B58EDA751B80D37A4
 	_returnValue = ParallelWriter_get_Ptr_m1F0866E6EB260949B58EDA751B80D37A4089117E_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m596BD0D70E67208D6C836168792A09CCA21405F3_gshared (ParallelWriter_tDB23FD623491CFFADE159DC3868BB285A599A61D* __this, UnsafeList_1_t5BA00307630DB630A2010F3369C343509AE94A06* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -35638,7 +35774,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m596BD0D70E67208D6C836168792A09CCA214
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tDB23FD623491CFFADE159DC3868BB285A599A61D*>(__this + _offset);
 	ParallelWriter__ctor_m596BD0D70E67208D6C836168792A09CCA21405F3_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m4D30157BDC3DA4898805D5779CA78EF1DF97B376_gshared (ParallelWriter_tDB23FD623491CFFADE159DC3868BB285A599A61D* __this, ResourceVersionedData_tC935A106FCF6C0800974D2C98DBE14E19A19B1DC ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -35668,7 +35804,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m4D30157BDC3DA4898805D5779CA78E
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tDB23FD623491CFFADE159DC3868BB285A599A61D*>(__this + _offset);
 	ParallelWriter_AddNoResize_m4D30157BDC3DA4898805D5779CA78EF1DF97B376(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mFD7267D5481F798649E2D00360CCE359426152FF_gshared (ParallelWriter_tDB23FD623491CFFADE159DC3868BB285A599A61D* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -35711,7 +35847,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mFD7267D5481F798649E2D0036
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tDB23FD623491CFFADE159DC3868BB285A599A61D*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mFD7267D5481F798649E2D00360CCE359426152FF(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m4ED409E66213784385271458D5D709B23AC61A1C_gshared (ParallelWriter_tDB23FD623491CFFADE159DC3868BB285A599A61D* __this, UnsafeList_1_t5BA00307630DB630A2010F3369C343509AE94A06 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -35732,7 +35868,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m4ED409E66213784385271458D
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tDB23FD623491CFFADE159DC3868BB285A599A61D*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m4ED409E66213784385271458D5D709B23AC61A1C(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mD6E87979D1C71BE0295D033714E4C63E5FEEA951_gshared (ParallelWriter_tDB23FD623491CFFADE159DC3868BB285A599A61D* __this, NativeList_1_t959C2708BDFCE76B695843BBB6CB994043416657 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -35760,7 +35896,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mD6E87979D1C71BE0295D03371
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mB19FE79C899051137109D2684A633DC0AD63E726_gshared (ParallelWriter_t9F3307CB7897A7BAB353AFC8B14E472832F82ECF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -35780,7 +35916,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mB19FE79C899051137109D2684A633DC0A
 	_returnValue = ParallelWriter_get_Ptr_mB19FE79C899051137109D2684A633DC0AD63E726_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mCCA56A29D14C372AB300FDC5EF28838639012595_gshared (ParallelWriter_t9F3307CB7897A7BAB353AFC8B14E472832F82ECF* __this, UnsafeList_1_t5BA00307630DB630A2010F3369C343509AE94A06* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -35798,7 +35934,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mCCA56A29D14C372AB300FDC5EF2883863901
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t9F3307CB7897A7BAB353AFC8B14E472832F82ECF*>(__this + _offset);
 	ParallelWriter__ctor_mCCA56A29D14C372AB300FDC5EF28838639012595_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mB8079A5215054DE62CB023FB82923ED75F6E22E5_gshared (ParallelWriter_t9F3307CB7897A7BAB353AFC8B14E472832F82ECF* __this, ResourceVersionedData_tC935A106FCF6C0800974D2C98DBE14E19A19B1DC ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -35828,7 +35964,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mB8079A5215054DE62CB023FB82923E
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t9F3307CB7897A7BAB353AFC8B14E472832F82ECF*>(__this + _offset);
 	ParallelWriter_AddNoResize_mB8079A5215054DE62CB023FB82923ED75F6E22E5(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m7159B4AE8758E7902750EEA5EB8F7326A5BE08B9_gshared (ParallelWriter_t9F3307CB7897A7BAB353AFC8B14E472832F82ECF* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -35867,7 +36003,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m7159B4AE8758E7902750EEA5E
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t9F3307CB7897A7BAB353AFC8B14E472832F82ECF*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m7159B4AE8758E7902750EEA5EB8F7326A5BE08B9(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mE0FB4FAA256CE455D0F18441CCB14EDC55812BD1_gshared (ParallelWriter_t9F3307CB7897A7BAB353AFC8B14E472832F82ECF* __this, UnsafeList_1_t5BA00307630DB630A2010F3369C343509AE94A06 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -35896,7 +36032,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mE0FB4FAA256CE455D0F18441C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m7F98121FCA47E76A35E222CE3F19FCB265F5FEDB_gshared (ParallelWriter_tF6A0D60925D8E405A4F981788DE99AF1A453D169* __this, const RuntimeMethod* method) 
 {
 	{
@@ -35916,7 +36052,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m7F98121FCA47E76A35E222CE3F19FCB26
 	_returnValue = ParallelWriter_get_Ptr_m7F98121FCA47E76A35E222CE3F19FCB265F5FEDB_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m658524EE3177215D53006B1B49154D80666944F6_gshared (ParallelWriter_tF6A0D60925D8E405A4F981788DE99AF1A453D169* __this, UnsafeList_1_t5587650D065DD59DDA21A042C17145BA4B6813AC* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -35934,7 +36070,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m658524EE3177215D53006B1B49154D806669
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tF6A0D60925D8E405A4F981788DE99AF1A453D169*>(__this + _offset);
 	ParallelWriter__ctor_m658524EE3177215D53006B1B49154D80666944F6_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m050C09F5C131AE49DAD28DF0C2F40375F1CF1655_gshared (ParallelWriter_tF6A0D60925D8E405A4F981788DE99AF1A453D169* __this, SubPassDescriptor_t912FE0FF4C99BF293A1E4442353C35B2BB8997A9 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -35964,7 +36100,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m050C09F5C131AE49DAD28DF0C2F403
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tF6A0D60925D8E405A4F981788DE99AF1A453D169*>(__this + _offset);
 	ParallelWriter_AddNoResize_m050C09F5C131AE49DAD28DF0C2F40375F1CF1655(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m230EB68DA8B62449C9530A52C83ADA49327CF5B4_gshared (ParallelWriter_tF6A0D60925D8E405A4F981788DE99AF1A453D169* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -36007,7 +36143,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m230EB68DA8B62449C9530A52C
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tF6A0D60925D8E405A4F981788DE99AF1A453D169*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m230EB68DA8B62449C9530A52C83ADA49327CF5B4(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m22193ECB44E0B366EA55047BA6DC5DA19CA4AF4A_gshared (ParallelWriter_tF6A0D60925D8E405A4F981788DE99AF1A453D169* __this, UnsafeList_1_t5587650D065DD59DDA21A042C17145BA4B6813AC ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -36028,7 +36164,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m22193ECB44E0B366EA55047BA
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tF6A0D60925D8E405A4F981788DE99AF1A453D169*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m22193ECB44E0B366EA55047BA6DC5DA19CA4AF4A(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m128AE6F0AD1CFFF2517EC746EC1066B99F9EB8CB_gshared (ParallelWriter_tF6A0D60925D8E405A4F981788DE99AF1A453D169* __this, NativeList_1_tD22C3232FF9B49AD6C28A2FF59564AFB594D3D92 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -36056,7 +36192,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m128AE6F0AD1CFFF2517EC746E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mDFFB1AD98DADC98005D7257357165196D01AE5ED_gshared (ParallelWriter_tBE2A3DD30EDD83079FEC92D206DDEDB4F5CC3938* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36076,7 +36212,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mDFFB1AD98DADC98005D7257357165196D
 	_returnValue = ParallelWriter_get_Ptr_mDFFB1AD98DADC98005D7257357165196D01AE5ED_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mEA551F282EC6E0D67708D0EDB08C68FF4F182C55_gshared (ParallelWriter_tBE2A3DD30EDD83079FEC92D206DDEDB4F5CC3938* __this, UnsafeList_1_t5587650D065DD59DDA21A042C17145BA4B6813AC* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -36094,7 +36230,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mEA551F282EC6E0D67708D0EDB08C68FF4F18
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tBE2A3DD30EDD83079FEC92D206DDEDB4F5CC3938*>(__this + _offset);
 	ParallelWriter__ctor_mEA551F282EC6E0D67708D0EDB08C68FF4F182C55_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m46A0CC6BAA734D158961E5FBD67C42019833B0C3_gshared (ParallelWriter_tBE2A3DD30EDD83079FEC92D206DDEDB4F5CC3938* __this, SubPassDescriptor_t912FE0FF4C99BF293A1E4442353C35B2BB8997A9 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -36124,7 +36260,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m46A0CC6BAA734D158961E5FBD67C42
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tBE2A3DD30EDD83079FEC92D206DDEDB4F5CC3938*>(__this + _offset);
 	ParallelWriter_AddNoResize_m46A0CC6BAA734D158961E5FBD67C42019833B0C3(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m331BC9F2967A7177BB3743053248F3A53BC65E0B_gshared (ParallelWriter_tBE2A3DD30EDD83079FEC92D206DDEDB4F5CC3938* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -36163,7 +36299,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m331BC9F2967A7177BB3743053
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tBE2A3DD30EDD83079FEC92D206DDEDB4F5CC3938*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m331BC9F2967A7177BB3743053248F3A53BC65E0B(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m45C415563381463128608D3E5A476B7BBB22599C_gshared (ParallelWriter_tBE2A3DD30EDD83079FEC92D206DDEDB4F5CC3938* __this, UnsafeList_1_t5587650D065DD59DDA21A042C17145BA4B6813AC ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -36192,7 +36328,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m45C415563381463128608D3E5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m827100953165933A55A06265B4622AED08D35EDD_gshared (ParallelWriter_t6CAD49362B6231AD4F3B8C808396727F1D3AB0CC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36212,7 +36348,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m827100953165933A55A06265B4622AED0
 	_returnValue = ParallelWriter_get_Ptr_m827100953165933A55A06265B4622AED08D35EDD_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m887023BF3A18FB3877A91B7608CFA5EEEBE35E80_gshared (ParallelWriter_t6CAD49362B6231AD4F3B8C808396727F1D3AB0CC* __this, UnsafeList_1_tA2B6A040C4F2656D88ABB4345257ADE8F2F30F35* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -36230,7 +36366,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m887023BF3A18FB3877A91B7608CFA5EEEBE3
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t6CAD49362B6231AD4F3B8C808396727F1D3AB0CC*>(__this + _offset);
 	ParallelWriter__ctor_m887023BF3A18FB3877A91B7608CFA5EEEBE35E80_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m55541D6D37D9F578BB7405C1ADC71E9541ABEADB_gshared (ParallelWriter_t6CAD49362B6231AD4F3B8C808396727F1D3AB0CC* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -36260,7 +36396,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m55541D6D37D9F578BB7405C1ADC71E
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t6CAD49362B6231AD4F3B8C808396727F1D3AB0CC*>(__this + _offset);
 	ParallelWriter_AddNoResize_m55541D6D37D9F578BB7405C1ADC71E9541ABEADB(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m323E087351F9C55932ACE44FCE76560A27CB3BE2_gshared (ParallelWriter_t6CAD49362B6231AD4F3B8C808396727F1D3AB0CC* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -36303,7 +36439,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m323E087351F9C55932ACE44FC
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t6CAD49362B6231AD4F3B8C808396727F1D3AB0CC*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m323E087351F9C55932ACE44FCE76560A27CB3BE2(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m768241A0FDD041423A4557E8388539C386A1FB3C_gshared (ParallelWriter_t6CAD49362B6231AD4F3B8C808396727F1D3AB0CC* __this, UnsafeList_1_tA2B6A040C4F2656D88ABB4345257ADE8F2F30F35 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -36324,7 +36460,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m768241A0FDD041423A4557E83
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t6CAD49362B6231AD4F3B8C808396727F1D3AB0CC*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m768241A0FDD041423A4557E8388539C386A1FB3C(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m3616829955DB6AA9C25285FF3283C956EF2DC36E_gshared (ParallelWriter_t6CAD49362B6231AD4F3B8C808396727F1D3AB0CC* __this, NativeList_1_t3F484BD58C4375864F2F924BAC1D588941D48ACF ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -36352,7 +36488,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m3616829955DB6AA9C25285FF3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m1AFB2F8C583790C9DEA022C893F69A0A82DE14EC_gshared (ParallelWriter_tA55869A0986771491BABAA58E7A758954D2F252B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36372,7 +36508,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m1AFB2F8C583790C9DEA022C893F69A0A8
 	_returnValue = ParallelWriter_get_Ptr_m1AFB2F8C583790C9DEA022C893F69A0A82DE14EC_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m0D8555EFB401E0D4EF347A11D772570DC753F798_gshared (ParallelWriter_tA55869A0986771491BABAA58E7A758954D2F252B* __this, UnsafeList_1_tA2B6A040C4F2656D88ABB4345257ADE8F2F30F35* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -36390,7 +36526,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m0D8555EFB401E0D4EF347A11D772570DC753
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tA55869A0986771491BABAA58E7A758954D2F252B*>(__this + _offset);
 	ParallelWriter__ctor_m0D8555EFB401E0D4EF347A11D772570DC753F798_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m9E56472D866957AA8B725AD7426F9D035672DEC0_gshared (ParallelWriter_tA55869A0986771491BABAA58E7A758954D2F252B* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -36420,7 +36556,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m9E56472D866957AA8B725AD7426F9D
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tA55869A0986771491BABAA58E7A758954D2F252B*>(__this + _offset);
 	ParallelWriter_AddNoResize_m9E56472D866957AA8B725AD7426F9D035672DEC0(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mC23D539EB77C6BAD1278D9EB228B7B3C73E8D6FD_gshared (ParallelWriter_tA55869A0986771491BABAA58E7A758954D2F252B* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -36459,7 +36595,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mC23D539EB77C6BAD1278D9EB2
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tA55869A0986771491BABAA58E7A758954D2F252B*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mC23D539EB77C6BAD1278D9EB228B7B3C73E8D6FD(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m559FD5702405B0D6BE2E6B7513C86B9BF0C3124D_gshared (ParallelWriter_tA55869A0986771491BABAA58E7A758954D2F252B* __this, UnsafeList_1_tA2B6A040C4F2656D88ABB4345257ADE8F2F30F35 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -36488,7 +36624,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m559FD5702405B0D6BE2E6B751
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m29C0146B43AA7E8A86C59677E8267C206C1714F6_gshared (ParallelWriter_t861DBB5C896559047406FF6E504BC2A604C307EC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36508,7 +36644,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m29C0146B43AA7E8A86C59677E8267C206
 	_returnValue = ParallelWriter_get_Ptr_m29C0146B43AA7E8A86C59677E8267C206C1714F6_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mCA2D3273C09FED74AF8E84FFA98373CE52A436B6_gshared (ParallelWriter_t861DBB5C896559047406FF6E504BC2A604C307EC* __this, UnsafeList_1_t7A543190DA1A83E02E2B1A875EA82180D6B548AB* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -36526,7 +36662,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mCA2D3273C09FED74AF8E84FFA98373CE52A4
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t861DBB5C896559047406FF6E504BC2A604C307EC*>(__this + _offset);
 	ParallelWriter__ctor_mCA2D3273C09FED74AF8E84FFA98373CE52A436B6_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m487880B6365410836E9CC9C7F485821855474E9E_gshared (ParallelWriter_t861DBB5C896559047406FF6E504BC2A604C307EC* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -36556,7 +36692,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m487880B6365410836E9CC9C7F48582
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t861DBB5C896559047406FF6E504BC2A604C307EC*>(__this + _offset);
 	ParallelWriter_AddNoResize_m487880B6365410836E9CC9C7F485821855474E9E(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m0CDA6CF4CA7E1907F60ABD4FDC8445E1B4E4620A_gshared (ParallelWriter_t861DBB5C896559047406FF6E504BC2A604C307EC* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -36599,7 +36735,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m0CDA6CF4CA7E1907F60ABD4FD
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t861DBB5C896559047406FF6E504BC2A604C307EC*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m0CDA6CF4CA7E1907F60ABD4FDC8445E1B4E4620A(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mA5F055119AF784CA6A57710C829A5D5D3F6C34CE_gshared (ParallelWriter_t861DBB5C896559047406FF6E504BC2A604C307EC* __this, UnsafeList_1_t7A543190DA1A83E02E2B1A875EA82180D6B548AB ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -36620,7 +36756,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mA5F055119AF784CA6A57710C8
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t861DBB5C896559047406FF6E504BC2A604C307EC*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mA5F055119AF784CA6A57710C829A5D5D3F6C34CE(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m91D01E6B1D6EB772E50234CD2A67DD8025425350_gshared (ParallelWriter_t861DBB5C896559047406FF6E504BC2A604C307EC* __this, NativeList_1_tB6007C869E1511FACD91D9611A0C7B98D6E9D030 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -36648,7 +36784,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m91D01E6B1D6EB772E50234CD2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m4DB54D51FC75037AC6AD3B5715CB9F2AA9E89797_gshared (ParallelWriter_tBB9CC88957CD6C754B977C1936037B1BEE403DFC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36668,7 +36804,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m4DB54D51FC75037AC6AD3B5715CB9F2AA
 	_returnValue = ParallelWriter_get_Ptr_m4DB54D51FC75037AC6AD3B5715CB9F2AA9E89797_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m5D7CCE0736BCAC473CFFF428872B181004496784_gshared (ParallelWriter_tBB9CC88957CD6C754B977C1936037B1BEE403DFC* __this, UnsafeList_1_t7A543190DA1A83E02E2B1A875EA82180D6B548AB* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -36686,7 +36822,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m5D7CCE0736BCAC473CFFF428872B18100449
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tBB9CC88957CD6C754B977C1936037B1BEE403DFC*>(__this + _offset);
 	ParallelWriter__ctor_m5D7CCE0736BCAC473CFFF428872B181004496784_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m6CA380C52C1EF29156118FE302CB521325818C61_gshared (ParallelWriter_tBB9CC88957CD6C754B977C1936037B1BEE403DFC* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -36716,7 +36852,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m6CA380C52C1EF29156118FE302CB52
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tBB9CC88957CD6C754B977C1936037B1BEE403DFC*>(__this + _offset);
 	ParallelWriter_AddNoResize_m6CA380C52C1EF29156118FE302CB521325818C61(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m22B3F71E1D3CD332EB280687D5949750E3DADC4F_gshared (ParallelWriter_tBB9CC88957CD6C754B977C1936037B1BEE403DFC* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -36755,7 +36891,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m22B3F71E1D3CD332EB280687D
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tBB9CC88957CD6C754B977C1936037B1BEE403DFC*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m22B3F71E1D3CD332EB280687D5949750E3DADC4F(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m3C685B4DB1CECED2B58CC30A48316B00F6B07CB4_gshared (ParallelWriter_tBB9CC88957CD6C754B977C1936037B1BEE403DFC* __this, UnsafeList_1_t7A543190DA1A83E02E2B1A875EA82180D6B548AB ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -36784,7 +36920,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m3C685B4DB1CECED2B58CC30A4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mA68D24C386F6BC2EEF8894D271A737586E937B97_gshared (ParallelWriter_t5FAD2F5CD0323F6D69B41F58BA124280639739A1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36804,7 +36940,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mA68D24C386F6BC2EEF8894D271A737586
 	_returnValue = ParallelWriter_get_Ptr_mA68D24C386F6BC2EEF8894D271A737586E937B97_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m90A3784A8D355193CE6FFD0D49A8B0B9B950661A_gshared (ParallelWriter_t5FAD2F5CD0323F6D69B41F58BA124280639739A1* __this, UnsafeList_1_t3A26A222433F7993EC942046A500D6EA3DCB97E6* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -36822,7 +36958,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m90A3784A8D355193CE6FFD0D49A8B0B9B950
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t5FAD2F5CD0323F6D69B41F58BA124280639739A1*>(__this + _offset);
 	ParallelWriter__ctor_m90A3784A8D355193CE6FFD0D49A8B0B9B950661A_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mCE89C9491F84FCE4B81578D47106672DDFC21BBA_gshared (ParallelWriter_t5FAD2F5CD0323F6D69B41F58BA124280639739A1* __this, Il2CppFullySharedGenericStruct ___0_value, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_t10D58294F47473AB094BD4C41F79FBF65D1CB6DD = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4));
@@ -36854,7 +36990,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mCE89C9491F84FCE4B81578D4710667
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t5FAD2F5CD0323F6D69B41F58BA124280639739A1*>(__this + _offset);
 	ParallelWriter_AddNoResize_mCE89C9491F84FCE4B81578D47106672DDFC21BBA(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m4F108F1B4E63C5CF7C660F71690A1FE1E8EB33B8_gshared (ParallelWriter_t5FAD2F5CD0323F6D69B41F58BA124280639739A1* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_t10D58294F47473AB094BD4C41F79FBF65D1CB6DD = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4));
@@ -36898,7 +37034,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m4F108F1B4E63C5CF7C660F716
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t5FAD2F5CD0323F6D69B41F58BA124280639739A1*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m4F108F1B4E63C5CF7C660F71690A1FE1E8EB33B8(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mC634575727385D84BF65659C7E0919AE51E15A58_gshared (ParallelWriter_t5FAD2F5CD0323F6D69B41F58BA124280639739A1* __this, UnsafeList_1_t3A26A222433F7993EC942046A500D6EA3DCB97E6 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -36919,7 +37055,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mC634575727385D84BF65659C7
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t5FAD2F5CD0323F6D69B41F58BA124280639739A1*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mC634575727385D84BF65659C7E0919AE51E15A58(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m83C12FE57263CCC26E749F8161826935AA8ED7A8_gshared (ParallelWriter_t5FAD2F5CD0323F6D69B41F58BA124280639739A1* __this, NativeList_1_tC1434025FAC1738D2E1A0029AA90EC61D91370C1 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -36947,7 +37083,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m83C12FE57263CCC26E749F816
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90062
+// Method Definition Index: 90065
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ParallelWriter_get_Capacity_m9E233FFF8351F2FDF4F30FB8897F4414CCC45079_gshared (ParallelWriter_t90DC484AD3D15C466C89D06CCD6003ADD45E27C6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36967,7 +37103,7 @@ IL2CPP_EXTERN_C  int32_t ParallelWriter_get_Capacity_m9E233FFF8351F2FDF4F30FB889
 	_returnValue = ParallelWriter_get_Capacity_m9E233FFF8351F2FDF4F30FB8897F4414CCC45079_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 90063
+// Method Definition Index: 90066
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ParallelWriter_Add_m53F7CA51BAC6EB576E1D8CF0791854BCC2FCD4E7_gshared (ParallelWriter_t90DC484AD3D15C466C89D06CCD6003ADD45E27C6* __this, Il2CppFullySharedGenericStruct ___0_item, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_t873E22ED140DF88C4F5424ED94CDBA59F06C8942 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4));
@@ -36990,7 +37126,7 @@ IL2CPP_EXTERN_C  bool ParallelWriter_Add_m53F7CA51BAC6EB576E1D8CF0791854BCC2FCD4
 	_returnValue = ParallelWriter_Add_m53F7CA51BAC6EB576E1D8CF0791854BCC2FCD4E7(_thisAdjusted, ___0_item, method);
 	return _returnValue;
 }
-// Method Definition Index: 90064
+// Method Definition Index: 90067
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ParallelWriter_Add_m7F42B70DA1467BE525327E7BD092B45A8005663F_gshared (ParallelWriter_t90DC484AD3D15C466C89D06CCD6003ADD45E27C6* __this, Il2CppFullySharedGenericStruct ___0_item, int32_t ___1_threadIndexOverride, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_t873E22ED140DF88C4F5424ED94CDBA59F06C8942 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4));
@@ -37022,7 +37158,7 @@ IL2CPP_EXTERN_C  bool ParallelWriter_Add_m7F42B70DA1467BE525327E7BD092B45A800566
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90243
+// Method Definition Index: 90246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_m0282574973A9EF17578D0D5579CDC68B7EC7A917_gshared (ParallelWriter_t2D1578AF94E5823813CF6A916C1C53C94EFEFEC5* __this, Il2CppFullySharedGenericStruct ___0_value, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_tE8BB381867704C003338C575568A7F879227D8C8 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 2));
@@ -37043,7 +37179,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_Enqueue_m0282574973A9EF17578D0D5579CDC68B7E
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t2D1578AF94E5823813CF6A916C1C53C94EFEFEC5*>(__this + _offset);
 	ParallelWriter_Enqueue_m0282574973A9EF17578D0D5579CDC68B7EC7A917(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 90244
+// Method Definition Index: 90247
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_m934F2C5B0759D021EAF29E3364ECC1CC133EA552_gshared (ParallelWriter_t2D1578AF94E5823813CF6A916C1C53C94EFEFEC5* __this, Il2CppFullySharedGenericStruct ___0_value, int32_t ___1_threadIndexOverride, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_tE8BB381867704C003338C575568A7F879227D8C8 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 2));
@@ -37073,7 +37209,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_Enqueue_m934F2C5B0759D021EAF29E3364ECC1CC13
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m51D0C49D3137EE01EE9FB568DF69932EA6B08957_gshared (ParallelWriter_t7228BF021425BFE8A2478C2B6506DC52D1120D17* __this, const RuntimeMethod* method) 
 {
 	{
@@ -37093,7 +37229,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m51D0C49D3137EE01EE9FB568DF69932EA
 	_returnValue = ParallelWriter_get_Ptr_m51D0C49D3137EE01EE9FB568DF69932EA6B08957_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mB849FB0A5AEFC10B17C138328DA450895F5715CB_gshared (ParallelWriter_t7228BF021425BFE8A2478C2B6506DC52D1120D17* __this, UnsafeList_1_t3A26A222433F7993EC942046A500D6EA3DCB97E6* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -37111,7 +37247,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mB849FB0A5AEFC10B17C138328DA450895F57
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t7228BF021425BFE8A2478C2B6506DC52D1120D17*>(__this + _offset);
 	ParallelWriter__ctor_mB849FB0A5AEFC10B17C138328DA450895F5715CB_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mC9BEFD84640760D51E934F4B5D24F7EED4BF9210_gshared (ParallelWriter_t7228BF021425BFE8A2478C2B6506DC52D1120D17* __this, Il2CppFullySharedGenericStruct ___0_value, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_t4FC45C5EEDAE5FD93EBAE820C99B6CA6AC1C3F75 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4));
@@ -37143,7 +37279,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mC9BEFD84640760D51E934F4B5D24F7
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t7228BF021425BFE8A2478C2B6506DC52D1120D17*>(__this + _offset);
 	ParallelWriter_AddNoResize_mC9BEFD84640760D51E934F4B5D24F7EED4BF9210(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m7378534A9D24517222D1E7B9ABF8DBFBE1EFB0C2_gshared (ParallelWriter_t7228BF021425BFE8A2478C2B6506DC52D1120D17* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_t4FC45C5EEDAE5FD93EBAE820C99B6CA6AC1C3F75 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4));
@@ -37183,7 +37319,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m7378534A9D24517222D1E7B9A
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t7228BF021425BFE8A2478C2B6506DC52D1120D17*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m7378534A9D24517222D1E7B9ABF8DBFBE1EFB0C2(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mFB4B2582280387094F9F65DD3CC24CFAFB463DB5_gshared (ParallelWriter_t7228BF021425BFE8A2478C2B6506DC52D1120D17* __this, UnsafeList_1_t3A26A222433F7993EC942046A500D6EA3DCB97E6 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -37212,7 +37348,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mFB4B2582280387094F9F65DD3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91215
+// Method Definition Index: 91218
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ParallelWriter_get_Capacity_mE40ECC91D0FF47A63B9F208422BB9ACF2F4E2D20_gshared (ParallelWriter_tA4AE1675B616D5F02532A3B2DFADED4855E7E8A1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -37232,7 +37368,7 @@ IL2CPP_EXTERN_C  int32_t ParallelWriter_get_Capacity_mE40ECC91D0FF47A63B9F208422
 	_returnValue = ParallelWriter_get_Capacity_mE40ECC91D0FF47A63B9F208422BB9ACF2F4E2D20_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91216
+// Method Definition Index: 91219
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ParallelWriter_Add_m8B1D58FCDE8C4EA668B978D146FC852D4CA285C6_gshared (ParallelWriter_tA4AE1675B616D5F02532A3B2DFADED4855E7E8A1* __this, Il2CppFullySharedGenericStruct ___0_item, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_tF6BE07B68A716D274BF865CEBEA24285BA634390 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4));
@@ -37255,7 +37391,7 @@ IL2CPP_EXTERN_C  bool ParallelWriter_Add_m8B1D58FCDE8C4EA668B978D146FC852D4CA285
 	_returnValue = ParallelWriter_Add_m8B1D58FCDE8C4EA668B978D146FC852D4CA285C6(_thisAdjusted, ___0_item, method);
 	return _returnValue;
 }
-// Method Definition Index: 91217
+// Method Definition Index: 91220
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ParallelWriter_Add_m64B39807F9ABC8F288EAE114D57D1C80CD953A27_gshared (ParallelWriter_tA4AE1675B616D5F02532A3B2DFADED4855E7E8A1* __this, Il2CppFullySharedGenericStruct ___0_item, int32_t ___1_threadIndexOverride, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_tF6BE07B68A716D274BF865CEBEA24285BA634390 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4));
@@ -37287,7 +37423,7 @@ IL2CPP_EXTERN_C  bool ParallelWriter_Add_m64B39807F9ABC8F288EAE114D57D1C80CD953A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91089
+// Method Definition Index: 91092
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mDCF4E4DACF7E5681A257AD23232873ED50830468_gshared (ParallelWriter_t310D5F38A4944EABF37E0CA0570F1AACBA52CCD3* __this, Il2CppFullySharedGenericStruct** ___0_ptr, UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613* ___1_listData, const RuntimeMethod* method) 
 {
 	{
@@ -37308,7 +37444,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mDCF4E4DACF7E5681A257AD23232873ED5083
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t310D5F38A4944EABF37E0CA0570F1AACBA52CCD3*>(__this + _offset);
 	ParallelWriter__ctor_mDCF4E4DACF7E5681A257AD23232873ED50830468(_thisAdjusted, ___0_ptr, ___1_listData, method);
 }
-// Method Definition Index: 91090
+// Method Definition Index: 91093
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m1BC3848DE96B7655A526A4FF1D066967BDCE68E4_gshared (ParallelWriter_t310D5F38A4944EABF37E0CA0570F1AACBA52CCD3* __this, Il2CppFullySharedGenericStruct* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -37334,7 +37470,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m1BC3848DE96B7655A526A4FF1D0669
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t310D5F38A4944EABF37E0CA0570F1AACBA52CCD3*>(__this + _offset);
 	ParallelWriter_AddNoResize_m1BC3848DE96B7655A526A4FF1D066967BDCE68E4(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91091
+// Method Definition Index: 91094
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m52D60A526FB0D25B2204E5AD291412E968B1204A_gshared (ParallelWriter_t310D5F38A4944EABF37E0CA0570F1AACBA52CCD3* __this, Il2CppFullySharedGenericStruct** ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -37359,7 +37495,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m52D60A526FB0D25B2204E5AD2
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t310D5F38A4944EABF37E0CA0570F1AACBA52CCD3*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m52D60A526FB0D25B2204E5AD291412E968B1204A(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91092
+// Method Definition Index: 91095
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mB77B6A9B5F49F0E1CF0BF0EB0B6250BDF23BA950_gshared (ParallelWriter_t310D5F38A4944EABF37E0CA0570F1AACBA52CCD3* __this, UnsafePtrList_1_tA37C18AF110F20C6437047DBA50BF355602044E5 ___0_list, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -37394,7 +37530,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mB77B6A9B5F49F0E1CF0BF0EB0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90655
+// Method Definition Index: 90658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_mE052D90CE214BA66EBE4086EBCE2B0D848268A12_gshared (ParallelWriter_tA67D6F7A3AA5BBA34D1645CC2F66C494BA4933AE* __this, Il2CppFullySharedGenericStruct ___0_value, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_t2AE9A7962AC4C6F8A39E8F3037DB00415F30CBD6 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 2));
@@ -37434,7 +37570,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_Enqueue_mE052D90CE214BA66EBE4086EBCE2B0D848
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tA67D6F7A3AA5BBA34D1645CC2F66C494BA4933AE*>(__this + _offset);
 	ParallelWriter_Enqueue_mE052D90CE214BA66EBE4086EBCE2B0D848268A12(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 90656
+// Method Definition Index: 90659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_mD9E521A2CC9328CF58EAB5D119EB50EDB2B67419_gshared (ParallelWriter_tA67D6F7A3AA5BBA34D1645CC2F66C494BA4933AE* __this, Il2CppFullySharedGenericStruct ___0_value, int32_t ___1_threadIndexOverride, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_t2AE9A7962AC4C6F8A39E8F3037DB00415F30CBD6 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 2));
@@ -37482,7 +37618,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_Enqueue_mD9E521A2CC9328CF58EAB5D119EB50EDB2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m2206F61F9EBDE1A7EC38ACAFC30B76E901CF9427_gshared (ParallelWriter_t1133D5B6AFCF1E287BB95F151FE2F8CF2EF31F4D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -37502,7 +37638,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m2206F61F9EBDE1A7EC38ACAFC30B76E90
 	_returnValue = ParallelWriter_get_Ptr_m2206F61F9EBDE1A7EC38ACAFC30B76E901CF9427_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m79C931474427724FA9490920F4102948D7E24E37_gshared (ParallelWriter_t1133D5B6AFCF1E287BB95F151FE2F8CF2EF31F4D* __this, UnsafeList_1_t7A5985AF0B9C20ADCE35D29FDAB0EB1F05D41576* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -37520,7 +37656,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m79C931474427724FA9490920F4102948D7E2
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t1133D5B6AFCF1E287BB95F151FE2F8CF2EF31F4D*>(__this + _offset);
 	ParallelWriter__ctor_m79C931474427724FA9490920F4102948D7E24E37_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m4732E1F821BF528C6201C20F7D99DDD9C7BA51B3_gshared (ParallelWriter_t1133D5B6AFCF1E287BB95F151FE2F8CF2EF31F4D* __this, Sample_t3BE5915021631BD79173E66EC224867714256407 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -37550,7 +37686,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m4732E1F821BF528C6201C20F7D99DD
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t1133D5B6AFCF1E287BB95F151FE2F8CF2EF31F4D*>(__this + _offset);
 	ParallelWriter_AddNoResize_m4732E1F821BF528C6201C20F7D99DDD9C7BA51B3(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m99ECA5B409DBDD38A9E439A7938714DC0F3C6538_gshared (ParallelWriter_t1133D5B6AFCF1E287BB95F151FE2F8CF2EF31F4D* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -37589,7 +37725,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m99ECA5B409DBDD38A9E439A79
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t1133D5B6AFCF1E287BB95F151FE2F8CF2EF31F4D*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m99ECA5B409DBDD38A9E439A7938714DC0F3C6538(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m4F4A813B393CE009F876D874746D90523606B5B8_gshared (ParallelWriter_t1133D5B6AFCF1E287BB95F151FE2F8CF2EF31F4D* __this, UnsafeList_1_t7A5985AF0B9C20ADCE35D29FDAB0EB1F05D41576 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -37618,7 +37754,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m4F4A813B393CE009F876D8747
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91089
+// Method Definition Index: 91092
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m535D73F469396DC29425F542A5791BD8BD5AF1F6_gshared (ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326* __this, Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42** ___0_ptr, UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613* ___1_listData, const RuntimeMethod* method) 
 {
 	{
@@ -37639,7 +37775,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m535D73F469396DC29425F542A5791BD8BD5A
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326*>(__this + _offset);
 	ParallelWriter__ctor_m535D73F469396DC29425F542A5791BD8BD5AF1F6(_thisAdjusted, ___0_ptr, ___1_listData, method);
 }
-// Method Definition Index: 91090
+// Method Definition Index: 91093
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m8FF0A02D0622989A4FC73984A5381C0C820EDA95_gshared (ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326* __this, Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -37665,7 +37801,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m8FF0A02D0622989A4FC73984A5381C
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326*>(__this + _offset);
 	ParallelWriter_AddNoResize_m8FF0A02D0622989A4FC73984A5381C0C820EDA95(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91091
+// Method Definition Index: 91094
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m7A72658C815AB5F182873EE86592A11CAA8A8256_gshared (ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326* __this, Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42** ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -37690,7 +37826,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m7A72658C815AB5F182873EE86
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m7A72658C815AB5F182873EE86592A11CAA8A8256(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91092
+// Method Definition Index: 91095
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m20B593CB7215C74092C07168207F5801E1C412FE_gshared (ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326* __this, UnsafePtrList_1_tAD86775FD13A7BFCCD3E9ACA2796FFE62044B970 ___0_list, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -37725,7 +37861,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m20B593CB7215C74092C071682
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m6B992E80BA3A90B8F870A4401ED53ACB9FEDACF8_gshared (ParallelWriter_t3EC8B6E7E924CB4CE0203D0CB108B9C07E237C37* __this, const RuntimeMethod* method) 
 {
 	{
@@ -37745,7 +37881,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m6B992E80BA3A90B8F870A4401ED53ACB9
 	_returnValue = ParallelWriter_get_Ptr_m6B992E80BA3A90B8F870A4401ED53ACB9FEDACF8_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m7A52C1A8348ACC27218DF1CE97E3249C12FEC2EB_gshared (ParallelWriter_t3EC8B6E7E924CB4CE0203D0CB108B9C07E237C37* __this, UnsafeList_1_tFB8BBEF9F57D3F7A64A6AA65DB8B97E16E910D5C* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -37763,7 +37899,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m7A52C1A8348ACC27218DF1CE97E3249C12FE
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t3EC8B6E7E924CB4CE0203D0CB108B9C07E237C37*>(__this + _offset);
 	ParallelWriter__ctor_m7A52C1A8348ACC27218DF1CE97E3249C12FEC2EB_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m761410D39CEDBDF63827901379AF73EE270CC86C_gshared (ParallelWriter_t3EC8B6E7E924CB4CE0203D0CB108B9C07E237C37* __this, Baselib_RegisteredNetwork_Request_t6AF2E70EE04D8C3608FB27091CDE9B4A25A9A4FE ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -37793,7 +37929,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m761410D39CEDBDF63827901379AF73
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t3EC8B6E7E924CB4CE0203D0CB108B9C07E237C37*>(__this + _offset);
 	ParallelWriter_AddNoResize_m761410D39CEDBDF63827901379AF73EE270CC86C(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m7FBE865F2536855CED1860EBFB0FCB98748DE03D_gshared (ParallelWriter_t3EC8B6E7E924CB4CE0203D0CB108B9C07E237C37* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -37836,7 +37972,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m7FBE865F2536855CED1860EBF
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t3EC8B6E7E924CB4CE0203D0CB108B9C07E237C37*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m7FBE865F2536855CED1860EBFB0FCB98748DE03D(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m6337D579069A6F07B1AF9A9B4073C1BD9129FBBB_gshared (ParallelWriter_t3EC8B6E7E924CB4CE0203D0CB108B9C07E237C37* __this, UnsafeList_1_tFB8BBEF9F57D3F7A64A6AA65DB8B97E16E910D5C ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -37857,7 +37993,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m6337D579069A6F07B1AF9A9B4
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t3EC8B6E7E924CB4CE0203D0CB108B9C07E237C37*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m6337D579069A6F07B1AF9A9B4073C1BD9129FBBB(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m196549DABDE8564990EF188DE4F88A0EDFD94150_gshared (ParallelWriter_t3EC8B6E7E924CB4CE0203D0CB108B9C07E237C37* __this, NativeList_1_t84330892CD369DD8F2987CCA3403D05B5D3C18C6 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -37885,7 +38021,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m196549DABDE8564990EF188DE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mA62BAEFD8B677EB4B0758545A039EFCD676B2274_gshared (ParallelWriter_t5CD7038EABBC1D46131214F9532B632577B59107* __this, const RuntimeMethod* method) 
 {
 	{
@@ -37905,7 +38041,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mA62BAEFD8B677EB4B0758545A039EFCD6
 	_returnValue = ParallelWriter_get_Ptr_mA62BAEFD8B677EB4B0758545A039EFCD676B2274_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m7A8E74112CF6A25C43F856769B8622A246F7EA0A_gshared (ParallelWriter_t5CD7038EABBC1D46131214F9532B632577B59107* __this, UnsafeList_1_tFB8BBEF9F57D3F7A64A6AA65DB8B97E16E910D5C* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -37923,7 +38059,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m7A8E74112CF6A25C43F856769B8622A246F7
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t5CD7038EABBC1D46131214F9532B632577B59107*>(__this + _offset);
 	ParallelWriter__ctor_m7A8E74112CF6A25C43F856769B8622A246F7EA0A_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m85181B288827842C159ED77EC2CCCF747E584814_gshared (ParallelWriter_t5CD7038EABBC1D46131214F9532B632577B59107* __this, Baselib_RegisteredNetwork_Request_t6AF2E70EE04D8C3608FB27091CDE9B4A25A9A4FE ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -37953,7 +38089,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m85181B288827842C159ED77EC2CCCF
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t5CD7038EABBC1D46131214F9532B632577B59107*>(__this + _offset);
 	ParallelWriter_AddNoResize_m85181B288827842C159ED77EC2CCCF747E584814(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mAC030084EC5CE80BD18353549E1FE587980BA7AE_gshared (ParallelWriter_t5CD7038EABBC1D46131214F9532B632577B59107* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -37992,7 +38128,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mAC030084EC5CE80BD18353549
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t5CD7038EABBC1D46131214F9532B632577B59107*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mAC030084EC5CE80BD18353549E1FE587980BA7AE(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m2A182E211562FF567F32D7D868BC5067CABC3325_gshared (ParallelWriter_t5CD7038EABBC1D46131214F9532B632577B59107* __this, UnsafeList_1_tFB8BBEF9F57D3F7A64A6AA65DB8B97E16E910D5C ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -38021,7 +38157,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m2A182E211562FF567F32D7D86
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m5C56EA45BB1D05589D4E111CEB3486BBDB718BD9_gshared (ParallelWriter_t49A7338F7A90E4612A6C9DF996B287BA482551EA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -38041,7 +38177,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m5C56EA45BB1D05589D4E111CEB3486BBD
 	_returnValue = ParallelWriter_get_Ptr_m5C56EA45BB1D05589D4E111CEB3486BBDB718BD9_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mC49ABCB156CCBA587B4E581E889F6E502BA827E9_gshared (ParallelWriter_t49A7338F7A90E4612A6C9DF996B287BA482551EA* __this, UnsafeList_1_t4D373420ED72810256978A440708762F927B9DE2* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -38059,7 +38195,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mC49ABCB156CCBA587B4E581E889F6E502BA8
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t49A7338F7A90E4612A6C9DF996B287BA482551EA*>(__this + _offset);
 	ParallelWriter__ctor_mC49ABCB156CCBA587B4E581E889F6E502BA827E9_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mDA78894CA9142BE2FAA2CF683929E4A394093619_gshared (ParallelWriter_t49A7338F7A90E4612A6C9DF996B287BA482551EA* __this, Block_tBD2149E220F819A66A4A0A18F237932ACD9011DE ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -38089,7 +38225,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mDA78894CA9142BE2FAA2CF683929E4
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t49A7338F7A90E4612A6C9DF996B287BA482551EA*>(__this + _offset);
 	ParallelWriter_AddNoResize_mDA78894CA9142BE2FAA2CF683929E4A394093619(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mBB01B332A8A58F1D36FAAB382944485B7E2F4772_gshared (ParallelWriter_t49A7338F7A90E4612A6C9DF996B287BA482551EA* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -38132,7 +38268,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mBB01B332A8A58F1D36FAAB382
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t49A7338F7A90E4612A6C9DF996B287BA482551EA*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mBB01B332A8A58F1D36FAAB382944485B7E2F4772(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mD9F5687E7CA05ADF8A65FCC80165BE0CA3F6A716_gshared (ParallelWriter_t49A7338F7A90E4612A6C9DF996B287BA482551EA* __this, UnsafeList_1_t4D373420ED72810256978A440708762F927B9DE2 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -38153,7 +38289,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mD9F5687E7CA05ADF8A65FCC80
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t49A7338F7A90E4612A6C9DF996B287BA482551EA*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mD9F5687E7CA05ADF8A65FCC80165BE0CA3F6A716(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mCA2E6CF0EB0C29C828E978E0042F0394C704DDB8_gshared (ParallelWriter_t49A7338F7A90E4612A6C9DF996B287BA482551EA* __this, NativeList_1_t24492B1CF4525F73EAB2399519728C96D81A7766 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -38181,7 +38317,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mCA2E6CF0EB0C29C828E978E00
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m46A1E6D85190A11E327FD21F4FF012107A7E7EF6_gshared (ParallelWriter_tAC197E79AD5D6100159C2919F2BE9CDC8AE1BE8E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -38201,7 +38337,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m46A1E6D85190A11E327FD21F4FF012107
 	_returnValue = ParallelWriter_get_Ptr_m46A1E6D85190A11E327FD21F4FF012107A7E7EF6_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mF5DED53B43976396FD269460CB5A6B5C5C2D62C4_gshared (ParallelWriter_tAC197E79AD5D6100159C2919F2BE9CDC8AE1BE8E* __this, UnsafeList_1_t4D373420ED72810256978A440708762F927B9DE2* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -38219,7 +38355,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mF5DED53B43976396FD269460CB5A6B5C5C2D
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tAC197E79AD5D6100159C2919F2BE9CDC8AE1BE8E*>(__this + _offset);
 	ParallelWriter__ctor_mF5DED53B43976396FD269460CB5A6B5C5C2D62C4_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m1C9724576D8EF30815E08965E3209CEC38C27BC7_gshared (ParallelWriter_tAC197E79AD5D6100159C2919F2BE9CDC8AE1BE8E* __this, Block_tBD2149E220F819A66A4A0A18F237932ACD9011DE ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -38249,7 +38385,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m1C9724576D8EF30815E08965E3209C
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tAC197E79AD5D6100159C2919F2BE9CDC8AE1BE8E*>(__this + _offset);
 	ParallelWriter_AddNoResize_m1C9724576D8EF30815E08965E3209CEC38C27BC7(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m4A1A70C1397640F90F638CF644C96BD7510E6D7A_gshared (ParallelWriter_tAC197E79AD5D6100159C2919F2BE9CDC8AE1BE8E* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -38288,7 +38424,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m4A1A70C1397640F90F638CF64
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tAC197E79AD5D6100159C2919F2BE9CDC8AE1BE8E*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m4A1A70C1397640F90F638CF644C96BD7510E6D7A(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m56F73AF0B7DB70F2A0004C1396FE38AD4E62836A_gshared (ParallelWriter_tAC197E79AD5D6100159C2919F2BE9CDC8AE1BE8E* __this, UnsafeList_1_t4D373420ED72810256978A440708762F927B9DE2 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -38317,7 +38453,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m56F73AF0B7DB70F2A0004C139
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90243
+// Method Definition Index: 90246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_mF478E1FF7D0815123A55EA27518008BD6D614190_gshared (ParallelWriter_t2CA11AF64D9EABD1E5A82A75EC2EFF9BE77009BD* __this, IncomingDisconnection_tD1F2DDEC6E7112BF5659DFF4FFD8DE263CF7F294 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -38336,7 +38472,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_Enqueue_mF478E1FF7D0815123A55EA27518008BD6D
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t2CA11AF64D9EABD1E5A82A75EC2EFF9BE77009BD*>(__this + _offset);
 	ParallelWriter_Enqueue_mF478E1FF7D0815123A55EA27518008BD6D614190(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 90244
+// Method Definition Index: 90247
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_m7398F49D674AC73C879BF12DF160DA3C743C9A1B_gshared (ParallelWriter_t2CA11AF64D9EABD1E5A82A75EC2EFF9BE77009BD* __this, IncomingDisconnection_tD1F2DDEC6E7112BF5659DFF4FFD8DE263CF7F294 ___0_value, int32_t ___1_threadIndexOverride, const RuntimeMethod* method) 
 {
 	{
@@ -38364,7 +38500,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_Enqueue_m7398F49D674AC73C879BF12DF160DA3C74
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90655
+// Method Definition Index: 90658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_mC0EE80B74DFF040D59A19444AEB0E56690679284_gshared (ParallelWriter_t9844ACD37611C8F46466B41A06BD778420FCC74E* __this, IncomingDisconnection_tD1F2DDEC6E7112BF5659DFF4FFD8DE263CF7F294 ___0_value, const RuntimeMethod* method) 
 {
 	UnsafeQueueBlockHeader_t93BDD5BE3C4A0486BE2A07B68862CFF1F5870D9C* V_0 = NULL;
@@ -38402,7 +38538,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_Enqueue_mC0EE80B74DFF040D59A19444AEB0E56690
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t9844ACD37611C8F46466B41A06BD778420FCC74E*>(__this + _offset);
 	ParallelWriter_Enqueue_mC0EE80B74DFF040D59A19444AEB0E56690679284(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 90656
+// Method Definition Index: 90659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_mB99611E373FA224C678965D11994921344646EE0_gshared (ParallelWriter_t9844ACD37611C8F46466B41A06BD778420FCC74E* __this, IncomingDisconnection_tD1F2DDEC6E7112BF5659DFF4FFD8DE263CF7F294 ___0_value, int32_t ___1_threadIndexOverride, const RuntimeMethod* method) 
 {
 	UnsafeQueueBlockHeader_t93BDD5BE3C4A0486BE2A07B68862CFF1F5870D9C* V_0 = NULL;
@@ -38448,7 +38584,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_Enqueue_mB99611E373FA224C678965D11994921344
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mC680C28015BFCC8C1D899129FB42F585A4BAC8AE_gshared (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, const RuntimeMethod* method) 
 {
 	{
@@ -38468,7 +38604,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mC680C28015BFCC8C1D899129FB42F585A
 	_returnValue = ParallelWriter_get_Ptr_mC680C28015BFCC8C1D899129FB42F585A4BAC8AE_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m7FC6EBE0D0F791D44AD2C55DD02E2ABEB45D1874_gshared (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -38486,7 +38622,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m7FC6EBE0D0F791D44AD2C55DD02E2ABEB45D
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56*>(__this + _offset);
 	ParallelWriter__ctor_m7FC6EBE0D0F791D44AD2C55DD02E2ABEB45D1874_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m15A2624F312B029412435336EB55B4511A034222_gshared (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -38516,7 +38652,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m15A2624F312B029412435336EB55B4
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56*>(__this + _offset);
 	ParallelWriter_AddNoResize_m15A2624F312B029412435336EB55B4511A034222(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m299925BAE61F6D26C87729CF3FE7CC8690310273_gshared (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -38559,7 +38695,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m299925BAE61F6D26C87729CF3
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m299925BAE61F6D26C87729CF3FE7CC8690310273(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m1CBDF76AAE55B8EC223142CD290FDD09FD3A5489_gshared (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -38580,7 +38716,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m1CBDF76AAE55B8EC223142CD2
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m1CBDF76AAE55B8EC223142CD290FDD09FD3A5489(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m4AB112FEE213B9E7F79D8F7841B434B3E66402FC_gshared (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, NativeList_1_t04917686A677DCA96B3A082C15D174D765D4DF5F ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -38608,7 +38744,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m4AB112FEE213B9E7F79D8F784
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m4D96F5960AD16999716BA033F4EBBA2D7B071B23_gshared (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* __this, const RuntimeMethod* method) 
 {
 	{
@@ -38628,7 +38764,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m4D96F5960AD16999716BA033F4EBBA2D7
 	_returnValue = ParallelWriter_get_Ptr_m4D96F5960AD16999716BA033F4EBBA2D7B071B23_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mFB7CFADB9B90234B216219830FFF35053CE49455_gshared (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* __this, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -38646,7 +38782,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mFB7CFADB9B90234B216219830FFF35053CE4
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577*>(__this + _offset);
 	ParallelWriter__ctor_mFB7CFADB9B90234B216219830FFF35053CE49455_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mFB23728EB19D542CF7D7F2D7C8458F2154F1B6B5_gshared (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* __this, TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7 ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -38676,7 +38812,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mFB23728EB19D542CF7D7F2D7C8458F
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577*>(__this + _offset);
 	ParallelWriter_AddNoResize_mFB23728EB19D542CF7D7F2D7C8458F2154F1B6B5(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mD5547477F3294B765A75C93D6EABEAF5756C2EAA_gshared (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -38715,7 +38851,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mD5547477F3294B765A75C93D6
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mD5547477F3294B765A75C93D6EABEAF5756C2EAA(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mFCB2B9B3256548E94170C5F193F0991D5AA5587A_gshared (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* __this, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -38744,7 +38880,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mFCB2B9B3256548E94170C5F19
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m7F0010D91FEB3C5EC28B8872C3C10AAEBA3FF6EB_gshared (ParallelWriter_t4B2E979FDB8330523B1791A42B46C27B12EFCE3F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -38764,7 +38900,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m7F0010D91FEB3C5EC28B8872C3C10AAEB
 	_returnValue = ParallelWriter_get_Ptr_m7F0010D91FEB3C5EC28B8872C3C10AAEBA3FF6EB_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mD0B04E0414EBA6A80C89F2B54A5DDBB1FE853B30_gshared (ParallelWriter_t4B2E979FDB8330523B1791A42B46C27B12EFCE3F* __this, UnsafeList_1_t3C558FC5C2688389AF4264830148C53464D01E23* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -38782,7 +38918,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_mD0B04E0414EBA6A80C89F2B54A5DDBB1FE85
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t4B2E979FDB8330523B1791A42B46C27B12EFCE3F*>(__this + _offset);
 	ParallelWriter__ctor_mD0B04E0414EBA6A80C89F2B54A5DDBB1FE853B30_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m8EF6DFBD84930BB75B4495821CC06D021CAD4533_gshared (ParallelWriter_t4B2E979FDB8330523B1791A42B46C27B12EFCE3F* __this, PlanePacket4_t2954005DBF78AC180CF45B652536CC2F5158D54B ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -38812,7 +38948,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m8EF6DFBD84930BB75B4495821CC06D
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t4B2E979FDB8330523B1791A42B46C27B12EFCE3F*>(__this + _offset);
 	ParallelWriter_AddNoResize_m8EF6DFBD84930BB75B4495821CC06D021CAD4533(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m845F2243C5AD182340D20828A80DB6CB5AE99433_gshared (ParallelWriter_t4B2E979FDB8330523B1791A42B46C27B12EFCE3F* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -38855,7 +38991,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m845F2243C5AD182340D20828A
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t4B2E979FDB8330523B1791A42B46C27B12EFCE3F*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_m845F2243C5AD182340D20828A80DB6CB5AE99433(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mDA1FD680AD9763495C9B1B05CCC35EF52AB04172_gshared (ParallelWriter_t4B2E979FDB8330523B1791A42B46C27B12EFCE3F* __this, UnsafeList_1_t3C558FC5C2688389AF4264830148C53464D01E23 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -38876,7 +39012,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mDA1FD680AD9763495C9B1B05C
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t4B2E979FDB8330523B1791A42B46C27B12EFCE3F*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mDA1FD680AD9763495C9B1B05CCC35EF52AB04172(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m0E6020093D7CD029E142FC83AFD9037F1AAE505D_gshared (ParallelWriter_t4B2E979FDB8330523B1791A42B46C27B12EFCE3F* __this, NativeList_1_tA78554A4805525762FFDFAC177852313219B5383 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -38904,7 +39040,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m0E6020093D7CD029E142FC83A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mAA6D012D25441005B97F46D350E9F09E3128B107_gshared (ParallelWriter_t74320445F2A5CD305AAB26311065DE4736822A2B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -38924,7 +39060,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mAA6D012D25441005B97F46D350E9F09E3
 	_returnValue = ParallelWriter_get_Ptr_mAA6D012D25441005B97F46D350E9F09E3128B107_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m9EB113BF26F4B3E3A2F457AEE4A2403D3F7F9461_gshared (ParallelWriter_t74320445F2A5CD305AAB26311065DE4736822A2B* __this, UnsafeList_1_t3C558FC5C2688389AF4264830148C53464D01E23* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -38942,7 +39078,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m9EB113BF26F4B3E3A2F457AEE4A2403D3F7F
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t74320445F2A5CD305AAB26311065DE4736822A2B*>(__this + _offset);
 	ParallelWriter__ctor_m9EB113BF26F4B3E3A2F457AEE4A2403D3F7F9461_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 91025
+// Method Definition Index: 91028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m0A19A9588577CA0B394CA963DD2498A68255FE22_gshared (ParallelWriter_t74320445F2A5CD305AAB26311065DE4736822A2B* __this, PlanePacket4_t2954005DBF78AC180CF45B652536CC2F5158D54B ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -38972,7 +39108,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m0A19A9588577CA0B394CA963DD2498
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t74320445F2A5CD305AAB26311065DE4736822A2B*>(__this + _offset);
 	ParallelWriter_AddNoResize_m0A19A9588577CA0B394CA963DD2498A68255FE22(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 91026
+// Method Definition Index: 91029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mC056A48E5AD2069C16F9A82E25FAC85428360D7B_gshared (ParallelWriter_t74320445F2A5CD305AAB26311065DE4736822A2B* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -39011,7 +39147,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mC056A48E5AD2069C16F9A82E2
 	_thisAdjusted = reinterpret_cast<ParallelWriter_t74320445F2A5CD305AAB26311065DE4736822A2B*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mC056A48E5AD2069C16F9A82E25FAC85428360D7B(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 91030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m7AA606DFD0C8DC2F178128D78F43447380837FB4_gshared (ParallelWriter_t74320445F2A5CD305AAB26311065DE4736822A2B* __this, UnsafeList_1_t3C558FC5C2688389AF4264830148C53464D01E23 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -39040,7 +39176,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m7AA606DFD0C8DC2F178128D78
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m00CC48313277264BBCC3F141AA743E33864EA74A_gshared (ParallelWriter_tA1BBC18089DD15B75F72C9994BFEADAC8CDD174B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39060,7 +39196,7 @@ IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m00CC48313277264BBCC3F141AA743E338
 	_returnValue = ParallelWriter_get_Ptr_m00CC48313277264BBCC3F141AA743E33864EA74A_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m0AFC1B1372FB7D6F6BFA07D6F6FADCA8C074CE48_gshared (ParallelWriter_tA1BBC18089DD15B75F72C9994BFEADAC8CDD174B* __this, UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -39078,7 +39214,7 @@ IL2CPP_EXTERN_C  void ParallelWriter__ctor_m0AFC1B1372FB7D6F6BFA07D6F6FADCA8C074
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tA1BBC18089DD15B75F72C9994BFEADAC8CDD174B*>(__this + _offset);
 	ParallelWriter__ctor_m0AFC1B1372FB7D6F6BFA07D6F6FADCA8C074CE48_inline(_thisAdjusted, ___0_listData, method);
 }
-// Method Definition Index: 89962
+// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mC29B6BA50CBED7351DBB719D75882042E9959FFE_gshared (ParallelWriter_tA1BBC18089DD15B75F72C9994BFEADAC8CDD174B* __this, SplitInfo_t708E0734C9BC407BA5882105A9721756605C913A ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -39108,7 +39244,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mC29B6BA50CBED7351DBB719D758820
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tA1BBC18089DD15B75F72C9994BFEADAC8CDD174B*>(__this + _offset);
 	ParallelWriter_AddNoResize_mC29B6BA50CBED7351DBB719D75882042E9959FFE(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 89963
+// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mD893C3F7162DBC4B5107ECEADFE831FAF0183A22_gshared (ParallelWriter_tA1BBC18089DD15B75F72C9994BFEADAC8CDD174B* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -39151,7 +39287,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mD893C3F7162DBC4B5107ECEAD
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tA1BBC18089DD15B75F72C9994BFEADAC8CDD174B*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mD893C3F7162DBC4B5107ECEADFE831FAF0183A22(_thisAdjusted, ___0_ptr, ___1_count, method);
 }
-// Method Definition Index: 89964
+// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mC68A2E6C00655725A05D28928A06498C91668010_gshared (ParallelWriter_tA1BBC18089DD15B75F72C9994BFEADAC8CDD174B* __this, UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -39172,7 +39308,7 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mC68A2E6C00655725A05D28928
 	_thisAdjusted = reinterpret_cast<ParallelWriter_tA1BBC18089DD15B75F72C9994BFEADAC8CDD174B*>(__this + _offset);
 	ParallelWriter_AddRangeNoResize_mC68A2E6C00655725A05D28928A06498C91668010(_thisAdjusted, ___0_list, method);
 }
-// Method Definition Index: 89965
+// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m95BDEEEEE77CEB0A8EEFA3A1556154C597CC9C47_gshared (ParallelWriter_tA1BBC18089DD15B75F72C9994BFEADAC8CDD174B* __this, NativeList_1_t902856D039AB8993F5FC55297B678E063D0372B7 ___0_list, const RuntimeMethod* method) 
 {
 	{
@@ -39195,142 +39331,6 @@ IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m95BDEEEEE77CEB0A8EEFA3A15
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// Method Definition Index: 91023
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m50F546FDE7D3F0DB7B540314B08598501756A171_gshared (ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:./Library/PackageCache/com.unity.collections@84e8eb3fc12e/Unity.Collections/UnsafeList.cs:895>
-		UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98* L_0 = __this->___ListData;
-		NullCheck(L_0);
-		SplitInfo_t708E0734C9BC407BA5882105A9721756605C913A* L_1 = L_0->___Ptr;
-		return (void*)(L_1);
-	}
-}
-IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m50F546FDE7D3F0DB7B540314B08598501756A171_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE*>(__this + _offset);
-	void* _returnValue;
-	_returnValue = ParallelWriter_get_Ptr_m50F546FDE7D3F0DB7B540314B08598501756A171_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// Method Definition Index: 91024
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m8639D9F11CD1D03DABCFA139828448F7CA64EAAD_gshared (ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE* __this, UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98* ___0_listData, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:./Library/PackageCache/com.unity.collections@84e8eb3fc12e/Unity.Collections/UnsafeList.cs:907>
-		UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98* L_0 = ___0_listData;
-		__this->___ListData = L_0;
-		//<source_info:./Library/PackageCache/com.unity.collections@84e8eb3fc12e/Unity.Collections/UnsafeList.cs:908>
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void ParallelWriter__ctor_m8639D9F11CD1D03DABCFA139828448F7CA64EAAD_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98* ___0_listData, const RuntimeMethod* method)
-{
-	ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE*>(__this + _offset);
-	ParallelWriter__ctor_m8639D9F11CD1D03DABCFA139828448F7CA64EAAD_inline(_thisAdjusted, ___0_listData, method);
-}
-// Method Definition Index: 91025
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m88A5CBA3FEC2D2E8A723436C4796F6D6F7819BC7_gshared (ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE* __this, SplitInfo_t708E0734C9BC407BA5882105A9721756605C913A ___0_value, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	{
-		//<source_info:./Library/PackageCache/com.unity.collections@84e8eb3fc12e/Unity.Collections/UnsafeList.cs:921>
-		UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98* L_0 = __this->___ListData;
-		NullCheck(L_0);
-		int32_t* L_1 = (int32_t*)(&L_0->___m_length);
-		int32_t L_2;
-		L_2 = Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309(L_1, NULL);
-		V_0 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
-		//<source_info:./Library/PackageCache/com.unity.collections@84e8eb3fc12e/Unity.Collections/UnsafeList.cs:923>
-		UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98* L_3 = __this->___ListData;
-		NullCheck(L_3);
-		SplitInfo_t708E0734C9BC407BA5882105A9721756605C913A* L_4 = L_3->___Ptr;
-		int32_t L_5 = V_0;
-		SplitInfo_t708E0734C9BC407BA5882105A9721756605C913A L_6 = ___0_value;
-		UnsafeUtility_WriteArrayElement_TisSplitInfo_t708E0734C9BC407BA5882105A9721756605C913A_m918E44DF21BFD9D905B5C4043281D0382D8ED22B_inline((void*)L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		//<source_info:./Library/PackageCache/com.unity.collections@84e8eb3fc12e/Unity.Collections/UnsafeList.cs:924>
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m88A5CBA3FEC2D2E8A723436C4796F6D6F7819BC7_AdjustorThunk (RuntimeObject* __this, SplitInfo_t708E0734C9BC407BA5882105A9721756605C913A ___0_value, const RuntimeMethod* method)
-{
-	ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE*>(__this + _offset);
-	ParallelWriter_AddNoResize_m88A5CBA3FEC2D2E8A723436C4796F6D6F7819BC7(_thisAdjusted, ___0_value, method);
-}
-// Method Definition Index: 91026
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mBD5A8931D9B8654BE8AC32CA13A96F43A882BF04_gshared (ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	void* V_1 = NULL;
-	{
-		//<source_info:./Library/PackageCache/com.unity.collections@84e8eb3fc12e/Unity.Collections/UnsafeList.cs:938>
-		UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98* L_0 = __this->___ListData;
-		NullCheck(L_0);
-		int32_t* L_1 = (int32_t*)(&L_0->___m_length);
-		int32_t L_2 = ___1_count;
-		int32_t L_3;
-		L_3 = Interlocked_Add_m2455208C56EEFD8832AEAD8AF7368A3FEB33A73C(L_1, L_2, NULL);
-		int32_t L_4 = ___1_count;
-		V_0 = ((int32_t)il2cpp_codegen_subtract(L_3, L_4));
-		//<source_info:./Library/PackageCache/com.unity.collections@84e8eb3fc12e/Unity.Collections/UnsafeList.cs:940>
-		UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98* L_5 = __this->___ListData;
-		NullCheck(L_5);
-		SplitInfo_t708E0734C9BC407BA5882105A9721756605C913A* L_6 = L_5->___Ptr;
-		int32_t L_7 = V_0;
-		uint32_t L_8 = sizeof(SplitInfo_t708E0734C9BC407BA5882105A9721756605C913A);
-		V_1 = (void*)((SplitInfo_t708E0734C9BC407BA5882105A9721756605C913A*)il2cpp_codegen_add((intptr_t)L_6, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_7), ((int64_t)((int32_t)L_8)))))));
-		//<source_info:./Library/PackageCache/com.unity.collections@84e8eb3fc12e/Unity.Collections/UnsafeList.cs:941>
-		void* L_9 = V_1;
-		void* L_10 = ___0_ptr;
-		int32_t L_11 = ___1_count;
-		uint32_t L_12 = sizeof(SplitInfo_t708E0734C9BC407BA5882105A9721756605C913A);
-		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_9, L_10, ((int64_t)il2cpp_codegen_multiply(((int64_t)L_11), ((int64_t)((int32_t)L_12)))), NULL);
-		//<source_info:./Library/PackageCache/com.unity.collections@84e8eb3fc12e/Unity.Collections/UnsafeList.cs:942>
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mBD5A8931D9B8654BE8AC32CA13A96F43A882BF04_AdjustorThunk (RuntimeObject* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
-{
-	ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE*>(__this + _offset);
-	ParallelWriter_AddRangeNoResize_mBD5A8931D9B8654BE8AC32CA13A96F43A882BF04(_thisAdjusted, ___0_ptr, ___1_count, method);
-}
-// Method Definition Index: 91027
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m46E2599DB6CBD7D9AC13F2FB4670C920071D9C52_gshared (ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE* __this, UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98 ___0_list, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:./Library/PackageCache/com.unity.collections@84e8eb3fc12e/Unity.Collections/UnsafeList.cs:955>
-		UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98 L_0 = ___0_list;
-		SplitInfo_t708E0734C9BC407BA5882105A9721756605C913A* L_1 = L_0.___Ptr;
-		int32_t L_2;
-		L_2 = UnsafeList_1_get_Length_mCDE6CEEF9FD9580437E4E78845E7CCAECAEF45C3_inline((&___0_list), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
-		ParallelWriter_AddRangeNoResize_mBD5A8931D9B8654BE8AC32CA13A96F43A882BF04(__this, (void*)L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		//<source_info:./Library/PackageCache/com.unity.collections@84e8eb3fc12e/Unity.Collections/UnsafeList.cs:956>
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m46E2599DB6CBD7D9AC13F2FB4670C920071D9C52_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98 ___0_list, const RuntimeMethod* method)
-{
-	ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE*>(__this + _offset);
-	ParallelWriter_AddRangeNoResize_m46E2599DB6CBD7D9AC13F2FB4670C920071D9C52(_thisAdjusted, ___0_list, method);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
 // Method Definition Index: 885
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) 
 {
@@ -39348,7 +39348,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m7D9CDCDE
 		return (bool)((((intptr_t)L_0) == ((intptr_t)L_1))? 1 : 0);
 	}
 }
-// Method Definition Index: 32983
+// Method Definition Index: 32984
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Observable_1_get_value_m323E0AE4DAE49330E321DCA858FEDCE1B9A1B1FC_gshared_inline (Observable_1_tC4B7917D31A29F1178971715A30289D693F17DDD* __this, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_tBB237A566A9251059433C7E02C4C22FC607480F4 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 3));
@@ -39360,7 +39360,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Observable_1_get_value_m323E
 		return;
 	}
 }
-// Method Definition Index: 42707
+// Method Definition Index: 42708
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ReadOnlyArray_1_get_Count_m37AE229E2BFB74375A7BD545982B745F982762F8_gshared_inline (ReadOnlyArray_1_t40B8DDDCD6ACBA3B2C0AF1387BE23D68DAEF77B5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39369,7 +39369,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ReadOnlyArray_1_get_Count
 		return L_0;
 	}
 }
-// Method Definition Index: 16071
+// Method Definition Index: 16072
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PanelChangedEventBase_1_set_originPanel_m6E7488EB94D5B13C162EA4980599250ACA8B18D6_gshared_inline (PanelChangedEventBase_1_tBD261468FE94C0F11CE3EE232C78393DEB70F0E2* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -39380,7 +39380,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PanelChangedEventBase_1_set_
 		return;
 	}
 }
-// Method Definition Index: 16073
+// Method Definition Index: 16074
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PanelChangedEventBase_1_set_destinationPanel_mA80D136874E402A49C81973AC8828C74F452E76C_gshared_inline (PanelChangedEventBase_1_tBD261468FE94C0F11CE3EE232C78393DEB70F0E2* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -39391,7 +39391,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PanelChangedEventBase_1_set_
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m1389C4567A173D46923C5822A229CA0FF289DD2F_gshared_inline (ParallelWriter_t6A3860ABC7DFF20CEC910759BA16B4BC9FE7EC7D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39402,7 +39402,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m138
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mD4D36793CA434783BF1E2E993429A247A4158DE3_gshared_inline (ParallelWriter_t6A3860ABC7DFF20CEC910759BA16B4BC9FE7EC7D* __this, UnsafeList_1_t0313C91767243B09270C0E715AC268C2A94F1528* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -39413,7 +39413,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mD4D367
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisConnectionSlot_t89618F8D46BDC8F0A492202E68A183958F2FC4FF_m96946621F341BB6EE037170B9FFBB432CFADF4B4_gshared_inline (void* ___0_destination, int32_t ___1_index, ConnectionSlot_t89618F8D46BDC8F0A492202E68A183958F2FC4FF ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -39427,7 +39427,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mC51CE6DCA021795BB26A953B26D5DFC3F3830B83_gshared_inline (UnsafeList_1_t0313C91767243B09270C0E715AC268C2A94F1528* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39438,7 +39438,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mD7DBD8BC5350B79D3624CF07B6FFA57DF6A4AAA7_gshared_inline (ParallelWriter_t40C3E905DC52A06AE599B3332FF572B505B0B7CE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39449,7 +39449,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mD7D
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m7CEB74558EA5F2A60E0BE1C683825C2AD01AB2AE_gshared_inline (ParallelWriter_t40C3E905DC52A06AE599B3332FF572B505B0B7CE* __this, UnsafeList_1_t0313C91767243B09270C0E715AC268C2A94F1528* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -39460,7 +39460,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m7CEB74
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mB6193D21221B5D7283BA926A73CBE8531074626C_gshared_inline (ParallelWriter_tB1A1EF8CBD0D5CDF9295F06758B8C3EF9E1E73AC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39471,7 +39471,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mB61
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m5DDC868B10C0692784235AC58228B2A6AD3E67FD_gshared_inline (ParallelWriter_tB1A1EF8CBD0D5CDF9295F06758B8C3EF9E1E73AC* __this, UnsafeList_1_t55586768F03058580560E9EBABE9F23F7E00EAE1* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -39482,7 +39482,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m5DDC86
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisConnectionSlot_tDBA110D3F752E674C011C313AD05A5DC8E988311_m0DA4E87CE6838C3427FF0D20C068FC47357D2ABE_gshared_inline (void* ___0_destination, int32_t ___1_index, ConnectionSlot_tDBA110D3F752E674C011C313AD05A5DC8E988311 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -39496,7 +39496,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m8D4E2F2A7C1E5AAA6730FCBD3E502F3B49EFE2BA_gshared_inline (UnsafeList_1_t55586768F03058580560E9EBABE9F23F7E00EAE1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39507,7 +39507,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mACB2E6ADBB16B14DA91B6CAF466326E25A77D3CC_gshared_inline (ParallelWriter_t8C72DC37CDAB9A4CDADDC1756A2743F044A91109* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39518,7 +39518,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mACB
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mE64AC5EC7D626C4D921DF868C1C447C411328114_gshared_inline (ParallelWriter_t8C72DC37CDAB9A4CDADDC1756A2743F044A91109* __this, UnsafeList_1_t55586768F03058580560E9EBABE9F23F7E00EAE1* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -39529,7 +39529,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mE64AC5
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mA2001B495667D2A7B05C6CE765443A11F1478065_gshared_inline (ParallelWriter_t4940FCF2E0230650079847A91D894B4502B801CE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39540,7 +39540,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mA20
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mCC0FDF7E0A2F41A2EDFD1214D02A5B4EF3B89A12_gshared_inline (ParallelWriter_t4940FCF2E0230650079847A91D894B4502B801CE* __this, UnsafeList_1_t5DC8894378B4A7A10F15CE216A21E6ADC6365266* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -39551,7 +39551,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mCC0FDF
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisConnectionSlot_t1BCC06C0F60F07E29531D84899C4892ECAC0A3A9_mC82D22CDEF6C636A7FED96F983C4A502E8845E12_gshared_inline (void* ___0_destination, int32_t ___1_index, ConnectionSlot_t1BCC06C0F60F07E29531D84899C4892ECAC0A3A9 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -39565,7 +39565,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m0AE9B2C17A38CFDB9228E8420EC04F464DBC855F_gshared_inline (UnsafeList_1_t5DC8894378B4A7A10F15CE216A21E6ADC6365266* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39576,7 +39576,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m26816DDFC83D0EEC2916A4781BC06CAA07BC22B2_gshared_inline (ParallelWriter_t8C2AB97458DC7323E9E6F7B1C0725B573FC1061F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39587,7 +39587,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m268
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m46D203CEA0850B41D82558EB96534F5399B1CA80_gshared_inline (ParallelWriter_t8C2AB97458DC7323E9E6F7B1C0725B573FC1061F* __this, UnsafeList_1_t5DC8894378B4A7A10F15CE216A21E6ADC6365266* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -39598,7 +39598,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m46D203
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m6F235FE7D942E63EF1A86224C1DE9A500CE7B738_gshared_inline (ParallelWriter_tB99413A2327C49B6E02D765FDEFEA2DFFE808B86* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39609,7 +39609,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m6F2
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mB8BB54B7186DEDAA44A314DAE315E7A02020F317_gshared_inline (ParallelWriter_tB99413A2327C49B6E02D765FDEFEA2DFFE808B86* __this, UnsafeList_1_t8E60B67C4831F66A4FAA2AACA176DEDFD8241B14* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -39620,7 +39620,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mB8BB54
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisConnectionSlot_tFBC6B3ACE9611FE5642C0B1D89856983337DE8B2_mEAE81139AAD94C596300ACF575ADD6DC0C24E681_gshared_inline (void* ___0_destination, int32_t ___1_index, ConnectionSlot_tFBC6B3ACE9611FE5642C0B1D89856983337DE8B2 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -39634,7 +39634,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m05EB38317285276904ADC2244EB8CDCC5B603605_gshared_inline (UnsafeList_1_t8E60B67C4831F66A4FAA2AACA176DEDFD8241B14* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39645,7 +39645,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mAC2F93C3073C98105995D47F591536B6CA47FBF3_gshared_inline (ParallelWriter_t564176413C9F9FDA4D36629CA8CAAB92CBDE533D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39656,7 +39656,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mAC2
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mDD6CE71CB1EF8F39F803A5F7C4B3FF8A8EE52F94_gshared_inline (ParallelWriter_t564176413C9F9FDA4D36629CA8CAAB92CBDE533D* __this, UnsafeList_1_t8E60B67C4831F66A4FAA2AACA176DEDFD8241B14* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -39667,7 +39667,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mDD6CE7
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m5F2AD83D060F76E166B580482F0AC4188E32EB53_gshared_inline (ParallelWriter_t1F37593232A7EEFF8C8772C369704BEE099B6BB8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39678,7 +39678,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m5F2
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m15155BA21617CFED9518A7DDFB11D2CFD4E5732C_gshared_inline (ParallelWriter_t1F37593232A7EEFF8C8772C369704BEE099B6BB8* __this, UnsafeList_1_t920EEA6A1B2E9F33EB313E95EA12E527BEE9B3D9* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -39689,7 +39689,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m15155B
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisConnectionSlot_t37FAC4A786F0CC30B58ECE2BD80477617DC98A33_m77670A8859381C3913CB7F98247E9C3C07D9EDB9_gshared_inline (void* ___0_destination, int32_t ___1_index, ConnectionSlot_t37FAC4A786F0CC30B58ECE2BD80477617DC98A33 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -39703,7 +39703,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m2BADD66E654AB5FFE8970F52A3DB3F6CEC74E2DB_gshared_inline (UnsafeList_1_t920EEA6A1B2E9F33EB313E95EA12E527BEE9B3D9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39714,7 +39714,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mFF568FFD5D418A74EA880A833EC63EF9B2009FEC_gshared_inline (ParallelWriter_t826A6299B2AB497A59CA817D845C848A27740C05* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39725,7 +39725,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mFF5
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m054E1656D7B68A0DED16A7BCDA7AC7682DE3B535_gshared_inline (ParallelWriter_t826A6299B2AB497A59CA817D845C848A27740C05* __this, UnsafeList_1_t920EEA6A1B2E9F33EB313E95EA12E527BEE9B3D9* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -39736,7 +39736,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m054E16
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m5D77637BF40F4CD85955D7B7C9A1DF34F7AE08FD_gshared_inline (ParallelWriter_tB7CA1317CA3E4A8B2847FB6D9CE9C9C760931172* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39747,7 +39747,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m5D7
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m9B91FFF69CDD6613D964796A6DB0B22A929C2EB8_gshared_inline (ParallelWriter_tB7CA1317CA3E4A8B2847FB6D9CE9C9C760931172* __this, UnsafeList_1_tAA9B4088AD983FB4435266FFDB9BAA6F142EAC19* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -39758,7 +39758,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m9B91FF
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisConnectionSlot_t424336CC957E4448CD318AF4AFB3360AD64144E3_mA48C404E4771BE2B685011714FB2780B5F369CFC_gshared_inline (void* ___0_destination, int32_t ___1_index, ConnectionSlot_t424336CC957E4448CD318AF4AFB3360AD64144E3 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -39772,7 +39772,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mEA03E3B5471C5D83C208D74706F37819F3DAF747_gshared_inline (UnsafeList_1_tAA9B4088AD983FB4435266FFDB9BAA6F142EAC19* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39783,7 +39783,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m060F4D94CE468EED707F74CFB2099EA7CDCF07FC_gshared_inline (ParallelWriter_t7CFE8347E7E9771D1FC7DE84DABB93E976A71E7B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39794,7 +39794,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m060
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m6DC8475070EF139C07541DA8970B3B2991074F2A_gshared_inline (ParallelWriter_t7CFE8347E7E9771D1FC7DE84DABB93E976A71E7B* __this, UnsafeList_1_tAA9B4088AD983FB4435266FFDB9BAA6F142EAC19* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -39805,7 +39805,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m6DC847
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mB1C8B55EB09A4A25413169929C49D2C3E9D62E03_gshared_inline (ParallelWriter_t9FE3CDD3FDB7217E3591DE43BB643051F533897F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39816,7 +39816,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mB1C
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m64EF65D8B19429CA7B17285159556998CC55C7D0_gshared_inline (ParallelWriter_t9FE3CDD3FDB7217E3591DE43BB643051F533897F* __this, UnsafeList_1_tF062DD1BCBB62BEC18F3CA54F2BFA91EE544F763* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -39827,7 +39827,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m64EF65
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisConnectionSlot_tC0124B98FB257C2891FA55F734034FCCFE3377F4_mF5E6CF1C912BD7C396235EB90E35260639FD5D15_gshared_inline (void* ___0_destination, int32_t ___1_index, ConnectionSlot_tC0124B98FB257C2891FA55F734034FCCFE3377F4 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -39841,7 +39841,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m97188D8A97E1AB3DD8CE48E39D75B0BDCC6938DC_gshared_inline (UnsafeList_1_tF062DD1BCBB62BEC18F3CA54F2BFA91EE544F763* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39852,7 +39852,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m60F89C72784D372C4CB3EABDB67608D4C79E8D03_gshared_inline (ParallelWriter_t3F88CB09A9256D6519A4397C5C80B2D5D7D739CE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39863,7 +39863,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m60F
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m0CDADBF7BBF936402D6FBFE56D5120CD7820BAF2_gshared_inline (ParallelWriter_t3F88CB09A9256D6519A4397C5C80B2D5D7D739CE* __this, UnsafeList_1_tF062DD1BCBB62BEC18F3CA54F2BFA91EE544F763* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -39874,7 +39874,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m0CDADB
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m3D074BD7EC7765292086D1650AC89C3A784880E1_gshared_inline (ParallelWriter_tD877294300B9D5C8223310D239CCF51132ED6EAE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39885,7 +39885,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m3D0
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mE15EF530C6BFF53F50E460C14D6A2C9328B524BF_gshared_inline (ParallelWriter_tD877294300B9D5C8223310D239CCF51132ED6EAE* __this, UnsafeList_1_t434504A1800B1FDBD803A3FF34A3A18F4490E1FE* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -39896,7 +39896,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mE15EF5
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisConnectionSlot_tB4CAAD06D82027332DB93AF6BC08243A57FE4AF2_m4DA70B32E30B5659C4283D247306C9CF01DD21E9_gshared_inline (void* ___0_destination, int32_t ___1_index, ConnectionSlot_tB4CAAD06D82027332DB93AF6BC08243A57FE4AF2 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -39910,7 +39910,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mE146971FE0E1FD6B19DD8C15667650BD2296202B_gshared_inline (UnsafeList_1_t434504A1800B1FDBD803A3FF34A3A18F4490E1FE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39921,7 +39921,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mB65C789BA96EB119CA843752E9E7F0189D177EAD_gshared_inline (ParallelWriter_t70EB7A918DBACD735A2A1C66E02DF6182C89CED1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39932,7 +39932,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mB65
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m561AE0344692882BA736ADAB5B4D49AED043294D_gshared_inline (ParallelWriter_t70EB7A918DBACD735A2A1C66E02DF6182C89CED1* __this, UnsafeList_1_t434504A1800B1FDBD803A3FF34A3A18F4490E1FE* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -39943,7 +39943,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m561AE0
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m988F88488013ACB652A5C1B08D95FFA136501600_gshared_inline (ParallelWriter_t545B0D9A70763EE0F74F6158A440A7D651FBCDE8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39954,7 +39954,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m988
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m903C12AD86651C31574960DA1537F210EA2BCC68_gshared_inline (ParallelWriter_t545B0D9A70763EE0F74F6158A440A7D651FBCDE8* __this, UnsafeList_1_t1285B03D332D32C2E94E3215FFD520400D6C7FA4* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -39965,7 +39965,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m903C12
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisConnectionSlot_tB6A19CABA0CD55690A8B03EDF6411698184952AB_m94240DB6681F6FE162FE4615E1EF10CF6F635E6B_gshared_inline (void* ___0_destination, int32_t ___1_index, ConnectionSlot_tB6A19CABA0CD55690A8B03EDF6411698184952AB ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -39979,7 +39979,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m7AC24FF7DF45E3617E5C8207AB5C5A571EA0EA6B_gshared_inline (UnsafeList_1_t1285B03D332D32C2E94E3215FFD520400D6C7FA4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39990,7 +39990,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mDE571CF9FFA07B340E111EBA6E78CC03C1F90556_gshared_inline (ParallelWriter_tE7E98ACD97CFE0433F5990FE7DEEA98F8F0CDE6A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40001,7 +40001,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mDE5
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m9F7CCD7BBE49048706306B9F7928174E17AB3869_gshared_inline (ParallelWriter_tE7E98ACD97CFE0433F5990FE7DEEA98F8F0CDE6A* __this, UnsafeList_1_t1285B03D332D32C2E94E3215FFD520400D6C7FA4* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40012,7 +40012,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m9F7CCD
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m129F08ECE7D855CCF8147862A0E788A045378B69_gshared_inline (ParallelWriter_tE08C210C0F484D43066EC401FFC88ED59A7C90F9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40023,7 +40023,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m129
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mF24052F6AF54964CD2492DD3494AFCE3D2815AA0_gshared_inline (ParallelWriter_tE08C210C0F484D43066EC401FFC88ED59A7C90F9* __this, UnsafeList_1_t82CE3FFA6BE851C496ACF9DA72A3729B89D7DFDC* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40034,7 +40034,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mF24052
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisAttachmentDescriptor_tBAC9B26B50BB0838C5C0CC22BB296F9DFF41276E_mF4F143B147157301EC77F0781222DCC7FB3A8AF9_gshared_inline (void* ___0_destination, int32_t ___1_index, AttachmentDescriptor_tBAC9B26B50BB0838C5C0CC22BB296F9DFF41276E ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -40048,7 +40048,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mDFF38110F2F758CBCEAAE5B4A62A32BD0EA52256_gshared_inline (UnsafeList_1_t82CE3FFA6BE851C496ACF9DA72A3729B89D7DFDC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40059,7 +40059,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mAA31667C9EBAA614B263C4012A3550D80FCFE8CA_gshared_inline (ParallelWriter_t15B09D1F7CB39A58D3636460A4EB24DD03F4FA52* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40070,7 +40070,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mAA3
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mB762B6553B3D12E238909CFAF06140798A97293B_gshared_inline (ParallelWriter_t15B09D1F7CB39A58D3636460A4EB24DD03F4FA52* __this, UnsafeList_1_t82CE3FFA6BE851C496ACF9DA72A3729B89D7DFDC* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40081,7 +40081,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mB762B6
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m942FA4BBFF9F09B66C3CCD447CA630E6050C149B_gshared_inline (ParallelWriter_tA4791D5BBC26CFC5E88E2C885C1663F5426C5E1C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40092,7 +40092,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m942
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mB83D7404B72FC4E05DBEB6F76BD1E565BAD4F28C_gshared_inline (ParallelWriter_tA4791D5BBC26CFC5E88E2C885C1663F5426C5E1C* __this, UnsafeList_1_t5C65DCA6782B7C9860C859C2F0C07A2C497E822D* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40103,7 +40103,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mB83D74
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m193B136343991E144053A14C8C435C19E5516EE0_gshared_inline (void* ___0_destination, int32_t ___1_index, uint8_t ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -40117,7 +40117,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m80957450BA054EC6A994F0CC4E0C52DDD7396436_gshared_inline (UnsafeList_1_t5C65DCA6782B7C9860C859C2F0C07A2C497E822D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40128,7 +40128,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m5B18893329F0C58DDF17F6493A3F09FA24F7008A_gshared_inline (ParallelWriter_t7BE944D18DEFD0D698B75FCADBEBF9929745EFBF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40139,7 +40139,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m5B1
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mAFA5D7196F9FA1543FAD13B1F99DABF576CBA2F0_gshared_inline (ParallelWriter_t7BE944D18DEFD0D698B75FCADBEBF9929745EFBF* __this, UnsafeList_1_t5C65DCA6782B7C9860C859C2F0C07A2C497E822D* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40150,7 +40150,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mAFA5D7
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisConnectionId_tEA78CDC27F3C855E62B4A8046ECAFF5DB06128EB_m575FF215622C359370F9FE930586857D300C5212_gshared_inline (void* ___0_destination, int32_t ___1_index, ConnectionId_tEA78CDC27F3C855E62B4A8046ECAFF5DB06128EB ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -40164,7 +40164,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mAC5737F328979A37EC3D9E3EA7B52919ED7A36B5_gshared_inline (ParallelWriter_t6DD08F822AF2AD652515CF78C60BE726D6031DBC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40175,7 +40175,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mAC5
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m97031B0F5278DA8978E9B8F62A22BCF9E69DFCCE_gshared_inline (ParallelWriter_t6DD08F822AF2AD652515CF78C60BE726D6031DBC* __this, UnsafeList_1_t992261DF45A734DEB130F79025C5BF88D0C2CDC7* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40186,7 +40186,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m97031B
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisDebugOccluderStats_t7B4C48EC856FCC7FDF2811DF6C222E53DD80AD93_mDB364B7A9D0DA9D0D4CC8D30884934CD3B5B0A7B_gshared_inline (void* ___0_destination, int32_t ___1_index, DebugOccluderStats_t7B4C48EC856FCC7FDF2811DF6C222E53DD80AD93 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -40200,7 +40200,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m9191847040F0FA46D2C717CA67FF99BEAB6C955D_gshared_inline (UnsafeList_1_t992261DF45A734DEB130F79025C5BF88D0C2CDC7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40211,7 +40211,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m66CE9156CF85FABE251C93E6FF85A6E503BF1BEC_gshared_inline (ParallelWriter_tFBF598E17FF67775FA14067B3AEA59D0E7BCF65B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40222,7 +40222,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m66C
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m1C81AFF27344DFA45458EA73FE04D7717D8716D1_gshared_inline (ParallelWriter_tFBF598E17FF67775FA14067B3AEA59D0E7BCF65B* __this, UnsafeList_1_t992261DF45A734DEB130F79025C5BF88D0C2CDC7* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40233,7 +40233,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m1C81AF
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m1694681A8309051135E8E2380AC633730E4640A7_gshared_inline (ParallelWriter_t57D29FAB67034865CFDC254B0B44DC72825C54B6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40244,7 +40244,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m169
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mB322C68AE8009D410AD82AE0B98BD08B6B7A2F4C_gshared_inline (ParallelWriter_t57D29FAB67034865CFDC254B0B44DC72825C54B6* __this, UnsafeList_1_tCC883249B8F95C4AD5632E72EAD324BA3F53915A* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40255,7 +40255,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mB322C6
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisDrawBatch_t5B13B0C8AFD02B2878B6FA9ED48DDA1A0696F5FF_m5DAC7B9B3FF149F5A3C592AE0557D5C38B64D2E2_gshared_inline (void* ___0_destination, int32_t ___1_index, DrawBatch_t5B13B0C8AFD02B2878B6FA9ED48DDA1A0696F5FF ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -40269,7 +40269,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mEA3F0B39A18DF00B7B46C04E11B59192055F2A39_gshared_inline (UnsafeList_1_tCC883249B8F95C4AD5632E72EAD324BA3F53915A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40280,7 +40280,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mE9ACD5374CD08ECCE7F4CEF0891B5E516BEE31CE_gshared_inline (ParallelWriter_t6DE31A74AC2159D800A0EDB78D367613B18E8360* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40291,7 +40291,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mE9A
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m99CCD297018BB5079EFBB270B78AE6C60DD6B52E_gshared_inline (ParallelWriter_t6DE31A74AC2159D800A0EDB78D367613B18E8360* __this, UnsafeList_1_tCC883249B8F95C4AD5632E72EAD324BA3F53915A* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40302,7 +40302,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m99CCD2
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mD3EC4827821EE4AA3CEA486D4902D527D66F445B_gshared_inline (ParallelWriter_t76E4826FF70D4EF8AC90910F4F882C5CF9212FD4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40313,7 +40313,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mD3E
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m7BDB368BED4E760625E37224B93267A168FAE529_gshared_inline (ParallelWriter_t76E4826FF70D4EF8AC90910F4F882C5CF9212FD4* __this, UnsafeList_1_tC398CC6607C9075D2AE819DE88719D2168E0FCEC* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40324,7 +40324,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m7BDB36
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisDrawInstance_tBE712DD78F80BD1B66343AC3B9A55ACFE80E8AF8_m147AF20214F274D2EFCF4A2807714D2D22EE1DFF_gshared_inline (void* ___0_destination, int32_t ___1_index, DrawInstance_tBE712DD78F80BD1B66343AC3B9A55ACFE80E8AF8 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -40338,7 +40338,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mFB40F49EB3EABA5805AD9B45515BEC8A87557381_gshared_inline (UnsafeList_1_tC398CC6607C9075D2AE819DE88719D2168E0FCEC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40349,7 +40349,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m1B0434E5060E517497ED5C7822944E0AA5A26C83_gshared_inline (ParallelWriter_t10BEEB18AD636CC8F2BDD14448BA927FF5210AED* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40360,7 +40360,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m1B0
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m91A6A6A157EB70EA737B2DA6D57A5FBB4C931F29_gshared_inline (ParallelWriter_t10BEEB18AD636CC8F2BDD14448BA927FF5210AED* __this, UnsafeList_1_tC398CC6607C9075D2AE819DE88719D2168E0FCEC* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40371,7 +40371,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m91A6A6
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mE55A5CFE3F632907DD3B38E6178FC177F9B877C8_gshared_inline (ParallelWriter_tD5BB8102F842D0BB3A9A28F2EE59B6B4A9D18E50* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40382,7 +40382,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mE55
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mCED059977D0BCD265D86ECEC14797E39A2FBEA4B_gshared_inline (ParallelWriter_tD5BB8102F842D0BB3A9A28F2EE59B6B4A9D18E50* __this, UnsafeList_1_tCFDCC580A90753F362AA7EA5DFE667A1452664F8* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40393,7 +40393,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mCED059
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisDrawRange_tFF5914E68DE5FBB5AE71F729F834D72149A6B010_mE2BA21E09B6C1BE17272A6D03A3202819491E279_gshared_inline (void* ___0_destination, int32_t ___1_index, DrawRange_tFF5914E68DE5FBB5AE71F729F834D72149A6B010 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -40407,7 +40407,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mF04C301821774A4317F58C5BADF8F3308B82F3EF_gshared_inline (UnsafeList_1_tCFDCC580A90753F362AA7EA5DFE667A1452664F8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40418,7 +40418,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mEC0C41E08B6CAF1A7899A85E6251F8CFB3E300A2_gshared_inline (ParallelWriter_tF22C5622D1A663F61C29A66A0AEA3B5B5FEE7952* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40429,7 +40429,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mEC0
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m1120E394502706D18BB2371AC69CAC9BB7EC76A7_gshared_inline (ParallelWriter_tF22C5622D1A663F61C29A66A0AEA3B5B5FEE7952* __this, UnsafeList_1_tCFDCC580A90753F362AA7EA5DFE667A1452664F8* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40440,7 +40440,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m1120E3
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m09454EF434940449FA1EFEDD0E1CE54012D137A1_gshared_inline (ParallelWriter_t457D3669BDB558B929169F5583CD09240779798C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40451,7 +40451,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m094
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m5CAE5AE4BB23EEF046DB31B2FADB0A1A6DB171CD_gshared_inline (ParallelWriter_t457D3669BDB558B929169F5583CD09240779798C* __this, UnsafeList_1_t239C74D869DA59B0CA5E63716E71208DEC68A70B* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40462,7 +40462,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m5CAE5A
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisEntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8_m0E708F519A1821659A5DB22A6551BF3AD6584AF2_gshared_inline (void* ___0_destination, int32_t ___1_index, EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -40476,7 +40476,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m84B9E6898A7B3FB606D3249491555B8443BEFC17_gshared_inline (UnsafeList_1_t239C74D869DA59B0CA5E63716E71208DEC68A70B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40487,7 +40487,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mCDBB3FFEF88B6499A0B516E7C32E4E1799DE8FD6_gshared_inline (ParallelWriter_tB3125E41A82B30C56F91EC59CD41C7129E0089B3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40498,7 +40498,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mCDB
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mF95E41BFC8D8E40D95FC212581D5D880F05477A6_gshared_inline (ParallelWriter_tB3125E41A82B30C56F91EC59CD41C7129E0089B3* __this, UnsafeList_1_t239C74D869DA59B0CA5E63716E71208DEC68A70B* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40509,7 +40509,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mF95E41
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mC1F8E9E6399756F9C480EBE8F4318996CBF741A6_gshared_inline (ParallelWriter_t097B24377DB83F9B4CFA8228BA82BA2ADC512015* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40520,7 +40520,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mC1F
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m2EF7C10497D66B33249458483F2D98ADD4756732_gshared_inline (ParallelWriter_t097B24377DB83F9B4CFA8228BA82BA2ADC512015* __this, UnsafeList_1_t351F89A5CF75078D7E3B02E4493645958D245575* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40531,7 +40531,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m2EF7C1
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisGPUDrivenPackedMaterialData_t9AFE25D18C8FA6EB6A69AEF342C2A19DA824CF38_mBA16A27186C84C11CDB87E134CC29BDA1C93A18C_gshared_inline (void* ___0_destination, int32_t ___1_index, GPUDrivenPackedMaterialData_t9AFE25D18C8FA6EB6A69AEF342C2A19DA824CF38 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -40545,7 +40545,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m16A37FE368F8B085AE2AB309CBAA5FA3DBCFA53E_gshared_inline (UnsafeList_1_t351F89A5CF75078D7E3B02E4493645958D245575* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40556,7 +40556,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mE79E2EA30208E64B9ED35D3FF050CE7A83E34AEE_gshared_inline (ParallelWriter_tAED20B42532E2AAAB555920A6570A03C1149E04F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40567,7 +40567,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mE79
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mD1A0048ABE411001DD75408DD882CE629733F116_gshared_inline (ParallelWriter_tAED20B42532E2AAAB555920A6570A03C1149E04F* __this, UnsafeList_1_t351F89A5CF75078D7E3B02E4493645958D245575* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40578,7 +40578,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mD1A004
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m316C7DD766D858A48202BDDF4ECB3F8969623E30_gshared_inline (ParallelWriter_t6C8482DFB496C3103B54E484B7C533519F0EFD37* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40589,7 +40589,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m316
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m4B607310D9CCAB3EE9F45B21D1F71FCC933BE720_gshared_inline (ParallelWriter_t6C8482DFB496C3103B54E484B7C533519F0EFD37* __this, UnsafeList_1_tED362B173BBF71D34F0DD132675AB962081FEBAB* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40600,7 +40600,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m4B6073
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisGPUInstanceComponentDesc_tA386615944C32F7A0B71FF8B2F84E1A159C02E74_mB67B988A08897F7529B28FC0D5641FA49AA08ED3_gshared_inline (void* ___0_destination, int32_t ___1_index, GPUInstanceComponentDesc_tA386615944C32F7A0B71FF8B2F84E1A159C02E74 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -40614,7 +40614,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m454F6DEA7572B445CED8A511EA4DC769FDA4A962_gshared_inline (UnsafeList_1_tED362B173BBF71D34F0DD132675AB962081FEBAB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40625,7 +40625,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m218DDD8888B68FC7F5CB2CE17BE161C2AD9DD03F_gshared_inline (ParallelWriter_tC08556BD2DB2A0221C930952F67870F31A0C29FD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40636,7 +40636,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m218
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m5C04B7786E3D2CBF29D986DAE84F82B0F75F25E2_gshared_inline (ParallelWriter_tC08556BD2DB2A0221C930952F67870F31A0C29FD* __this, UnsafeList_1_tED362B173BBF71D34F0DD132675AB962081FEBAB* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40647,7 +40647,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m5C04B7
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m4C968ED7EB3C7504BF217362B1371ECEE33AEF40_gshared_inline (ParallelWriter_t979DE2F7DD35615E94FD4F140460008B1C7D204F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40658,7 +40658,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m4C9
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mC828BE77C2E96F20CE298FF401DBC1E02486EE6A_gshared_inline (ParallelWriter_t979DE2F7DD35615E94FD4F140460008B1C7D204F* __this, UnsafeList_1_t63B5C5C34A6F0AA798780FFCAB916CE54ABF71AE* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40669,7 +40669,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mC828BE
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisGPUInstanceIndex_t1B73FC29B273B0470A8E186E3C2F19CA6D8FBA78_mFC4E3A09D0F9A76B3DA65553F10F7EF785896EEA_gshared_inline (void* ___0_destination, int32_t ___1_index, GPUInstanceIndex_t1B73FC29B273B0470A8E186E3C2F19CA6D8FBA78 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -40683,7 +40683,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mD1E5C8DD49072A881A8E24188E040F2089C604DA_gshared_inline (UnsafeList_1_t63B5C5C34A6F0AA798780FFCAB916CE54ABF71AE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40694,7 +40694,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mDFAD73D8EF195E4FCF919818E223BBB4DEAB10CB_gshared_inline (ParallelWriter_tBB2965350481BEC3804397BA10013362D8B1ADE8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40705,7 +40705,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mDFA
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mE67C8B237FACBA514C0113BA42A57D92CDD84F40_gshared_inline (ParallelWriter_tBB2965350481BEC3804397BA10013362D8B1ADE8* __this, UnsafeList_1_t63B5C5C34A6F0AA798780FFCAB916CE54ABF71AE* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40716,7 +40716,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mE67C8B
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mF8E29E661D08F8524287DD75FEF9A7A577ED518A_gshared_inline (ParallelWriter_tC98F417D051F5644BAD89C4672974E13317C930A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40727,7 +40727,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mF8E
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m199C2587222216DCFFDAB20E5507776D32721FAB_gshared_inline (ParallelWriter_tC98F417D051F5644BAD89C4672974E13317C930A* __this, UnsafeList_1_t4F0DCEE28AF174C1FF34795C317FD1022095F786* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40738,7 +40738,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m199C25
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisGeometryPoolHandle_t7EF37F11E23B05A26C1F72855D269B7A772B2271_mD92564ABD442EBF5CD99E2589172450FD38429FB_gshared_inline (void* ___0_destination, int32_t ___1_index, GeometryPoolHandle_t7EF37F11E23B05A26C1F72855D269B7A772B2271 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -40752,7 +40752,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mD58FFE6F8C5518B277A628A5AF0024BBC938F053_gshared_inline (UnsafeList_1_t4F0DCEE28AF174C1FF34795C317FD1022095F786* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40763,7 +40763,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m3962B7808F55A4BEE476021621CD4468070BB66A_gshared_inline (ParallelWriter_tE36E1C8517CBB25ACB5E78A124D30191AE26A3A5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40774,7 +40774,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m396
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m4108FDFC5389C3F004B0199506CF91717FEEB16D_gshared_inline (ParallelWriter_tE36E1C8517CBB25ACB5E78A124D30191AE26A3A5* __this, UnsafeList_1_t4F0DCEE28AF174C1FF34795C317FD1022095F786* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40785,7 +40785,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m4108FD
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mC573BB087342915794F89AEA0A61A79E3D9FCEED_gshared_inline (ParallelWriter_t793AC06D3572BDA307BC9538169832107396F347* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40796,7 +40796,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mC57
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m8007861CF39A746AD19AE1405DC4164051BDBBFE_gshared_inline (ParallelWriter_t793AC06D3572BDA307BC9538169832107396F347* __this, UnsafeList_1_t34AEFBE320B1031BD5A746EFCFCA94DF69D9044C* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40807,7 +40807,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m800786
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisIndirectBufferContext_tC867F1E4C07484F15773E7A382CCB107C57AC805_mCBDC977F093005ED511BCA238AA22DAE5A9B1E5C_gshared_inline (void* ___0_destination, int32_t ___1_index, IndirectBufferContext_tC867F1E4C07484F15773E7A382CCB107C57AC805 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -40821,7 +40821,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m9825ED0D2CFA59E7BE99CDA94D52F16A77B7EABB_gshared_inline (UnsafeList_1_t34AEFBE320B1031BD5A746EFCFCA94DF69D9044C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40832,7 +40832,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m235751BCC5061468E3A9BB96BB88CB4EAF4F2606_gshared_inline (ParallelWriter_t626523E34459CE2D379FE3AB861490ED206126B5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40843,7 +40843,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m235
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m9D8C943A98F908AA8E342EF53CCAEDC2EC48FC9C_gshared_inline (ParallelWriter_t626523E34459CE2D379FE3AB861490ED206126B5* __this, UnsafeList_1_t34AEFBE320B1031BD5A746EFCFCA94DF69D9044C* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40854,7 +40854,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m9D8C94
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mA0428FA74DF2375F9EAC29EDDE499A344577A336_gshared_inline (ParallelWriter_t7428BAD2977D46D9218885FB35153EEA2D619AAA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40865,7 +40865,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mA04
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mAD3D5D065664394CA3B9EC7B3751CEC4CDABEE92_gshared_inline (ParallelWriter_t7428BAD2977D46D9218885FB35153EEA2D619AAA* __this, UnsafeList_1_t72FFFA60411F6BB2F2C776571F608CDA569E5999* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40876,7 +40876,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mAD3D5D
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisInstanceCullerViewStats_tCFA9E28BF5D8B9489040BD5DDE21173331CE2173_mCB677F687F21AFBF2EF2BDF6EEE59F71F9F6BB5A_gshared_inline (void* ___0_destination, int32_t ___1_index, InstanceCullerViewStats_tCFA9E28BF5D8B9489040BD5DDE21173331CE2173 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -40890,7 +40890,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m80F9D5CE595C89454C0635846077F724AA237900_gshared_inline (UnsafeList_1_t72FFFA60411F6BB2F2C776571F608CDA569E5999* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40901,7 +40901,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m46BFADBFB35BAE5470E0E01C06CD4812240B6196_gshared_inline (ParallelWriter_t6EBDCDFFFDDF7EDFF42843022C873E00B9091A3C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40912,7 +40912,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m46B
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m9DA84D87159E2F9440E22285961A6ED9A6163292_gshared_inline (ParallelWriter_t6EBDCDFFFDDF7EDFF42843022C873E00B9091A3C* __this, UnsafeList_1_t72FFFA60411F6BB2F2C776571F608CDA569E5999* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40923,7 +40923,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m9DA84D
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mA0D4BA805DCA306EA406A286885CBA0957DEA164_gshared_inline (ParallelWriter_t0BF6A41D4C01A77466ED4EB4C0EF4661A3DD9AC0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40934,7 +40934,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mA0D
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mBC27D9E1AD61C17AEDFEE15443C0C57CCFF697C2_gshared_inline (ParallelWriter_t0BF6A41D4C01A77466ED4EB4C0EF4661A3DD9AC0* __this, UnsafeList_1_t7F7887FAE17B6FDBF7C159C37BC83911C5F9A184* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40945,7 +40945,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mBC27D9
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisInstanceHandle_tE8D892B001AFFDB8FA53EB19F2B356436AC36C3B_m2D4905CE9CCFB4EF383D04FA0F872F621E08A309_gshared_inline (void* ___0_destination, int32_t ___1_index, InstanceHandle_tE8D892B001AFFDB8FA53EB19F2B356436AC36C3B ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -40959,7 +40959,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m62AA9A7CECE6875CDEB653DE5C7CECBD12E638D2_gshared_inline (UnsafeList_1_t7F7887FAE17B6FDBF7C159C37BC83911C5F9A184* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40970,7 +40970,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mACAB0524E669ACA79CCBE5C495EB8CDBA034A4C1_gshared_inline (ParallelWriter_tE0469BD3333EB98E597A755DA545031A048BD68F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -40981,7 +40981,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mACA
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mED7E9CB8E4234F8AD12C63F51DDD28E122D5AA48_gshared_inline (ParallelWriter_tE0469BD3333EB98E597A755DA545031A048BD68F* __this, UnsafeList_1_t7F7887FAE17B6FDBF7C159C37BC83911C5F9A184* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -40992,7 +40992,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mED7E9C
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m8487F255BC52B0260FF356697FBFEE1E22E794D1_gshared_inline (ParallelWriter_t04EFABCE7F16C233C4253AF05AA13510C8B46A28* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41003,7 +41003,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m848
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mDE5A5A270B12F720085B9886106CF311AB31068F_gshared_inline (ParallelWriter_t04EFABCE7F16C233C4253AF05AA13510C8B46A28* __this, UnsafeList_1_t86D2231E0AF64C72BA7C266D36B9F3FE399B41EB* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41014,7 +41014,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mDE5A5A
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisInstanceOcclusionEventStats_t39015A29B5AE8D08BF95679C8A25869BD8715AAD_mE48A8D17F3211BCD70AC87CFCA9F2CD84F743344_gshared_inline (void* ___0_destination, int32_t ___1_index, InstanceOcclusionEventStats_t39015A29B5AE8D08BF95679C8A25869BD8715AAD ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -41028,7 +41028,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m935ED3CB98D85276D60494996334F25E04581175_gshared_inline (UnsafeList_1_t86D2231E0AF64C72BA7C266D36B9F3FE399B41EB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41039,7 +41039,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mA9833F396DCCF5560FC7070A668B64311BEB8767_gshared_inline (ParallelWriter_tFFC7E4A35E71E35FF6BF45CFD4E24C679B34C0E5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41050,7 +41050,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mA98
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m89A69FC4BE897E4046869F7E556721F407D672FD_gshared_inline (ParallelWriter_tFFC7E4A35E71E35FF6BF45CFD4E24C679B34C0E5* __this, UnsafeList_1_t86D2231E0AF64C72BA7C266D36B9F3FE399B41EB* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41061,7 +41061,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m89A69F
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m95DA6F5400DB3942F37A2EAB6AA3B353992A332E_gshared_inline (ParallelWriter_t80A8984CE4AF82D8AD8D75CA7F04FDB95E5A6587* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41072,7 +41072,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m95D
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m19FEA48D205CDE35C4C774522A8496227AF7817F_gshared_inline (ParallelWriter_t80A8984CE4AF82D8AD8D75CA7F04FDB95E5A6587* __this, UnsafeList_1_t6C5E84D303190B625F3759C244502E1735453718* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41083,7 +41083,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m19FEA4
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m0DD1CC90B2F1EF5041F2F4E1DABB58224229F0D7_gshared_inline (void* ___0_destination, int32_t ___1_index, int32_t ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -41097,7 +41097,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mEA927D1405F8410976953A49C12817C90D673A4B_gshared_inline (UnsafeList_1_t6C5E84D303190B625F3759C244502E1735453718* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41108,7 +41108,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m289511E08E12C9F86CA6863237292700DD2A3A54_gshared_inline (ParallelWriter_t2B0EB8D5AC3F3063AF66A5BFC28D16597DAED947* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41119,7 +41119,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m289
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mAF83B29266E2947A63F4AB7A5B2F2C4401EEC02A_gshared_inline (ParallelWriter_t2B0EB8D5AC3F3063AF66A5BFC28D16597DAED947* __this, UnsafeList_1_t6C5E84D303190B625F3759C244502E1735453718* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41130,7 +41130,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mAF83B2
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m7A8E15D0DBDAE594FDFADA436EE503622509450B_gshared_inline (ParallelWriter_t9712EF5FAAEA116BC33D159CB478674935575578* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41141,7 +41141,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m7A8
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m2E5A2FB2AFE7962F62F6A32E3BB022B7B83C8794_gshared_inline (ParallelWriter_t9712EF5FAAEA116BC33D159CB478674935575578* __this, UnsafeList_1_t6B33FA0D43DCA4560A225E333E6722C55B5E2FC9* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41152,7 +41152,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m2E5A2F
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m932C3B713D7378A6F35C90754DBBA1C7DC21BE7A_gshared_inline (void* ___0_destination, int32_t ___1_index, int32_t ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -41166,7 +41166,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m1900E34C6E3BF59175803FF2C30A305AB1F66216_gshared_inline (UnsafeList_1_t6B33FA0D43DCA4560A225E333E6722C55B5E2FC9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41177,7 +41177,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m2EB61A71DD9BA71E8BCDFE0686668730F56A8793_gshared_inline (ParallelWriter_tAA0A67F001D0A22044782F21A898C84C3A2E11C9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41188,7 +41188,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m2EB
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m0D536E16B33C9BD97045BC13A435581069F5281F_gshared_inline (ParallelWriter_tAA0A67F001D0A22044782F21A898C84C3A2E11C9* __this, UnsafeList_1_t6B33FA0D43DCA4560A225E333E6722C55B5E2FC9* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41199,7 +41199,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m0D536E
 		return;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mB6444B6996E40021451A164BB5164E623F7CF769_gshared_inline (ParallelWriter_t3805924DF32C8DA3B217A4785923FAE249A35B23* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41210,7 +41210,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mB64
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m3A176CD2F4AA9260C63F9F79136A162C798FE349_gshared_inline (ParallelWriter_t3805924DF32C8DA3B217A4785923FAE249A35B23* __this, UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41221,7 +41221,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m3A176C
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisIntPtr_t_m4F172B1EA620A9AAD916874CDBA3ECB5FB5BA8BE_gshared_inline (void* ___0_destination, int32_t ___1_index, intptr_t ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -41235,7 +41235,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m1B02DEE5A506E8C605FBEE6B71768B7DA4837012_gshared_inline (UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41246,7 +41246,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisJobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08_m3BAB2E9CED92D7994BB6EC17FA117572B57DBD89_gshared_inline (void* ___0_destination, int32_t ___1_index, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -41260,7 +41260,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m617EE3173698C0FC21FC3703B759BAB16A8BBC96_gshared_inline (ParallelWriter_tDE3D3EAD7695DE76EBDD02128557F7FBDEBF5858* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41271,7 +41271,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m617
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m7023485F3CD131D0373F8F0A0543CEDFB386365F_gshared_inline (ParallelWriter_tDE3D3EAD7695DE76EBDD02128557F7FBDEBF5858* __this, UnsafeList_1_tF1A798781EDA1BEAD331A2241888A227A6E2891D* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41282,7 +41282,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m702348
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisLODGroupCullingData_t511A004D7CBAE84368FCAA62A0348C24CB46EABF_m500912CA5054F556CEEE7106CF6B104975B09031_gshared_inline (void* ___0_destination, int32_t ___1_index, LODGroupCullingData_t511A004D7CBAE84368FCAA62A0348C24CB46EABF ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -41296,7 +41296,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m86FDB9008A2F4A1528B267F8373C78A4895DB1F9_gshared_inline (UnsafeList_1_tF1A798781EDA1BEAD331A2241888A227A6E2891D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41307,7 +41307,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m0DA9E8B243A63237562507CCD24B0B5FA32F1C33_gshared_inline (ParallelWriter_tEBE84DF59A55B3F03D59A3412F035B540D93DF9D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41318,7 +41318,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m0DA
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m914D0A768535FFE3203912DBCED9C1AC32172493_gshared_inline (ParallelWriter_tEBE84DF59A55B3F03D59A3412F035B540D93DF9D* __this, UnsafeList_1_tF1A798781EDA1BEAD331A2241888A227A6E2891D* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41329,7 +41329,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m914D0A
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m745A835A726297BDF55B4E52F9207A27F8608207_gshared_inline (ParallelWriter_t627D118BC39DF2293273C7B13E27FC2D53BC8AE3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41340,7 +41340,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m745
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mD8D0B1C277AAE5832390C7F17BC9A5FCB5C7FAB5_gshared_inline (ParallelWriter_t627D118BC39DF2293273C7B13E27FC2D53BC8AE3* __this, UnsafeList_1_t466025709A4C0CCFAD422C17FFAB3956BEBAF9D2* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41351,7 +41351,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mD8D0B1
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisLODGroupData_t270D641C75EEBF4612A34E2398D4D0A10A5B1241_m39838EBF69C2345965702105F3B6EF0C4CE16726_gshared_inline (void* ___0_destination, int32_t ___1_index, LODGroupData_t270D641C75EEBF4612A34E2398D4D0A10A5B1241 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -41365,7 +41365,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m1953324ECD3B052802965ECD79DBD7C5E7F52BA9_gshared_inline (UnsafeList_1_t466025709A4C0CCFAD422C17FFAB3956BEBAF9D2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41376,7 +41376,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mB552162CE1AC64A0501C522D1451FB39BA057E70_gshared_inline (ParallelWriter_tC198AFE01A4BFEAB4D0886B7A6D700281239856E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41387,7 +41387,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mB55
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m2F54636FC031471CDA081F9B72152F76C0169259_gshared_inline (ParallelWriter_tC198AFE01A4BFEAB4D0886B7A6D700281239856E* __this, UnsafeList_1_t466025709A4C0CCFAD422C17FFAB3956BEBAF9D2* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41398,7 +41398,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m2F5463
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m8FAD310D0C80984D37E8D170938CEA34C7D729C1_gshared_inline (ParallelWriter_tA6D01046C9AEB68C198B0670BCA2543E227EC428* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41409,7 +41409,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m8FA
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mEDD8112CC1CBD417D991D63633EB903D61613855_gshared_inline (ParallelWriter_tA6D01046C9AEB68C198B0670BCA2543E227EC428* __this, UnsafeList_1_tC35C17A98C45EDE2BAEEF51E5546B6AE96871E29* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41420,7 +41420,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mEDD811
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisMetadataValue_tB24D1ECC62550B3B37D7BFA11B02907047E7F937_m6A01E93961822691A72078A35E8DE6198F460FAB_gshared_inline (void* ___0_destination, int32_t ___1_index, MetadataValue_tB24D1ECC62550B3B37D7BFA11B02907047E7F937 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -41434,7 +41434,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mC3E331592D015E4597E4C7E44938A1BE59E693F7_gshared_inline (UnsafeList_1_tC35C17A98C45EDE2BAEEF51E5546B6AE96871E29* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41445,7 +41445,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mBD07767C1234FA0526B1EAC13B365C1C5BCEA227_gshared_inline (ParallelWriter_t7AD9879E1DD772F00992C83AEB96359BA4C7AE01* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41456,7 +41456,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mBD0
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m2EA277A4F5D90178DF18018A17C385F64A298122_gshared_inline (ParallelWriter_t7AD9879E1DD772F00992C83AEB96359BA4C7AE01* __this, UnsafeList_1_tC35C17A98C45EDE2BAEEF51E5546B6AE96871E29* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41467,7 +41467,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m2EA277
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m24D1FB8DADDCDDFB3B91504E6C0775589462ECDC_gshared_inline (ParallelWriter_tD27D0A6035F6A4252D31002FB7D4459F6D9794A6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41478,7 +41478,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m24D
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m240244A9BDE8D7AAD540CD8BB6CA4BA15522A958_gshared_inline (ParallelWriter_tD27D0A6035F6A4252D31002FB7D4459F6D9794A6* __this, UnsafeList_1_t2698BCDA35C9A619C8B06830DF4348F090657175* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41489,7 +41489,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m240244
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisNativePassData_tC0F1669A8ED49F7203325B91DF9C473D65AA9CD2_mD562456F9ACD27048BD7C93362482740FE41E5C3_gshared_inline (void* ___0_destination, int32_t ___1_index, NativePassData_tC0F1669A8ED49F7203325B91DF9C473D65AA9CD2 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -41503,7 +41503,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m8F291AB2831EA4C84FE9829EBA0421F9E0DA70C8_gshared_inline (UnsafeList_1_t2698BCDA35C9A619C8B06830DF4348F090657175* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41514,7 +41514,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mFA2138915FD6681E83ACF2C0AA2DE5A297BC3799_gshared_inline (ParallelWriter_t33A4C62492F806A2005DED2DACA398F654DF2EB4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41525,7 +41525,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mFA2
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mF6A18DBCDD4F68DA5F3ECE0B317AD8C4A583E1C7_gshared_inline (ParallelWriter_t33A4C62492F806A2005DED2DACA398F654DF2EB4* __this, UnsafeList_1_t2698BCDA35C9A619C8B06830DF4348F090657175* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41536,7 +41536,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mF6A18D
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m750DE0EB2B4670062674705113A75887364CD751_gshared_inline (ParallelWriter_tFB66EF5AA95DFBAE8E94F2839BF9E33146B8A2A0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41547,7 +41547,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m750
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mBDCB7B72235D3F905DFD7AEF4FBEDCE50A393B82_gshared_inline (ParallelWriter_tFB66EF5AA95DFBAE8E94F2839BF9E33146B8A2A0* __this, UnsafeList_1_t4CF84C305ED85C51E777A9CBE5A23188FE9BBC3F* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41558,7 +41558,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mBDCB7B
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisNetworkConnection_t0A1170D9665C62249582E5DAABC2EAF2D01DEDF4_m08D3AFDFD335644A4C5951D804389BD6350078DA_gshared_inline (void* ___0_destination, int32_t ___1_index, NetworkConnection_t0A1170D9665C62249582E5DAABC2EAF2D01DEDF4 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -41572,7 +41572,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mA85FF1B2F22EEBDB9434A200D1FF27FC2D1DEDAF_gshared_inline (UnsafeList_1_t4CF84C305ED85C51E777A9CBE5A23188FE9BBC3F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41583,7 +41583,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m956DCE7FD53CF9060F916D3A70E5675977A9AADE_gshared_inline (ParallelWriter_tA20A0546BD0CEFE3DA8A2CE9070AE6450D7498DF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41594,7 +41594,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m956
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m3C2D9D62AB535E2CE7110A0B9C10E20F9FC98440_gshared_inline (ParallelWriter_tA20A0546BD0CEFE3DA8A2CE9070AE6450D7498DF* __this, UnsafeList_1_t4CF84C305ED85C51E777A9CBE5A23188FE9BBC3F* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41605,7 +41605,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m3C2D9D
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m1FBFEE0C059FB2FEBB600DBE85397551D8F6E761_gshared_inline (ParallelWriter_tE2A1A7E9999C0DB8F40A7DC886161CD552AF608A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41616,7 +41616,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m1FB
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mF08F33337AA6530E55FF0E4F3214172541391636_gshared_inline (ParallelWriter_tE2A1A7E9999C0DB8F40A7DC886161CD552AF608A* __this, UnsafeList_1_tFD7DB6B00333C2C114D553F48DA91C512E033F99* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41627,7 +41627,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mF08F33
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisNetworkEvent_t4F520D24065EC589593AE1281E955525AD11233F_mE0C45099BA4BDED879C6BCF05B5FB8CBAAA1F919_gshared_inline (void* ___0_destination, int32_t ___1_index, NetworkEvent_t4F520D24065EC589593AE1281E955525AD11233F ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -41641,7 +41641,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m1D8F7F6F0CF8E8D40A46064E89048F54CFDE29F3_gshared_inline (UnsafeList_1_tFD7DB6B00333C2C114D553F48DA91C512E033F99* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41652,7 +41652,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mC42222AE7816C4A8E93295E54854447D2BA64ABF_gshared_inline (ParallelWriter_t686A959212CDF73BF39B4492A388DF4460D5278F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41663,7 +41663,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mC42
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mB410BEDBD576FF9BF798EA007D3C6EBD6FDCEB36_gshared_inline (ParallelWriter_t686A959212CDF73BF39B4492A388DF4460D5278F* __this, UnsafeList_1_tFD7DB6B00333C2C114D553F48DA91C512E033F99* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41674,7 +41674,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mB410BE
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m5C097F72A188AA37F4622C729B4575BD2B38F20D_gshared_inline (ParallelWriter_tF0DE601F22A188204494B99F560C08838CB87E31* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41685,7 +41685,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m5C0
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m031C94204A290185286EA2C183DE46FE875701E0_gshared_inline (ParallelWriter_tF0DE601F22A188204494B99F560C08838CB87E31* __this, UnsafeList_1_t82F42318A0459C3699EAFEFFF8A8BA3D3A098E33* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41696,7 +41696,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m031C94
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisNetworkLayerWrapper_t6D78DE474098851EC3C82A6085753A4BF1ADC5F8_m91C34D8DA4FB5E9B5723FF314D629AE003803DD6_gshared_inline (void* ___0_destination, int32_t ___1_index, NetworkLayerWrapper_t6D78DE474098851EC3C82A6085753A4BF1ADC5F8 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -41710,7 +41710,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m4DEF74EFA0A0B4541B05169AD23188FC64754009_gshared_inline (UnsafeList_1_t82F42318A0459C3699EAFEFFF8A8BA3D3A098E33* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41721,7 +41721,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m05F5EE4EE7F36A35B3BE269FBC0A3F549FE9984B_gshared_inline (ParallelWriter_t846D7A757955C4389216B448798015B3BB074B3C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41732,7 +41732,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m05F
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m69411FAC16C46D5E847BD3978FB09A91ACF7C586_gshared_inline (ParallelWriter_t846D7A757955C4389216B448798015B3BB074B3C* __this, UnsafeList_1_t82F42318A0459C3699EAFEFFF8A8BA3D3A098E33* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41743,7 +41743,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m69411F
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mF274FAE0FFB64EA42DAFAEFE04FBF9B9029DE4D0_gshared_inline (ParallelWriter_t0508F4E35CC9F6EE81D945F16749301E98A25D5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41754,7 +41754,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mF27
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m786DFFB6E7978D815E22204D8AB72ADDCFB23384_gshared_inline (ParallelWriter_t0508F4E35CC9F6EE81D945F16749301E98A25D5F* __this, UnsafeList_1_t663E4C6332C30AD19F05EF986ECCEDC60B61CF52* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41765,7 +41765,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m786DFF
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisNetworkPipelineStage_tEF17CBE5C7F718292F2E9F3E51D727D672A0400E_mB617FB51911DFA9E975E7696CD577F5260C0AA2F_gshared_inline (void* ___0_destination, int32_t ___1_index, NetworkPipelineStage_tEF17CBE5C7F718292F2E9F3E51D727D672A0400E ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -41779,7 +41779,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m09F92B212C0619FDE3DE551FA30A10232B50EA08_gshared_inline (UnsafeList_1_t663E4C6332C30AD19F05EF986ECCEDC60B61CF52* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41790,7 +41790,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m3F810FD5099CFE74EDC96024F38726A4F2A4847C_gshared_inline (ParallelWriter_t3F7AB01E2FA1138EB87B6415022AECEE55F2B105* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41801,7 +41801,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m3F8
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mD1F3FEEB2DB0A5A1E8388F8223E5EE4C488F879D_gshared_inline (ParallelWriter_t3F7AB01E2FA1138EB87B6415022AECEE55F2B105* __this, UnsafeList_1_t663E4C6332C30AD19F05EF986ECCEDC60B61CF52* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41812,7 +41812,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mD1F3FE
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m17D97B45180F3CF6EC7F0B9BCEDB8DCBFD15D2C7_gshared_inline (ParallelWriter_t34A2606A9E7BAE8C77A56C9C53064AB9106E1E6B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41823,7 +41823,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m17D
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m59245B2DEC41281BF8701B135551BF8A4AA1674F_gshared_inline (ParallelWriter_t34A2606A9E7BAE8C77A56C9C53064AB9106E1E6B* __this, UnsafeList_1_t3B699AD7B2AAAB1ECC45766BCC7D8994E28DF28D* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41834,7 +41834,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m59245B
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisNetworkPipelineStageId_tBE4FAE81AD1922E0BEEDBC611342E3B0A7B5ECCA_m3C91184DD6A723912F9F2F7A67091A9232CA2B8F_gshared_inline (void* ___0_destination, int32_t ___1_index, NetworkPipelineStageId_tBE4FAE81AD1922E0BEEDBC611342E3B0A7B5ECCA ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -41848,7 +41848,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m5ADA6FC207141EE5CD110B11B1D13A9798F5F7D1_gshared_inline (UnsafeList_1_t3B699AD7B2AAAB1ECC45766BCC7D8994E28DF28D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41859,7 +41859,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m05B9D8EC5EA97F6D3F77EDCDAE523AE9D7B31EC0_gshared_inline (ParallelWriter_tB33017D4F0CE85EC8E0DED9D6E3A4D0C7AEBC2F2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41870,7 +41870,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m05B
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mD5A42D85651E877409820ADFCEFD16E06DA0BEFE_gshared_inline (ParallelWriter_tB33017D4F0CE85EC8E0DED9D6E3A4D0C7AEBC2F2* __this, UnsafeList_1_t3B699AD7B2AAAB1ECC45766BCC7D8994E28DF28D* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41881,7 +41881,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mD5A42D
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m52819A09CEC77C1E2916C5E811BCEAEDE9608A86_gshared_inline (ParallelWriter_tF6E9B588153FDA64C9B0A210E3227F707F0E8AB6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41892,7 +41892,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m528
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mE24790B4875F70BB8C2FA22AB5F9BA5CF78A04F2_gshared_inline (ParallelWriter_tF6E9B588153FDA64C9B0A210E3227F707F0E8AB6* __this, UnsafeList_1_tAF9272F566E901F8A09846C464F6535AF6B6B16B* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41903,7 +41903,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mE24790
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisPassData_t88911D47229A306D70A3F6A7D3B2FC8FF12F8BAD_m672DF48EBCE73A7DD641C4A092538D4E164E0E35_gshared_inline (void* ___0_destination, int32_t ___1_index, PassData_t88911D47229A306D70A3F6A7D3B2FC8FF12F8BAD ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -41917,7 +41917,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mCF32FCAB86EF9ED0F9A736ACD057C5394D1CC3B5_gshared_inline (UnsafeList_1_tAF9272F566E901F8A09846C464F6535AF6B6B16B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41928,7 +41928,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mBB3840BAF37DD8911356FC5A6AD9AB5228BD0C0A_gshared_inline (ParallelWriter_tD241843F5C474AC82074A5FD54C2F27B45DE1E6D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41939,7 +41939,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mBB3
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m77B0986EA4BCDCF8A27BED3CEB62C3696521D93B_gshared_inline (ParallelWriter_tD241843F5C474AC82074A5FD54C2F27B45DE1E6D* __this, UnsafeList_1_tAF9272F566E901F8A09846C464F6535AF6B6B16B* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41950,7 +41950,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m77B098
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m0BA6FD1C3F4A4660ED6C6539BD693183231DC2BF_gshared_inline (ParallelWriter_tBCBD59837B61CBCEAFA96A9F6A7BF6A6CE9252AD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41961,7 +41961,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m0BA
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mCF624C9211942F3EA1E38E091B3CE696FDE98208_gshared_inline (ParallelWriter_tBCBD59837B61CBCEAFA96A9F6A7BF6A6CE9252AD* __this, UnsafeList_1_t173126F6552F1541EC0D24B76A2112626EA85FC5* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -41972,7 +41972,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mCF624C
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisPassFragmentData_t67D0B4EC16AF3DBC4233CC7537B93A27C78BFA8C_m6B072C04464710A9C697F83DBD9AFEDE4AE6E8D0_gshared_inline (void* ___0_destination, int32_t ___1_index, PassFragmentData_t67D0B4EC16AF3DBC4233CC7537B93A27C78BFA8C ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -41986,7 +41986,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mFC93698D2F0861439A3A3BCFA333AF774613D6E8_gshared_inline (UnsafeList_1_t173126F6552F1541EC0D24B76A2112626EA85FC5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -41997,7 +41997,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m995BE05730378782B492DD13E6C4EFCDAB663CC6_gshared_inline (ParallelWriter_t2C404D7EAA37FA02C208BEE451B0E8CB3517F157* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42008,7 +42008,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m995
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m076669DD61DB1EEEEECC0FC511658A11211E9191_gshared_inline (ParallelWriter_t2C404D7EAA37FA02C208BEE451B0E8CB3517F157* __this, UnsafeList_1_t173126F6552F1541EC0D24B76A2112626EA85FC5* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42019,7 +42019,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m076669
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m9633F885CE151E6F1B34A408CD0E565A51978E86_gshared_inline (ParallelWriter_t16A00727E8E0CB5CBE280D1EB18EA38F6C97A294* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42030,7 +42030,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m963
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m9EB7C0C49EA0412F92DB744D3E82596129E55D14_gshared_inline (ParallelWriter_t16A00727E8E0CB5CBE280D1EB18EA38F6C97A294* __this, UnsafeList_1_t71F5F4076B4F42633307814D517033CCA6FE8E34* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42041,7 +42041,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m9EB7C0
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisPassInputData_tA1B8624F31DDB24770D8E0C8FA54189A567FC2DE_m83260A6FCABCDFC1DBDFB8EDF7A9F97CC971E9C2_gshared_inline (void* ___0_destination, int32_t ___1_index, PassInputData_tA1B8624F31DDB24770D8E0C8FA54189A567FC2DE ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -42055,7 +42055,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mE2C5412EF3387EC682F83455B18445B84E6EFBD2_gshared_inline (UnsafeList_1_t71F5F4076B4F42633307814D517033CCA6FE8E34* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42066,7 +42066,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m844A629038D39CF5E53A4783726B93431A19F96A_gshared_inline (ParallelWriter_t67FF8C27EC019BEDC7A747E12EC42FF6B0784F6D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42077,7 +42077,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m844
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mB6D4A3F44E1153FD92F2790B2EAD9EA9406F86C3_gshared_inline (ParallelWriter_t67FF8C27EC019BEDC7A747E12EC42FF6B0784F6D* __this, UnsafeList_1_t71F5F4076B4F42633307814D517033CCA6FE8E34* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42088,7 +42088,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mB6D4A3
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mC419FCDD516E42FA88C37FB1A1C51FE1E15CD603_gshared_inline (ParallelWriter_t62FE984E720FD9C03E7C23DB1B7837577CE32736* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42099,7 +42099,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mC41
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m5969E3DB8569101056DB30A37577EBA5E538F603_gshared_inline (ParallelWriter_t62FE984E720FD9C03E7C23DB1B7837577CE32736* __this, UnsafeList_1_tB9426D20C074F7429E5534019CDCC127142BAC51* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42110,7 +42110,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m5969E3
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisPassOutputData_t8EA364E560775D19D285839BA06710B337503E0D_mF4593AB403DB99C656ED15BF649D391C7DA81BB2_gshared_inline (void* ___0_destination, int32_t ___1_index, PassOutputData_t8EA364E560775D19D285839BA06710B337503E0D ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -42124,7 +42124,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m8A3C569F06A97CA99BC4B4565DBA4B15593B519A_gshared_inline (UnsafeList_1_tB9426D20C074F7429E5534019CDCC127142BAC51* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42135,7 +42135,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m58E1E60D769F603BA961C0D62665438810EF2545_gshared_inline (ParallelWriter_tDD334A59B4EFBF52CA610D5AD62C225034BC9990* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42146,7 +42146,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m58E
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mC00CE1511B84E08964519935C1B80B478FA9AE36_gshared_inline (ParallelWriter_tDD334A59B4EFBF52CA610D5AD62C225034BC9990* __this, UnsafeList_1_tB9426D20C074F7429E5534019CDCC127142BAC51* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42157,7 +42157,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mC00CE1
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mA89BCD7AA96BBA1C77D6484CD90817810872663F_gshared_inline (ParallelWriter_tB2B3C8340C3DACD09A7E524191BB3215917FE9AE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42168,7 +42168,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mA89
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m7EEC05EDD12831E2D162FBDE830B02587C44CA46_gshared_inline (ParallelWriter_tB2B3C8340C3DACD09A7E524191BB3215917FE9AE* __this, UnsafeList_1_tDFCE3387AE8658A87077253BEC37F88FD603DF84* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42179,7 +42179,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m7EEC05
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisPassRandomWriteData_t5C298F6D2CA84B027F3D8A145304B0DCFDA1961B_m16775DE95911F11BEF1219BB51C56C3912B1763F_gshared_inline (void* ___0_destination, int32_t ___1_index, PassRandomWriteData_t5C298F6D2CA84B027F3D8A145304B0DCFDA1961B ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -42193,7 +42193,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m8B2608EC1952B2945F03B477D8464E34FE076E06_gshared_inline (UnsafeList_1_tDFCE3387AE8658A87077253BEC37F88FD603DF84* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42204,7 +42204,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m469CA4EB54D2F80AEC2196EE7E899BD15AAD2D76_gshared_inline (ParallelWriter_t8EE41665E0EC18B597877B24685E1809F936E805* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42215,7 +42215,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m469
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mA320EC18E00E2D2EB42603629DAF9101110E6B18_gshared_inline (ParallelWriter_t8EE41665E0EC18B597877B24685E1809F936E805* __this, UnsafeList_1_tDFCE3387AE8658A87077253BEC37F88FD603DF84* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42226,7 +42226,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mA320EC
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m8754550D6B7CF1FDFB847D2E168607FEE6F73DCE_gshared_inline (ParallelWriter_tE9CED4730372549C6B54ADA34D1BA9D8C765F16A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42237,7 +42237,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m875
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m4CA72B0EBC2B502445E914135563AD857DC2BFFB_gshared_inline (ParallelWriter_tE9CED4730372549C6B54ADA34D1BA9D8C765F16A* __this, UnsafeList_1_t96307A04898BD0C49DFF733D301684A2628959F2* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42248,7 +42248,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m4CA72B
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisPlane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C_m5752F3073072D6DCB16C429071ED8126C1CB6502_gshared_inline (void* ___0_destination, int32_t ___1_index, Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -42262,7 +42262,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mB2C372F0020D014252A727D64471BAF8A605A996_gshared_inline (UnsafeList_1_t96307A04898BD0C49DFF733D301684A2628959F2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42273,7 +42273,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m0955BF7A7C2AC346C57F6123B94C65FCF7F7B9E6_gshared_inline (ParallelWriter_t380BBE49682A5A6C8435C300E3B27A0481EA2AE3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42284,7 +42284,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m095
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m92354D41D00B90C8E65B56CE12589B86902FF911_gshared_inline (ParallelWriter_t380BBE49682A5A6C8435C300E3B27A0481EA2AE3* __this, UnsafeList_1_t96307A04898BD0C49DFF733D301684A2628959F2* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42295,7 +42295,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m92354D
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mF83B3CC7A1B800A229D7B32CAE6A22245CB863A3_gshared_inline (ParallelWriter_t2BB58265AAFA12B449A34034DA5BDF6529FB3D8F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42306,7 +42306,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mF83
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m075F0F2E0A0E2166348C49E6D030D22DC107B06E_gshared_inline (ParallelWriter_t2BB58265AAFA12B449A34034DA5BDF6529FB3D8F* __this, UnsafeList_1_tAAB699F827C515727975973202558FB27BEC605E* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42317,7 +42317,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m075F0F
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_m4B946E07CB3CAF08961CD95269FB8475BA911130_gshared_inline (void* ___0_destination, int32_t ___1_index, ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -42331,7 +42331,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m33B6B84F4FE870EEB76A3E5D94630F4A5B759E12_gshared_inline (UnsafeList_1_tAAB699F827C515727975973202558FB27BEC605E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42342,7 +42342,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m4DA9A374BEE1F17DF931BBA8908C842FECE80160_gshared_inline (ParallelWriter_t1160DA76966FA49C47CCB42BBC95DD22196C666E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42353,7 +42353,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m4DA
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m1BF3373ED076D22C11E3DF5BCCBBE50A3F3AFF8E_gshared_inline (ParallelWriter_t1160DA76966FA49C47CCB42BBC95DD22196C666E* __this, UnsafeList_1_tAAB699F827C515727975973202558FB27BEC605E* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42364,7 +42364,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m1BF337
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mEC1F179B1A5DDA138E606BB9C76AF5F6F63CE99C_gshared_inline (ParallelWriter_t7E969FF101126BD681E04E0D1DB9409904F2FE18* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42375,7 +42375,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mEC1
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mDFFC4A7722452F3A18730FFCA9AE6C4181A591DB_gshared_inline (ParallelWriter_t7E969FF101126BD681E04E0D1DB9409904F2FE18* __this, UnsafeList_1_tACD8CB556CD69F1AC50A8B4894D6B230BE884C2A* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42386,7 +42386,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mDFFC4A
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisResourceReaderData_t1B57A9C4CC76875899745E115AA53FF40C6412EC_m2C9983E2B1E4962425768A575D1795C84C689DC8_gshared_inline (void* ___0_destination, int32_t ___1_index, ResourceReaderData_t1B57A9C4CC76875899745E115AA53FF40C6412EC ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -42400,7 +42400,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mE74F1FAC31EDC2CFFF3E56E458C6F5641FA345DF_gshared_inline (UnsafeList_1_tACD8CB556CD69F1AC50A8B4894D6B230BE884C2A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42411,7 +42411,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m5BD43706CF7A55AC609AACA5DD00850BF4CD6B1C_gshared_inline (ParallelWriter_t3113F4A6027D52F720D90175C95C42421729F101* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42422,7 +42422,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m5BD
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m11075C3864FD92CE81A32B1D317AF2CAC43AAA11_gshared_inline (ParallelWriter_t3113F4A6027D52F720D90175C95C42421729F101* __this, UnsafeList_1_tACD8CB556CD69F1AC50A8B4894D6B230BE884C2A* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42433,7 +42433,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m11075C
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m3375AEE778142759BBE4ACA09E8BC12D9331C6A5_gshared_inline (ParallelWriter_tB624378829791B0BED092893173400E3D7F7C302* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42444,7 +42444,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m337
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m86B8557FBB4094BEB43E1FDA8F7195AEC050F535_gshared_inline (ParallelWriter_tB624378829791B0BED092893173400E3D7F7C302* __this, UnsafeList_1_tE0925972F51EBAB33C5335A86B2E02801BEF7D8C* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42455,7 +42455,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m86B855
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisResourceUnversionedData_t3F4B539E7806E513C53A94EAABF5F969AAA384CC_m00F78004D51DA268E9B9752BD9EE98541F45679B_gshared_inline (void* ___0_destination, int32_t ___1_index, ResourceUnversionedData_t3F4B539E7806E513C53A94EAABF5F969AAA384CC ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -42469,7 +42469,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mD8461A8B4A0C3FC6AF0B646D440E6D7B2B5416FE_gshared_inline (UnsafeList_1_tE0925972F51EBAB33C5335A86B2E02801BEF7D8C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42480,7 +42480,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m96AB9F4B4360D1AAD6FBEFC322522799BE305C38_gshared_inline (ParallelWriter_t3716D718EC4099534F27E6224E5EE0822C325BCA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42491,7 +42491,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m96A
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m57554D00F8ABB63FCC119C063F28F6ABF3E7DDC6_gshared_inline (ParallelWriter_t3716D718EC4099534F27E6224E5EE0822C325BCA* __this, UnsafeList_1_tE0925972F51EBAB33C5335A86B2E02801BEF7D8C* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42502,7 +42502,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m57554D
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m1F0866E6EB260949B58EDA751B80D37A4089117E_gshared_inline (ParallelWriter_tDB23FD623491CFFADE159DC3868BB285A599A61D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42513,7 +42513,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m1F0
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m596BD0D70E67208D6C836168792A09CCA21405F3_gshared_inline (ParallelWriter_tDB23FD623491CFFADE159DC3868BB285A599A61D* __this, UnsafeList_1_t5BA00307630DB630A2010F3369C343509AE94A06* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42524,7 +42524,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m596BD0
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisResourceVersionedData_tC935A106FCF6C0800974D2C98DBE14E19A19B1DC_mB1F6B0CAA347A55CD509F86E3BB307DB2CD44E62_gshared_inline (void* ___0_destination, int32_t ___1_index, ResourceVersionedData_tC935A106FCF6C0800974D2C98DBE14E19A19B1DC ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -42538,7 +42538,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m35C5DC5CE11F33EB6F0C950F87384782BD35FC18_gshared_inline (UnsafeList_1_t5BA00307630DB630A2010F3369C343509AE94A06* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42549,7 +42549,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mB19FE79C899051137109D2684A633DC0AD63E726_gshared_inline (ParallelWriter_t9F3307CB7897A7BAB353AFC8B14E472832F82ECF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42560,7 +42560,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mB19
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mCCA56A29D14C372AB300FDC5EF28838639012595_gshared_inline (ParallelWriter_t9F3307CB7897A7BAB353AFC8B14E472832F82ECF* __this, UnsafeList_1_t5BA00307630DB630A2010F3369C343509AE94A06* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42571,7 +42571,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mCCA56A
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m7F98121FCA47E76A35E222CE3F19FCB265F5FEDB_gshared_inline (ParallelWriter_tF6A0D60925D8E405A4F981788DE99AF1A453D169* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42582,7 +42582,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m7F9
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m658524EE3177215D53006B1B49154D80666944F6_gshared_inline (ParallelWriter_tF6A0D60925D8E405A4F981788DE99AF1A453D169* __this, UnsafeList_1_t5587650D065DD59DDA21A042C17145BA4B6813AC* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42593,7 +42593,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m658524
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisSubPassDescriptor_t912FE0FF4C99BF293A1E4442353C35B2BB8997A9_m8576586B28CAD01596474A37E58A2DA763186E03_gshared_inline (void* ___0_destination, int32_t ___1_index, SubPassDescriptor_t912FE0FF4C99BF293A1E4442353C35B2BB8997A9 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -42607,7 +42607,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m0C39E94C5601FFCC645C9A5C7872DB8C3722DE81_gshared_inline (UnsafeList_1_t5587650D065DD59DDA21A042C17145BA4B6813AC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42618,7 +42618,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mDFFB1AD98DADC98005D7257357165196D01AE5ED_gshared_inline (ParallelWriter_tBE2A3DD30EDD83079FEC92D206DDEDB4F5CC3938* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42629,7 +42629,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mDFF
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mEA551F282EC6E0D67708D0EDB08C68FF4F182C55_gshared_inline (ParallelWriter_tBE2A3DD30EDD83079FEC92D206DDEDB4F5CC3938* __this, UnsafeList_1_t5587650D065DD59DDA21A042C17145BA4B6813AC* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42640,7 +42640,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mEA551F
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m827100953165933A55A06265B4622AED08D35EDD_gshared_inline (ParallelWriter_t6CAD49362B6231AD4F3B8C808396727F1D3AB0CC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42651,7 +42651,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m827
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m887023BF3A18FB3877A91B7608CFA5EEEBE35E80_gshared_inline (ParallelWriter_t6CAD49362B6231AD4F3B8C808396727F1D3AB0CC* __this, UnsafeList_1_tA2B6A040C4F2656D88ABB4345257ADE8F2F30F35* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42662,7 +42662,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m887023
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisUInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_m839FEB3192BEC0090FBA73A11E371E1A01C13ADF_gshared_inline (void* ___0_destination, int32_t ___1_index, uint32_t ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -42676,7 +42676,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m8CFC8F86C3BCA186BABEC29D55D422F05740EC1E_gshared_inline (UnsafeList_1_tA2B6A040C4F2656D88ABB4345257ADE8F2F30F35* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42687,7 +42687,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m1AFB2F8C583790C9DEA022C893F69A0A82DE14EC_gshared_inline (ParallelWriter_tA55869A0986771491BABAA58E7A758954D2F252B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42698,7 +42698,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m1AF
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m0D8555EFB401E0D4EF347A11D772570DC753F798_gshared_inline (ParallelWriter_tA55869A0986771491BABAA58E7A758954D2F252B* __this, UnsafeList_1_tA2B6A040C4F2656D88ABB4345257ADE8F2F30F35* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42709,7 +42709,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m0D8555
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m29C0146B43AA7E8A86C59677E8267C206C1714F6_gshared_inline (ParallelWriter_t861DBB5C896559047406FF6E504BC2A604C307EC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42720,7 +42720,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m29C
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mCA2D3273C09FED74AF8E84FFA98373CE52A436B6_gshared_inline (ParallelWriter_t861DBB5C896559047406FF6E504BC2A604C307EC* __this, UnsafeList_1_t7A543190DA1A83E02E2B1A875EA82180D6B548AB* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42731,7 +42731,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mCA2D32
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_mC1C144C4AC4D9B3B2C30F06F88CB6E6AB475125E_gshared_inline (void* ___0_destination, int32_t ___1_index, uint64_t ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -42745,7 +42745,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m60513969539D269E9E7E3664CD1E9BCBA2679A1A_gshared_inline (UnsafeList_1_t7A543190DA1A83E02E2B1A875EA82180D6B548AB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42756,7 +42756,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m4DB54D51FC75037AC6AD3B5715CB9F2AA9E89797_gshared_inline (ParallelWriter_tBB9CC88957CD6C754B977C1936037B1BEE403DFC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42767,7 +42767,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m4DB
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m5D7CCE0736BCAC473CFFF428872B181004496784_gshared_inline (ParallelWriter_tBB9CC88957CD6C754B977C1936037B1BEE403DFC* __this, UnsafeList_1_t7A543190DA1A83E02E2B1A875EA82180D6B548AB* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42778,7 +42778,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m5D7CCE
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mA68D24C386F6BC2EEF8894D271A737586E937B97_gshared_inline (ParallelWriter_t5FAD2F5CD0323F6D69B41F58BA124280639739A1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42789,7 +42789,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mA68
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m90A3784A8D355193CE6FFD0D49A8B0B9B950661A_gshared_inline (ParallelWriter_t5FAD2F5CD0323F6D69B41F58BA124280639739A1* __this, UnsafeList_1_t3A26A222433F7993EC942046A500D6EA3DCB97E6* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42800,7 +42800,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m90A378
 		return;
 	}
 }
-// Method Definition Index: 90062
+// Method Definition Index: 90065
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ParallelWriter_get_Capacity_m9E233FFF8351F2FDF4F30FB8897F4414CCC45079_gshared_inline (ParallelWriter_t90DC484AD3D15C466C89D06CCD6003ADD45E27C6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42811,7 +42811,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ParallelWriter_get_Capaci
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m51D0C49D3137EE01EE9FB568DF69932EA6B08957_gshared_inline (ParallelWriter_t7228BF021425BFE8A2478C2B6506DC52D1120D17* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42822,7 +42822,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m51D
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mB849FB0A5AEFC10B17C138328DA450895F5715CB_gshared_inline (ParallelWriter_t7228BF021425BFE8A2478C2B6506DC52D1120D17* __this, UnsafeList_1_t3A26A222433F7993EC942046A500D6EA3DCB97E6* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42833,7 +42833,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mB849FB
 		return;
 	}
 }
-// Method Definition Index: 91215
+// Method Definition Index: 91218
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ParallelWriter_get_Capacity_mE40ECC91D0FF47A63B9F208422BB9ACF2F4E2D20_gshared_inline (ParallelWriter_tA4AE1675B616D5F02532A3B2DFADED4855E7E8A1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42844,7 +42844,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ParallelWriter_get_Capaci
 		return L_1;
 	}
 }
-// Method Definition Index: 90988
+// Method Definition Index: 90991
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeList_1_AddNoResize_m4752E4711FAE546C2C0CE090C639FE6F4BA23BED_gshared_inline (UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613* __this, intptr_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -42860,7 +42860,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeList_1_AddNoResize_m47
 		return;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m2206F61F9EBDE1A7EC38ACAFC30B76E901CF9427_gshared_inline (ParallelWriter_t1133D5B6AFCF1E287BB95F151FE2F8CF2EF31F4D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42871,7 +42871,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m220
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m79C931474427724FA9490920F4102948D7E24E37_gshared_inline (ParallelWriter_t1133D5B6AFCF1E287BB95F151FE2F8CF2EF31F4D* __this, UnsafeList_1_t7A5985AF0B9C20ADCE35D29FDAB0EB1F05D41576* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42882,7 +42882,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m79C931
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisSample_t3BE5915021631BD79173E66EC224867714256407_mEE5B5C0956C9E228BE7E1076795782B6602BCB10_gshared_inline (void* ___0_destination, int32_t ___1_index, Sample_t3BE5915021631BD79173E66EC224867714256407 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -42896,7 +42896,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m812962D6224843C75511B9E6620AADE8525EE915_gshared_inline (UnsafeList_1_t7A5985AF0B9C20ADCE35D29FDAB0EB1F05D41576* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42907,7 +42907,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91042
+// Method Definition Index: 91045
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafePtrList_1_get_Length_m15692B27C70D921B523A72C7D2A5DA6A9EB12EB4_gshared_inline (UnsafePtrList_1_tAD86775FD13A7BFCCD3E9ACA2796FFE62044B970* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -42929,7 +42929,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafePtrList_1_get_Lengt
 		return L_2;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m6B992E80BA3A90B8F870A4401ED53ACB9FEDACF8_gshared_inline (ParallelWriter_t3EC8B6E7E924CB4CE0203D0CB108B9C07E237C37* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42940,7 +42940,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m6B9
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m7A52C1A8348ACC27218DF1CE97E3249C12FEC2EB_gshared_inline (ParallelWriter_t3EC8B6E7E924CB4CE0203D0CB108B9C07E237C37* __this, UnsafeList_1_tFB8BBEF9F57D3F7A64A6AA65DB8B97E16E910D5C* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42951,7 +42951,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m7A52C1
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisBaselib_RegisteredNetwork_Request_t6AF2E70EE04D8C3608FB27091CDE9B4A25A9A4FE_m572E7E02B0847974F1FBC5EF052CC892756ACC40_gshared_inline (void* ___0_destination, int32_t ___1_index, Baselib_RegisteredNetwork_Request_t6AF2E70EE04D8C3608FB27091CDE9B4A25A9A4FE ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -42965,7 +42965,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m577ED8616AD5A2FB87E9F84F104EA20BFD0CF718_gshared_inline (UnsafeList_1_tFB8BBEF9F57D3F7A64A6AA65DB8B97E16E910D5C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42976,7 +42976,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mA62BAEFD8B677EB4B0758545A039EFCD676B2274_gshared_inline (ParallelWriter_t5CD7038EABBC1D46131214F9532B632577B59107* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42987,7 +42987,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mA62
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m7A8E74112CF6A25C43F856769B8622A246F7EA0A_gshared_inline (ParallelWriter_t5CD7038EABBC1D46131214F9532B632577B59107* __this, UnsafeList_1_tFB8BBEF9F57D3F7A64A6AA65DB8B97E16E910D5C* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -42998,7 +42998,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m7A8E74
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m5C56EA45BB1D05589D4E111CEB3486BBDB718BD9_gshared_inline (ParallelWriter_t49A7338F7A90E4612A6C9DF996B287BA482551EA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -43009,7 +43009,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m5C5
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mC49ABCB156CCBA587B4E581E889F6E502BA827E9_gshared_inline (ParallelWriter_t49A7338F7A90E4612A6C9DF996B287BA482551EA* __this, UnsafeList_1_t4D373420ED72810256978A440708762F927B9DE2* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -43020,7 +43020,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mC49ABC
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisBlock_tBD2149E220F819A66A4A0A18F237932ACD9011DE_m25797AB1DE3FCAD5AD7481D455F026DBE06592FF_gshared_inline (void* ___0_destination, int32_t ___1_index, Block_tBD2149E220F819A66A4A0A18F237932ACD9011DE ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -43034,7 +43034,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m82AB3729B64ADE0A2BB5B326F3978F82CD460A9D_gshared_inline (UnsafeList_1_t4D373420ED72810256978A440708762F927B9DE2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -43045,7 +43045,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m46A1E6D85190A11E327FD21F4FF012107A7E7EF6_gshared_inline (ParallelWriter_tAC197E79AD5D6100159C2919F2BE9CDC8AE1BE8E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -43056,7 +43056,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m46A
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mF5DED53B43976396FD269460CB5A6B5C5C2D62C4_gshared_inline (ParallelWriter_tAC197E79AD5D6100159C2919F2BE9CDC8AE1BE8E* __this, UnsafeList_1_t4D373420ED72810256978A440708762F927B9DE2* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -43067,7 +43067,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mF5DED5
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisIncomingDisconnection_tD1F2DDEC6E7112BF5659DFF4FFD8DE263CF7F294_m0FD626D9F5EFD29EC3DE926DF6DDB8E429F1322F_gshared_inline (void* ___0_destination, int32_t ___1_index, IncomingDisconnection_tD1F2DDEC6E7112BF5659DFF4FFD8DE263CF7F294 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -43081,7 +43081,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mC680C28015BFCC8C1D899129FB42F585A4BAC8AE_gshared_inline (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, const RuntimeMethod* method) 
 {
 	{
@@ -43092,7 +43092,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mC68
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m7FC6EBE0D0F791D44AD2C55DD02E2ABEB45D1874_gshared_inline (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -43103,7 +43103,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m7FC6EB
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisTriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7_m2DD37914D107AA76230E86D4498A16CEEA332E07_gshared_inline (void* ___0_destination, int32_t ___1_index, TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7 ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -43117,7 +43117,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mA3FB705F0992938D857A1684F1E4C8F8A6A31199_gshared_inline (UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* __this, const RuntimeMethod* method) 
 {
 	{
@@ -43128,7 +43128,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m4D96F5960AD16999716BA033F4EBBA2D7B071B23_gshared_inline (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* __this, const RuntimeMethod* method) 
 {
 	{
@@ -43139,7 +43139,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m4D9
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mFB7CFADB9B90234B216219830FFF35053CE49455_gshared_inline (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* __this, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -43150,7 +43150,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mFB7CFA
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m7F0010D91FEB3C5EC28B8872C3C10AAEBA3FF6EB_gshared_inline (ParallelWriter_t4B2E979FDB8330523B1791A42B46C27B12EFCE3F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -43161,7 +43161,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m7F0
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mD0B04E0414EBA6A80C89F2B54A5DDBB1FE853B30_gshared_inline (ParallelWriter_t4B2E979FDB8330523B1791A42B46C27B12EFCE3F* __this, UnsafeList_1_t3C558FC5C2688389AF4264830148C53464D01E23* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -43172,7 +43172,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mD0B04E
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisPlanePacket4_t2954005DBF78AC180CF45B652536CC2F5158D54B_mD719C5E827B2E1D34221CCFEAF38DDC403959FD6_gshared_inline (void* ___0_destination, int32_t ___1_index, PlanePacket4_t2954005DBF78AC180CF45B652536CC2F5158D54B ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -43186,7 +43186,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m97B25F1D92FB3A986D8D03F04BA51219B005915C_gshared_inline (UnsafeList_1_t3C558FC5C2688389AF4264830148C53464D01E23* __this, const RuntimeMethod* method) 
 {
 	{
@@ -43197,7 +43197,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
+// Method Definition Index: 91026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mAA6D012D25441005B97F46D350E9F09E3128B107_gshared_inline (ParallelWriter_t74320445F2A5CD305AAB26311065DE4736822A2B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -43208,7 +43208,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mAA6
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 91024
+// Method Definition Index: 91027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m9EB113BF26F4B3E3A2F457AEE4A2403D3F7F9461_gshared_inline (ParallelWriter_t74320445F2A5CD305AAB26311065DE4736822A2B* __this, UnsafeList_1_t3C558FC5C2688389AF4264830148C53464D01E23* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -43219,7 +43219,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m9EB113
 		return;
 	}
 }
-// Method Definition Index: 89960
+// Method Definition Index: 89963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m00CC48313277264BBCC3F141AA743E33864EA74A_gshared_inline (ParallelWriter_tA1BBC18089DD15B75F72C9994BFEADAC8CDD174B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -43230,7 +43230,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m00C
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 89961
+// Method Definition Index: 89964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m0AFC1B1372FB7D6F6BFA07D6F6FADCA8C074CE48_gshared_inline (ParallelWriter_tA1BBC18089DD15B75F72C9994BFEADAC8CDD174B* __this, UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98* ___0_listData, const RuntimeMethod* method) 
 {
 	{
@@ -43241,7 +43241,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m0AFC1B
 		return;
 	}
 }
-// Method Definition Index: 55060
+// Method Definition Index: 55061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElement_TisSplitInfo_t708E0734C9BC407BA5882105A9721756605C913A_m918E44DF21BFD9D905B5C4043281D0382D8ED22B_gshared_inline (void* ___0_destination, int32_t ___1_index, SplitInfo_t708E0734C9BC407BA5882105A9721756605C913A ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -43255,7 +43255,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnsafeUtility_WriteArrayElem
 		return;
 	}
 }
-// Method Definition Index: 90963
+// Method Definition Index: 90966
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mCDE6CEEF9FD9580437E4E78845E7CCAECAEF45C3_gshared_inline (UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98* __this, const RuntimeMethod* method) 
 {
 	{
@@ -43266,29 +43266,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m
 		return L_1;
 	}
 }
-// Method Definition Index: 91023
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m50F546FDE7D3F0DB7B540314B08598501756A171_gshared_inline (ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:./Library/PackageCache/com.unity.collections@84e8eb3fc12e/Unity.Collections/UnsafeList.cs:895>
-		UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98* L_0 = __this->___ListData;
-		NullCheck(L_0);
-		SplitInfo_t708E0734C9BC407BA5882105A9721756605C913A* L_1 = L_0->___Ptr;
-		return (void*)(L_1);
-	}
-}
-// Method Definition Index: 91024
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m8639D9F11CD1D03DABCFA139828448F7CA64EAAD_gshared_inline (ParallelWriter_t30001B371A59487A5374343269EFC5BB06D976BE* __this, UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98* ___0_listData, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:./Library/PackageCache/com.unity.collections@84e8eb3fc12e/Unity.Collections/UnsafeList.cs:907>
-		UnsafeList_1_t176765C8600ACA8C102D843301B50E7ED070AF98* L_0 = ___0_listData;
-		__this->___ListData = L_0;
-		//<source_info:./Library/PackageCache/com.unity.collections@84e8eb3fc12e/Unity.Collections/UnsafeList.cs:908>
-		return;
-	}
-}
-// Method Definition Index: 88295
+// Method Definition Index: 88298
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CollectionHelper_AssumePositive_mD1EC1F05F50F605141D9BA5D70C4332AC902B4B1_inline (int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -43297,7 +43275,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CollectionHelper_AssumePo
 		return L_0;
 	}
 }
-// Method Definition Index: 91094
+// Method Definition Index: 91097
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613 UnsafePtrListExtensions_ListDataRO_TisBaselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42_mA3CF1AB36D0FC8CDC7F9EF4869EA06B4DA935D8F_gshared_inline (UnsafePtrList_1_tAD86775FD13A7BFCCD3E9ACA2796FFE62044B970 ___0_from, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -43309,7 +43287,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UnsafeList_1_t7F37B06177929AC5070
 		return L_1;
 	}
 }
-// Method Definition Index: 55064
+// Method Definition Index: 55065
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613* UnsafeUtility_As_TisUnsafePtrList_1_tAD86775FD13A7BFCCD3E9ACA2796FFE62044B970_TisUnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613_m035763D163E5793AB15FC7904B94FC5BA1E3F443_gshared_inline (UnsafePtrList_1_tAD86775FD13A7BFCCD3E9ACA2796FFE62044B970* ___0_from, const RuntimeMethod* method) 
 {
 	{
