@@ -1,6 +1,7 @@
 using UnityEngine;
 using Unity.Netcode;
 using System.Linq;
+using Unity.Collections;
 
 [RequireComponent(typeof(NetworkObject))]
 public class MansionMatchController : NetworkBehaviour
@@ -30,11 +31,42 @@ public class MansionMatchController : NetworkBehaviour
             NetworkVariableReadPermission.Everyone,
             NetworkVariableWritePermission.Owner);
 
-    private NetworkVariable<bool> returnToHubReady =
-    new NetworkVariable<bool>(
-        false,
+    private NetworkVariable<FixedString4096Bytes> finalResults =
+    new NetworkVariable<FixedString4096Bytes>(
+        default,
         NetworkVariableReadPermission.Everyone,
         NetworkVariableWritePermission.Owner);
+
+    // Local copy that survives the scene change for this app run.
+    public static string LastMatchResultsJson { get; private set; }
+    private const string LastMatchResultsKey = "Gunner.LastMatchResults.v1";
+
+    public static string LoadLastMatchResults()
+    {
+        if (string.IsNullOrEmpty(LastMatchResultsJson))
+        {
+            LastMatchResultsJson =
+                PlayerPrefs.GetString(LastMatchResultsKey, string.Empty);
+        }
+
+        return LastMatchResultsJson;
+    }
+
+    [System.Serializable]
+    public class MatchResults
+    {
+        public string matchId;
+        public PlayerResult[] players;
+    }
+
+    [System.Serializable]
+    public class PlayerResult
+    {
+        public string playerLabel;
+        public int damageDealt;
+        public int kills;
+        public int deaths;
+    }
 
     private ConnectionManager connectionManager;
     private bool finishAcknowledgementsConfirmed;
@@ -61,12 +93,12 @@ public class MansionMatchController : NetworkBehaviour
 
     public override void OnNetworkSpawn()
     {
-        returnToHubReady.OnValueChanged -= OnReturnToHubReadyChanged;
 
         base.OnNetworkSpawn();
+
         phase.OnValueChanged += OnPhaseChanged;
 
-        returnToHubReady.OnValueChanged += OnReturnToHubReadyChanged;
+        finalResults.OnValueChanged += OnFinalResultsChanged;
 
         Debug.Log(
             $"[Match] Controller spawned | " +
@@ -96,8 +128,11 @@ public class MansionMatchController : NetworkBehaviour
     public override void OnNetworkDespawn()
     {
         phase.OnValueChanged -= OnPhaseChanged;
+        finalResults.OnValueChanged -= OnFinalResultsChanged;
         base.OnNetworkDespawn();
     }
+
+
     private void Update()
     {
 
@@ -179,7 +214,7 @@ public class MansionMatchController : NetworkBehaviour
         var session = connectionManager.CurrentSession;
         var expectedIds = connectionManager.ExpectedMansionPlayerIds;
 
-        if (session == null || expectedIds == null || expectedIds.Length < 1) // Change to 2 for testing, 1 for headset testing, 10 for production
+        if (session == null || expectedIds == null || expectedIds.Length == 0)
             return;
 
         bool everyoneReady = expectedIds.All(id =>
@@ -218,20 +253,45 @@ public class MansionMatchController : NetworkBehaviour
         if (!everyoneAcknowledged)
             return;
 
-        finishAcknowledgementsConfirmed = true;
-        returnToHubReady.Value = true;
+        var results = new MatchResults
+        {
+            matchId = session.Id,
+            players = UnityEngine.Object
+        .FindObjectsByType<NetworkPlayerHealth>(FindObjectsSortMode.None)
+        .Where(player => player.IsSpawned)
+        .OrderBy(player => player.OwnerClientId)
+        .Select(player => new PlayerResult
+        {
+            playerLabel = $"Player {player.OwnerClientId}",
+            damageDealt = player.DamageDealt,
+            kills = player.Kills,
+            deaths = player.Deaths
+        })
+        .ToArray()
+        };
 
+        if (results.players.Length != expectedIds.Length)
+            return;
+
+        var payload = new FixedString4096Bytes(JsonUtility.ToJson(results));
+
+        finishAcknowledgementsConfirmed = true;
+        finalResults.Value = payload;
         Debug.Log(
             "[Match] Everyone acknowledged the finish. Ready to return to SocialHub.");
     }
 
-    private async void OnReturnToHubReadyChanged(
-    bool previous, bool current)
+
+    private async void OnFinalResultsChanged(
+        FixedString4096Bytes previous, FixedString4096Bytes current)
     {
-        if (!current || returningToHub)
+        if (current.Length == 0 || returningToHub)
             return;
 
+        LastMatchResultsJson = current.ToString();
         returningToHub = true;
+
+        Debug.Log($"[Match] Final results saved: {LastMatchResultsJson}");
 
         // Capture ownership before anyone starts leaving.
         bool leaveLast = IsOwner;

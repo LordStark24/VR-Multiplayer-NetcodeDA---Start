@@ -193,9 +193,24 @@ public class NetworkPlayerHealth : NetworkBehaviour
             return;
         }
 
-        VRRigReferences.Instance.transform.root.SetPositionAndRotation(
-            penaltySpawn.transform.position,
-            penaltySpawn.transform.rotation);
+        Transform rigRoot = VRRigReferences.Instance.transform.root;
+        var controller = rigRoot.GetComponent<CharacterController>();
+
+        if (controller == null)
+        {
+            Debug.LogError("[Health] No CharacterController on the local VR rig root.");
+            return;
+        }
+
+        Quaternion rotation =
+            Quaternion.Euler(0f, penaltySpawn.transform.eulerAngles.y, 0f);
+
+        // Put the bottom center of the capsule at the penalty marker.
+        float halfHeight = Mathf.Max(controller.height * 0.5f, controller.radius);
+        Vector3 capsuleFeet = controller.center - Vector3.up * halfHeight;
+        Vector3 rootPosition = penaltySpawn.transform.position - rotation * capsuleFeet;
+
+        rigRoot.SetPositionAndRotation(rootPosition, rotation);
 
         Debug.Log("[Health] Moved local player to the penalty room.");
 
@@ -221,39 +236,122 @@ public class NetworkPlayerHealth : NetworkBehaviour
         }
 
         var mansionSpawns =
-            UnityEngine.Object.FindFirstObjectByType<MansionSpawnPoints>();
+    UnityEngine.Object.FindFirstObjectByType<MansionSpawnPoints>();
 
-        if (mansionSpawns == null || mansionSpawns.spawnPoints == null)
+        var rig = VRRigReferences.Instance;
+
+        if (mansionSpawns == null || mansionSpawns.respawnBounds == null ||
+            mansionSpawns.respawnGeometryLayers.value == 0 ||
+            rig == null || rig.head == null)
         {
-            Debug.LogError("[Health] Mansion spawn points were not found.");
+            Debug.LogError("[Health] Respawn setup is incomplete. Staying in penalty room.");
             yield break;
         }
 
-        var validSpawns = new List<Transform>();
+        Transform rigRoot = rig.transform.root;
+        var controller = rigRoot.GetComponent<CharacterController>();
 
-        foreach (var spawn in mansionSpawns.spawnPoints)
+        if (controller == null)
         {
-            if (spawn != null)
-                validSpawns.Add(spawn);
-        }
-
-        if (validSpawns.Count == 0 || VRRigReferences.Instance == null)
-        {
-            Debug.LogError("[Health] No valid spawn point or local VR rig.");
+            Debug.LogError("[Health] No CharacterController on the local rig root.");
             yield break;
         }
 
-        Transform selectedSpawn =
-            validSpawns[Random.Range(0, validSpawns.Count)];
+        var candidates = new List<Transform>();
 
-        VRRigReferences.Instance.transform.root.SetPositionAndRotation(
-            selectedSpawn.position,
-            selectedSpawn.rotation);
+        if (mansionSpawns.spawnPoints != null)
+        {
+            foreach (var marker in mansionSpawns.spawnPoints)
+            {
+                if (marker != null && marker != mansionSpawns.safeRespawnPoint)
+                    candidates.Add(marker);
+            }
+        }
 
+        while (candidates.Count > 0)
+        {
+            int index = Random.Range(0, candidates.Count);
+            Transform marker = candidates[index];
+            candidates.RemoveAt(index);
+
+            if (TryRespawnAt(marker, mansionSpawns, rigRoot, rig.head, controller))
+                yield break;
+        }
+
+        if (TryRespawnAt(mansionSpawns.safeRespawnPoint, mansionSpawns,
+                         rigRoot, rig.head, controller))
+        {
+            yield break;
+        }
+
+        Debug.LogError("[Health] No safe respawn found. Staying in penalty room.");
+    }
+
+    private bool TryRespawnAt(
+    Transform marker,
+    MansionSpawnPoints spawns,
+    Transform rigRoot,
+    Transform head,
+    CharacterController controller)
+    {
+        if (marker == null || !InsideRespawnBounds(spawns.respawnBounds, marker.position))
+            return false;
+
+        // Preserve an upright rig even if the marker is tilted.
+        Quaternion rotation = Quaternion.Euler(0f, marker.eulerAngles.y, 0f);
+
+        // Put the headset's horizontal position at the marker.
+        Vector3 headOffset = Quaternion.Inverse(rigRoot.rotation) *
+                             (head.position - rigRoot.position);
+        Vector3 rotatedOffset = rotation * headOffset;
+        rotatedOffset.y = 0f;
+        Vector3 rootPosition = marker.position - rotatedOffset;
+
+        // Calculate where the controller's capsule will actually land.
+        // This assumes the CharacterController is on an upright, unit-scale root.
+        Vector3 centerOffset = rotation * controller.center;
+        Vector3 center = rootPosition + centerOffset;
+        float radius = controller.radius;
+        float halfHeight = Mathf.Max(controller.height * 0.5f, radius);
+
+        Vector3 floorProbe = new Vector3(center.x, marker.position.y + 0.5f, center.z);
+        if (!Physics.Raycast(floorProbe, Vector3.down, out RaycastHit floor,
+                             1f, spawns.respawnGeometryLayers,
+                             QueryTriggerInteraction.Ignore) ||
+            Vector3.Angle(floor.normal, Vector3.up) > controller.slopeLimit ||
+            !InsideRespawnBounds(spawns.respawnBounds, floor.point))
+        {
+            return false;
+        }
+
+        const float floorClearance = 0.05f;
+        rootPosition.y = floor.point.y + halfHeight + floorClearance - centerOffset.y;
+        center = rootPosition + centerOffset;
+
+        float segment = halfHeight - radius;
+        if (Physics.CheckCapsule(center - Vector3.up * segment,
+                                 center + Vector3.up * segment,
+                                 radius, spawns.respawnGeometryLayers,
+                                 QueryTriggerInteraction.Ignore))
+        {
+            return false;
+        }
+
+        rigRoot.SetPositionAndRotation(rootPosition, rotation);
         health.Value = StartingHealth;
+        Debug.Log($"[Health] Respawned at {marker.name} with {health.Value} health.");
+        return true;
+    }
 
-        Debug.Log(
-            $"[Health] Respawned at {selectedSpawn.name} with {health.Value} health.");
+    private static bool InsideRespawnBounds(BoxCollider box, Vector3 point)
+    {
+        // Use the box dimensions directly because its collider is disabled.
+        Vector3 local = box.transform.InverseTransformPoint(point) - box.center;
+        Vector3 half = box.size * 0.5f;
+
+        return Mathf.Abs(local.x) <= half.x &&
+               Mathf.Abs(local.y) <= half.y &&
+               Mathf.Abs(local.z) <= half.z;
     }
 
 

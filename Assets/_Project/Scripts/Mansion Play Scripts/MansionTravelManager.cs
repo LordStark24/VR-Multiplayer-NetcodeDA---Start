@@ -25,6 +25,12 @@ public class MansionTravelManager : MonoBehaviour
         public long createdUtcTicks;
     }
 
+    [SerializeField, Range(1, 10)]
+    private int minimumPlayers = 2;
+
+    [SerializeField, Range(1, 10)]
+    private int maximumPlayers = 10;
+
     public async void StartMansion()
     {
 
@@ -78,14 +84,14 @@ public class MansionTravelManager : MonoBehaviour
             var selectedIds = session.Players
                 .OrderBy(player => player.Joined)
                 .ThenBy(player => player.Id, StringComparer.Ordinal)
-                .Take(1) // Change to 2 for testing, 1 for headset testing, 10 for production
+                .Take(maximumPlayers)
                 .Select(player => player.Id)
                 .ToArray();
 
-            if (selectedIds.Length < 1) // Change to 2 for testing, 1 for headset testing, 10 for production
+            if (selectedIds.Length < minimumPlayers)
             {
                 Debug.LogWarning(
-                    "[Mansion] At least two players are required.");
+                    $"[Mansion] At least {minimumPlayers} player(s) are required.");
                 return;
             }
 
