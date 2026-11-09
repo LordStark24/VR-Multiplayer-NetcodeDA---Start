@@ -289,6 +289,8 @@ public class MansionMatchController : NetworkBehaviour
             return;
 
         LastMatchResultsJson = current.ToString();
+        PlayerPrefs.SetString(LastMatchResultsKey, LastMatchResultsJson);
+        PlayerPrefs.Save();
         returningToHub = true;
 
         Debug.Log($"[Match] Final results saved: {LastMatchResultsJson}");
