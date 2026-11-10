@@ -7,8 +7,6 @@
 
 
 
-extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mCE359C5A5A58D8621F30428690D32D7A877B0256 (void);
-extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m65BD3D2B2847C50307ED758599CA8462DAEDBB0D (void);
 extern void TrackedPoseDriverDataDescription__ctor_m76D45B5826854354DF5D5F3962767B0ED49FD5E7 (void);
 extern void TrackedPoseDriverDataDescription__cctor_mB66097427DE427D6DAC5B5A68CC2D35E7526BE27 (void);
 extern void PoseDataSource_GetNodePoseData_m07EE5781C7E0EB625084A340D115C34C47B07B8E (void);
@@ -42,16 +40,13 @@ extern void TrackedPoseDriver_Update_mA2D898B30A3072B68ED650C68DDF8A8461E04CCA (
 extern void TrackedPoseDriver_OnBeforeRender_m81B27C3A2FE49926AF76BB1E3332D35C313D2438 (void);
 extern void TrackedPoseDriver_SetLocalTransform_m470407210CD80790C2887973D09AFE97454CC2DF (void);
 extern void TrackedPoseDriver_TransformPoseByOriginIfNeeded_mA8C3ADCF55349F26E6AC90CC2488217ECC49F1B2 (void);
-extern void TrackedPoseDriver_HasStereoCamera_mE463A159FA7B7116C667A01B6197B44B340823CE (void);
 extern void TrackedPoseDriver_PerformUpdate_m7ECADDEEA9C6EC284D0EB169605B6BCA34449D97 (void);
 extern void TrackedPoseDriver__ctor_mCB5636C22D685907A7D30BEA4FF3D5BD2FE5D3F0 (void);
 extern void BasePoseProvider_GetPoseFromProvider_m815E60EB1A0C2D449B60F60DDD0D49DCF7E68A69 (void);
 extern void BasePoseProvider_TryGetPoseFromProvider_m6961C33D08BB411C9E425EDE5813480319F9BFB0 (void);
 extern void BasePoseProvider__ctor_mB1BA00DFB674FA54CD28933D4335F6162B378020 (void);
-static Il2CppMethodPointer s_methodPointers[41] = 
+static Il2CppMethodPointer s_methodPointers[38] = 
 {
-	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mCE359C5A5A58D8621F30428690D32D7A877B0256,
-	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m65BD3D2B2847C50307ED758599CA8462DAEDBB0D,
 	TrackedPoseDriverDataDescription__ctor_m76D45B5826854354DF5D5F3962767B0ED49FD5E7,
 	TrackedPoseDriverDataDescription__cctor_mB66097427DE427D6DAC5B5A68CC2D35E7526BE27,
 	PoseDataSource_GetNodePoseData_m07EE5781C7E0EB625084A340D115C34C47B07B8E,
@@ -85,72 +80,21 @@ static Il2CppMethodPointer s_methodPointers[41] =
 	TrackedPoseDriver_OnBeforeRender_m81B27C3A2FE49926AF76BB1E3332D35C313D2438,
 	TrackedPoseDriver_SetLocalTransform_m470407210CD80790C2887973D09AFE97454CC2DF,
 	TrackedPoseDriver_TransformPoseByOriginIfNeeded_mA8C3ADCF55349F26E6AC90CC2488217ECC49F1B2,
-	TrackedPoseDriver_HasStereoCamera_mE463A159FA7B7116C667A01B6197B44B340823CE,
 	TrackedPoseDriver_PerformUpdate_m7ECADDEEA9C6EC284D0EB169605B6BCA34449D97,
 	TrackedPoseDriver__ctor_mCB5636C22D685907A7D30BEA4FF3D5BD2FE5D3F0,
 	BasePoseProvider_GetPoseFromProvider_m815E60EB1A0C2D449B60F60DDD0D49DCF7E68A69,
 	BasePoseProvider_TryGetPoseFromProvider_m6961C33D08BB411C9E425EDE5813480319F9BFB0,
 	BasePoseProvider__ctor_mB1BA00DFB674FA54CD28933D4335F6162B378020,
 };
-static const int32_t s_InvokerIndices[41] = 
-{
-	32999,
-	19560,
-	19560,
-	32918,
-	26706,
-	26352,
-	26706,
-	32918,
-	19221,
-	14744,
-	19221,
-	14744,
-	4731,
-	19313,
-	14833,
-	2815,
-	19221,
-	14744,
-	19221,
-	14744,
-	19069,
-	14592,
-	19353,
-	14869,
-	19560,
-	19560,
-	19560,
-	19560,
-	19560,
-	19560,
-	19560,
-	19560,
-	19560,
-	3740,
-	12810,
-	19069,
-	19560,
-	19560,
-	11876,
-	10329,
-	19560,
-};
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_SpatialTracking_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_SpatialTracking_CodeGenModule = 
 {
 	"UnityEngine.SpatialTracking.dll",
-	41,
+	38,
 	s_methodPointers,
 	0,
 	NULL,
-	s_InvokerIndices,
 	0,
-	NULL,
-	0,
-	NULL,
-	0,
-	NULL,
 	NULL,
 	NULL,
 	NULL,

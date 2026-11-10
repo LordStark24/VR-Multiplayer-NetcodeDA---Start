@@ -17,6 +17,8 @@ public class ConnectionManager : MonoBehaviour
     public bool IsBusy => connectionBusy;
     public string[] ExpectedMansionPlayerIds { get; private set; }
     public string SocialHubSceneName { get; private set; }
+    public string LocalPlayerId { get; private set; }
+    public string LocalDisplayName { get; private set; } = "Gunner";
 
     public enum ConnectionState { Connecting, Failed, Success, Disconnecting, Disconnected }
     public UnityEvent<ConnectionState> OnConnectionEvent;
@@ -40,6 +42,11 @@ public class ConnectionManager : MonoBehaviour
                 OnConnectionEvent?.Invoke(ConnectionState.Failed);
                 return;
             }
+
+            LocalPlayerId = AuthenticationService.Instance.PlayerId;
+            LocalDisplayName = PlayerDisplayName.Resolve(LocalPlayerId, null);
+
+            Debug.Log($"[Profile] Display name: {LocalDisplayName}");
 
             var options = new SessionOptions
             {
@@ -207,7 +214,7 @@ public class ConnectionManager : MonoBehaviour
 
             Debug.Log(
                 $"[Mansion-NGO] Before join | " +
-                $"Manager: {(beforeJoin != null ? beforeJoin.GetInstanceID() : 0)} | " +
+                $"Manager: {(beforeJoin != null ? beforeJoin.GetEntityId() : 0)} | " +
                 $"Listening: {beforeJoin != null && beforeJoin.IsListening} | " +
                 $"Shutting down: {beforeJoin != null && beforeJoin.ShutdownInProgress}");
 
@@ -220,7 +227,7 @@ public class ConnectionManager : MonoBehaviour
 
             Debug.Log(
                 $"[Mansion-NGO] Join returned | Session: {currentSession.Id} | " +
-                $"Manager: {(afterJoin != null ? afterJoin.GetInstanceID() : 0)} | " +
+                $"Manager: {(afterJoin != null ? afterJoin.GetEntityId() : 0)} | " +
                 $"Active: {afterJoin != null && afterJoin.isActiveAndEnabled} | " +
                 $"Listening: {afterJoin != null && afterJoin.IsListening} | " +
                 $"Connected: {afterJoin != null && afterJoin.IsConnectedClient} | " +

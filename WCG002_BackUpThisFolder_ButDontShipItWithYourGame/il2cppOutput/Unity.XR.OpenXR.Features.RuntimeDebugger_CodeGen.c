@@ -7,8 +7,6 @@
 
 
 
-extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m2AF942E5223E25C46511E20FB5F0F8DA731B6CA6 (void);
-extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m30D350C93CBFB9E648BD8825C8F0834394FD629D (void);
 extern void RuntimeDebuggerOpenXRFeature_HookGetInstanceProcAddr_m07B1D4EC990E11D9C93C633FA0AC92376B89C069 (void);
 extern void RuntimeDebuggerOpenXRFeature_RecvMsg_m537C6529B33C9B9FFE3149ADE159E9F043597461 (void);
 extern void RuntimeDebuggerOpenXRFeature_Native_HookGetInstanceProcAddr_m63034518FDB23935595C17400494BF5120A3EDA4 (void);
@@ -18,10 +16,8 @@ extern void RuntimeDebuggerOpenXRFeature_Native_StartDataAccess_mCD9F234636475B8
 extern void RuntimeDebuggerOpenXRFeature_Native_EndDataAccess_m8B9B950ACB83A084E1A149A6391C1BF6DD08704D (void);
 extern void RuntimeDebuggerOpenXRFeature__ctor_m2DC84C4F7091238BD265B1B96D5719203C46C393 (void);
 extern void RuntimeDebuggerOpenXRFeature__cctor_m9062996D2DCC73AA119173F300D1FE7A74180B42 (void);
-static Il2CppMethodPointer s_methodPointers[11] = 
+static Il2CppMethodPointer s_methodPointers[9] = 
 {
-	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m2AF942E5223E25C46511E20FB5F0F8DA731B6CA6,
-	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m30D350C93CBFB9E648BD8825C8F0834394FD629D,
 	RuntimeDebuggerOpenXRFeature_HookGetInstanceProcAddr_m07B1D4EC990E11D9C93C633FA0AC92376B89C069,
 	RuntimeDebuggerOpenXRFeature_RecvMsg_m537C6529B33C9B9FFE3149ADE159E9F043597461,
 	RuntimeDebuggerOpenXRFeature_Native_HookGetInstanceProcAddr_m63034518FDB23935595C17400494BF5120A3EDA4,
@@ -32,35 +28,15 @@ static Il2CppMethodPointer s_methodPointers[11] =
 	RuntimeDebuggerOpenXRFeature__ctor_m2DC84C4F7091238BD265B1B96D5719203C46C393,
 	RuntimeDebuggerOpenXRFeature__cctor_m9062996D2DCC73AA119173F300D1FE7A74180B42,
 };
-static const int32_t s_InvokerIndices[11] = 
-{
-	32998,
-	19560,
-	12535,
-	14833,
-	24032,
-	26267,
-	24675,
-	32918,
-	32918,
-	19560,
-	32918,
-};
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_RuntimeDebugger_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_RuntimeDebugger_CodeGenModule = 
 {
 	"Unity.XR.OpenXR.Features.RuntimeDebugger.dll",
-	11,
+	9,
 	s_methodPointers,
 	0,
 	NULL,
-	s_InvokerIndices,
 	0,
-	NULL,
-	0,
-	NULL,
-	0,
-	NULL,
 	NULL,
 	NULL,
 	NULL,

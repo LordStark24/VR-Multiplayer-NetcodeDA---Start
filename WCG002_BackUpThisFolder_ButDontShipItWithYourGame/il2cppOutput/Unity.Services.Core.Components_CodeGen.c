@@ -7,8 +7,6 @@
 
 
 
-extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mA347E420C42AE02E1309EFE8A445211B3827AA3F (void);
-extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m3F020A1075D1B06EF6E69CF148F5B8407A50152A (void);
 extern void ServicesBehaviour_get_Services_m327DDF51CB2EDA4FFCE0C533255DB018F8C79289 (void);
 extern void ServicesBehaviour_set_Services_mD885EEEC53CE791F72BA3E989A9F97FF6660513B (void);
 extern void ServicesBehaviour_Start_mF7E98B4599DBED13F2081D85441603D12C0C6E7F (void);
@@ -33,10 +31,8 @@ extern void U3COnServicesReadyU3Ed__9_SetStateMachine_m782C155B9A43C100124310898
 extern void U3CSetupAsyncU3Ed__12_MoveNext_m937E72D665DA5981B2E5FA23F1BCE8B2696E4699 (void);
 extern void U3CSetupAsyncU3Ed__12_SetStateMachine_m9AA49ABF10AEF8EB53043223C5E7F59DB376EE25 (void);
 extern void ServicesInitializationEvents__ctor_m6E2A274328DAF745CEB9826E55B37B2048836796 (void);
-static Il2CppMethodPointer s_methodPointers[29] = 
+static Il2CppMethodPointer s_methodPointers[27] = 
 {
-	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mA347E420C42AE02E1309EFE8A445211B3827AA3F,
-	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m3F020A1075D1B06EF6E69CF148F5B8407A50152A,
 	ServicesBehaviour_get_Services_m327DDF51CB2EDA4FFCE0C533255DB018F8C79289,
 	ServicesBehaviour_set_Services_mD885EEEC53CE791F72BA3E989A9F97FF6660513B,
 	ServicesBehaviour_Start_mF7E98B4599DBED13F2081D85441603D12C0C6E7F,
@@ -73,60 +69,22 @@ extern void U3CSetupAsyncU3Ed__12_MoveNext_m937E72D665DA5981B2E5FA23F1BCE8B2696E
 extern void U3CSetupAsyncU3Ed__12_SetStateMachine_m9AA49ABF10AEF8EB53043223C5E7F59DB376EE25_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[6] = 
 {
-	{ 0x06000017, U3CInitializeOnStartAsyncU3Ed__13_MoveNext_m01ED5ABCD403B04ECE61D4AFACB57170C5C680EA_AdjustorThunk },
-	{ 0x06000018, U3CInitializeOnStartAsyncU3Ed__13_SetStateMachine_m4426AB91B58C58B67D20791111ADE8611C8BF16F_AdjustorThunk },
-	{ 0x06000019, U3COnServicesReadyU3Ed__9_MoveNext_m244D865603DB4E4CEE1DCDD5028A9C7E5AC7D9EF_AdjustorThunk },
-	{ 0x0600001A, U3COnServicesReadyU3Ed__9_SetStateMachine_m782C155B9A43C1001243108988C17C161F7D3B68_AdjustorThunk },
-	{ 0x0600001B, U3CSetupAsyncU3Ed__12_MoveNext_m937E72D665DA5981B2E5FA23F1BCE8B2696E4699_AdjustorThunk },
-	{ 0x0600001C, U3CSetupAsyncU3Ed__12_SetStateMachine_m9AA49ABF10AEF8EB53043223C5E7F59DB376EE25_AdjustorThunk },
-};
-static const int32_t s_InvokerIndices[29] = 
-{
-	32980,
-	19560,
-	19313,
-	14833,
-	19560,
-	19560,
-	19560,
-	-1,
-	-1,
-	-1,
-	19560,
-	19069,
-	14592,
-	19560,
-	19560,
-	19560,
-	19560,
-	19313,
-	19313,
-	19313,
-	19560,
-	14833,
-	19560,
-	14833,
-	19560,
-	14833,
-	19560,
-	14833,
-	19560,
+	{ 0x06000015, U3CInitializeOnStartAsyncU3Ed__13_MoveNext_m01ED5ABCD403B04ECE61D4AFACB57170C5C680EA_AdjustorThunk },
+	{ 0x06000016, U3CInitializeOnStartAsyncU3Ed__13_SetStateMachine_m4426AB91B58C58B67D20791111ADE8611C8BF16F_AdjustorThunk },
+	{ 0x06000017, U3COnServicesReadyU3Ed__9_MoveNext_m244D865603DB4E4CEE1DCDD5028A9C7E5AC7D9EF_AdjustorThunk },
+	{ 0x06000018, U3COnServicesReadyU3Ed__9_SetStateMachine_m782C155B9A43C1001243108988C17C161F7D3B68_AdjustorThunk },
+	{ 0x06000019, U3CSetupAsyncU3Ed__12_MoveNext_m937E72D665DA5981B2E5FA23F1BCE8B2696E4699_AdjustorThunk },
+	{ 0x0600001A, U3CSetupAsyncU3Ed__12_SetStateMachine_m9AA49ABF10AEF8EB53043223C5E7F59DB376EE25_AdjustorThunk },
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Services_Core_Components_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_Services_Core_Components_CodeGenModule = 
 {
 	"Unity.Services.Core.Components.dll",
-	29,
+	27,
 	s_methodPointers,
 	6,
 	s_adjustorThunks,
-	s_InvokerIndices,
 	0,
-	NULL,
-	0,
-	NULL,
-	0,
-	NULL,
 	NULL,
 	NULL,
 	NULL,

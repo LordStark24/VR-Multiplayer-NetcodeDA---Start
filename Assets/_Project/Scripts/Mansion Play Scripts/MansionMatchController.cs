@@ -52,6 +52,13 @@ public class MansionMatchController : NetworkBehaviour
         return LastMatchResultsJson;
     }
 
+    public static int GetFinalPlacement(PlayerResult player, PlayerResult[] players)
+    {
+        return 1 + players.Count(other =>
+            other.damageDealt > player.damageDealt ||
+            (other.damageDealt == player.damageDealt && other.kills > player.kills));
+    }
+
     [System.Serializable]
     public class MatchResults
     {

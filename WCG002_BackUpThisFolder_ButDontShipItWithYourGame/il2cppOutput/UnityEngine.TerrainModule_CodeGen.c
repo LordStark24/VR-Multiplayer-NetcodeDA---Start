@@ -7,6 +7,8 @@
 
 
 
+extern void EmbeddedAttribute__ctor_mBB01735E786E7770A1B2ECAA65D1219B6D039DA5 (void);
+extern void RefSafetyRulesAttribute__ctor_mDE3C6508311180AE4C38C21D763A5040F722BBD5 (void);
 extern void Terrain_get_terrainData_m3B6C1D89471A4E1C60FC19C168DB37A011B924FD (void);
 extern void Terrain_get_allowAutoConnect_m4E9CB87D130BB118517C5504C8FB4A5CC3AA91D7 (void);
 extern void Terrain_get_groupingID_mE52E78018126A5D00F837081287BE076E7709C24 (void);
@@ -31,9 +33,9 @@ extern void TerrainData_get_heightmapScale_m4B6AB6495384109BA54955CA52B883A11801
 extern void TerrainData_get_holesResolution_m9DE109FB3A0874F7F4706543D0903AFA12D1BC53 (void);
 extern void TerrainData_get_size_mCD3977F344B9DEBFF61DD537D03FEB9473838DA5 (void);
 extern void TerrainData_GetHeights_m3E5C109E98E72A23E39B92F7DF48D87888B2D488 (void);
-extern void TerrainData_Internal_GetHeights_mEDF77233265AFA8901DE8FB61661385337B70810 (void);
+extern void TerrainData_Internal_GetHeights_mF649075059547FBDF556A1769A043F4A49B83C48 (void);
 extern void TerrainData_GetHoles_mE81BB7B6E8764586CC5BA130AC075536D0617318 (void);
-extern void TerrainData_Internal_GetHoles_m13EE36473247F7D4E96C627CE8A4CBF0D4C329C8 (void);
+extern void TerrainData_Internal_GetHoles_m72888FE42F8FFA87F3ECBEE7EE91343CC1FC8D54 (void);
 extern void TerrainData_get_treeInstances_mDAB68FD1F3677BD5CB122EA943493D5FC94B2147 (void);
 extern void TerrainData_Internal_GetTreeInstances_m0DCDC4D93E2CEC457C5BD8D0FE898B5A632E8347 (void);
 extern void TerrainData_get_treePrototypes_m0A43789B50E554DACB5DF88C86DA23B89DB33EEB (void);
@@ -44,9 +46,9 @@ extern void TerrainData_get_heightmapTexture_Injected_m17A2DFA5BA141D992B9D51E00
 extern void TerrainData_get_internalHeightmapResolution_Injected_m01BDB29E6009C6494632E3056F313A6B025CB5DF (void);
 extern void TerrainData_get_heightmapScale_Injected_m372D0D2A81B575955E4F6FAC5BCB7D5F7F948124 (void);
 extern void TerrainData_get_size_Injected_m1C82C60B85758AF5A59AF1B717FCA64D4593D00B (void);
-extern void TerrainData_Internal_GetHeights_Injected_m16CFA342081D23754D11174646449DE640C30832 (void);
-extern void TerrainData_Internal_GetHoles_Injected_m7FEF9084682AC0FC2B6B4BBF78EED80236B215B9 (void);
-extern void TerrainData_Internal_GetTreeInstances_Injected_m2A054E7C15AF9D981DF220CFDE58C9424FCC8E24 (void);
+extern void TerrainData_Internal_GetHeights_Injected_m287D052668A68BD4E8BA31053E96E4C06B94CF18 (void);
+extern void TerrainData_Internal_GetHoles_Injected_m1D1675E792CA61776AA199D3EF60DDDFD0BB2980 (void);
+extern void TerrainData_Internal_GetTreeInstances_Injected_m0B355514BA7B36EBB968AA4B84E8BCB57D572EAD (void);
 extern void TerrainData_get_treePrototypes_Injected_mA27F28E8B9317919537A3C963E3F88E6F0942865 (void);
 extern void TerrainData_GetAlphamapResolutionInternal_Injected_m0AF40441EE82CBFBAC88B685252DA41404DA510C (void);
 extern void TerrainData_get_users_Injected_m611BB0CB4A97F4E083D4A4855EDF05B6375E6535 (void);
@@ -76,10 +78,12 @@ extern void TerrainUtility_AutoConnect_m3E435D139BE402DC495248EDD1FF2C1E9377A897
 extern void U3CU3Ec__DisplayClass2_0__ctor_m4C022C4675BA4CFC7E7AAA5692979CDE6CD8E611 (void);
 extern void U3CU3Ec__DisplayClass2_1__ctor_mA329ED5B221AE8787EAEA1124A2A95675FDD1695 (void);
 extern void U3CU3Ec__DisplayClass2_1_U3CCollectTerrainsU3Eb__0_m57E871EB2399E5FB7DF78B3C9EBFBF152116AC2C (void);
-extern void SpeedTreeWindManager_UpdateWindAndWriteBufferWindParams_m23A5F63BB153D53BFFC964F460A96FBCED2E2365 (void);
-extern void SpeedTreeWindManager_UpdateWindAndWriteBufferWindParams_Injected_mD0F1307B49EF30CE91F21648F9D72849EA26A693 (void);
-static Il2CppMethodPointer s_methodPointers[71] = 
+extern void SpeedTreeWindManager_UpdateWindAndWriteBufferWindParams_m797D216456C652B207A2A09B87B885C5731ACD82 (void);
+extern void SpeedTreeWindManager_UpdateWindAndWriteBufferWindParams_Injected_m89DD93AC1F8941B2FA0C8CF2586F887F029D021E (void);
+static Il2CppMethodPointer s_methodPointers[73] = 
 {
+	EmbeddedAttribute__ctor_mBB01735E786E7770A1B2ECAA65D1219B6D039DA5,
+	RefSafetyRulesAttribute__ctor_mDE3C6508311180AE4C38C21D763A5040F722BBD5,
 	Terrain_get_terrainData_m3B6C1D89471A4E1C60FC19C168DB37A011B924FD,
 	Terrain_get_allowAutoConnect_m4E9CB87D130BB118517C5504C8FB4A5CC3AA91D7,
 	Terrain_get_groupingID_mE52E78018126A5D00F837081287BE076E7709C24,
@@ -104,9 +108,9 @@ static Il2CppMethodPointer s_methodPointers[71] =
 	TerrainData_get_holesResolution_m9DE109FB3A0874F7F4706543D0903AFA12D1BC53,
 	TerrainData_get_size_mCD3977F344B9DEBFF61DD537D03FEB9473838DA5,
 	TerrainData_GetHeights_m3E5C109E98E72A23E39B92F7DF48D87888B2D488,
-	TerrainData_Internal_GetHeights_mEDF77233265AFA8901DE8FB61661385337B70810,
+	TerrainData_Internal_GetHeights_mF649075059547FBDF556A1769A043F4A49B83C48,
 	TerrainData_GetHoles_mE81BB7B6E8764586CC5BA130AC075536D0617318,
-	TerrainData_Internal_GetHoles_m13EE36473247F7D4E96C627CE8A4CBF0D4C329C8,
+	TerrainData_Internal_GetHoles_m72888FE42F8FFA87F3ECBEE7EE91343CC1FC8D54,
 	TerrainData_get_treeInstances_mDAB68FD1F3677BD5CB122EA943493D5FC94B2147,
 	TerrainData_Internal_GetTreeInstances_m0DCDC4D93E2CEC457C5BD8D0FE898B5A632E8347,
 	TerrainData_get_treePrototypes_m0A43789B50E554DACB5DF88C86DA23B89DB33EEB,
@@ -117,9 +121,9 @@ static Il2CppMethodPointer s_methodPointers[71] =
 	TerrainData_get_internalHeightmapResolution_Injected_m01BDB29E6009C6494632E3056F313A6B025CB5DF,
 	TerrainData_get_heightmapScale_Injected_m372D0D2A81B575955E4F6FAC5BCB7D5F7F948124,
 	TerrainData_get_size_Injected_m1C82C60B85758AF5A59AF1B717FCA64D4593D00B,
-	TerrainData_Internal_GetHeights_Injected_m16CFA342081D23754D11174646449DE640C30832,
-	TerrainData_Internal_GetHoles_Injected_m7FEF9084682AC0FC2B6B4BBF78EED80236B215B9,
-	TerrainData_Internal_GetTreeInstances_Injected_m2A054E7C15AF9D981DF220CFDE58C9424FCC8E24,
+	TerrainData_Internal_GetHeights_Injected_m287D052668A68BD4E8BA31053E96E4C06B94CF18,
+	TerrainData_Internal_GetHoles_Injected_m1D1675E792CA61776AA199D3EF60DDDFD0BB2980,
+	TerrainData_Internal_GetTreeInstances_Injected_m0B355514BA7B36EBB968AA4B84E8BCB57D572EAD,
 	TerrainData_get_treePrototypes_Injected_mA27F28E8B9317919537A3C963E3F88E6F0942865,
 	TerrainData_GetAlphamapResolutionInternal_Injected_m0AF40441EE82CBFBAC88B685252DA41404DA510C,
 	TerrainData_get_users_Injected_m611BB0CB4A97F4E083D4A4855EDF05B6375E6535,
@@ -149,103 +153,18 @@ static Il2CppMethodPointer s_methodPointers[71] =
 	U3CU3Ec__DisplayClass2_0__ctor_m4C022C4675BA4CFC7E7AAA5692979CDE6CD8E611,
 	U3CU3Ec__DisplayClass2_1__ctor_mA329ED5B221AE8787EAEA1124A2A95675FDD1695,
 	U3CU3Ec__DisplayClass2_1_U3CCollectTerrainsU3Eb__0_m57E871EB2399E5FB7DF78B3C9EBFBF152116AC2C,
-	SpeedTreeWindManager_UpdateWindAndWriteBufferWindParams_m23A5F63BB153D53BFFC964F460A96FBCED2E2365,
-	SpeedTreeWindManager_UpdateWindAndWriteBufferWindParams_Injected_mD0F1307B49EF30CE91F21648F9D72849EA26A693,
-};
-extern void TerrainTileCoord__ctor_m6B6744655B9C3BA9B1A92076F07002B4B4EB899A_AdjustorThunk (void);
-static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] = 
-{
-	{ 0x06000033, TerrainTileCoord__ctor_m6B6744655B9C3BA9B1A92076F07002B4B4EB899A_AdjustorThunk },
-};
-static const int32_t s_InvokerIndices[71] = 
-{
-	19313,
-	19069,
-	19221,
-	2412,
-	32808,
-	19560,
-	30823,
-	30539,
-	30757,
-	21752,
-	25198,
-	23020,
-	7608,
-	3608,
-	7608,
-	2414,
-	30755,
-	19313,
-	19221,
-	19221,
-	19549,
-	19221,
-	19549,
-	1995,
-	1995,
-	1995,
-	1995,
-	19313,
-	19313,
-	19313,
-	19439,
-	19313,
-	32918,
-	30823,
-	30757,
-	27868,
-	27868,
-	21219,
-	21219,
-	27868,
-	30989,
-	31169,
-	30989,
-	19313,
-	19439,
-	19221,
-	19560,
-	10590,
-	19221,
-	10590,
-	6983,
-	5786,
-	24117,
-	22767,
-	19313,
-	19560,
-	3437,
-	2624,
-	6983,
-	19221,
-	19560,
-	10590,
-	32736,
-	32918,
-	30970,
-	32918,
-	19560,
-	19560,
-	10590,
-	24664,
-	24669,
+	SpeedTreeWindManager_UpdateWindAndWriteBufferWindParams_m797D216456C652B207A2A09B87B885C5731ACD82,
+	SpeedTreeWindManager_UpdateWindAndWriteBufferWindParams_Injected_m89DD93AC1F8941B2FA0C8CF2586F887F029D021E,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_TerrainModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_TerrainModule_CodeGenModule = 
 {
 	"UnityEngine.TerrainModule.dll",
-	71,
+	73,
 	s_methodPointers,
-	1,
-	s_adjustorThunks,
-	s_InvokerIndices,
 	0,
 	NULL,
 	0,
-	NULL,
-	0,
-	NULL,
 	NULL,
 	NULL,
 	NULL,

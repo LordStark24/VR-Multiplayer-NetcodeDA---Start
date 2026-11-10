@@ -6,45 +6,45 @@
 
 struct VirtualActionInvoker0
 {
-	typedef void (*Action)(void*, const RuntimeMethod*);
+	typedef void (*Action)(void*,const RuntimeMethod*);
 
 	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
 	{
 		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
-		((Action)invokeData.methodPtr)(obj, invokeData.method);
+		((Action)invokeData.methodPtr)(obj,invokeData.method);
 	}
 };
 template <typename T1, typename T2, typename T3, typename T4>
 struct VirtualActionInvoker4
 {
-	typedef void (*Action)(void*, T1, T2, T3, T4, const RuntimeMethod*);
+	typedef void (*Action)(void*,T1,T2,T3,T4,const RuntimeMethod*);
 
 	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2, T3 p3, T4 p4)
 	{
 		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
-		((Action)invokeData.methodPtr)(obj, p1, p2, p3, p4, invokeData.method);
+		((Action)invokeData.methodPtr)(obj,p1,p2,p3,p4,invokeData.method);
 	}
 };
 template <typename R>
 struct VirtualFuncInvoker0
 {
-	typedef R (*Func)(void*, const RuntimeMethod*);
+	typedef R (*Func)(void*,const RuntimeMethod*);
 
 	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
 	{
 		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
-		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+		return ((Func)invokeData.methodPtr)(obj,invokeData.method);
 	}
 };
 template <typename R>
 struct InterfaceFuncInvoker0
 {
-	typedef R (*Func)(void*, const RuntimeMethod*);
+	typedef R (*Func)(void*,const RuntimeMethod*);
 
 	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
 	{
 		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
-		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+		return ((Func)invokeData.methodPtr)(obj,invokeData.method);
 	}
 };
 
@@ -428,21 +428,6 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 	};
 };
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D2627_t09D0A659225D4446392327A875BFF06098DABB90 
-{
-	union
-	{
-		struct
-		{
-			union
-			{
-			};
-		};
-		uint8_t __StaticArrayInitTypeSizeU3D2627_t09D0A659225D4446392327A875BFF06098DABB90__padding[2627];
-	};
-};
-#pragma pack(pop, tp)
-#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D5_t9353FC3C38E482929D29EF7D00E7127591D4A3E4 
 {
 	union
@@ -454,21 +439,6 @@ struct __StaticArrayInitTypeSizeU3D5_t9353FC3C38E482929D29EF7D00E7127591D4A3E4
 			};
 		};
 		uint8_t __StaticArrayInitTypeSizeU3D5_t9353FC3C38E482929D29EF7D00E7127591D4A3E4__padding[5];
-	};
-};
-#pragma pack(pop, tp)
-#pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D6631_t3419D170A726D74E9AB6512DF536644603032F76 
-{
-	union
-	{
-		struct
-		{
-			union
-			{
-			};
-		};
-		uint8_t __StaticArrayInitTypeSizeU3D6631_t3419D170A726D74E9AB6512DF536644603032F76__padding[6631];
 	};
 };
 #pragma pack(pop, tp)
@@ -898,8 +868,6 @@ struct RemoteCertificateValidationCallback_t2F4C5801F96B2C2BF934511796C5BFEAEBF0
 };
 struct U3CPrivateImplementationDetailsU3E_t42B1D4A630B059E02DFAFEB70D70C0AF016FFC7F_StaticFields
 {
-	__StaticArrayInitTypeSizeU3D2627_t09D0A659225D4446392327A875BFF06098DABB90 ___0F82AC33A8D50ACE6B7107AB742C3D66929D729888B4ED813663934FD9D6DED5;
-	__StaticArrayInitTypeSizeU3D6631_t3419D170A726D74E9AB6512DF536644603032F76 ___26EDBFB4AE0FA8A3D26F19B2217DB02D8C95C6210BF8120206A80BCE17EF0955;
 	__StaticArrayInitTypeSizeU3D5_t9353FC3C38E482929D29EF7D00E7127591D4A3E4 ___933B971C6388D594A23FA1559825DB5BEC8ADE2DB1240AA8FC9D0C684949E8C9;
 };
 struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
@@ -1143,7 +1111,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3Cget_SecWebSocketProtocolsU3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 108416
+// Method Definition Index: 95785
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HttpListenerWebSocketContext__ctor_mBD1F8511D4C0253D9AA739783B861834487692E9 (HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* __this, HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* ___0_context, String_t* ___1_protocol, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1152,30 +1120,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HttpListenerWebSocketContext__ctor_mBD1F
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebSocket_t40B06375B1C3402559EA417F28BCE04683ED03FD_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:55>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:56>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:57>
 		WebSocketContext__ctor_m84BF397DD6CB15BB8FF173450CC840ECE2426362(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:59>
 		HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* L_0 = ___0_context;
 		__this->____context = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____context), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:60>
 		String_t* L_1 = ___1_protocol;
 		WebSocket_t40B06375B1C3402559EA417F28BCE04683ED03FD* L_2 = (WebSocket_t40B06375B1C3402559EA417F28BCE04683ED03FD*)il2cpp_codegen_object_new(WebSocket_t40B06375B1C3402559EA417F28BCE04683ED03FD_il2cpp_TypeInfo_var);
 		WebSocket__ctor_mA949E0C137DD2725EAA59CEEEE4A6E33F9450B0B(L_2, __this, L_1, NULL);
 		__this->____websocket = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____websocket), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:61>
 		return;
 	}
 }
-// Method Definition Index: 108417
+// Method Definition Index: 95786
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Logger_t94DF353D0E36883ABCD46D14A9158723B2C9D7FF* HttpListenerWebSocketContext_get_Log_m09FE9E8CAE35F94361B8F86049E0F63EA78B855E (HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:71>
 		HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* L_0 = __this->____context;
 		NullCheck(L_0);
 		HttpListener_t9E2F1C3A5045B493A1DCD20C2433C78775F7BEEA* L_1;
@@ -1186,11 +1149,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Logger_t94DF353D0E36883ABCD46D14A9158723B2C9D
 		return L_2;
 	}
 }
-// Method Definition Index: 108418
+// Method Definition Index: 95787
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* HttpListenerWebSocketContext_get_Stream_m49DA1CE08E0B078E31A9CF90184324116D565705 (HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:79>
 		HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* L_0 = __this->____context;
 		NullCheck(L_0);
 		HttpConnection_tEB8FD97895F6BBE878DE35172C54FA4506EE7AFA* L_1;
@@ -1201,11 +1164,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Stream_tF844051B786E8F7F4244DBD218D74E8617B9A
 		return L_2;
 	}
 }
-// Method Definition Index: 108419
+// Method Definition Index: 95788
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CookieCollection_t16E13F26D4035F1BE315A6F2694DC8692A3A586F* HttpListenerWebSocketContext_get_CookieCollection_m3B0A79131F3A6C5D059B955E86D06A1C99F1616E (HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:103>
 		HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* L_0 = __this->____context;
 		NullCheck(L_0);
 		HttpListenerRequest_t82D9873A5C1B7F0B5942B33BD6E40A164E989877* L_1;
@@ -1216,11 +1179,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CookieCollection_t16E13F26D4035F1BE315A6F2694
 		return L_2;
 	}
 }
-// Method Definition Index: 108420
+// Method Definition Index: 95789
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* HttpListenerWebSocketContext_get_Headers_m2277D9EE09E8C7275058FAA2BE89490C0ECE8DE7 (HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:117>
 		HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* L_0 = __this->____context;
 		NullCheck(L_0);
 		HttpListenerRequest_t82D9873A5C1B7F0B5942B33BD6E40A164E989877* L_1;
@@ -1231,11 +1194,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NameValueCollection_t52D1E38AB1D4ADD497A17DA3
 		return L_2;
 	}
 }
-// Method Definition Index: 108421
+// Method Definition Index: 95790
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HttpListenerWebSocketContext_get_Host_mE6EF33B2A1C39D734E2F66022CBE974489DF0700 (HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:137>
 		HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* L_0 = __this->____context;
 		NullCheck(L_0);
 		HttpListenerRequest_t82D9873A5C1B7F0B5942B33BD6E40A164E989877* L_1;
@@ -1246,11 +1209,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HttpListenerWebSocketContext_get_Ho
 		return L_2;
 	}
 }
-// Method Definition Index: 108422
+// Method Definition Index: 95791
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HttpListenerWebSocketContext_get_IsAuthenticated_m427C78AD66137043E1A11AD4E06B8CC65A57B842 (HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:151>
 		HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* L_0 = __this->____context;
 		NullCheck(L_0);
 		HttpListenerRequest_t82D9873A5C1B7F0B5942B33BD6E40A164E989877* L_1;
@@ -1261,11 +1224,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HttpListenerWebSocketContext_get_IsAuthe
 		return L_2;
 	}
 }
-// Method Definition Index: 108423
+// Method Definition Index: 95792
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HttpListenerWebSocketContext_get_IsLocal_m0C2866D3CE9FB22AAD87DDD12C6ED1EF3B633745 (HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:167>
 		HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* L_0 = __this->____context;
 		NullCheck(L_0);
 		HttpListenerRequest_t82D9873A5C1B7F0B5942B33BD6E40A164E989877* L_1;
@@ -1276,11 +1239,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HttpListenerWebSocketContext_get_IsLocal
 		return L_2;
 	}
 }
-// Method Definition Index: 108424
+// Method Definition Index: 95793
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HttpListenerWebSocketContext_get_IsSecureConnection_m2FBF312C5474DB3EA862F3800461B416073305CF (HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:182>
 		HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* L_0 = __this->____context;
 		NullCheck(L_0);
 		HttpListenerRequest_t82D9873A5C1B7F0B5942B33BD6E40A164E989877* L_1;
@@ -1291,11 +1254,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HttpListenerWebSocketContext_get_IsSecur
 		return L_2;
 	}
 }
-// Method Definition Index: 108425
+// Method Definition Index: 95794
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HttpListenerWebSocketContext_get_IsWebSocketRequest_mE75CF0745A3BC98BF21852495357C29053CBABDD (HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:198>
 		HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* L_0 = __this->____context;
 		NullCheck(L_0);
 		HttpListenerRequest_t82D9873A5C1B7F0B5942B33BD6E40A164E989877* L_1;
@@ -1306,7 +1269,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HttpListenerWebSocketContext_get_IsWebSo
 		return L_2;
 	}
 }
-// Method Definition Index: 108426
+// Method Definition Index: 95795
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HttpListenerWebSocketContext_get_Origin_mD43CC6B5B751F631299F9252FC4DC58F6561FB51 (HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1315,8 +1278,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HttpListenerWebSocketContext_get_Or
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral446EBFE0AF15621B72FD60AC796D8BDD96BA7175);
 		s_Il2CppMethodInitialized = true;
 	}
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:217>
 		HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* L_0 = __this->____context;
 		NullCheck(L_0);
 		HttpListenerRequest_t82D9873A5C1B7F0B5942B33BD6E40A164E989877* L_1;
@@ -1330,11 +1293,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HttpListenerWebSocketContext_get_Or
 		return L_3;
 	}
 }
-// Method Definition Index: 108427
+// Method Definition Index: 95796
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* HttpListenerWebSocketContext_get_QueryString_m8A1E955CDFA6AB344715377FCDA23D45591F8777 (HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:237>
 		HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* L_0 = __this->____context;
 		NullCheck(L_0);
 		HttpListenerRequest_t82D9873A5C1B7F0B5942B33BD6E40A164E989877* L_1;
@@ -1345,11 +1308,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NameValueCollection_t52D1E38AB1D4ADD497A17DA3
 		return L_2;
 	}
 }
-// Method Definition Index: 108428
+// Method Definition Index: 95797
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* HttpListenerWebSocketContext_get_RequestUri_m59F3DCE9A4D61353F9CBD510B65AC542F9E0F0B0 (HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:256>
 		HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* L_0 = __this->____context;
 		NullCheck(L_0);
 		HttpListenerRequest_t82D9873A5C1B7F0B5942B33BD6E40A164E989877* L_1;
@@ -1360,7 +1323,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E
 		return L_2;
 	}
 }
-// Method Definition Index: 108429
+// Method Definition Index: 95798
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HttpListenerWebSocketContext_get_SecWebSocketKey_m712BE134CF3C80B99FD55DB2E81DF7837659FB28 (HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1369,8 +1332,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HttpListenerWebSocketContext_get_Se
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7834CF4EF86F7E4B257C99799BE0F2B8C798C97A);
 		s_Il2CppMethodInitialized = true;
 	}
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:281>
 		HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* L_0 = __this->____context;
 		NullCheck(L_0);
 		HttpListenerRequest_t82D9873A5C1B7F0B5942B33BD6E40A164E989877* L_1;
@@ -1384,7 +1347,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HttpListenerWebSocketContext_get_Se
 		return L_3;
 	}
 }
-// Method Definition Index: 108430
+// Method Definition Index: 95799
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* HttpListenerWebSocketContext_get_SecWebSocketProtocols_m317193BF3A5408012210FE99DDC6AD458BB0EBEA (HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1404,7 +1367,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* HttpListenerWebSocketContext_g
 		return L_1;
 	}
 }
-// Method Definition Index: 108431
+// Method Definition Index: 95800
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HttpListenerWebSocketContext_get_SecWebSocketVersion_mE8FEB1B944BCC8B71B64C189C95762560A99A5DC (HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1413,8 +1376,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HttpListenerWebSocketContext_get_Se
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral17DCB6DC77B5841EDA742002E9E451C700AD1742);
 		s_Il2CppMethodInitialized = true;
 	}
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:337>
 		HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* L_0 = __this->____context;
 		NullCheck(L_0);
 		HttpListenerRequest_t82D9873A5C1B7F0B5942B33BD6E40A164E989877* L_1;
@@ -1428,11 +1391,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HttpListenerWebSocketContext_get_Se
 		return L_3;
 	}
 }
-// Method Definition Index: 108432
+// Method Definition Index: 95801
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* HttpListenerWebSocketContext_get_ServerEndPoint_m841D9E067B338DF45C6A45BE144B5CEF88B5E3AB (HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:352>
 		HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* L_0 = __this->____context;
 		NullCheck(L_0);
 		HttpListenerRequest_t82D9873A5C1B7F0B5942B33BD6E40A164E989877* L_1;
@@ -1443,11 +1406,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D9
 		return L_2;
 	}
 }
-// Method Definition Index: 108433
+// Method Definition Index: 95802
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* HttpListenerWebSocketContext_get_User_m55613381FBC5234F58AB415AA903F5DB9FB37AF5 (HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:372>
 		HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* L_0 = __this->____context;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
@@ -1455,11 +1418,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* HttpListenerWebSocketContext_g
 		return L_1;
 	}
 }
-// Method Definition Index: 108434
+// Method Definition Index: 95803
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* HttpListenerWebSocketContext_get_UserEndPoint_mD2A1DF27B8B0DCCB028153656281AB210D748BAA (HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:387>
 		HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* L_0 = __this->____context;
 		NullCheck(L_0);
 		HttpListenerRequest_t82D9873A5C1B7F0B5942B33BD6E40A164E989877* L_1;
@@ -1470,35 +1433,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D9
 		return L_2;
 	}
 }
-// Method Definition Index: 108435
+// Method Definition Index: 95804
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebSocket_t40B06375B1C3402559EA417F28BCE04683ED03FD* HttpListenerWebSocketContext_get_WebSocket_m086A056DFD51792BDE1EC1CCBA5DA3F379CA5004 (HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:402>
 		WebSocket_t40B06375B1C3402559EA417F28BCE04683ED03FD* L_0 = __this->____websocket;
 		return L_0;
 	}
 }
-// Method Definition Index: 108436
+// Method Definition Index: 95805
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HttpListenerWebSocketContext_Close_m9A0B66916A8470050DE8A7D2238EB450EE535258 (HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:412>
 		HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* L_0 = __this->____context;
 		NullCheck(L_0);
 		HttpConnection_tEB8FD97895F6BBE878DE35172C54FA4506EE7AFA* L_1;
 		L_1 = HttpListenerContext_get_Connection_mC2D112971C81153A3EE72B15B25C2B99134D007C_inline(L_0, NULL);
 		NullCheck(L_1);
 		HttpConnection_Close_mCB56D50EAD2DEC2D28E2C6647881011B600474E2(L_1, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:413>
 		return;
 	}
 }
-// Method Definition Index: 108437
+// Method Definition Index: 95806
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HttpListenerWebSocketContext_Close_m0B0B31FCB5002CB610719CAE8936BD0CBB8890D4 (HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* __this, int32_t ___0_code, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:417>
 		HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* L_0 = __this->____context;
 		NullCheck(L_0);
 		HttpListenerResponse_t25EEA1B31354C497CFD2EBD49C3B8838B41C18DD* L_1;
@@ -1506,22 +1468,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HttpListenerWebSocketContext_Close_m0B0B
 		int32_t L_2 = ___0_code;
 		NullCheck(L_1);
 		HttpListenerResponse_set_StatusCode_mAA9984747CBE6957AAA6187F3ACCAE94FC1DEC2B(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:418>
 		HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* L_3 = __this->____context;
 		NullCheck(L_3);
 		HttpListenerResponse_t25EEA1B31354C497CFD2EBD49C3B8838B41C18DD* L_4;
 		L_4 = HttpListenerContext_get_Response_m5AB2F43A7A969C8E35228A7019CF3A66F2DCE199_inline(L_3, NULL);
 		NullCheck(L_4);
 		HttpListenerResponse_Close_mF83B9F55956874A5C8D5FDDA7561FADD4AEC1B93(L_4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:419>
 		return;
 	}
 }
-// Method Definition Index: 108438
+// Method Definition Index: 95807
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HttpListenerWebSocketContext_ToString_mFD3279CE0ACAC6A863240DFED5B8E6911398FFA9 (HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:434>
 		HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* L_0 = __this->____context;
 		NullCheck(L_0);
 		HttpListenerRequest_t82D9873A5C1B7F0B5942B33BD6E40A164E989877* L_1;
@@ -1540,7 +1500,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HttpListenerWebSocketContext_ToStri
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 108439
+// Method Definition Index: 95808
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3Cget_SecWebSocketProtocolsU3Ed__30__ctor_mBD146C6A8FCA88D27370C5E2C03AF66F43C02C45 (U3Cget_SecWebSocketProtocolsU3Ed__30_t8A107155B0F3240B0759192CEEF661C9C1A9FB16* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1554,7 +1514,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3Cget_SecWebSocketProtocolsU3Ed__30__ct
 		return;
 	}
 }
-// Method Definition Index: 108440
+// Method Definition Index: 95809
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3Cget_SecWebSocketProtocolsU3Ed__30_System_IDisposable_Dispose_m508248A04E186F962E18FD4D15F0CA3FAACBA6B0 (U3Cget_SecWebSocketProtocolsU3Ed__30_t8A107155B0F3240B0759192CEEF661C9C1A9FB16* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1562,7 +1522,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3Cget_SecWebSocketProtocolsU3Ed__30_Sys
 		return;
 	}
 }
-// Method Definition Index: 108441
+// Method Definition Index: 95810
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3Cget_SecWebSocketProtocolsU3Ed__30_MoveNext_m71DC6BF4054443F545908391A06E6948E1C7D33F (U3Cget_SecWebSocketProtocolsU3Ed__30_t8A107155B0F3240B0759192CEEF661C9C1A9FB16* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1571,6 +1531,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3Cget_SecWebSocketProtocolsU3Ed__30_Mov
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral33B3063694EC42095FDB4F99AF7DCB5B4014CBA6);
 		s_Il2CppMethodInitialized = true;
 	}
+	//<source_info:<no-source>:1>
 	int32_t V_0 = 0;
 	HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* V_1 = NULL;
 	String_t* V_2 = NULL;
@@ -1600,7 +1561,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3Cget_SecWebSocketProtocolsU3Ed__30_Mov
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:303>
 		HttpListenerWebSocketContext_tAF3DAF37B9207D0274EDAA09C61A46C720B24315* L_4 = V_1;
 		NullCheck(L_4);
 		HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* L_5 = L_4->____context;
@@ -1614,7 +1574,6 @@ IL_0017:
 		String_t* L_8;
 		L_8 = NameValueCollection_get_Item_mE3ED755803E67BC852123C70EEF8D53774FA635F(L_7, _stringLiteral33B3063694EC42095FDB4F99AF7DCB5B4014CBA6, NULL);
 		V_2 = L_8;
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:305>
 		String_t* L_9 = V_2;
 		if (!L_9)
 		{
@@ -1634,13 +1593,11 @@ IL_0017:
 
 IL_0044:
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:306>
 		return (bool)0;
 	}
 
 IL_0046:
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:308>
 		String_t* L_12 = V_2;
 		NullCheck(L_12);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13;
@@ -1653,18 +1610,15 @@ IL_0046:
 
 IL_005e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:308>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = __this->___U3CU3E7__wrap1;
 		int32_t L_15 = __this->___U3CU3E7__wrap2;
 		NullCheck(L_14);
 		int32_t L_16 = L_15;
 		String_t* L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:310>
 		NullCheck(L_17);
 		String_t* L_18;
 		L_18 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_17, NULL);
 		V_3 = L_18;
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:312>
 		String_t* L_19 = V_3;
 		NullCheck(L_19);
 		int32_t L_20;
@@ -1675,7 +1629,6 @@ IL_005e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:315>
 		String_t* L_21 = V_3;
 		__this->___U3CU3E2__current = L_21;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_21);
@@ -1696,11 +1649,11 @@ IL_0090:
 
 IL_009e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:308>
 		int32_t L_23 = __this->___U3CU3E7__wrap2;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_24 = __this->___U3CU3E7__wrap1;
 		NullCheck(L_24);
-		if ((((int32_t)L_23) < ((int32_t)((int32_t)(((RuntimeArray*)L_24)->max_length)))))
+		int32_t L_25 = (il2cpp_codegen_conv<int32_t,int64_t,int64_t,false,false>((((RuntimeArray*)L_24)->max_length),NULL));
+		if ((((int32_t)L_23) < ((int32_t)L_25)))
 		{
 			goto IL_005e;
 		}
@@ -1708,11 +1661,10 @@ IL_009e:
 	{
 		__this->___U3CU3E7__wrap1 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E7__wrap1), (void*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/HttpListenerWebSocketContext.cs:317>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 108442
+// Method Definition Index: 95811
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3Cget_SecWebSocketProtocolsU3Ed__30_System_Collections_Generic_IEnumeratorU3CSystem_StringU3E_get_Current_mE2673B629E677CB15F045AB27E5158788AD50B57 (U3Cget_SecWebSocketProtocolsU3Ed__30_t8A107155B0F3240B0759192CEEF661C9C1A9FB16* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1721,7 +1673,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3Cget_SecWebSocketProtocolsU3Ed__3
 		return L_0;
 	}
 }
-// Method Definition Index: 108443
+// Method Definition Index: 95812
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3Cget_SecWebSocketProtocolsU3Ed__30_System_Collections_IEnumerator_Reset_m9EC33E8BF4C148C2D09020D7019F4F484A7555DE (U3Cget_SecWebSocketProtocolsU3Ed__30_t8A107155B0F3240B0759192CEEF661C9C1A9FB16* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1731,7 +1683,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3Cget_SecWebSocketProtocolsU3Ed__30_Sys
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3Cget_SecWebSocketProtocolsU3Ed__30_System_Collections_IEnumerator_Reset_m9EC33E8BF4C148C2D09020D7019F4F484A7555DE_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 108444
+// Method Definition Index: 95813
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3Cget_SecWebSocketProtocolsU3Ed__30_System_Collections_IEnumerator_get_Current_m29D847B86340584AF1EF845843FE0EEC0EED0AA0 (U3Cget_SecWebSocketProtocolsU3Ed__30_t8A107155B0F3240B0759192CEEF661C9C1A9FB16* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1740,7 +1692,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3Cget_SecWebSocketProtocolsU3
 		return L_0;
 	}
 }
-// Method Definition Index: 108445
+// Method Definition Index: 95814
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3Cget_SecWebSocketProtocolsU3Ed__30_System_Collections_Generic_IEnumerableU3CSystem_StringU3E_GetEnumerator_m6DDE15163A14DC8C6E20EC98D2C96F2C5D4A3AA4 (U3Cget_SecWebSocketProtocolsU3Ed__30_t8A107155B0F3240B0759192CEEF661C9C1A9FB16* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1791,7 +1743,7 @@ IL_0035:
 		return L_6;
 	}
 }
-// Method Definition Index: 108446
+// Method Definition Index: 95815
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3Cget_SecWebSocketProtocolsU3Ed__30_System_Collections_IEnumerable_GetEnumerator_m88FF184C969E5229E77BC0D7F86FE4655E2D0C82 (U3Cget_SecWebSocketProtocolsU3Ed__30_t8A107155B0F3240B0759192CEEF661C9C1A9FB16* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1809,7 +1761,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3Cget_SecWebSocketProtocolsU3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 108447
+// Method Definition Index: 95816
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TcpListenerWebSocketContext__ctor_m56481B8FA6FCB6A6BE849950D0F4C78521201FC3 (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* ___0_tcpClient, String_t* ___1_protocol, bool ___2_secure, ServerSslConfiguration_t8BDAC5F4FE7C0473FA7D2F4856B620563FF433AE* ___3_sslConfig, Logger_t94DF353D0E36883ABCD46D14A9158723B2C9D7FF* ___4_log, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1819,36 +1771,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TcpListenerWebSocketContext__ctor_m56481
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebSocket_t40B06375B1C3402559EA417F28BCE04683ED03FD_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	//<source_info:<no-source>:1>
 	NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* V_0 = NULL;
 	Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* V_1 = NULL;
 	SslStream_t19A079881850F9CAD7BAA6FB625BBC4647ED5A27* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:71>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:72>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:73>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:74>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:75>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:76>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:77>
 		WebSocketContext__ctor_m84BF397DD6CB15BB8FF173450CC840ECE2426362(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:79>
 		TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_0 = ___0_tcpClient;
 		__this->____tcpClient = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____tcpClient), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:80>
 		bool L_1 = ___2_secure;
 		__this->____secure = L_1;
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:81>
 		Logger_t94DF353D0E36883ABCD46D14A9158723B2C9D7FF* L_2 = ___4_log;
 		__this->____log = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____log), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:83>
 		TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_3 = ___0_tcpClient;
 		NullCheck(L_3);
 		NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_4;
 		L_4 = TcpClient_GetStream_mDD54336B17D1267BD593E0A1EB9EDF3E9506AEBA(L_3, NULL);
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:85>
 		bool L_5 = ___2_secure;
 		if (!L_5)
 		{
@@ -1856,11 +1797,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TcpListenerWebSocketContext__ctor_m56481
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:87>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:88>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:89>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:90>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:91>
 		NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_6 = V_0;
 		ServerSslConfiguration_t8BDAC5F4FE7C0473FA7D2F4856B620563FF433AE* L_7 = ___3_sslConfig;
 		NullCheck(L_7);
@@ -1869,12 +1805,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TcpListenerWebSocketContext__ctor_m56481
 		SslStream_t19A079881850F9CAD7BAA6FB625BBC4647ED5A27* L_9 = (SslStream_t19A079881850F9CAD7BAA6FB625BBC4647ED5A27*)il2cpp_codegen_object_new(SslStream_t19A079881850F9CAD7BAA6FB625BBC4647ED5A27_il2cpp_TypeInfo_var);
 		SslStream__ctor_m9096E6E85E60C4D205A26FA43D121FECEC735484(L_9, L_6, (bool)0, L_8, NULL);
 		V_2 = L_9;
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:93>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:94>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:95>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:96>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:97>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:98>
 		SslStream_t19A079881850F9CAD7BAA6FB625BBC4647ED5A27* L_10 = V_2;
 		ServerSslConfiguration_t8BDAC5F4FE7C0473FA7D2F4856B620563FF433AE* L_11 = ___3_sslConfig;
 		NullCheck(L_11);
@@ -1894,7 +1824,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TcpListenerWebSocketContext__ctor_m56481
 		L_18 = ServerSslConfiguration_get_CheckCertificateRevocation_m6A9F67E8122C31DE3523B76549C2BF7051975C25_inline(L_17, NULL);
 		NullCheck(L_10);
 		VirtualActionInvoker4< X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4*, bool, int32_t, bool >::Invoke(43, L_10, L_12, L_14, L_16, L_18);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:100>
 		SslStream_t19A079881850F9CAD7BAA6FB625BBC4647ED5A27* L_19 = V_2;
 		__this->____stream = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____stream), (void*)L_19);
@@ -1903,7 +1832,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TcpListenerWebSocketContext__ctor_m56481
 
 IL_0060:
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:104>
 		NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_20 = V_0;
 		__this->____stream = L_20;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____stream), (void*)L_20);
@@ -1911,65 +1839,59 @@ IL_0060:
 
 IL_0067:
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:107>
 		TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_21 = ___0_tcpClient;
 		NullCheck(L_21);
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_22;
 		L_22 = TcpClient_get_Client_m38B7DCD73EB42C6BBE6340B5E4C0A8432C1140C0_inline(L_21, NULL);
 		V_1 = L_22;
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:108>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_23 = V_1;
 		NullCheck(L_23);
 		EndPoint_t6233F4E2EB9F0F2D36E187F12BE050E6D8B73564* L_24;
 		L_24 = Socket_get_LocalEndPoint_m3A2B4E60F0096E2DB31F7C28EF3CDE148D256E26(L_23, NULL);
 		__this->____serverEndPoint = L_24;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____serverEndPoint), (void*)L_24);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:109>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_25 = V_1;
 		NullCheck(L_25);
 		EndPoint_t6233F4E2EB9F0F2D36E187F12BE050E6D8B73564* L_26;
 		L_26 = Socket_get_RemoteEndPoint_m6A626481D55A640C7654B91BFDE00199C2C95479(L_25, NULL);
 		__this->____userEndPoint = L_26;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____userEndPoint), (void*)L_26);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:111>
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_27 = __this->____stream;
 		HttpRequest_t5C9E33A5BDFF966FF05F68C42F6C89A39704A6D3* L_28;
 		L_28 = HttpRequest_ReadRequest_m8E14F6EA755BF41F203943CF70AC95BD5E25A283(L_27, ((int32_t)90000), NULL);
 		__this->____request = L_28;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____request), (void*)L_28);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:112>
 		String_t* L_29 = ___1_protocol;
 		WebSocket_t40B06375B1C3402559EA417F28BCE04683ED03FD* L_30 = (WebSocket_t40B06375B1C3402559EA417F28BCE04683ED03FD*)il2cpp_codegen_object_new(WebSocket_t40B06375B1C3402559EA417F28BCE04683ED03FD_il2cpp_TypeInfo_var);
 		WebSocket__ctor_m6FC211AA29C8C14C52AE073CC8FDDCC48CFF075E(L_30, __this, L_29, NULL);
 		__this->____websocket = L_30;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____websocket), (void*)L_30);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:113>
 		return;
 	}
 }
-// Method Definition Index: 108448
+// Method Definition Index: 95817
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Logger_t94DF353D0E36883ABCD46D14A9158723B2C9D7FF* TcpListenerWebSocketContext_get_Log_m814C9E58C0E5E8ED012077D079E9B795BBD1BAB9 (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:123>
 		Logger_t94DF353D0E36883ABCD46D14A9158723B2C9D7FF* L_0 = __this->____log;
 		return L_0;
 	}
 }
-// Method Definition Index: 108449
+// Method Definition Index: 95818
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* TcpListenerWebSocketContext_get_Stream_m3ADD465C69D2624471BF9AACB254D3E2E9034835 (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:131>
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_0 = __this->____stream;
 		return L_0;
 	}
 }
-// Method Definition Index: 108450
+// Method Definition Index: 95819
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CookieCollection_t16E13F26D4035F1BE315A6F2694DC8692A3A586F* TcpListenerWebSocketContext_get_CookieCollection_m35446586910DD030BF32497E4D8952C181FA66D2 (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:155>
 		HttpRequest_t5C9E33A5BDFF966FF05F68C42F6C89A39704A6D3* L_0 = __this->____request;
 		NullCheck(L_0);
 		CookieCollection_t16E13F26D4035F1BE315A6F2694DC8692A3A586F* L_1;
@@ -1977,11 +1899,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CookieCollection_t16E13F26D4035F1BE315A6F2694
 		return L_1;
 	}
 }
-// Method Definition Index: 108451
+// Method Definition Index: 95820
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* TcpListenerWebSocketContext_get_Headers_mF30A3DB42F3AA4B5A958F835C917BECF3D9E9A8D (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:169>
 		HttpRequest_t5C9E33A5BDFF966FF05F68C42F6C89A39704A6D3* L_0 = __this->____request;
 		NullCheck(L_0);
 		NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* L_1;
@@ -1989,7 +1911,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NameValueCollection_t52D1E38AB1D4ADD497A17DA3
 		return L_1;
 	}
 }
-// Method Definition Index: 108452
+// Method Definition Index: 95821
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TcpListenerWebSocketContext_get_Host_m960084C5526AD2DA3865617A80360A56985C3DCC (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1998,8 +1920,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TcpListenerWebSocketContext_get_Hos
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0242F31341D314854DB5EA5749448625B0A0AAE3);
 		s_Il2CppMethodInitialized = true;
 	}
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:189>
 		HttpRequest_t5C9E33A5BDFF966FF05F68C42F6C89A39704A6D3* L_0 = __this->____request;
 		NullCheck(L_0);
 		NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* L_1;
@@ -2010,16 +1932,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TcpListenerWebSocketContext_get_Hos
 		return L_2;
 	}
 }
-// Method Definition Index: 108453
+// Method Definition Index: 95822
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TcpListenerWebSocketContext_get_IsAuthenticated_mD22157DA9AF560C9330209B087F5ABBF5E26B532 (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:203>
 		RuntimeObject* L_0 = __this->____user;
 		return (bool)((!(((RuntimeObject*)(RuntimeObject*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 108454
+// Method Definition Index: 95823
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TcpListenerWebSocketContext_get_IsLocal_mAEE1BDAF25FEFC44084AF9C78193C58DB81645A9 (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2028,33 +1950,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TcpListenerWebSocketContext_get_IsLocal_
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ext_tE5132915252026E503C88A4D8BA53E67D2574BBD_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	CHECKED_LOCAL(Ext_tE5132915252026E503C88A4D8BA53E67D2574BBD_StaticInit);
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:219>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_0;
 		L_0 = VirtualFuncInvoker0< IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* >::Invoke(19, __this);
 		NullCheck(L_0);
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_1;
 		L_1 = IPEndPoint_get_Address_m72F783CB76E10E9DBDF680CCC1DAAED201BABB1C_inline(L_0, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Ext_tE5132915252026E503C88A4D8BA53E67D2574BBD_il2cpp_TypeInfo_var);
+		CHECKED_LOCAL_INIT(Ext_tE5132915252026E503C88A4D8BA53E67D2574BBD_StaticInit,(Ext_tE5132915252026E503C88A4D8BA53E67D2574BBD_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
 		bool L_2;
 		L_2 = Ext_IsLocal_m0C906FA0EB7EE0A7569A0D1E883BE8EDDDFCED06(L_1, NULL);
 		return L_2;
 	}
 }
-// Method Definition Index: 108455
+// Method Definition Index: 95824
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TcpListenerWebSocketContext_get_IsSecureConnection_m03FE5A2F9180980409A436D758FAEC3C21EC5D92 (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:234>
 		bool L_0 = __this->____secure;
 		return L_0;
 	}
 }
-// Method Definition Index: 108456
+// Method Definition Index: 95825
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TcpListenerWebSocketContext_get_IsWebSocketRequest_mD15F0856CF99F48FCED6BCE2D9F1AE7FB32299F0 (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:250>
 		HttpRequest_t5C9E33A5BDFF966FF05F68C42F6C89A39704A6D3* L_0 = __this->____request;
 		NullCheck(L_0);
 		bool L_1;
@@ -2062,7 +1985,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TcpListenerWebSocketContext_get_IsWebSoc
 		return L_1;
 	}
 }
-// Method Definition Index: 108457
+// Method Definition Index: 95826
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TcpListenerWebSocketContext_get_Origin_mE68392CAE6931CAD9FE19FBA20C01EF21004D3DD (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2071,8 +1994,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TcpListenerWebSocketContext_get_Ori
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral446EBFE0AF15621B72FD60AC796D8BDD96BA7175);
 		s_Il2CppMethodInitialized = true;
 	}
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:269>
 		HttpRequest_t5C9E33A5BDFF966FF05F68C42F6C89A39704A6D3* L_0 = __this->____request;
 		NullCheck(L_0);
 		NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* L_1;
@@ -2083,7 +2006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TcpListenerWebSocketContext_get_Ori
 		return L_2;
 	}
 }
-// Method Definition Index: 108458
+// Method Definition Index: 95827
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* TcpListenerWebSocketContext_get_QueryString_m1789034096E13713BAAFF618E5715C782C3B2A88 (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2092,11 +2015,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NameValueCollection_t52D1E38AB1D4ADD497A17DA3
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	CHECKED_LOCAL(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticInit);
+	//<source_info:<no-source>:1>
 	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* V_0 = NULL;
 	String_t* V_1 = NULL;
 	String_t* G_B4_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:289>
 		NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* L_0 = __this->____queryString;
 		if (L_0)
 		{
@@ -2104,13 +2028,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NameValueCollection_t52D1E38AB1D4ADD497A17DA3
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:291>
 		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_1;
 		L_1 = VirtualFuncInvoker0< Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* >::Invoke(13, __this);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:292>
 		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_2 = V_0;
-		il2cpp_codegen_runtime_class_init_inline(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
+		CHECKED_LOCAL_INIT(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticInit,(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
 		bool L_3;
 		L_3 = Uri_op_Inequality_m64BE981CDF88B751677B80D883B201BF3CFD83F7(L_2, (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E*)NULL, NULL);
 		if (L_3)
@@ -2135,7 +2057,6 @@ IL_001b:
 IL_0021:
 	{
 		V_1 = G_B4_0;
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:294>
 		String_t* L_6 = V_1;
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_7;
 		L_7 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
@@ -2147,12 +2068,11 @@ IL_0021:
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:297>
 		NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* L_9 = __this->____queryString;
 		return L_9;
 	}
 }
-// Method Definition Index: 108459
+// Method Definition Index: 95828
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* TcpListenerWebSocketContext_get_RequestUri_m908CC26C30D26DD0E4EEBB358D79A1357A9101A6 (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2163,10 +2083,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0242F31341D314854DB5EA5749448625B0A0AAE3);
 		s_Il2CppMethodInitialized = true;
 	}
+	CHECKED_LOCAL(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticInit);
+	CHECKED_LOCAL(HttpUtility_t51837A3866846637B4027A52BBC130E07772CC21_StaticInit);
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:316>
 		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_0 = __this->____requestUri;
-		il2cpp_codegen_runtime_class_init_inline(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
+		CHECKED_LOCAL_INIT(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticInit,(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
 		bool L_1;
 		L_1 = Uri_op_Equality_mD7D7AAB7023C0873B37D8B8C7195BEF34002A194(L_0, (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E*)NULL, NULL);
 		if (!L_1)
@@ -2175,12 +2097,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:318>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:319>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:320>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:321>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:322>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:323>
 		HttpRequest_t5C9E33A5BDFF966FF05F68C42F6C89A39704A6D3* L_2 = __this->____request;
 		NullCheck(L_2);
 		String_t* L_3;
@@ -2197,7 +2113,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E
 		bool L_8;
 		L_8 = HttpRequest_get_IsWebSocketRequest_mE34A165179A9C364673C477767379A93C8209930(L_7, NULL);
 		bool L_9 = __this->____secure;
-		il2cpp_codegen_runtime_class_init_inline(HttpUtility_t51837A3866846637B4027A52BBC130E07772CC21_il2cpp_TypeInfo_var);
+		CHECKED_LOCAL_INIT(HttpUtility_t51837A3866846637B4027A52BBC130E07772CC21_StaticInit,(HttpUtility_t51837A3866846637B4027A52BBC130E07772CC21_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
 		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_10;
 		L_10 = HttpUtility_CreateRequestUrl_mA140708FE2B8259A7D83DEDEEAB91F246302CB6F(L_3, L_6, L_8, L_9, NULL);
 		__this->____requestUri = L_10;
@@ -2206,12 +2122,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E
 
 IL_004a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:326>
 		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_11 = __this->____requestUri;
 		return L_11;
 	}
 }
-// Method Definition Index: 108460
+// Method Definition Index: 95829
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TcpListenerWebSocketContext_get_SecWebSocketKey_m7944953EEBA18EEF929ED5C89C08EEE29EF79E04 (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2220,8 +2135,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TcpListenerWebSocketContext_get_Sec
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7834CF4EF86F7E4B257C99799BE0F2B8C798C97A);
 		s_Il2CppMethodInitialized = true;
 	}
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:351>
 		HttpRequest_t5C9E33A5BDFF966FF05F68C42F6C89A39704A6D3* L_0 = __this->____request;
 		NullCheck(L_0);
 		NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* L_1;
@@ -2232,7 +2147,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TcpListenerWebSocketContext_get_Sec
 		return L_2;
 	}
 }
-// Method Definition Index: 108461
+// Method Definition Index: 95830
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TcpListenerWebSocketContext_get_SecWebSocketProtocols_mB1EA29275817919421A5FB9489F10136AA49A5D2 (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2252,7 +2167,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TcpListenerWebSocketContext_ge
 		return L_1;
 	}
 }
-// Method Definition Index: 108462
+// Method Definition Index: 95831
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TcpListenerWebSocketContext_get_SecWebSocketVersion_mDFC039225ECC8CB562768A0A210BCDCB59E34A9D (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2261,8 +2176,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TcpListenerWebSocketContext_get_Sec
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral17DCB6DC77B5841EDA742002E9E451C700AD1742);
 		s_Il2CppMethodInitialized = true;
 	}
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:407>
 		HttpRequest_t5C9E33A5BDFF966FF05F68C42F6C89A39704A6D3* L_0 = __this->____request;
 		NullCheck(L_0);
 		NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* L_1;
@@ -2273,7 +2188,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TcpListenerWebSocketContext_get_Sec
 		return L_2;
 	}
 }
-// Method Definition Index: 108463
+// Method Definition Index: 95832
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* TcpListenerWebSocketContext_get_ServerEndPoint_mB758FED77FE7080B5BBF8CBF8B18954134ED5864 (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2282,22 +2197,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D9
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:422>
 		EndPoint_t6233F4E2EB9F0F2D36E187F12BE050E6D8B73564* L_0 = __this->____serverEndPoint;
 		return ((IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*)CastclassClass((RuntimeObject*)L_0, IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB_il2cpp_TypeInfo_var));
 	}
 }
-// Method Definition Index: 108464
+// Method Definition Index: 95833
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TcpListenerWebSocketContext_get_User_m54D62A3E8E048077CD2A6370AF86F8DAA7104EB4 (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:442>
 		RuntimeObject* L_0 = __this->____user;
 		return L_0;
 	}
 }
-// Method Definition Index: 108465
+// Method Definition Index: 95834
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* TcpListenerWebSocketContext_get_UserEndPoint_mF44FA7B8E8F80868E4C34B353A024D9B25800836 (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2306,82 +2221,75 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D9
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:457>
 		EndPoint_t6233F4E2EB9F0F2D36E187F12BE050E6D8B73564* L_0 = __this->____userEndPoint;
 		return ((IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*)CastclassClass((RuntimeObject*)L_0, IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB_il2cpp_TypeInfo_var));
 	}
 }
-// Method Definition Index: 108466
+// Method Definition Index: 95835
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebSocket_t40B06375B1C3402559EA417F28BCE04683ED03FD* TcpListenerWebSocketContext_get_WebSocket_m9146EE37B75438CF34CFD496FFA1CAB251E92C39 (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:472>
 		WebSocket_t40B06375B1C3402559EA417F28BCE04683ED03FD* L_0 = __this->____websocket;
 		return L_0;
 	}
 }
-// Method Definition Index: 108467
+// Method Definition Index: 95836
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TcpListenerWebSocketContext_Close_m9FD0B9934DDCA6712A6E6F8D78A2EC5A9B67920D (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:482>
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_0 = __this->____stream;
 		NullCheck(L_0);
 		VirtualActionInvoker0::Invoke(19, L_0);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:483>
 		TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_1 = __this->____tcpClient;
 		NullCheck(L_1);
 		TcpClient_Close_m03E0ED4E4BA87B3F1ED17585AB1327ED76F5FE89(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:484>
 		return;
 	}
 }
-// Method Definition Index: 108468
+// Method Definition Index: 95837
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TcpListenerWebSocketContext_Close_mABC7072C942E5678C018DD96B3F4C98F2B08802F (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, int32_t ___0_code, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:488>
 		int32_t L_0 = ___0_code;
 		HttpResponse_tC25B650FB05DE23332C2C2E30C42F9CC338B7FE0* L_1;
 		L_1 = HttpResponse_CreateCloseResponse_m1DAE44CABF9B0EC74EDAF7BC0DCB3BB7CA159ED9(L_0, NULL);
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_2 = __this->____stream;
 		NullCheck(L_1);
 		HttpBase_WriteTo_m25CF5A68AA04A1156AE4DCB041223585D62A702D(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:490>
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_3 = __this->____stream;
 		NullCheck(L_3);
 		VirtualActionInvoker0::Invoke(19, L_3);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:491>
 		TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_4 = __this->____tcpClient;
 		NullCheck(L_4);
 		TcpClient_Close_m03E0ED4E4BA87B3F1ED17585AB1327ED76F5FE89(L_4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:492>
 		return;
 	}
 }
-// Method Definition Index: 108469
+// Method Definition Index: 95838
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TcpListenerWebSocketContext_SendAuthenticationChallenge_m5BC233390F4E3A8513B1D349638909B844772681 (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, String_t* ___0_challenge, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:496>
 		String_t* L_0 = ___0_challenge;
 		HttpResponse_tC25B650FB05DE23332C2C2E30C42F9CC338B7FE0* L_1;
 		L_1 = HttpResponse_CreateUnauthorizedResponse_m28B8FFD8C1026BBE2D1E5FC42A549D5C451C0C29(L_0, NULL);
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_2 = __this->____stream;
 		NullCheck(L_1);
 		HttpBase_WriteTo_m25CF5A68AA04A1156AE4DCB041223585D62A702D(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:498>
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_3 = __this->____stream;
 		HttpRequest_t5C9E33A5BDFF966FF05F68C42F6C89A39704A6D3* L_4;
 		L_4 = HttpRequest_ReadRequest_m8E14F6EA755BF41F203943CF70AC95BD5E25A283(L_3, ((int32_t)15000), NULL);
 		__this->____request = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____request), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:499>
 		return;
 	}
 }
-// Method Definition Index: 108470
+// Method Definition Index: 95839
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TcpListenerWebSocketContext_SetUser_mB5F0938E860CA2E94227E195ADD4C3C91D11F757 (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, int32_t ___0_scheme, String_t* ___1_realm, Func_2_t4675E04E51CC3E11161A712E518BAA0FC4F52BBD* ___2_credentialsFinder, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2393,15 +2301,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TcpListenerWebSocketContext_SetUser_mB5F
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9D5A3AE3D2B0B5E5AF5AB489000D9B88FA11E907);
 		s_Il2CppMethodInitialized = true;
 	}
+	CHECKED_LOCAL(HttpUtility_t51837A3866846637B4027A52BBC130E07772CC21_StaticInit);
+	//<source_info:<no-source>:1>
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:507>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:508>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:509>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:510>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:511>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:512>
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:513>
 		HttpRequest_t5C9E33A5BDFF966FF05F68C42F6C89A39704A6D3* L_0 = __this->____request;
 		NullCheck(L_0);
 		NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* L_1;
@@ -2416,11 +2319,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TcpListenerWebSocketContext_SetUser_mB5F
 		String_t* L_6;
 		L_6 = HttpRequest_get_HttpMethod_m65CCD78CF924DF0D7670B8D1FA8B25A11BED818E_inline(L_5, NULL);
 		Func_2_t4675E04E51CC3E11161A712E518BAA0FC4F52BBD* L_7 = ___2_credentialsFinder;
-		il2cpp_codegen_runtime_class_init_inline(HttpUtility_t51837A3866846637B4027A52BBC130E07772CC21_il2cpp_TypeInfo_var);
+		CHECKED_LOCAL_INIT(HttpUtility_t51837A3866846637B4027A52BBC130E07772CC21_StaticInit,(HttpUtility_t51837A3866846637B4027A52BBC130E07772CC21_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
 		RuntimeObject* L_8;
 		L_8 = HttpUtility_CreateUser_m9A71CAF73345220149424E4E6895566DCD32648C(L_2, L_3, L_4, L_6, L_7, NULL);
 		V_0 = L_8;
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:515>
 		RuntimeObject* L_9 = V_0;
 		if (L_9)
 		{
@@ -2428,13 +2330,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TcpListenerWebSocketContext_SetUser_mB5F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:516>
 		return (bool)0;
 	}
 
 IL_002e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:518>
 		RuntimeObject* L_10 = V_0;
 		NullCheck(L_10);
 		RuntimeObject* L_11;
@@ -2448,25 +2348,22 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:519>
 		return (bool)0;
 	}
 
 IL_003d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:521>
 		RuntimeObject* L_13 = V_0;
 		__this->____user = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____user), (void*)L_13);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:523>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 108471
+// Method Definition Index: 95840
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TcpListenerWebSocketContext_ToString_mD982B18562F2D872254A00B2CDA00995D51DDF1E (TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:539>
 		HttpRequest_t5C9E33A5BDFF966FF05F68C42F6C89A39704A6D3* L_0 = __this->____request;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -2482,7 +2379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TcpListenerWebSocketContext_ToStrin
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 108472
+// Method Definition Index: 95841
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3Cget_SecWebSocketProtocolsU3Ed__39__ctor_m52E909117BCD49E7DB12737219EAF32FD1FC8135 (U3Cget_SecWebSocketProtocolsU3Ed__39_tB906CD5AA74B6D8BFDFEFAE69BC3F75C0B990207* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2496,7 +2393,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3Cget_SecWebSocketProtocolsU3Ed__39__ct
 		return;
 	}
 }
-// Method Definition Index: 108473
+// Method Definition Index: 95842
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3Cget_SecWebSocketProtocolsU3Ed__39_System_IDisposable_Dispose_m5AACED110E0A01A42BF6D156F8472BFEDE4E2FDD (U3Cget_SecWebSocketProtocolsU3Ed__39_tB906CD5AA74B6D8BFDFEFAE69BC3F75C0B990207* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2504,7 +2401,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3Cget_SecWebSocketProtocolsU3Ed__39_Sys
 		return;
 	}
 }
-// Method Definition Index: 108474
+// Method Definition Index: 95843
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3Cget_SecWebSocketProtocolsU3Ed__39_MoveNext_m83C5637041FE30988F82CF83ACF12912096572C5 (U3Cget_SecWebSocketProtocolsU3Ed__39_tB906CD5AA74B6D8BFDFEFAE69BC3F75C0B990207* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2513,6 +2410,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3Cget_SecWebSocketProtocolsU3Ed__39_Mov
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral33B3063694EC42095FDB4F99AF7DCB5B4014CBA6);
 		s_Il2CppMethodInitialized = true;
 	}
+	//<source_info:<no-source>:1>
 	int32_t V_0 = 0;
 	TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* V_1 = NULL;
 	String_t* V_2 = NULL;
@@ -2542,7 +2440,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3Cget_SecWebSocketProtocolsU3Ed__39_Mov
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:373>
 		TcpListenerWebSocketContext_tF0E17F9688595367047ADBA322E062C2343A2035* L_4 = V_1;
 		NullCheck(L_4);
 		HttpRequest_t5C9E33A5BDFF966FF05F68C42F6C89A39704A6D3* L_5 = L_4->____request;
@@ -2553,7 +2450,6 @@ IL_0017:
 		String_t* L_7;
 		L_7 = NameValueCollection_get_Item_mE3ED755803E67BC852123C70EEF8D53774FA635F(L_6, _stringLiteral33B3063694EC42095FDB4F99AF7DCB5B4014CBA6, NULL);
 		V_2 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:375>
 		String_t* L_8 = V_2;
 		if (!L_8)
 		{
@@ -2573,13 +2469,11 @@ IL_0017:
 
 IL_003f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:376>
 		return (bool)0;
 	}
 
 IL_0041:
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:378>
 		String_t* L_11 = V_2;
 		NullCheck(L_11);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12;
@@ -2592,18 +2486,15 @@ IL_0041:
 
 IL_0059:
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:378>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13 = __this->___U3CU3E7__wrap1;
 		int32_t L_14 = __this->___U3CU3E7__wrap2;
 		NullCheck(L_13);
 		int32_t L_15 = L_14;
 		String_t* L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:380>
 		NullCheck(L_16);
 		String_t* L_17;
 		L_17 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_16, NULL);
 		V_3 = L_17;
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:382>
 		String_t* L_18 = V_3;
 		NullCheck(L_18);
 		int32_t L_19;
@@ -2614,7 +2505,6 @@ IL_0059:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:385>
 		String_t* L_20 = V_3;
 		__this->___U3CU3E2__current = L_20;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_20);
@@ -2635,11 +2525,11 @@ IL_008b:
 
 IL_0099:
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:378>
 		int32_t L_22 = __this->___U3CU3E7__wrap2;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_23 = __this->___U3CU3E7__wrap1;
 		NullCheck(L_23);
-		if ((((int32_t)L_22) < ((int32_t)((int32_t)(((RuntimeArray*)L_23)->max_length)))))
+		int32_t L_24 = (il2cpp_codegen_conv<int32_t,int64_t,int64_t,false,false>((((RuntimeArray*)L_23)->max_length),NULL));
+		if ((((int32_t)L_22) < ((int32_t)L_24)))
 		{
 			goto IL_0059;
 		}
@@ -2647,11 +2537,10 @@ IL_0099:
 	{
 		__this->___U3CU3E7__wrap1 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E7__wrap1), (void*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/TcpListenerWebSocketContext.cs:387>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 108475
+// Method Definition Index: 95844
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3Cget_SecWebSocketProtocolsU3Ed__39_System_Collections_Generic_IEnumeratorU3CSystem_StringU3E_get_Current_m5EA971E7D632F24F5F64805BCBA05CF643FE8E7F (U3Cget_SecWebSocketProtocolsU3Ed__39_tB906CD5AA74B6D8BFDFEFAE69BC3F75C0B990207* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2660,7 +2549,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3Cget_SecWebSocketProtocolsU3Ed__3
 		return L_0;
 	}
 }
-// Method Definition Index: 108476
+// Method Definition Index: 95845
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3Cget_SecWebSocketProtocolsU3Ed__39_System_Collections_IEnumerator_Reset_m768B76E578B0FDEA89622698662D32C0EF5F11F1 (U3Cget_SecWebSocketProtocolsU3Ed__39_tB906CD5AA74B6D8BFDFEFAE69BC3F75C0B990207* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2670,7 +2559,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3Cget_SecWebSocketProtocolsU3Ed__39_Sys
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3Cget_SecWebSocketProtocolsU3Ed__39_System_Collections_IEnumerator_Reset_m768B76E578B0FDEA89622698662D32C0EF5F11F1_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 108477
+// Method Definition Index: 95846
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3Cget_SecWebSocketProtocolsU3Ed__39_System_Collections_IEnumerator_get_Current_m6E9D5D6975340B10F733F049DC7272359946552F (U3Cget_SecWebSocketProtocolsU3Ed__39_tB906CD5AA74B6D8BFDFEFAE69BC3F75C0B990207* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2679,7 +2568,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3Cget_SecWebSocketProtocolsU3
 		return L_0;
 	}
 }
-// Method Definition Index: 108478
+// Method Definition Index: 95847
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3Cget_SecWebSocketProtocolsU3Ed__39_System_Collections_Generic_IEnumerableU3CSystem_StringU3E_GetEnumerator_m3E910F49FA5C3C1732BEEB591327B28468EE5D02 (U3Cget_SecWebSocketProtocolsU3Ed__39_tB906CD5AA74B6D8BFDFEFAE69BC3F75C0B990207* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2730,7 +2619,7 @@ IL_0035:
 		return L_6;
 	}
 }
-// Method Definition Index: 108479
+// Method Definition Index: 95848
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3Cget_SecWebSocketProtocolsU3Ed__39_System_Collections_IEnumerable_GetEnumerator_m6814FDB47C4A7319732B6F5BD26CBA8C5DE8D382 (U3Cget_SecWebSocketProtocolsU3Ed__39_tB906CD5AA74B6D8BFDFEFAE69BC3F75C0B990207* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2748,13 +2637,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3Cget_SecWebSocketProtocolsU3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 108480
+// Method Definition Index: 95849
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebSocketContext__ctor_m84BF397DD6CB15BB8FF173450CC840ECE2426362 (WebSocketContext_tAA6F882A65A92F00E8D15DD71781F481DD81A888* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/WebSocketContext.cs:52>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/WebSockets/WebSocketContext.cs:54>
 		return;
 	}
 }
@@ -2777,104 +2665,88 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebSocketContext__ctor_m84BF397DD6CB15BB
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Method Definition Index: 108072
+// Method Definition Index: 95441
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HttpListener_t9E2F1C3A5045B493A1DCD20C2433C78775F7BEEA* HttpListenerContext_get_Listener_mFAA58511A5D3E1C07728D97D2942946CBFBB6D3E_inline (HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/HttpListenerContext.cs:133>
 		HttpListener_t9E2F1C3A5045B493A1DCD20C2433C78775F7BEEA* L_0 = __this->____listener;
 		return L_0;
 	}
 }
-// Method Definition Index: 108023
+// Method Definition Index: 95392
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Logger_t94DF353D0E36883ABCD46D14A9158723B2C9D7FF* HttpListener_get_Log_m0E561FD9DDEC89D00218DC9632625F6FE3B85970_inline (HttpListener_t9E2F1C3A5045B493A1DCD20C2433C78775F7BEEA* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/HttpListener.cs:374>
 		Logger_t94DF353D0E36883ABCD46D14A9158723B2C9D7FF* L_0 = __this->____log;
 		return L_0;
 	}
 }
-// Method Definition Index: 108066
+// Method Definition Index: 95435
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HttpConnection_tEB8FD97895F6BBE878DE35172C54FA4506EE7AFA* HttpListenerContext_get_Connection_mC2D112971C81153A3EE72B15B25C2B99134D007C_inline (HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/HttpListenerContext.cs:91>
 		HttpConnection_tEB8FD97895F6BBE878DE35172C54FA4506EE7AFA* L_0 = __this->____connection;
 		return L_0;
 	}
 }
-// Method Definition Index: 107970
+// Method Definition Index: 95339
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* HttpConnection_get_Stream_m0B7C64714D20CE97EAF01814A30B29127F91F73B_inline (HttpConnection_tEB8FD97895F6BBE878DE35172C54FA4506EE7AFA* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/HttpConnection.cs:199>
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_0 = __this->____stream;
 		return L_0;
 	}
 }
-// Method Definition Index: 108074
+// Method Definition Index: 95443
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HttpListenerRequest_t82D9873A5C1B7F0B5942B33BD6E40A164E989877* HttpListenerContext_get_Request_m888126E2E5E3F50834EF232D57738414F0EE38F5_inline (HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/HttpListenerContext.cs:156>
 		HttpListenerRequest_t82D9873A5C1B7F0B5942B33BD6E40A164E989877* L_0 = __this->____request;
 		return L_0;
 	}
 }
-// Method Definition Index: 108124
+// Method Definition Index: 95493
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* HttpListenerRequest_get_Headers_m4B48700E68C7C043F72BD3B0138C0C830BCE06A6_inline (HttpListenerRequest_t82D9873A5C1B7F0B5942B33BD6E40A164E989877* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/HttpListenerRequest.cs:282>
 		WebHeaderCollection_t27B854A43A347C8A656C1E6E9CF6A079498D11D0* L_0 = __this->____headers;
 		return L_0;
 	}
 }
-// Method Definition Index: 108142
+// Method Definition Index: 95511
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* HttpListenerRequest_get_UserHostName_m55F8215ED788E53951F5F62A6230C6740143D5FC_inline (HttpListenerRequest_t82D9873A5C1B7F0B5942B33BD6E40A164E989877* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/HttpListenerRequest.cs:627>
 		String_t* L_0 = __this->____userHostName;
 		return L_0;
 	}
 }
-// Method Definition Index: 108076
+// Method Definition Index: 95445
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* HttpListenerContext_get_User_m54E2CF5547B016388E7FD880308A473F54009A06_inline (HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/HttpListenerContext.cs:191>
 		RuntimeObject* L_0 = __this->____user;
 		return L_0;
 	}
 }
-// Method Definition Index: 108075
+// Method Definition Index: 95444
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HttpListenerResponse_t25EEA1B31354C497CFD2EBD49C3B8838B41C18DD* HttpListenerContext_get_Response_m5AB2F43A7A969C8E35228A7019CF3A66F2DCE199_inline (HttpListenerContext_tADFE21D80AC6F39B97172AD0EFF0C83D19C1D652* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/HttpListenerContext.cs:171>
 		HttpListenerResponse_t25EEA1B31354C497CFD2EBD49C3B8838B41C18DD* L_0 = __this->____response;
 		return L_0;
 	}
 }
-// Method Definition Index: 709
+// Method Definition Index: 715
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2883,43 +2755,43 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D
 		return L_0;
 	}
 }
-// Method Definition Index: 108361
+// Method Definition Index: 95730
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR X509Certificate2_t2BEAEA485A3CEA81D191B12A341675DBC54CDD2D* ServerSslConfiguration_get_ServerCertificate_mC6AD3327C5D846E6D3784515B3A7D262D5232D90_inline (ServerSslConfiguration_t8BDAC5F4FE7C0473FA7D2F4856B620563FF433AE* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/ServerSslConfiguration.cs:232>
 		X509Certificate2_t2BEAEA485A3CEA81D191B12A341675DBC54CDD2D* L_0 = __this->____serverCert;
 		return L_0;
 	}
 }
-// Method Definition Index: 108355
+// Method Definition Index: 95724
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ServerSslConfiguration_get_ClientCertificateRequired_mD0C40DD57004B5679983AC5B3F60B502CB0F8FF3_inline (ServerSslConfiguration_t8BDAC5F4FE7C0473FA7D2F4856B620563FF433AE* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/ServerSslConfiguration.cs:142>
 		bool L_0 = __this->____clientCertRequired;
 		return L_0;
 	}
 }
-// Method Definition Index: 108359
+// Method Definition Index: 95728
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ServerSslConfiguration_get_EnabledSslProtocols_m9AB57ECEABEA68B151F2753EED22176C4C0BAA63_inline (ServerSslConfiguration_t8BDAC5F4FE7C0473FA7D2F4856B620563FF433AE* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/ServerSslConfiguration.cs:205>
 		int32_t L_0 = __this->____enabledSslProtocols;
 		return L_0;
 	}
 }
-// Method Definition Index: 108353
+// Method Definition Index: 95722
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ServerSslConfiguration_get_CheckCertificateRevocation_m6A9F67E8122C31DE3523B76549C2BF7051975C25_inline (ServerSslConfiguration_t8BDAC5F4FE7C0473FA7D2F4856B620563FF433AE* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/Net/ServerSslConfiguration.cs:116>
 		bool L_0 = __this->____checkCertRevocation;
 		return L_0;
 	}
 }
-// Method Definition Index: 54442
+// Method Definition Index: 59372
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* TcpClient_get_Client_m38B7DCD73EB42C6BBE6340B5E4C0A8432C1140C0_inline (TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2928,16 +2800,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Socket_t1F49472CDA22B581C29A25822
 		return L_0;
 	}
 }
-// Method Definition Index: 107106
+// Method Definition Index: 94476
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* HttpBase_get_Headers_mBB0E65601F3F413DDC6B0BE063CF433FC55C4EA3_inline (HttpBase_tA62714ADE93B6C33A15BAE7BEC1027EBBFF2AE6B* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/HttpBase.cs:128>
 		NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* L_0 = __this->____headers;
 		return L_0;
 	}
 }
-// Method Definition Index: 52628
+// Method Definition Index: 57544
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* IPEndPoint_get_Address_m72F783CB76E10E9DBDF680CCC1DAAED201BABB1C_inline (IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2946,20 +2818,20 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR IPAddress_t2F4486449B0D73FF2D3B36
 		return L_0;
 	}
 }
-// Method Definition Index: 107129
+// Method Definition Index: 94499
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* HttpRequest_get_RequestTarget_m0A1376E28A5C29EC255FE9BE831A01B986FC84C0_inline (HttpRequest_t5C9E33A5BDFF966FF05F68C42F6C89A39704A6D3* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/HttpRequest.cs:149>
 		String_t* L_0 = __this->____target;
 		return L_0;
 	}
 }
-// Method Definition Index: 107126
+// Method Definition Index: 94496
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* HttpRequest_get_HttpMethod_m65CCD78CF924DF0D7670B8D1FA8B25A11BED818E_inline (HttpRequest_t5C9E33A5BDFF966FF05F68C42F6C89A39704A6D3* __this, const RuntimeMethod* method) 
 {
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.wire@af86088a4eac/Runtime/websocket-sharp/HttpRequest.cs:123>
 		String_t* L_0 = __this->____method;
 		return L_0;
 	}

@@ -38,23 +38,6 @@ static Il2CppMethodPointer s_methodPointers[14] =
 	EnumMemberAttribute_get_Value_mB41126B613B9FD1CD8A05D08FCEC4B6663864BE9,
 	EnumMemberAttribute_set_Value_mF6DD8C5291188BCA38A2073FDEA4C76EF1692EB6,
 };
-static const int32_t s_InvokerIndices[14] = 
-{
-	19560,
-	19069,
-	14833,
-	19560,
-	19313,
-	14833,
-	19221,
-	19069,
-	14592,
-	19069,
-	14592,
-	19560,
-	19313,
-	14833,
-};
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Runtime_Serialization_CodeGenModule;
 const Il2CppCodeGenModule g_System_Runtime_Serialization_CodeGenModule = 
 {
@@ -63,13 +46,7 @@ const Il2CppCodeGenModule g_System_Runtime_Serialization_CodeGenModule =
 	s_methodPointers,
 	0,
 	NULL,
-	s_InvokerIndices,
 	0,
-	NULL,
-	0,
-	NULL,
-	0,
-	NULL,
 	NULL,
 	NULL,
 	NULL,

@@ -5,11 +5,13 @@
 
 
 
+struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA;
 struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct EmbeddedAttribute_tB999FE0CCFD77E772FF0AD2E797DFCCC78855E28;
+struct RefSafetyRulesAttribute_t90E3A43BBE55CDF5EF6BB47BEC10E43A2E43C1DA;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct WindZone_t7946C428D1DA3C255DCDC832A39B871EDC1315A7;
 
-IL2CPP_EXTERN_C const RuntimeMethod* MarshalledUnityObject_MarshalNotNull_TisWindZone_t7946C428D1DA3C255DCDC832A39B871EDC1315A7_m61E861D1EAB2D2E7596933BADAD3EAB7EED9E00F_RuntimeMethod_var;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -23,6 +25,9 @@ IL2CPP_EXTERN_C_END
 struct U3CModuleU3E_t69CE5C6D2AE80D4BB70EDB461AFA715C1BD9B7B4 
 {
 };
+struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA  : public RuntimeObject
+{
+};
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
 {
 };
@@ -32,9 +37,20 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 {
 };
+struct EmbeddedAttribute_tB999FE0CCFD77E772FF0AD2E797DFCCC78855E28  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
 struct IntPtr_t 
 {
 	void* ___m_value;
+};
+struct RefSafetyRulesAttribute_t90E3A43BBE55CDF5EF6BB47BEC10E43A2E43C1DA  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	int32_t ___Version;
 };
 struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
 {
@@ -81,11 +97,12 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 #endif
 
 
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t MarshalledUnityObject_MarshalNotNull_TisRuntimeObject_mEB1AA6B672D00242BB9DCE007056EC0E9C8DB075_gshared_inline (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t MarshalledUnityObject_MarshalNotNull_TisIl2CppSharedGenericObject_mCE897EC9A79983B4B1E6E2C8342452256309044A_gshared_inline (Il2CppSharedGenericObject* ___0_obj, const RuntimeMethod* method) ;
 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2 (Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA* __this, const RuntimeMethod* method) ;
 inline intptr_t MarshalledUnityObject_MarshalNotNull_TisWindZone_t7946C428D1DA3C255DCDC832A39B871EDC1315A7_m61E861D1EAB2D2E7596933BADAD3EAB7EED9E00F_inline (WindZone_t7946C428D1DA3C255DCDC832A39B871EDC1315A7* ___0_obj, const RuntimeMethod* method)
 {
-	return ((  intptr_t (*) (WindZone_t7946C428D1DA3C255DCDC832A39B871EDC1315A7*, const RuntimeMethod*))MarshalledUnityObject_MarshalNotNull_TisRuntimeObject_mEB1AA6B672D00242BB9DCE007056EC0E9C8DB075_gshared_inline)(___0_obj, method);
+	return ((  intptr_t (*) (WindZone_t7946C428D1DA3C255DCDC832A39B871EDC1315A7*, const RuntimeMethod*))MarshalledUnityObject_MarshalNotNull_TisIl2CppSharedGenericObject_mCE897EC9A79983B4B1E6E2C8342452256309044A_gshared_inline)(___0_obj, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThrowHelper_ThrowNullReferenceException_mA9C7629D32240EE0218631933DAC647668CA63CF (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WindZone_get_radius_Injected_m32FE8422771A4E02E1B9C962472B59FBC264E16D (intptr_t ___0__unity_self, const RuntimeMethod* method) ;
@@ -104,15 +121,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Component__ctor_m4319162A6E6B02301078C12
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 118642
+// Method Definition Index: 107554
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_mA2CB19C011D627549BCF53F22E73B88C3E64AC6E (EmbeddedAttribute_tB999FE0CCFD77E772FF0AD2E797DFCCC78855E28* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 107555
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_mCA00B9127D7B4838A61592198F711B9F725358FF (RefSafetyRulesAttribute_t90E3A43BBE55CDF5EF6BB47BEC10E43A2E43C1DA* __this, int32_t ___0_p, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		int32_t L_0 = ___0_p;
+		__this->___Version = L_0;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 107556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WindZone_get_radius_mCA754177573056EF9C677C83DBD9C2CBD4979516 (WindZone_t7946C428D1DA3C255DCDC832A39B871EDC1315A7* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MarshalledUnityObject_MarshalNotNull_TisWindZone_t7946C428D1DA3C255DCDC832A39B871EDC1315A7_m61E861D1EAB2D2E7596933BADAD3EAB7EED9E00F_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	//<source_info:<no-source>:1>
 	intptr_t G_B2_0;
 	memset((&G_B2_0), 0, sizeof(G_B2_0));
@@ -120,7 +167,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WindZone_get_radius_mCA754177573056EF9C
 	memset((&G_B1_0), 0, sizeof(G_B1_0));
 	{
 		intptr_t L_0;
-		L_0 = MarshalledUnityObject_MarshalNotNull_TisWindZone_t7946C428D1DA3C255DCDC832A39B871EDC1315A7_m61E861D1EAB2D2E7596933BADAD3EAB7EED9E00F_inline(__this, MarshalledUnityObject_MarshalNotNull_TisWindZone_t7946C428D1DA3C255DCDC832A39B871EDC1315A7_m61E861D1EAB2D2E7596933BADAD3EAB7EED9E00F_RuntimeMethod_var);
+		L_0 = MarshalledUnityObject_MarshalNotNull_TisWindZone_t7946C428D1DA3C255DCDC832A39B871EDC1315A7_m61E861D1EAB2D2E7596933BADAD3EAB7EED9E00F_inline(__this, NULL);
 		intptr_t L_1 = L_0;
 		if (L_1)
 		{
@@ -141,15 +188,9 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 118643
+// Method Definition Index: 107557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WindZone_get_windMain_m49480166CDE759C98498B951148535FCCED788C0 (WindZone_t7946C428D1DA3C255DCDC832A39B871EDC1315A7* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MarshalledUnityObject_MarshalNotNull_TisWindZone_t7946C428D1DA3C255DCDC832A39B871EDC1315A7_m61E861D1EAB2D2E7596933BADAD3EAB7EED9E00F_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	//<source_info:<no-source>:1>
 	intptr_t G_B2_0;
 	memset((&G_B2_0), 0, sizeof(G_B2_0));
@@ -157,7 +198,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WindZone_get_windMain_m49480166CDE759C9
 	memset((&G_B1_0), 0, sizeof(G_B1_0));
 	{
 		intptr_t L_0;
-		L_0 = MarshalledUnityObject_MarshalNotNull_TisWindZone_t7946C428D1DA3C255DCDC832A39B871EDC1315A7_m61E861D1EAB2D2E7596933BADAD3EAB7EED9E00F_inline(__this, MarshalledUnityObject_MarshalNotNull_TisWindZone_t7946C428D1DA3C255DCDC832A39B871EDC1315A7_m61E861D1EAB2D2E7596933BADAD3EAB7EED9E00F_RuntimeMethod_var);
+		L_0 = MarshalledUnityObject_MarshalNotNull_TisWindZone_t7946C428D1DA3C255DCDC832A39B871EDC1315A7_m61E861D1EAB2D2E7596933BADAD3EAB7EED9E00F_inline(__this, NULL);
 		intptr_t L_1 = L_0;
 		if (L_1)
 		{
@@ -178,7 +219,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 118644
+// Method Definition Index: 107558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindZone__ctor_m9A197F1A309977C754694D2754C6620566B0F502 (WindZone_t7946C428D1DA3C255DCDC832A39B871EDC1315A7* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -187,7 +228,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindZone__ctor_m9A197F1A309977C754694D27
 		return;
 	}
 }
-// Method Definition Index: 118645
+// Method Definition Index: 107559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WindZone_get_radius_Injected_m32FE8422771A4E02E1B9C962472B59FBC264E16D (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -198,7 +239,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WindZone_get_radius_Injected_m32FE84227
 	float icallRetVal = _il2cpp_icall_func(___0__unity_self);
 	return icallRetVal;
 }
-// Method Definition Index: 118646
+// Method Definition Index: 107560
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WindZone_get_windMain_Injected_m11C2632B1205073D4B5CDDB20EAC44F0306BE276 (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -212,24 +253,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WindZone_get_windMain_Injected_m11C2632
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 57955
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t MarshalledUnityObject_MarshalNotNull_TisRuntimeObject_mEB1AA6B672D00242BB9DCE007056EC0E9C8DB075_gshared_inline (RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+// Method Definition Index: 51912
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t MarshalledUnityObject_MarshalNotNull_TisIl2CppSharedGenericObject_mCE897EC9A79983B4B1E6E2C8342452256309044A_gshared_inline (Il2CppSharedGenericObject* ___0_obj, const RuntimeMethod* method) 
 {
-	intptr_t V_0;
-	memset((&V_0), 0, sizeof(V_0));
+	//<source_info:<no-source>:1>
 	{
-		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnityEngineObject.bindings.cs:993>
-		RuntimeObject* L_0 = ___0_obj;
+		Il2CppSharedGenericObject* L_0 = ___0_obj;
 		NullCheck(L_0);
 		intptr_t L_1 = ((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_0)->___m_CachedPtr;
-		V_0 = L_1;
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnityEngineObject.bindings.cs:995>
-		intptr_t L_2 = V_0;
-		return L_2;
+		return L_1;
 	}
 }

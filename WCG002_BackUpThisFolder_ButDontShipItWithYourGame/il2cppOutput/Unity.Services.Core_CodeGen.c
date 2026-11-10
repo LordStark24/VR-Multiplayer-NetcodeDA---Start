@@ -7,8 +7,6 @@
 
 
 
-extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBB67EB0FE40CFF476F2037F657A4868B832E8746 (void);
-extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE98D5C8F1D281A1EBEF96B2FFE482D32EB685A7A (void);
 extern void PreserveDependencyAttribute__ctor_m3D09DF018713F6AFEC76CD25A7EF25AA73601FDE (void);
 extern void PreserveDependencyAttribute__ctor_m42B4417CCD79D74D0BE88B3A366BA5D2BAC10E5C (void);
 extern void PreserveDependencyAttribute__ctor_mB521F00D6CDEE0243E4ED00EA74F194E6118D8C3 (void);
@@ -81,10 +79,8 @@ extern void UnityThreadUtils_get_UnityThreadScheduler_mE9C3F85F54EF3425CB76B8899
 extern void UnityThreadUtils_set_UnityThreadScheduler_m5AE27DBA9F88FE1CDCB8FBF241A3C1B5628F9BB6 (void);
 extern void UnityThreadUtils_CaptureUnityThreadInfo_m43D8C684F01F8CA911A1D6E80E7E70CC1A0CF579 (void);
 extern void UnityThreadUtils_get_IsRunningOnUnityThread_m5FD8E9090E2A2EE035677BC109B12A234B91A1B4 (void);
-static Il2CppMethodPointer s_methodPointers[91] = 
+static Il2CppMethodPointer s_methodPointers[89] = 
 {
-	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBB67EB0FE40CFF476F2037F657A4868B832E8746,
-	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE98D5C8F1D281A1EBEF96B2FFE482D32EB685A7A,
 	PreserveDependencyAttribute__ctor_m3D09DF018713F6AFEC76CD25A7EF25AA73601FDE,
 	PreserveDependencyAttribute__ctor_m42B4417CCD79D74D0BE88B3A366BA5D2BAC10E5C,
 	PreserveDependencyAttribute__ctor_mB521F00D6CDEE0243E4ED00EA74F194E6118D8C3,
@@ -179,152 +175,18 @@ extern void U3CInitializeAsyncU3Ed__27_MoveNext_m2F0806290299F97B5291535107EC04A
 extern void U3CInitializeAsyncU3Ed__27_SetStateMachine_m0D863130352AE11671635A9142DBE233D98C83A0_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] = 
 {
-	{ 0x0600004E, U3CInitializeAsyncU3Ed__27_MoveNext_m2F0806290299F97B5291535107EC04A90FDF0B16_AdjustorThunk },
-	{ 0x0600004F, U3CInitializeAsyncU3Ed__27_SetStateMachine_m0D863130352AE11671635A9142DBE233D98C83A0_AdjustorThunk },
-};
-static const int32_t s_InvokerIndices[91] = 
-{
-	32979,
-	19560,
-	14833,
-	7618,
-	3590,
-	19313,
-	14833,
-	31532,
-	31532,
-	31532,
-	32918,
-	32918,
-	32918,
-	14833,
-	14833,
-	19313,
-	14833,
-	19560,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	19313,
-	-1,
-	19313,
-	19560,
-	14833,
-	14833,
-	4812,
-	4812,
-	4812,
-	4812,
-	-1,
-	5801,
-	5806,
-	5810,
-	5808,
-	14833,
-	19560,
-	14833,
-	7618,
-	19560,
-	14833,
-	19221,
-	7053,
-	3455,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	31532,
-	31532,
-	31532,
-	31532,
-	32808,
-	31532,
-	32808,
-	32808,
-	31532,
-	32808,
-	32779,
-	32808,
-	31532,
-	32918,
-	32808,
-	30995,
-	32808,
-	30995,
-	32918,
-	32918,
-	19560,
-	14833,
-	32808,
-	31532,
-	32918,
-	30995,
-	7608,
-	12741,
-	3012,
-	12741,
-	32808,
-	31532,
-	32918,
-	32736,
-};
-static const Il2CppTokenRangePair s_rgctxIndices[2] = 
-{
-	{ 0x02000010, { 2, 11 } },
-	{ 0x06000023, { 0, 2 } },
-};
-extern const uint32_t g_rgctx_TU26_tF61CFCA1CBF3183F75C73846823BCCAC782508C1;
-extern const uint32_t g_rgctx_T_tE3E96C474304E41B9F62BAD7A48B859373E2FE2C;
-extern const uint32_t g_rgctx_ServiceObserver_1_tE4F6CB6D3C3C4EEFA296FEE96A4159E233620734;
-extern const uint32_t g_rgctx_Action_1_tDB9E1511570E3302AB9FA308E8004F80F7E8BA6E;
-extern const uint32_t g_rgctx_Action_1U26_t12A781975D4DC515799D07B5F7B8277A45742A38;
-extern const uint32_t g_rgctx_T_tA0C9F213023C8023210E0A63E471C0046B905F41;
-extern const uint32_t g_rgctx_ServiceObserver_1__ctor_mF42800789BC4DAFBC6C90ED7E580FC3832AF1A6F;
-extern const uint32_t g_rgctx_ServiceObserver_1_Init_mF4775E117C890F5134CA5C4FB92C01FD2B5466DE;
-extern const uint32_t g_rgctx_ServiceObserver_1_AssignService_m31A2B2F1A83973262835889C9447A4E5340A8AD6;
-extern const uint32_t g_rgctx_IUnityServices_GetService_TisT_tA0C9F213023C8023210E0A63E471C0046B905F41_mDD8B6791EE22BB4B8C4F1FD0767003D5865551C8;
-extern const uint32_t g_rgctx_ServiceObserver_1_set_Service_m79AB82950203A6481F542C999211E9FD9A7A0C0C;
-extern const uint32_t g_rgctx_ServiceObserver_1_get_Service_m41F49D08B256E369074A4FFC2E25D1A2BC0C0FE9;
-extern const uint32_t g_rgctx_Action_1_Invoke_m3DCAF82F101F1ECAAEB4199154B7204A46742544;
-static const Il2CppRGCTXDefinition s_rgctxValues[13] = 
-{
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU26_tF61CFCA1CBF3183F75C73846823BCCAC782508C1 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tE3E96C474304E41B9F62BAD7A48B859373E2FE2C },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_ServiceObserver_1_tE4F6CB6D3C3C4EEFA296FEE96A4159E233620734 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Action_1_tDB9E1511570E3302AB9FA308E8004F80F7E8BA6E },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Action_1U26_t12A781975D4DC515799D07B5F7B8277A45742A38 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tA0C9F213023C8023210E0A63E471C0046B905F41 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ServiceObserver_1__ctor_mF42800789BC4DAFBC6C90ED7E580FC3832AF1A6F },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ServiceObserver_1_Init_mF4775E117C890F5134CA5C4FB92C01FD2B5466DE },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ServiceObserver_1_AssignService_m31A2B2F1A83973262835889C9447A4E5340A8AD6 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUnityServices_GetService_TisT_tA0C9F213023C8023210E0A63E471C0046B905F41_mDD8B6791EE22BB4B8C4F1FD0767003D5865551C8 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ServiceObserver_1_set_Service_m79AB82950203A6481F542C999211E9FD9A7A0C0C },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ServiceObserver_1_get_Service_m41F49D08B256E369074A4FFC2E25D1A2BC0C0FE9 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Action_1_Invoke_m3DCAF82F101F1ECAAEB4199154B7204A46742544 },
+	{ 0x0600004C, U3CInitializeAsyncU3Ed__27_MoveNext_m2F0806290299F97B5291535107EC04A90FDF0B16_AdjustorThunk },
+	{ 0x0600004D, U3CInitializeAsyncU3Ed__27_SetStateMachine_m0D863130352AE11671635A9142DBE233D98C83A0_AdjustorThunk },
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Services_Core_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_Services_Core_CodeGenModule = 
 {
 	"Unity.Services.Core.dll",
-	91,
+	89,
 	s_methodPointers,
 	2,
 	s_adjustorThunks,
-	s_InvokerIndices,
 	0,
-	NULL,
-	2,
-	s_rgctxIndices,
-	13,
-	s_rgctxValues,
 	NULL,
 	NULL,
 	NULL,

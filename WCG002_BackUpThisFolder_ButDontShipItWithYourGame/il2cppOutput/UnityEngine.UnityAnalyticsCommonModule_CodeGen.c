@@ -7,6 +7,8 @@
 
 
 
+extern void EmbeddedAttribute__ctor_mAD87147A6790C5B6DB3FFA82C9A9E8B45A7931E1 (void);
+extern void RefSafetyRulesAttribute__ctor_m0422C6AB7A043D911ED5111279DA6AADFF94CBC3 (void);
 extern void SubsystemsAnalyticBase__ctor_mFA87BE5A4B341D60F40E9B6456CC117CAA88A3DD (void);
 extern void SubsystemsAnalyticStart__ctor_mC3C1CC998F390C94755BFF43527612BBFE1C87A5 (void);
 extern void SubsystemsAnalyticStart_CreateSubsystemsAnalyticStart_m1492EA04566B9E1570F881E854EE71C834D71850 (void);
@@ -73,8 +75,10 @@ extern void TestAnalytic__ctor_mB6C1AABD2CA785D03984294A1813326B40CCB373 (void);
 extern void TestAnalytic_CreateTestAnalytic_m30D0AFC187AC0F0CEDF63DA35EB92D08F6A024B9 (void);
 extern void VCProviderAnalytics__ctor_mAD8899069C587B9D9AE3A83269AFEAE2C3DD77DB (void);
 extern void VCProviderAnalytics_CreateVCProviderAnalytics_mE4E3D95FEB31AA7DDEA8DF1241F019E504F50FC3 (void);
-static Il2CppMethodPointer s_methodPointers[66] = 
+static Il2CppMethodPointer s_methodPointers[68] = 
 {
+	EmbeddedAttribute__ctor_mAD87147A6790C5B6DB3FFA82C9A9E8B45A7931E1,
+	RefSafetyRulesAttribute__ctor_m0422C6AB7A043D911ED5111279DA6AADFF94CBC3,
 	SubsystemsAnalyticBase__ctor_mFA87BE5A4B341D60F40E9B6456CC117CAA88A3DD,
 	SubsystemsAnalyticStart__ctor_mC3C1CC998F390C94755BFF43527612BBFE1C87A5,
 	SubsystemsAnalyticStart_CreateSubsystemsAnalyticStart_m1492EA04566B9E1570F881E854EE71C834D71850,
@@ -142,90 +146,15 @@ static Il2CppMethodPointer s_methodPointers[66] =
 	VCProviderAnalytics__ctor_mAD8899069C587B9D9AE3A83269AFEAE2C3DD77DB,
 	VCProviderAnalytics_CreateVCProviderAnalytics_mE4E3D95FEB31AA7DDEA8DF1241F019E504F50FC3,
 };
-static const int32_t s_InvokerIndices[66] = 
-{
-	14833,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	1197,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	14833,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-	19560,
-	32808,
-};
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_UnityAnalyticsCommonModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_UnityAnalyticsCommonModule_CodeGenModule = 
 {
 	"UnityEngine.UnityAnalyticsCommonModule.dll",
-	66,
+	68,
 	s_methodPointers,
 	0,
 	NULL,
-	s_InvokerIndices,
 	0,
-	NULL,
-	0,
-	NULL,
-	0,
-	NULL,
 	NULL,
 	NULL,
 	NULL,

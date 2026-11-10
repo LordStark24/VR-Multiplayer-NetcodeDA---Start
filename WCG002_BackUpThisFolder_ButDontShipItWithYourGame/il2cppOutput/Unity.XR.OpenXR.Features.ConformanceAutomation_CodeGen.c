@@ -7,8 +7,6 @@
 
 
 
-extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m6896F9030296BC124990DFA5D1BF93C27AD21F83 (void);
-extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m923204C4085E57A1065D46ADAFD919B74F219B17 (void);
 extern void ConformanceAutomationFeature_OnInstanceCreate_m2FE4E5849C89EB442F5B56B7D3A62FFC7A3833FB (void);
 extern void ConformanceAutomationFeature_OnInstanceDestroy_m96D8F96B35E8B653A502EB0DF784399E4136A12A (void);
 extern void ConformanceAutomationFeature_OnSessionCreate_m2979BF91B65F60D1B0C00F1B65B26B894E8F6BAF (void);
@@ -27,10 +25,8 @@ extern void ConformanceAutomationFeature_xrSetInputDeviceStateVector2fEXT_m54738
 extern void ConformanceAutomationFeature_xrSetInputDeviceLocationEXT_m205D504F56533E790B6F2CEA8702FB5EF997ADC9 (void);
 extern void ConformanceAutomationFeature_xrSetInputDeviceVelocityUNITY_m840F7BCC7FE9D2F2560A70DD16FA0F1BA1B04490 (void);
 extern void ConformanceAutomationFeature__ctor_mD56EBF29667C1232A5456B17D69A475FFC18BAC4 (void);
-static Il2CppMethodPointer s_methodPointers[20] = 
+static Il2CppMethodPointer s_methodPointers[18] = 
 {
-	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m6896F9030296BC124990DFA5D1BF93C27AD21F83,
-	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m923204C4085E57A1065D46ADAFD919B74F219B17,
 	ConformanceAutomationFeature_OnInstanceCreate_m2FE4E5849C89EB442F5B56B7D3A62FFC7A3833FB,
 	ConformanceAutomationFeature_OnInstanceDestroy_m96D8F96B35E8B653A502EB0DF784399E4136A12A,
 	ConformanceAutomationFeature_OnSessionCreate_m2979BF91B65F60D1B0C00F1B65B26B894E8F6BAF,
@@ -50,44 +46,15 @@ static Il2CppMethodPointer s_methodPointers[20] =
 	ConformanceAutomationFeature_xrSetInputDeviceVelocityUNITY_m840F7BCC7FE9D2F2560A70DD16FA0F1BA1B04490,
 	ConformanceAutomationFeature__ctor_mD56EBF29667C1232A5456B17D69A475FFC18BAC4,
 };
-static const int32_t s_InvokerIndices[20] = 
-{
-	32994,
-	19560,
-	10797,
-	15048,
-	15048,
-	15048,
-	23745,
-	23745,
-	23748,
-	23751,
-	22170,
-	20355,
-	27876,
-	22189,
-	22189,
-	22190,
-	22191,
-	20679,
-	20221,
-	19560,
-};
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_ConformanceAutomation_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_ConformanceAutomation_CodeGenModule = 
 {
 	"Unity.XR.OpenXR.Features.ConformanceAutomation.dll",
-	20,
+	18,
 	s_methodPointers,
 	0,
 	NULL,
-	s_InvokerIndices,
 	0,
-	NULL,
-	0,
-	NULL,
-	0,
-	NULL,
 	NULL,
 	NULL,
 	NULL,

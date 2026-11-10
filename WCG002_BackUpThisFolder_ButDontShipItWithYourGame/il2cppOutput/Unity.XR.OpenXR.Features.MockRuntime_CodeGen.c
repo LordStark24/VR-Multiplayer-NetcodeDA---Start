@@ -10,8 +10,6 @@ extern const RuntimeMethod* MockRuntime_ReceiveScriptEvent_m4A8AAF0A455A02262E3B
 
 
 
-extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mDAD71FA06BDF8C7AD0E33D77406B63DCF4BFA04B (void);
-extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mC7945F740961D5FA514CE655B624B8298FF9DEE7 (void);
 extern void MockRuntime_add_onScriptEvent_m9069E77F78C10D6FEACC1E52B25723B6899FD518 (void);
 extern void MockRuntime_remove_onScriptEvent_m0DD8AD22877545F984D4B8FB9630976A7A60B49D (void);
 extern void MockRuntime_get_Instance_m2C06B5DA0B6B37B53C528CC246D6BB6C3AFDB1CD (void);
@@ -47,6 +45,7 @@ extern void MockRuntime_MockRuntime_RegisterFunctionCallbacks_m8FE38D5A0491C5353
 extern void MockRuntime_MetaPerformanceMetrics_SeedCounterOnce_Float_m36A5817DD1A8817E727EC2389953495B6AFB5023 (void);
 extern void MockRuntime_PerformanceSettings_CauseNotification_m40E3953331B4B970C32CAFADA0E23DC9EA9D1C21 (void);
 extern void MockRuntime_PerformanceSettings_GetPerformanceLevelHint_mD4796F9E14EE3B13EEF7D253F3B65822AECD1D75 (void);
+extern void MockRuntime_AndroidEnumerateSystemExtensionProperties_SetSystemExtensionEnabled_mAA53DDE89468D45FBFF1E034B1682DE01A13CA5E (void);
 extern void MockRuntime_Internal_IsAndroidThreadTypeRegistered_mFF623A6563782AA73272F410A5F56A1F33F38EC1 (void);
 extern void MockRuntime_Internal_GetRegisteredAndroidThreadsCount_mBBD1DB6CD79BF43051AD495AE922FBE7AEF48DF3 (void);
 extern void MockRuntime_IsAndroidThreadTypeRegistered_m23F1BA32646039E9BE1A6AB5C2AF4AD8656DB8D2 (void);
@@ -66,10 +65,8 @@ extern void AfterFunctionDelegate__ctor_m70B1A5F67C275B7064C9E1731B27326B97913F9
 extern void AfterFunctionDelegate_Invoke_mF8B0A0BF8DCC84E37AB367200F2D081B9706A115 (void);
 extern void AfterFunctionDelegate_BeginInvoke_m8850000FC36D01D205D12C3C496C66A4282322AA (void);
 extern void AfterFunctionDelegate_EndInvoke_m1F7F16FB2CF9927443DA7257E47A5418DABD7B58 (void);
-static Il2CppMethodPointer s_methodPointers[56] = 
+static Il2CppMethodPointer s_methodPointers[55] = 
 {
-	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mDAD71FA06BDF8C7AD0E33D77406B63DCF4BFA04B,
-	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mC7945F740961D5FA514CE655B624B8298FF9DEE7,
 	MockRuntime_add_onScriptEvent_m9069E77F78C10D6FEACC1E52B25723B6899FD518,
 	MockRuntime_remove_onScriptEvent_m0DD8AD22877545F984D4B8FB9630976A7A60B49D,
 	MockRuntime_get_Instance_m2C06B5DA0B6B37B53C528CC246D6BB6C3AFDB1CD,
@@ -105,6 +102,7 @@ static Il2CppMethodPointer s_methodPointers[56] =
 	MockRuntime_MetaPerformanceMetrics_SeedCounterOnce_Float_m36A5817DD1A8817E727EC2389953495B6AFB5023,
 	MockRuntime_PerformanceSettings_CauseNotification_m40E3953331B4B970C32CAFADA0E23DC9EA9D1C21,
 	MockRuntime_PerformanceSettings_GetPerformanceLevelHint_mD4796F9E14EE3B13EEF7D253F3B65822AECD1D75,
+	MockRuntime_AndroidEnumerateSystemExtensionProperties_SetSystemExtensionEnabled_mAA53DDE89468D45FBFF1E034B1682DE01A13CA5E,
 	MockRuntime_Internal_IsAndroidThreadTypeRegistered_mFF623A6563782AA73272F410A5F56A1F33F38EC1,
 	MockRuntime_Internal_GetRegisteredAndroidThreadsCount_mBBD1DB6CD79BF43051AD495AE922FBE7AEF48DF3,
 	MockRuntime_IsAndroidThreadTypeRegistered_m23F1BA32646039E9BE1A6AB5C2AF4AD8656DB8D2,
@@ -125,87 +123,22 @@ static Il2CppMethodPointer s_methodPointers[56] =
 	AfterFunctionDelegate_BeginInvoke_m8850000FC36D01D205D12C3C496C66A4282322AA,
 	AfterFunctionDelegate_EndInvoke_m1F7F16FB2CF9927443DA7257E47A5418DABD7B58,
 };
-static const int32_t s_InvokerIndices[56] = 
-{
-	32996,
-	19560,
-	31532,
-	31532,
-	32808,
-	27862,
-	30762,
-	28092,
-	25191,
-	28100,
-	28100,
-	30995,
-	30995,
-	32918,
-	32918,
-	15048,
-	30823,
-	31516,
-	21720,
-	27856,
-	22936,
-	23057,
-	30762,
-	26353,
-	32779,
-	32918,
-	32918,
-	31516,
-	28142,
-	32918,
-	27863,
-	27798,
-	27854,
-	28100,
-	25201,
-	24915,
-	30755,
-	30567,
-	32911,
-	30567,
-	32911,
-	14833,
-	19560,
-	19560,
-	7608,
-	7214,
-	2000,
-	14833,
-	7608,
-	12077,
-	3012,
-	12077,
-	7608,
-	7606,
-	2028,
-	14833,
-};
 static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[3] = 
 {
-	{ 0x06000006, 65,  (void**)&MockRuntime_ReceiveScriptEvent_m4A8AAF0A455A02262E3B74CB3DB498A88C84AD14_RuntimeMethod_var, 0 },
-	{ 0x06000007, 64,  (void**)&MockRuntime_BeforeFunctionCallback_m70AB6148D0D9FCD315ACDB6B46131514D128380D_RuntimeMethod_var, 0 },
-	{ 0x06000008, 63,  (void**)&MockRuntime_AfterFunctionCallback_mFBBF94D9868CA6870E3A6A78D831145376372D46_RuntimeMethod_var, 0 },
+	{ 0x06000004, 126,  (void**)&MockRuntime_ReceiveScriptEvent_m4A8AAF0A455A02262E3B74CB3DB498A88C84AD14_RuntimeMethod_var, 0 },
+	{ 0x06000005, 125,  (void**)&MockRuntime_BeforeFunctionCallback_m70AB6148D0D9FCD315ACDB6B46131514D128380D_RuntimeMethod_var, 0 },
+	{ 0x06000006, 124,  (void**)&MockRuntime_AfterFunctionCallback_mFBBF94D9868CA6870E3A6A78D831145376372D46_RuntimeMethod_var, 0 },
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_MockRuntime_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_MockRuntime_CodeGenModule = 
 {
 	"Unity.XR.OpenXR.Features.MockRuntime.dll",
-	56,
+	55,
 	s_methodPointers,
 	0,
 	NULL,
-	s_InvokerIndices,
 	3,
 	s_reversePInvokeIndices,
-	0,
-	NULL,
-	0,
-	NULL,
-	NULL,
 	NULL,
 	NULL,
 	NULL,

@@ -7,8 +7,6 @@
 
 
 
-extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mB8F527FED4982F78A0E90C98B2AB703EAA27B563 (void);
-extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m38B7A3286884F1C804B02BC8FFBA4F32DB859C5C (void);
 extern void XRConfigurationDataAttribute_get_displayName_mE0BD51CF7824CBB1318708EAD9717F604BE14057 (void);
 extern void XRConfigurationDataAttribute_set_displayName_m3AFFE133640E562156E3D20A81206FE9F62D12BB (void);
 extern void XRConfigurationDataAttribute_get_buildSettingsKey_m5458381526D6DEDA8A3DDC7375F24EE3A481CE37 (void);
@@ -37,7 +35,6 @@ extern void XRLoader_GetSupportedGraphicsDeviceTypes_m92C8ECDE9FEF211C2B9EB9574B
 extern void XRLoader__ctor_m466A0E280C64F30806342A9EEF55801FA88682CE (void);
 extern void XRLoaderHelper_Deinitialize_m879052C82795CBA2443070F8206798BED6C0C5E7 (void);
 extern void XRLoaderHelper__ctor_mEAD9691DBE10C223AB11AB7056ED0B3BA59D7699 (void);
-extern void XRManagementAnalytics_Initialize_mA0727A2B768833A169E4FBC45B7F6F2A09FAEC78 (void);
 extern void XrInitializeAnalytic__ctor_m9980C9F6ABD15963DA3CF0F7CC296329A0C8B2E6 (void);
 extern void XrInitializeAnalytic_TryGatherData_mCC619322C1F0372D348C2C951BDD570EA4465187 (void);
 extern void XRManagerSettings_get_automaticLoading_mF28DC51D46409F4D75DCF53E38C8E6B28444B01A (void);
@@ -72,10 +69,8 @@ extern void U3CInitializeLoaderU3Ed__29_U3CU3Em__Finally1_m2AAF45FDB599635401524
 extern void U3CInitializeLoaderU3Ed__29_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB51EF2AE37D83601139BFE0D552F5C2ADCE74806 (void);
 extern void U3CInitializeLoaderU3Ed__29_System_Collections_IEnumerator_Reset_m0C9D245DD221A501D635E276FD9A18C90F67999E (void);
 extern void U3CInitializeLoaderU3Ed__29_System_Collections_IEnumerator_get_Current_m1ACC6CE78494B3B96B26C65420921A49F57ED7E9 (void);
-static Il2CppMethodPointer s_methodPointers[74] = 
+static Il2CppMethodPointer s_methodPointers[71] = 
 {
-	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mB8F527FED4982F78A0E90C98B2AB703EAA27B563,
-	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m38B7A3286884F1C804B02BC8FFBA4F32DB859C5C,
 	XRConfigurationDataAttribute_get_displayName_mE0BD51CF7824CBB1318708EAD9717F604BE14057,
 	XRConfigurationDataAttribute_set_displayName_m3AFFE133640E562156E3D20A81206FE9F62D12BB,
 	XRConfigurationDataAttribute_get_buildSettingsKey_m5458381526D6DEDA8A3DDC7375F24EE3A481CE37,
@@ -112,7 +107,6 @@ static Il2CppMethodPointer s_methodPointers[74] =
 	NULL,
 	XRLoaderHelper_Deinitialize_m879052C82795CBA2443070F8206798BED6C0C5E7,
 	XRLoaderHelper__ctor_mEAD9691DBE10C223AB11AB7056ED0B3BA59D7699,
-	XRManagementAnalytics_Initialize_mA0727A2B768833A169E4FBC45B7F6F2A09FAEC78,
 	XrInitializeAnalytic__ctor_m9980C9F6ABD15963DA3CF0F7CC296329A0C8B2E6,
 	XrInitializeAnalytic_TryGatherData_mCC619322C1F0372D348C2C951BDD570EA4465187,
 	XRManagerSettings_get_automaticLoading_mF28DC51D46409F4D75DCF53E38C8E6B28444B01A,
@@ -149,166 +143,15 @@ static Il2CppMethodPointer s_methodPointers[74] =
 	U3CInitializeLoaderU3Ed__29_System_Collections_IEnumerator_Reset_m0C9D245DD221A501D635E276FD9A18C90F67999E,
 	U3CInitializeLoaderU3Ed__29_System_Collections_IEnumerator_get_Current_m1ACC6CE78494B3B96B26C65420921A49F57ED7E9,
 };
-static const int32_t s_InvokerIndices[74] = 
-{
-	32992,
-	19560,
-	19313,
-	14833,
-	19313,
-	14833,
-	7618,
-	32808,
-	19313,
-	14833,
-	19313,
-	19069,
-	19560,
-	32918,
-	19560,
-	32918,
-	32918,
-	19560,
-	19560,
-	19560,
-	19560,
-	32918,
-	19069,
-	19069,
-	19069,
-	19069,
-	-1,
-	12714,
-	19560,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	19069,
-	19560,
-	32736,
-	15403,
-	4623,
-	19069,
-	14592,
-	19069,
-	14592,
-	19313,
-	14833,
-	19313,
-	19313,
-	19313,
-	19069,
-	19313,
-	14833,
-	-1,
-	19560,
-	19313,
-	4820,
-	10590,
-	10590,
-	19560,
-	30541,
-	19560,
-	19560,
-	19560,
-	19560,
-	19560,
-	19560,
-	14744,
-	19560,
-	19069,
-	19560,
-	19313,
-	19560,
-	19313,
-};
-static const Il2CppTokenRangePair s_rgctxIndices[8] = 
-{
-	{ 0x0600001E, { 0, 2 } },
-	{ 0x0600001F, { 2, 2 } },
-	{ 0x06000020, { 4, 2 } },
-	{ 0x06000021, { 6, 3 } },
-	{ 0x06000022, { 9, 13 } },
-	{ 0x06000023, { 22, 2 } },
-	{ 0x06000024, { 24, 2 } },
-	{ 0x06000036, { 26, 1 } },
-};
-extern const uint32_t g_rgctx_T_tE83530F7E4A38B58BF27632C151E64FE9AB1BD8C;
-extern const uint32_t g_rgctx_T_tE83530F7E4A38B58BF27632C151E64FE9AB1BD8C;
-extern const uint32_t g_rgctx_XRLoaderHelper_GetLoadedSubsystem_TisT_tDCC1B517C2249B05E00CF18E5D227E2549F29CF6_m0F4A18CECB2B4405DADDD191E94A3139153E32D0;
-extern const uint32_t g_rgctx_T_tDCC1B517C2249B05E00CF18E5D227E2549F29CF6;
-extern const uint32_t g_rgctx_XRLoaderHelper_GetLoadedSubsystem_TisT_t33F97C7A0EC049E81B790F15B06A784991EF2E57_m4545BCACEE2518432742404A4ED60C8BD70ACFBB;
-extern const uint32_t g_rgctx_T_t33F97C7A0EC049E81B790F15B06A784991EF2E57;
-extern const uint32_t g_rgctx_XRLoaderHelper_GetLoadedSubsystem_TisT_t5C19882F056170FFBC337AB1996C22F4F3D0087A_m2D10291859C420E98DC9F67E7BC059D94EFB2995;
-extern const uint32_t g_rgctx_T_t5C19882F056170FFBC337AB1996C22F4F3D0087A;
-extern const uint32_t g_rgctx_T_t5C19882F056170FFBC337AB1996C22F4F3D0087A;
-extern const uint32_t g_rgctx_List_1_t8C622A547070267F95814ECC4460B2421F6CE5FA;
-extern const uint32_t g_rgctx_SubsystemManager_GetSubsystemDescriptors_TisTDescriptor_t2B74798ADF57AC69447766D064ECD0EFD59B49C3_m6D2D3BAC3B2104373E3EF5A7C21C25923929902F;
-extern const uint32_t g_rgctx_List_1_get_Count_mA2FF9BD8129720B95F4DD92EBD1A322AB6ED8D61;
-extern const uint32_t g_rgctx_List_1_GetEnumerator_m34B293E1376FAB46C6EDE95161ABD611CE4F6049;
-extern const uint32_t g_rgctx_Enumerator_t1346215E738D72F515555CF84BCEBC664757A9A9;
-extern const uint32_t g_rgctx_Enumerator_get_Current_mABF921F950F66BB6A8836662A851B9370AC5135A;
-extern const uint32_t g_rgctx_Enumerator_t1346215E738D72F515555CF84BCEBC664757A9A9;
-extern const uint32_t g_rgctx_TDescriptor_t2B74798ADF57AC69447766D064ECD0EFD59B49C3;
-extern const Il2CppRGCTXConstrainedData g_rgctx_TDescriptor_t2B74798ADF57AC69447766D064ECD0EFD59B49C3_ISubsystemDescriptor_get_id_mB5D2D5D3B9E9FD3ABF5E064E1262DD4AAF09C6F2;
-extern const Il2CppRGCTXConstrainedData g_rgctx_TDescriptor_t2B74798ADF57AC69447766D064ECD0EFD59B49C3_ISubsystemDescriptor_Create_m70CF3561B7EC144C6C34CDBF5CA4AFF82D576E9A;
-extern const uint32_t g_rgctx_TSubsystem_t5328216FD45421FF07AFEE2EFA5CD3F90B7B23AA;
-extern const uint32_t g_rgctx_Enumerator_MoveNext_m7AA605115D9FD24AC584238A4A05D09159F5B8A5;
-extern const Il2CppRGCTXConstrainedData g_rgctx_Enumerator_t1346215E738D72F515555CF84BCEBC664757A9A9_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7;
-extern const uint32_t g_rgctx_List_1_tCC53D6CB72AFBFFB70F4F30F80AD82C7AFADFF90;
-extern const uint32_t g_rgctx_XRLoaderHelper_CreateSubsystem_TisTDescriptor_t2F53B0027CD2CEE8DEEC547765AC6876B085CDD6_TisTSubsystem_t715FA6A4371BF289E7095C8CA0A1A0E8031BE68A_m5C03A52075DA69E79D3C7B6057D93920C0E99330;
-extern const uint32_t g_rgctx_List_1_t8B12AE32455C604B841846EA2DC97043A28930B0;
-extern const uint32_t g_rgctx_XRLoaderHelper_CreateSubsystem_TisTDescriptor_t44D625D0193FBFDD7CAD1706999009F067C07B90_TisTSubsystem_t967888085478054B52B58EEF14F8D4B660C57F64_mDD5FBE85951A428FCC852CA4C4FD40404830A88E;
-extern const uint32_t g_rgctx_T_tE4B5A6FD716FACA7C7240732A44211D0F880A4BA;
-static const Il2CppRGCTXDefinition s_rgctxValues[27] = 
-{
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_tE83530F7E4A38B58BF27632C151E64FE9AB1BD8C },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tE83530F7E4A38B58BF27632C151E64FE9AB1BD8C },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_XRLoaderHelper_GetLoadedSubsystem_TisT_tDCC1B517C2249B05E00CF18E5D227E2549F29CF6_m0F4A18CECB2B4405DADDD191E94A3139153E32D0 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tDCC1B517C2249B05E00CF18E5D227E2549F29CF6 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_XRLoaderHelper_GetLoadedSubsystem_TisT_t33F97C7A0EC049E81B790F15B06A784991EF2E57_m4545BCACEE2518432742404A4ED60C8BD70ACFBB },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t33F97C7A0EC049E81B790F15B06A784991EF2E57 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_XRLoaderHelper_GetLoadedSubsystem_TisT_t5C19882F056170FFBC337AB1996C22F4F3D0087A_m2D10291859C420E98DC9F67E7BC059D94EFB2995 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t5C19882F056170FFBC337AB1996C22F4F3D0087A },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t5C19882F056170FFBC337AB1996C22F4F3D0087A },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_t8C622A547070267F95814ECC4460B2421F6CE5FA },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SubsystemManager_GetSubsystemDescriptors_TisTDescriptor_t2B74798ADF57AC69447766D064ECD0EFD59B49C3_m6D2D3BAC3B2104373E3EF5A7C21C25923929902F },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_get_Count_mA2FF9BD8129720B95F4DD92EBD1A322AB6ED8D61 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_GetEnumerator_m34B293E1376FAB46C6EDE95161ABD611CE4F6049 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Enumerator_t1346215E738D72F515555CF84BCEBC664757A9A9 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Enumerator_get_Current_mABF921F950F66BB6A8836662A851B9370AC5135A },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Enumerator_t1346215E738D72F515555CF84BCEBC664757A9A9 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TDescriptor_t2B74798ADF57AC69447766D064ECD0EFD59B49C3 },
-	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_TDescriptor_t2B74798ADF57AC69447766D064ECD0EFD59B49C3_ISubsystemDescriptor_get_id_mB5D2D5D3B9E9FD3ABF5E064E1262DD4AAF09C6F2 },
-	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_TDescriptor_t2B74798ADF57AC69447766D064ECD0EFD59B49C3_ISubsystemDescriptor_Create_m70CF3561B7EC144C6C34CDBF5CA4AFF82D576E9A },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TSubsystem_t5328216FD45421FF07AFEE2EFA5CD3F90B7B23AA },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Enumerator_MoveNext_m7AA605115D9FD24AC584238A4A05D09159F5B8A5 },
-	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_Enumerator_t1346215E738D72F515555CF84BCEBC664757A9A9_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_tCC53D6CB72AFBFFB70F4F30F80AD82C7AFADFF90 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_XRLoaderHelper_CreateSubsystem_TisTDescriptor_t2F53B0027CD2CEE8DEEC547765AC6876B085CDD6_TisTSubsystem_t715FA6A4371BF289E7095C8CA0A1A0E8031BE68A_m5C03A52075DA69E79D3C7B6057D93920C0E99330 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_t8B12AE32455C604B841846EA2DC97043A28930B0 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_XRLoaderHelper_CreateSubsystem_TisTDescriptor_t44D625D0193FBFDD7CAD1706999009F067C07B90_TisTSubsystem_t967888085478054B52B58EEF14F8D4B660C57F64_mDD5FBE85951A428FCC852CA4C4FD40404830A88E },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tE4B5A6FD716FACA7C7240732A44211D0F880A4BA },
-};
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_Management_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_XR_Management_CodeGenModule = 
 {
 	"Unity.XR.Management.dll",
-	74,
+	71,
 	s_methodPointers,
 	0,
 	NULL,
-	s_InvokerIndices,
 	0,
-	NULL,
-	8,
-	s_rgctxIndices,
-	27,
-	s_rgctxValues,
 	NULL,
 	NULL,
 	NULL,

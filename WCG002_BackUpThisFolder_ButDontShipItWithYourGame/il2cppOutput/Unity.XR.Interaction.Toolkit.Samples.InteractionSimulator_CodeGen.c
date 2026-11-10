@@ -7,8 +7,6 @@
 
 
 
-extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m9BEC3FB6803F48D2B21D6986179A04E1EC6FF7A2 (void);
-extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m8FBBD252A41DC3429C6720B8E0BB4D629F8FD795 (void);
 extern void XRInteractionSimulatorInputFeedbackUI_Start_m39778FFE429CE0BADF7527864F56F62263C6D9C8 (void);
 extern void XRInteractionSimulatorInputFeedbackUI_Update_m5A4610CA21C72CB0B3687C32F62D5482ABB6E033 (void);
 extern void XRInteractionSimulatorInputFeedbackUI_HandleGeneralInputFeedback_mB55A8F82763885D74C4FA8867ABF2780BE4F430D (void);
@@ -49,10 +47,8 @@ extern void XRInteractionSimulatorPlayModeMenu_HandleHighlightedHandActionPanels
 extern void XRInteractionSimulatorPlayModeMenu_ClearHighlightedDevicePanels_m71FC44914FB0FEADCFD97154508307CDA3B832F2 (void);
 extern void XRInteractionSimulatorPlayModeMenu__ctor_m6AE36B240C61DBCD5C555848D9AD5D709B11BE83 (void);
 extern void XRInteractionSimulatorPlayModeMenu__cctor_mF85BEFD0A8F5A57E82182C2048F9B928C8864365 (void);
-static Il2CppMethodPointer s_methodPointers[42] = 
+static Il2CppMethodPointer s_methodPointers[40] = 
 {
-	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m9BEC3FB6803F48D2B21D6986179A04E1EC6FF7A2,
-	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m8FBBD252A41DC3429C6720B8E0BB4D629F8FD795,
 	XRInteractionSimulatorInputFeedbackUI_Start_m39778FFE429CE0BADF7527864F56F62263C6D9C8,
 	XRInteractionSimulatorInputFeedbackUI_Update_m5A4610CA21C72CB0B3687C32F62D5482ABB6E033,
 	XRInteractionSimulatorInputFeedbackUI_HandleGeneralInputFeedback_mB55A8F82763885D74C4FA8867ABF2780BE4F430D,
@@ -94,66 +90,15 @@ static Il2CppMethodPointer s_methodPointers[42] =
 	XRInteractionSimulatorPlayModeMenu__ctor_m6AE36B240C61DBCD5C555848D9AD5D709B11BE83,
 	XRInteractionSimulatorPlayModeMenu__cctor_mF85BEFD0A8F5A57E82182C2048F9B928C8864365,
 };
-static const int32_t s_InvokerIndices[42] = 
-{
-	32990,
-	19560,
-	19560,
-	19560,
-	19560,
-	19560,
-	19560,
-	19560,
-	19560,
-	19560,
-	19560,
-	7606,
-	19560,
-	19560,
-	19560,
-	19560,
-	14598,
-	14598,
-	19560,
-	19560,
-	19560,
-	19560,
-	19560,
-	32918,
-	19560,
-	19560,
-	19560,
-	19560,
-	19560,
-	3455,
-	30995,
-	19560,
-	19560,
-	19560,
-	19560,
-	19560,
-	19560,
-	19560,
-	19560,
-	19560,
-	19560,
-	32918,
-};
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_Interaction_Toolkit_Samples_InteractionSimulator_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_XR_Interaction_Toolkit_Samples_InteractionSimulator_CodeGenModule = 
 {
 	"Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator.dll",
-	42,
+	40,
 	s_methodPointers,
 	0,
 	NULL,
-	s_InvokerIndices,
 	0,
-	NULL,
-	0,
-	NULL,
-	0,
-	NULL,
 	NULL,
 	NULL,
 	NULL,
