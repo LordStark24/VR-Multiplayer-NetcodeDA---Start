@@ -269,7 +269,8 @@ public class MansionMatchController : NetworkBehaviour
         .OrderBy(player => player.OwnerClientId)
         .Select(player => new PlayerResult
         {
-            playerLabel = $"Player {player.OwnerClientId}",
+            playerLabel = player.GetComponent<PlayerNameTag>()?.DisplayName
+    ?? $"Player {player.OwnerClientId}",
             damageDealt = player.DamageDealt,
             kills = player.Kills,
             deaths = player.Deaths

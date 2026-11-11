@@ -38,8 +38,10 @@ public class MatchLeaderboard : MonoBehaviour
 
         foreach (var player in players)
         {
-            display.Append("Player ");
-            display.Append(player.OwnerClientId);
+            var nameTag = player.GetComponent<PlayerNameTag>();
+            display.Append(nameTag != null
+                ? nameTag.DisplayName
+                : $"Player {player.OwnerClientId}");
 
             display.Append("<pos=350>");
             display.Append(player.DamageDealt);
