@@ -503,6 +503,16 @@ public class ConnectionManager : MonoBehaviour
             if (UnityServices.State == ServicesInitializationState.Uninitialized)
             {
                 var options = new InitializationOptions();
+
+#if UNITY_EDITOR
+                // The clone shown in your Console is in the project folder ending in "_clone_0".
+                if (Application.dataPath.EndsWith(
+                        "_clone_0/Assets", System.StringComparison.Ordinal))
+                {
+                    options.SetProfile("parrelsync_clone_0");
+                }
+#endif
+
                 await UnityServices.InitializeAsync(options);
             }
 

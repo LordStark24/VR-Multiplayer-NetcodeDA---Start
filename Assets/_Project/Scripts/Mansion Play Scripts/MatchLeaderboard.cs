@@ -28,7 +28,9 @@ public class MatchLeaderboard : MonoBehaviour
         var players = Object.FindObjectsByType<NetworkPlayerHealth>(
                 FindObjectsSortMode.None)
             .Where(player => player.IsSpawned)
-            .OrderBy(player => player.OwnerClientId);
+            .OrderByDescending(player => player.DamageDealt)
+            .ThenByDescending(player => player.Kills)
+            .ThenBy(player => player.OwnerClientId);
 
         display.Clear();
         display.AppendLine("MATCH LEADERBOARD");

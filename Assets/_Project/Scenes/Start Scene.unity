@@ -9732,8 +9732,12 @@ PrefabInstance:
       value: Office_03
       objectReference: {fileID: 0}
     - target: {fileID: 7604078212164272689, guid: 9874ec46c073d4ca8a8c7451ded8d5e4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0638
+      objectReference: {fileID: 0}
+    - target: {fileID: 7604078212164272689, guid: 9874ec46c073d4ca8a8c7451ded8d5e4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.497
+      value: 2.512
       objectReference: {fileID: 0}
     - target: {fileID: 7604078212164272689, guid: 9874ec46c073d4ca8a8c7451ded8d5e4, type: 3}
       propertyPath: m_LocalPosition.z

@@ -70,6 +70,7 @@ public class MansionMatchController : NetworkBehaviour
     public class PlayerResult
     {
         public string playerLabel;
+        public string unityPlayerId;
         public int damageDealt;
         public int kills;
         public int deaths;
@@ -267,19 +268,32 @@ public class MansionMatchController : NetworkBehaviour
         .FindObjectsByType<NetworkPlayerHealth>(FindObjectsSortMode.None)
         .Where(player => player.IsSpawned)
         .OrderBy(player => player.OwnerClientId)
-        .Select(player => new PlayerResult
+        .Select(player =>
         {
-            playerLabel = player.GetComponent<PlayerNameTag>()?.DisplayName
-    ?? $"Player {player.OwnerClientId}",
-            damageDealt = player.DamageDealt,
-            kills = player.Kills,
-            deaths = player.Deaths
+            var nameTag = player.GetComponent<PlayerNameTag>();
+
+            return new PlayerResult
+            {
+                playerLabel = nameTag != null
+                    ? nameTag.DisplayName
+                    : $"Player {player.OwnerClientId}",
+                unityPlayerId = nameTag != null
+                    ? nameTag.UnityPlayerId
+                    : string.Empty,
+                damageDealt = player.DamageDealt,
+                kills = player.Kills,
+                deaths = player.Deaths
+            };
         })
         .ToArray()
         };
 
         if (results.players.Length != expectedIds.Length)
             return;
+        results.players = results.players
+            .OrderByDescending(player => player.damageDealt)
+            .ThenByDescending(player => player.kills)
+            .ToArray();
 
         var payload = new FixedString4096Bytes(JsonUtility.ToJson(results));
 

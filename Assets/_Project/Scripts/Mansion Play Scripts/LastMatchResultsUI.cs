@@ -33,10 +33,25 @@ public class LastMatchResultsUI : MonoBehaviour
         display.AppendLine(
             "PLAYER<pos=32%>DAMAGE<pos=58%>KILLS<pos=75%>DEATHS");
 
-        foreach (var player in results.players)
+        int place = 1;
+
+        for (int i = 0; i < results.players.Length; i++)
         {
+            var player = results.players[i];
+
+            if (i > 0)
+            {
+                var previous = results.players[i - 1];
+
+                if (player.damageDealt != previous.damageDealt ||
+                    player.kills != previous.kills)
+                {
+                    place = i + 1;
+                }
+            }
+
             display.AppendLine(
-                $"{player.playerLabel}<pos=32%>{player.damageDealt}" +
+                $"{place}. {player.playerLabel}<pos=32%>{player.damageDealt}" +
                 $"<pos=58%>{player.kills}<pos=75%>{player.deaths}");
         }
 
