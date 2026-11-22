@@ -317,6 +317,17 @@ public class MansionMatchController : NetworkBehaviour
 
         Debug.Log($"[Match] Final results saved: {LastMatchResultsJson}");
 
+        var results = JsonUtility.FromJson<MatchResults>(LastMatchResultsJson);
+
+        if (PlayerProgression.Local != null)
+        {
+            PlayerProgression.Local.AwardCompletedMatch(results);
+        }
+        else
+        {
+            Debug.LogError(
+                "[Progression] Local progression was not ready; XP was not awarded.");
+        }
         // Capture ownership before anyone starts leaving.
         bool leaveLast = IsOwner;
 
