@@ -1,6 +1,7 @@
 using UnityEngine;
 using Unity.Netcode;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
+using TMPro;
 
 [RequireComponent(typeof(NetworkObject))]
 [RequireComponent(typeof(XRGrabInteractable))]
@@ -8,6 +9,7 @@ public class RifleWeapon : NetworkBehaviour
 {
     [SerializeField] private WeaponDefinition definition;
     [SerializeField] private Transform firePoint;
+    [SerializeField] private TMP_Text ammoDisplay;
     [SerializeField] private LayerMask hitLayers = ~0;
 
     [Header("Temporary Testing")]
@@ -75,6 +77,8 @@ public class RifleWeapon : NetworkBehaviour
 
             initialized.Value = true;
         }
+
+        RefreshAmmoDisplay(CurrentAmmo);
 
         Debug.Log(
             $"[Weapon] Spawned | Ammo: " +
@@ -187,9 +191,17 @@ public class RifleWeapon : NetworkBehaviour
 
     private void OnAmmoChanged(int previous, int current)
     {
+        RefreshAmmoDisplay(current);
+
         Debug.Log(
             $"[Weapon] Ammo: {previous} -> {current} | " +
             $"Owner: {OwnerClientId}", this);
+    }
+
+    private void RefreshAmmoDisplay(int rounds)
+    {
+        if (ammoDisplay != null)
+            ammoDisplay.text = rounds.ToString();
     }
 
     [ContextMenu("Test / Refill Magazine")]

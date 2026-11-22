@@ -7,6 +7,14 @@ public class AmmoPickup : NetworkBehaviour
 {
     [SerializeField] private GameObject pickupVisual;
 
+    [SerializeField] private PickupTierVisual pickupTierVisual;
+
+#if UNITY_EDITOR
+    [SerializeField, Range(1, 6)] private int testPlayerLevel = 1;
+#endif
+
+    private int displayedLevel;
+
     [SerializeField, Min(1f)]
     private float respawnSeconds = 60f;
 
@@ -44,8 +52,19 @@ public class AmmoPickup : NetworkBehaviour
     private void UpdateAppearance()
     {
         bool available = IsAvailable;
-
         pickupTrigger.enabled = available;
+
+        int localLevel = 1;
+
+#if UNITY_EDITOR
+        localLevel = testPlayerLevel;
+#endif
+
+        if (pickupTierVisual != null && displayedLevel != localLevel)
+        {
+            pickupTierVisual.ShowLevel(localLevel);
+            displayedLevel = localLevel;
+        }
 
         if (pickupVisual != null &&
             pickupVisual.activeSelf != available)
