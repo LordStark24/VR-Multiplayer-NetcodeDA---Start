@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ba4d17f6715745e7b031fbd7e8deced, type: 3}
   m_Name: DefaultPlayerProgression
   m_EditorClassIdentifier: Assembly-CSharp::PlayerProgressionDefinition
-  totalXpRequired: 00000000d007000070170000b03600003075000060ea0000i
+  totalXpRequired: 000000006400000070170000b03600003075000060ea0000i

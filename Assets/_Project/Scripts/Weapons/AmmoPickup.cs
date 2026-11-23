@@ -9,9 +9,6 @@ public class AmmoPickup : NetworkBehaviour
 
     [SerializeField] private PickupTierVisual pickupTierVisual;
 
-#if UNITY_EDITOR
-    [SerializeField, Range(1, 6)] private int testPlayerLevel = 1;
-#endif
 
     private int displayedLevel;
 
@@ -54,11 +51,11 @@ public class AmmoPickup : NetworkBehaviour
         bool available = IsAvailable;
         pickupTrigger.enabled = available;
 
-        int localLevel = 1;
+        var progression = PlayerProgression.Local;
 
-#if UNITY_EDITOR
-        localLevel = testPlayerLevel;
-#endif
+        int localLevel = progression != null
+            ? Mathf.Clamp(progression.Level, 1, 6)
+            : 1;
 
         if (pickupTierVisual != null && displayedLevel != localLevel)
         {
