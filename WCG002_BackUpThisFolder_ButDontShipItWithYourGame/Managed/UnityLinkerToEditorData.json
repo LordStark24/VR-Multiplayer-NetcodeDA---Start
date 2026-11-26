@@ -678,6 +678,12 @@
             "icon": "package/com.unity.modules.jsonserialize"
           },
           {
+            "name": "Required by ParticleSystem Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.particlesystem"
+          },
+          {
             "name": "Required by Physics Module",
             "scenes": [],
             "dependencyType": 2,
@@ -1077,6 +1083,12 @@
             "icon": "package/com.unity.modules.managedkernel"
           },
           {
+            "name": "Required by ParticleSystem Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.particlesystem"
+          },
+          {
             "name": "Required by U2DRuntime Module",
             "scenes": [],
             "dependencyType": 2,
@@ -1093,6 +1105,29 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.vfx"
+          }
+        ]
+      },
+      {
+        "name": "ParticleSystem",
+        "dependencies": [
+          {
+            "name": "ParticleSystem",
+            "scenes": [
+              "Assets/_Project/Scenes/Start Scene.unity",
+              "Assets/_Project/Scenes/ZombieMansionLevel01.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "ParticleSystemRenderer",
+            "scenes": [
+              "Assets/_Project/Scenes/Start Scene.unity",
+              "Assets/_Project/Scenes/ZombieMansionLevel01.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
           }
         ]
       },
@@ -1408,6 +1443,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.mathematics"
+          },
+          {
+            "name": "Required by ParticleSystem Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.particlesystem"
           },
           {
             "name": "Required by Physics Module",

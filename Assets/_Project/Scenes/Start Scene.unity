@@ -6793,8 +6793,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MansionTravelManager
   connectionManager: {fileID: 976124867}
-  minimumPlayers: 2
-  maximumPlayers: 10
+  minimumPlayers: 1
+  maximumPlayers: 1
 --- !u!114 &976124871
 MonoBehaviour:
   m_ObjectHideFlags: 0

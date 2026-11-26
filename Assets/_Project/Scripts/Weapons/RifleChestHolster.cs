@@ -86,6 +86,17 @@ public class RifleChestHolster : NetworkBehaviour
         if (!IsSpawned || !IsOwner || grab.isSelected)
             return;
 
+        GetComponent<RifleWeapon>()?.StopFiring();
+
+        var rig = VRRigReferences.Instance;
+
+        if (rig != null && rig.rifleHolster != null)
+        {
+            PlaceInHolster(rig.rifleHolster);
+            return;
+        }
+
+        // Fall normally if the holster is unavailable.
         body.isKinematic = false;
         body.useGravity = true;
     }

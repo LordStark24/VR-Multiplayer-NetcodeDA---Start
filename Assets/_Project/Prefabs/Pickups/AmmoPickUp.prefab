@@ -265,7 +265,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -286,7 +286,6 @@ MonoBehaviour:
   ShowTopMostFoldoutHeaderGroup: 1
   pickupVisual: {fileID: 8478358572472067499}
   pickupTierVisual: {fileID: 328174607371130919}
-  testPlayerLevel: 6
   respawnSeconds: 60
 --- !u!1 &2835613526680093660
 GameObject:
@@ -993,7 +992,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6988477660654517421, guid: 38eb946c1067c3a4faaa5e5123677df7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.48
+      value: -0.52
       objectReference: {fileID: 0}
     - target: {fileID: 6988477660654517421, guid: 38eb946c1067c3a4faaa5e5123677df7, type: 3}
       propertyPath: m_LocalPosition.z

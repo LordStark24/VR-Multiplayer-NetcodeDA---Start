@@ -140,7 +140,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 9.850754, y: 2.3781395, z: 10.122327, w: 2.582716}
+  m_margin: {x: 9.848923, y: 2.3781395, z: 10.126368, w: 2.582716}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -398,8 +398,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.04, y: 0.19446012, z: 0.9461604}
-  m_Center: {x: 0, y: 0.00047682226, z: 0.16117474}
+  m_Size: {x: 0.04, y: 0.19446012, z: 0.67500633}
+  m_Center: {x: 0, y: 0.00047682226, z: 0.29675177}
 --- !u!114 &6214653228175841962
 MonoBehaviour:
   m_ObjectHideFlags: 0
