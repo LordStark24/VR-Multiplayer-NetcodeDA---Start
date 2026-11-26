@@ -19,6 +19,16 @@ public class MansionMatchController : NetworkBehaviour
     [SerializeField, Min(1f)]
     private float matchDurationSeconds = 360f;
 
+    [Header("Ammo Pickup Spots")]
+    [SerializeField] private AmmoPickup[] ammoPickupSpots = new AmmoPickup[5];
+
+    // -1 means the spots have not been selected yet.
+    // Each bit represents one entry in ammoPickupSpots.
+    private NetworkVariable<int> activeAmmoMask = new(
+        -1,
+        NetworkVariableReadPermission.Everyone,
+        NetworkVariableWritePermission.Owner);
+
     private NetworkVariable<MatchPhase> phase =
     new NetworkVariable<MatchPhase>(
         MatchPhase.WaitingForPlayers,
@@ -164,6 +174,9 @@ public class MansionMatchController : NetworkBehaviour
         if (phase.Value == MatchPhase.Countdown &&
             now >= phaseEndTime.Value)
         {
+            if (!TryConfigureAmmoPickups())
+                return;
+
             phaseEndTime.Value = now + matchDurationSeconds;
             phase.Value = MatchPhase.Playing;
 
@@ -232,6 +245,9 @@ public class MansionMatchController : NetworkBehaviour
                 ready.Value == session.Id));
 
         if (!everyoneReady)
+            return;
+
+        if (!TryConfigureAmmoPickups())
             return;
 
         phaseEndTime.Value =
@@ -393,6 +409,96 @@ public class MansionMatchController : NetworkBehaviour
         {
             Debug.LogException(exception);
         }
+    }
+
+    public bool IsAmmoPickupEnabled(AmmoPickup pickup)
+    {
+        if (!IsSpawned ||
+            phase.Value != MatchPhase.Playing ||
+            activeAmmoMask.Value < 0 ||
+            ammoPickupSpots == null)
+        {
+            return false;
+        }
+
+        for (int i = 0; i < ammoPickupSpots.Length && i < 5; i++)
+        {
+            if (ammoPickupSpots[i] == pickup)
+                return (activeAmmoMask.Value & (1 << i)) != 0;
+        }
+
+        return false;
+    }
+
+    private bool TryConfigureAmmoPickups()
+    {
+        if (!IsOwner)
+            return false;
+
+        // Preserve the selection for the entire match,
+        // including after controller ownership changes.
+        if (activeAmmoMask.Value >= 0)
+            return true;
+
+        if (ammoPickupSpots == null ||
+            ammoPickupSpots.Length != 5 ||
+            ammoPickupSpots.Any(pickup => pickup == null) ||
+            ammoPickupSpots.Distinct().Count() != 5)
+        {
+            Debug.LogError(
+                "[Match] Assign five different ammo pickup spots.", this);
+            return false;
+        }
+
+        // Wait until all scene pickups have spawned.
+        if (ammoPickupSpots.Any(pickup => !pickup.IsSpawned))
+            return false;
+
+        if (connectionManager == null)
+        {
+            connectionManager =
+                Object.FindFirstObjectByType<ConnectionManager>();
+        }
+
+        var expectedIds = connectionManager != null
+            ? connectionManager.ExpectedMansionPlayerIds
+            : null;
+
+        int playerCount = expectedIds != null && expectedIds.Length > 0
+            ? expectedIds.Length
+            : Object.FindObjectsByType<NetworkPlayerHealth>(
+                    FindObjectsSortMode.None)
+                .Count(player => player.IsSpawned);
+
+        if (playerCount == 0)
+            return false;
+
+        int activeCount = Mathf.Clamp(
+            Mathf.Max(2, (playerCount + 1) / 2), 2, 5);
+
+        int[] indices = { 0, 1, 2, 3, 4 };
+
+        // Shuffle once on the controller owner.
+        for (int i = indices.Length - 1; i > 0; i--)
+        {
+            int other = Random.Range(0, i + 1);
+            int temporary = indices[i];
+            indices[i] = indices[other];
+            indices[other] = temporary;
+        }
+
+        int mask = 0;
+
+        for (int i = 0; i < activeCount; i++)
+            mask |= 1 << indices[i];
+
+        activeAmmoMask.Value = mask;
+
+        Debug.Log(
+            $"[Match] Players: {playerCount} | " +
+            $"Active ammo spots: {activeCount}/5", this);
+
+        return true;
     }
 
 }

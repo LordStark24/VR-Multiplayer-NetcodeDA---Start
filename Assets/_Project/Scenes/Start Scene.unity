@@ -2144,6 +2144,30 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5179494532424719323, guid: a64fd4dc0697f8c48a5bddb3187ff2d9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6903456
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179494532424719323, guid: a64fd4dc0697f8c48a5bddb3187ff2d9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.15304591
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179494532424719323, guid: a64fd4dc0697f8c48a5bddb3187ff2d9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6903456
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179494532424719323, guid: a64fd4dc0697f8c48a5bddb3187ff2d9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.15304591
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179494532424719323, guid: a64fd4dc0697f8c48a5bddb3187ff2d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179494532424719323, guid: a64fd4dc0697f8c48a5bddb3187ff2d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
     - target: {fileID: 5526321100623902846, guid: a64fd4dc0697f8c48a5bddb3187ff2d9, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -2155,6 +2179,14 @@ PrefabInstance:
     - target: {fileID: 7861372568111541273, guid: a64fd4dc0697f8c48a5bddb3187ff2d9, type: 3}
       propertyPath: m_SphereCastLayerMask.m_Bits
       value: 4294967227
+      objectReference: {fileID: 0}
+    - target: {fileID: 8514792944366339665, guid: a64fd4dc0697f8c48a5bddb3187ff2d9, type: 3}
+      propertyPath: chestOffset.y
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8514792944366339665, guid: a64fd4dc0697f8c48a5bddb3187ff2d9, type: 3}
+      propertyPath: chestOffset.z
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 8807221794359232157, guid: a64fd4dc0697f8c48a5bddb3187ff2d9, type: 3}
       propertyPath: m_Enabled
@@ -2185,6 +2217,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 427203837}
   m_SourcePrefab: {fileID: 100100000, guid: a64fd4dc0697f8c48a5bddb3187ff2d9, type: 3}
+--- !u!4 &307593124 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5179494532424719323, guid: a64fd4dc0697f8c48a5bddb3187ff2d9, type: 3}
+  m_PrefabInstance: {fileID: 307593123}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &311272026
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3117,6 +3154,7 @@ MonoBehaviour:
   head: {fileID: 206073257}
   leftHand: {fileID: 1716202324}
   rightHand: {fileID: 816010383}
+  rifleHolster: {fileID: 307593124}
 --- !u!114 &427203827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3129,6 +3167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b24c418804a84cacbc2aa873e53e8cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KeepAccrossScenes
+  persistenceKey: 
 --- !u!114 &427203832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5803,6 +5842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b24c418804a84cacbc2aa873e53e8cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KeepAccrossScenes
+  persistenceKey: 
 --- !u!114 &887591950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6739,6 +6779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b24c418804a84cacbc2aa873e53e8cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KeepAccrossScenes
+  persistenceKey: 
 --- !u!114 &976124870
 MonoBehaviour:
   m_ObjectHideFlags: 0

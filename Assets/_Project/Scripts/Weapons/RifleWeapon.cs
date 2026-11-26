@@ -70,7 +70,7 @@ public class RifleWeapon : NetworkBehaviour
         // Initialize once, not every time ownership changes.
         if (IsOwner && !initialized.Value)
         {
-            weaponActivated.Value = startReadyForTesting;
+            weaponActivated.Value = true;
             currentAmmo.Value = startReadyForTesting
                 ? MagazineCapacity
                 : 0;

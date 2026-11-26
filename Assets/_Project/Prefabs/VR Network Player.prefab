@@ -750,6 +750,7 @@ GameObject:
   - component: {fileID: 3561928206699816622}
   - component: {fileID: 6106251718090628733}
   - component: {fileID: 6035753581264693366}
+  - component: {fileID: 7138489588833864258}
   m_Layer: 0
   m_Name: VR Network Player
   m_TagString: Untagged
@@ -788,7 +789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
-  GlobalObjectIdHash: 187148743
+  GlobalObjectIdHash: 3575358219
   InScenePlacedSourceGlobalObjectIdHash: 0
   m_InScenePlacedDisabledByDefault: 0
   DeferredDespawnTick: 0
@@ -870,6 +871,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerProgression
   ShowTopMostFoldoutHeaderGroup: 1
   definition: {fileID: 11400000, guid: 973a7fa912a254ed09a569128dc3bd88, type: 2}
+--- !u!114 &7138489588833864258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4807190496195787638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccd2c884c4b35479089d119514a2afa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerStartingRifle
+  ShowTopMostFoldoutHeaderGroup: 1
+  riflePrefab: {fileID: 8473569956689620845, guid: c25af5b97dea8415684836e665b3ceab, type: 3}
 --- !u!1 &5902115899942212363
 GameObject:
   m_ObjectHideFlags: 0

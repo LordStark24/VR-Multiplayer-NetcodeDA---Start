@@ -324,6 +324,7 @@ GameObject:
   - component: {fileID: 2323898567098437850}
   - component: {fileID: 6452163286208814072}
   - component: {fileID: 8558996007893267580}
+  - component: {fileID: 6686229628297690988}
   m_Layer: 0
   m_Name: Riffle
   m_TagString: Untagged
@@ -623,7 +624,7 @@ MonoBehaviour:
   hitLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  startReadyForTesting: 1
+  startReadyForTesting: 0
 --- !u!114 &2323898567098437850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -699,6 +700,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f15eacaa3c5bd4d28baa29ff8a7fc25c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NetworkGrabOwnership
+  ShowTopMostFoldoutHeaderGroup: 1
+--- !u!114 &6686229628297690988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8473569956689620845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d42281a94cad74eb38333373a803acaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RifleChestHolster
   ShowTopMostFoldoutHeaderGroup: 1
 --- !u!1001 &866118252379566422
 PrefabInstance:

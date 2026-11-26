@@ -21,6 +21,7 @@ public class AmmoPickup : NetworkBehaviour
         NetworkVariableWritePermission.Owner);
 
     private SphereCollider pickupTrigger;
+    private MansionMatchController matchController;
 
     private float nextCollectionCheck;
     private uint collectionNumber;
@@ -28,6 +29,8 @@ public class AmmoPickup : NetworkBehaviour
 
     public bool IsAvailable =>
         IsSpawned &&
+        matchController != null &&
+        matchController.IsAmmoPickupEnabled(this) &&
         NetworkManager.ServerTime.Time >= availableAt.Value;
 
     private void Awake()
@@ -48,6 +51,12 @@ public class AmmoPickup : NetworkBehaviour
 
     private void UpdateAppearance()
     {
+        if (matchController == null)
+        {
+            matchController =
+                Object.FindFirstObjectByType<MansionMatchController>();
+        }
+
         bool available = IsAvailable;
         pickupTrigger.enabled = available;
 
