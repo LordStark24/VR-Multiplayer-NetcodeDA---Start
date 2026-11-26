@@ -12,11 +12,14 @@ public class RifleChestHolster : NetworkBehaviour
     private Rigidbody body;
     private XRGrabInteractable grab;
     private Transform holster;
+    private Collider[] rifleColliders;
+    private CharacterController ignoredController;
 
     private void Awake()
     {
         body = GetComponent<Rigidbody>();
         grab = GetComponent<XRGrabInteractable>();
+        rifleColliders = GetComponentsInChildren<Collider>(true);
 
         grab.selectEntered.AddListener(OnGrabbed);
         grab.selectExited.AddListener(OnReleased);
@@ -32,6 +35,76 @@ public class RifleChestHolster : NetworkBehaviour
         }
     }
 
+    private void UpdatePlayerCollisionExclusion()
+    {
+        CharacterController controller = null;
+
+        if (IsOwner && VRRigReferences.Instance != null)
+        {
+            var rig = VRRigReferences.Instance;
+
+            controller = rig.GetComponentInParent<CharacterController>();
+
+            if (controller == null)
+            {
+                controller =
+                    rig.GetComponentInChildren<CharacterController>(true);
+            }
+        }
+
+        if (ignoredController != controller)
+        {
+            RestorePlayerCollisions();
+            ignoredController = controller;
+        }
+
+        if (ignoredController == null ||
+            !ignoredController.enabled ||
+            !ignoredController.gameObject.activeInHierarchy)
+        {
+            return;
+        }
+
+        foreach (var rifleCollider in rifleColliders)
+        {
+            if (rifleCollider == null ||
+                !rifleCollider.enabled ||
+                !rifleCollider.gameObject.activeInHierarchy)
+            {
+                continue;
+            }
+
+            if (!Physics.GetIgnoreCollision(
+                rifleCollider, ignoredController))
+            {
+                Physics.IgnoreCollision(
+                    rifleCollider, ignoredController, true);
+            }
+        }
+    }
+
+    private void RestorePlayerCollisions()
+    {
+        if (ignoredController != null && rifleColliders != null)
+        {
+            foreach (var rifleCollider in rifleColliders)
+            {
+                if (rifleCollider != null)
+                {
+                    Physics.IgnoreCollision(
+                        rifleCollider, ignoredController, false);
+                }
+            }
+        }
+
+        ignoredController = null;
+    }
+
+    public override void OnNetworkDespawn()
+    {
+        RestorePlayerCollisions();
+        base.OnNetworkDespawn();
+    }
     public void PlaceInHolster(Transform target)
     {
         if (!IsSpawned || !IsOwner || target == null ||
@@ -52,6 +125,8 @@ public class RifleChestHolster : NetworkBehaviour
     {
         if (!IsSpawned)
             return;
+
+        UpdatePlayerCollisionExclusion();
 
         if (!IsOwner)
         {
@@ -103,6 +178,7 @@ public class RifleChestHolster : NetworkBehaviour
 
     public override void OnLostOwnership()
     {
+        RestorePlayerCollisions();
         holster = null;
 
         body.useGravity = false;
@@ -111,6 +187,7 @@ public class RifleChestHolster : NetworkBehaviour
 
     private void OnDestroy()
     {
+        RestorePlayerCollisions();
         if (grab == null)
             return;
 

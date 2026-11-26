@@ -576,6 +576,7 @@ struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 struct CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B;
 struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct CipherSuiteCodeU5BU5D_t61EC0E6F53394985FFC36DEB587C70F4EE26D435;
+struct ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787;
 struct ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389;
 struct Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259;
 struct ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411;
@@ -32463,6 +32464,8 @@ struct RifleChestHolster_t9072AD78B02EBE14E5350EFC02A1FED1BA5FB004  : public Net
 	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___body;
 	XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B* ___grab;
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___holster;
+	ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* ___rifleColliders;
+	CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* ___ignoredController;
 };
 struct RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40  : public NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE
 {
@@ -39916,9 +39919,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13780[10] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13781[3] = 
 {
 	static_cast<int32_t>(offsetof(U3CReleasePreviousGrabU3Ed__3_t112877B9A5522A491A838D828856DF9AA441F4A3, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CReleasePreviousGrabU3Ed__3_t112877B9A5522A491A838D828856DF9AA441F4A3, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3CReleasePreviousGrabU3Ed__3_t112877B9A5522A491A838D828856DF9AA441F4A3, ___U3CU3E4__this)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13783[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13783[5] = 
 {
-	static_cast<int32_t>(offsetof(RifleChestHolster_t9072AD78B02EBE14E5350EFC02A1FED1BA5FB004, ___body)),static_cast<int32_t>(offsetof(RifleChestHolster_t9072AD78B02EBE14E5350EFC02A1FED1BA5FB004, ___grab)),static_cast<int32_t>(offsetof(RifleChestHolster_t9072AD78B02EBE14E5350EFC02A1FED1BA5FB004, ___holster)),};
+	static_cast<int32_t>(offsetof(RifleChestHolster_t9072AD78B02EBE14E5350EFC02A1FED1BA5FB004, ___body)),static_cast<int32_t>(offsetof(RifleChestHolster_t9072AD78B02EBE14E5350EFC02A1FED1BA5FB004, ___grab)),static_cast<int32_t>(offsetof(RifleChestHolster_t9072AD78B02EBE14E5350EFC02A1FED1BA5FB004, ___holster)),static_cast<int32_t>(offsetof(RifleChestHolster_t9072AD78B02EBE14E5350EFC02A1FED1BA5FB004, ___rifleColliders)),static_cast<int32_t>(offsetof(RifleChestHolster_t9072AD78B02EBE14E5350EFC02A1FED1BA5FB004, ___ignoredController)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13784[12] = 
 {
 	static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___definition)),static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___firePoint)),static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___ammoDisplay)),static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___hitLayers)),static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___startReadyForTesting)),static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___matchController)),static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___currentAmmo)),static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___weaponActivated)),static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___initialized)),static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___grab)),static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___triggerHeld)),static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___nextShotTime)),};
