@@ -404,6 +404,7 @@ struct NetworkVariable_1_t3A617CF1B445C5BFCF75116BCE02D18623C05548;
 struct NetworkVariable_1_t3A28B878C84FB0F873E37691153AF875C6145D82;
 struct NetworkVariable_1_t9D3DB42CEB17959048E73AEFCF3281E31C3EC8F6;
 struct NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504;
+struct NetworkVariable_1_t8CDF37392A4E365EAAA0171433C7541339E5B9FD;
 struct NetworkVariable_1_t153ED1996B171C109BEABF1ED0E66D2BF8280E5E;
 struct ObjectPool_1_tDE5205EBC7D2F32B8E4C24776B7C16DA24707C13;
 struct ObjectPool_1_tA6230762362A6BA6FEB38B9912D0463FB059A05A;
@@ -32435,7 +32436,7 @@ struct PlayerProgression_tA5F0609314422CCF7267560A42359F41ECDBF80E  : public Net
 };
 struct PlayerStartingRifle_tAA39CE538FD0AF59A997F1B40EDD4FC31A134B54  : public NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE
 {
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___riflePrefab;
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___levelRiflePrefabs;
 	MansionMatchController_tBFA8F4193830E80B822FF71CFEFA7E77F798E182* ___matchController;
 	bool ___rifleSpawned;
 };
@@ -32464,6 +32465,7 @@ struct RifleChestHolster_t9072AD78B02EBE14E5350EFC02A1FED1BA5FB004  : public Net
 	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___body;
 	XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B* ___grab;
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___holster;
+	NetworkVariable_1_t8CDF37392A4E365EAAA0171433C7541339E5B9FD* ___startingPlayerId;
 	ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* ___rifleColliders;
 	CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* ___ignoredController;
 };
@@ -39909,7 +39911,7 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13776[1] =
 	static_cast<int32_t>(offsetof(PlayerProgressionDefinition_t5ECD11A4E95FD2AA45204106F4A2E1F9DD97EC54, ___totalXpRequired)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13777[3] = 
 {
-	static_cast<int32_t>(offsetof(PlayerStartingRifle_tAA39CE538FD0AF59A997F1B40EDD4FC31A134B54, ___riflePrefab)),static_cast<int32_t>(offsetof(PlayerStartingRifle_tAA39CE538FD0AF59A997F1B40EDD4FC31A134B54, ___matchController)),static_cast<int32_t>(offsetof(PlayerStartingRifle_tAA39CE538FD0AF59A997F1B40EDD4FC31A134B54, ___rifleSpawned)),};
+	static_cast<int32_t>(offsetof(PlayerStartingRifle_tAA39CE538FD0AF59A997F1B40EDD4FC31A134B54, ___levelRiflePrefabs)),static_cast<int32_t>(offsetof(PlayerStartingRifle_tAA39CE538FD0AF59A997F1B40EDD4FC31A134B54, ___matchController)),static_cast<int32_t>(offsetof(PlayerStartingRifle_tAA39CE538FD0AF59A997F1B40EDD4FC31A134B54, ___rifleSpawned)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13778[5] = 
 {
 	static_cast<int32_t>(offsetof(VRRigReferences_tEC28B74FF4E8637DAA380DBF33DB612483DADAB0_StaticFields, ___Instance)),static_cast<int32_t>(offsetof(VRRigReferences_tEC28B74FF4E8637DAA380DBF33DB612483DADAB0, ___head)),static_cast<int32_t>(offsetof(VRRigReferences_tEC28B74FF4E8637DAA380DBF33DB612483DADAB0, ___leftHand)),static_cast<int32_t>(offsetof(VRRigReferences_tEC28B74FF4E8637DAA380DBF33DB612483DADAB0, ___rightHand)),static_cast<int32_t>(offsetof(VRRigReferences_tEC28B74FF4E8637DAA380DBF33DB612483DADAB0, ___rifleHolster)),};
@@ -39919,9 +39921,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13780[10] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13781[3] = 
 {
 	static_cast<int32_t>(offsetof(U3CReleasePreviousGrabU3Ed__3_t112877B9A5522A491A838D828856DF9AA441F4A3, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CReleasePreviousGrabU3Ed__3_t112877B9A5522A491A838D828856DF9AA441F4A3, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3CReleasePreviousGrabU3Ed__3_t112877B9A5522A491A838D828856DF9AA441F4A3, ___U3CU3E4__this)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13783[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13783[6] = 
 {
-	static_cast<int32_t>(offsetof(RifleChestHolster_t9072AD78B02EBE14E5350EFC02A1FED1BA5FB004, ___body)),static_cast<int32_t>(offsetof(RifleChestHolster_t9072AD78B02EBE14E5350EFC02A1FED1BA5FB004, ___grab)),static_cast<int32_t>(offsetof(RifleChestHolster_t9072AD78B02EBE14E5350EFC02A1FED1BA5FB004, ___holster)),static_cast<int32_t>(offsetof(RifleChestHolster_t9072AD78B02EBE14E5350EFC02A1FED1BA5FB004, ___rifleColliders)),static_cast<int32_t>(offsetof(RifleChestHolster_t9072AD78B02EBE14E5350EFC02A1FED1BA5FB004, ___ignoredController)),};
+	static_cast<int32_t>(offsetof(RifleChestHolster_t9072AD78B02EBE14E5350EFC02A1FED1BA5FB004, ___body)),static_cast<int32_t>(offsetof(RifleChestHolster_t9072AD78B02EBE14E5350EFC02A1FED1BA5FB004, ___grab)),static_cast<int32_t>(offsetof(RifleChestHolster_t9072AD78B02EBE14E5350EFC02A1FED1BA5FB004, ___holster)),static_cast<int32_t>(offsetof(RifleChestHolster_t9072AD78B02EBE14E5350EFC02A1FED1BA5FB004, ___startingPlayerId)),static_cast<int32_t>(offsetof(RifleChestHolster_t9072AD78B02EBE14E5350EFC02A1FED1BA5FB004, ___rifleColliders)),static_cast<int32_t>(offsetof(RifleChestHolster_t9072AD78B02EBE14E5350EFC02A1FED1BA5FB004, ___ignoredController)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable13784[12] = 
 {
 	static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___definition)),static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___firePoint)),static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___ammoDisplay)),static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___hitLayers)),static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___startReadyForTesting)),static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___matchController)),static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___currentAmmo)),static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___weaponActivated)),static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___initialized)),static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___grab)),static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___triggerHeld)),static_cast<int32_t>(offsetof(RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40, ___nextShotTime)),};

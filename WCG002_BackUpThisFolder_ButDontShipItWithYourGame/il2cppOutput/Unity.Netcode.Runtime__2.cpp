@@ -36747,7 +36747,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferWriter_WriteUnmana
 		return;
 	}
 }
-// Method Definition Index: 106579
+// Method Definition Index: 106581
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtilityInternal_SizeOf_TisRpcMetadata_tE74AD5371E483CE03EE1D152A9DDE1221F1ED4AB_mD4D7DF03B518B7FF7C9FBE80F4BD10564EA11B0E_inline (const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -37119,7 +37119,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadBytes_m
 		return;
 	}
 }
-// Method Definition Index: 106574
+// Method Definition Index: 106576
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MessageVersionData_t2BD6189A04339775DEC4DB9FB92B984F651FE4B1 UnsafeUtilityInternal_ReadArrayElement_TisMessageVersionData_t2BD6189A04339775DEC4DB9FB92B984F651FE4B1_m5A1A8748135B2E068CD8410EBF0DCDA26A101218_inline (void* ___0_source, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -37144,7 +37144,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* NativeArrayUnsafeUtility_Ge
 		return L_1;
 	}
 }
-// Method Definition Index: 106574
+// Method Definition Index: 106576
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t UnsafeUtilityInternal_ReadArrayElement_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_mA5895D44428BCE7F38A3E30CA324F5E0E599364F_inline (void* ___0_source, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>

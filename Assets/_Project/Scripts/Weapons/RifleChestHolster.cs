@@ -12,6 +12,15 @@ public class RifleChestHolster : NetworkBehaviour
     private Rigidbody body;
     private XRGrabInteractable grab;
     private Transform holster;
+    private NetworkVariable<ulong> startingPlayerId = new(
+    ulong.MaxValue,
+    NetworkVariableReadPermission.Everyone,
+    NetworkVariableWritePermission.Owner);
+
+    private bool IsMyStartingRifle =>
+        IsSpawned &&
+        IsOwner &&
+        startingPlayerId.Value == NetworkManager.LocalClientId;
     private Collider[] rifleColliders;
     private CharacterController ignoredController;
 
@@ -107,11 +116,8 @@ public class RifleChestHolster : NetworkBehaviour
     }
     public void PlaceInHolster(Transform target)
     {
-        if (!IsSpawned || !IsOwner || target == null ||
-            grab.isSelected)
-        {
+        if (!IsMyStartingRifle || target == null || grab.isSelected)
             return;
-        }
 
         holster = target;
 
@@ -149,6 +155,16 @@ public class RifleChestHolster : NetworkBehaviour
             holster.position,
             holster.rotation);
     }
+    public void AssignStartingPlayer(ulong clientId)
+    {
+        if (!IsSpawned || !IsOwner ||
+            startingPlayerId.Value != ulong.MaxValue)
+        {
+            return;
+        }
+
+        startingPlayerId.Value = clientId;
+    }
 
     private void OnGrabbed(SelectEnterEventArgs args)
     {
@@ -165,13 +181,16 @@ public class RifleChestHolster : NetworkBehaviour
 
         var rig = VRRigReferences.Instance;
 
-        if (rig != null && rig.rifleHolster != null)
+        if (IsMyStartingRifle &&
+            rig != null &&
+            rig.rifleHolster != null)
         {
             PlaceInHolster(rig.rifleHolster);
             return;
         }
 
-        // Fall normally if the holster is unavailable.
+        // Found weapons and another player's rifle drop normally.
+        holster = null;
         body.isKinematic = false;
         body.useGravity = true;
     }

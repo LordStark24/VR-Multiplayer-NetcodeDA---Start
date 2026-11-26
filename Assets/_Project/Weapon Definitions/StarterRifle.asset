@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: StarterRifle
   m_EditorClassIdentifier: Assembly-CSharp::WeaponDefinition
   weaponId: starter_rifle
-  displayName: Starter Rifle
-  weaponPrefab: {fileID: 8473569956689620845, guid: c25af5b97dea8415684836e665b3ceab, type: 3}
+  displayName: Basic Rifle
+  weaponPrefab: {fileID: 8473569956689620845, guid: 491fc627e9bb54d95855a009cf20c4f5, type: 3}
   requiredPlayerLevel: 1
   damage: 20
   fireRate: 5

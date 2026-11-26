@@ -4,7 +4,10 @@ using Unity.Netcode;
 [RequireComponent(typeof(NetworkObject))]
 public class PlayerStartingRifle : NetworkBehaviour
 {
-    [SerializeField] private GameObject riflePrefab;
+    [Tooltip("Six rifle prefabs, ordered from level 1 to level 6.")]
+    [SerializeField]
+    private GameObject[] levelRiflePrefabs =
+        new GameObject[6];
 
     private MansionMatchController matchController;
     private bool rifleSpawned;
@@ -20,9 +23,10 @@ public class PlayerStartingRifle : NetworkBehaviour
             return;
 
         var rig = VRRigReferences.Instance;
+        var progression = PlayerProgression.Local;
 
         if (rig == null || rig.rifleHolster == null ||
-            PlayerProgression.Local == null)
+            progression == null)
         {
             return;
         }
@@ -41,29 +45,38 @@ public class PlayerStartingRifle : NetworkBehaviour
             return;
         }
 
-        // Attempt only once, including if configuration is invalid.
         rifleSpawned = true;
 
-        if (riflePrefab == null ||
-            riflePrefab.GetComponent<NetworkObject>() == null ||
-            riflePrefab.GetComponent<RifleWeapon>() == null ||
-            riflePrefab.GetComponent<RifleChestHolster>() == null)
+        int level = Mathf.Clamp(progression.Level, 1, 6);
+
+        if (levelRiflePrefabs == null ||
+            levelRiflePrefabs.Length != 6)
         {
             Debug.LogError(
-                "[Loadout] Assign a rifle prefab containing " +
+                "[Loadout] Assign six rifle prefab entries.", this);
+            return;
+        }
+
+        GameObject prefab = levelRiflePrefabs[level - 1];
+
+        if (prefab == null ||
+            prefab.GetComponent<NetworkObject>() == null ||
+            prefab.GetComponent<RifleWeapon>() == null ||
+            prefab.GetComponent<RifleChestHolster>() == null)
+        {
+            Debug.LogError(
+                $"[Loadout] Level {level} needs a rifle prefab with " +
                 "NetworkObject, RifleWeapon and RifleChestHolster.",
                 this);
             return;
         }
 
         GameObject instance = Instantiate(
-            riflePrefab,
+            prefab,
             rig.rifleHolster.position,
             rig.rifleHolster.rotation);
 
         var networkObject = instance.GetComponent<NetworkObject>();
-
-        // Distributed Authority: this client spawns its own rifle.
         networkObject.Spawn();
 
         if (!networkObject.IsOwner)
@@ -74,13 +87,15 @@ public class PlayerStartingRifle : NetworkBehaviour
             return;
         }
 
-        instance.GetComponent<RifleChestHolster>()
-            .PlaceInHolster(rig.rifleHolster);
+        var chestHolster = instance.GetComponent<RifleChestHolster>();
+
+        chestHolster.AssignStartingPlayer(OwnerClientId);
+        chestHolster.PlaceInHolster(rig.rifleHolster);
 
         Debug.Log(
-            $"[Loadout] Starting rifle spawned | " +
-            $"Player: {OwnerClientId} | Ammo: " +
-            $"{instance.GetComponent<RifleWeapon>().CurrentAmmo}",
+            $"[Loadout] Starting rifle | Player: {OwnerClientId} | " +
+            $"Level: {level} | Prefab: {prefab.name} | " +
+            $"Ammo: {instance.GetComponent<RifleWeapon>().CurrentAmmo}",
             this);
     }
 }

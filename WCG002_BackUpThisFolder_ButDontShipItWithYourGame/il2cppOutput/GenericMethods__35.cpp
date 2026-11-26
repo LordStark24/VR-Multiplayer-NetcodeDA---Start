@@ -17643,7 +17643,7 @@ IL_0092:
 		return L_29;
 	}
 }
-// Method Definition Index: 102790
+// Method Definition Index: 102792
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppSharedGenericObject* DictionaryExtensions_MergeAllowOverride_TisIl2CppSharedGenericObject_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisIl2CppSharedGenericObject_m52A7EF0224B65E2B3CB08D34E77BE21FA4BD07E7_gshared (Il2CppSharedGenericObject* ___0_self, RuntimeObject* ___1_dictionary, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -17760,7 +17760,7 @@ IL_0057:
 		return L_12;
 	}
 }
-// Method Definition Index: 102790
+// Method Definition Index: 102792
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictionaryExtensions_MergeAllowOverride_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_m191DDE5D3B24C4AC300575E3696AADBA44175C8F_fshared (Il2CppFullySharedGenericAny ___0_self, RuntimeObject* ___1_dictionary, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -17891,7 +17891,7 @@ IL_0057:
 		return;
 	}
 }
-// Method Definition Index: 102789
+// Method Definition Index: 102791
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictionaryExtensions_MergeNoOverride_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_m2981E6AE4651848E3EEBC658390B5EF85BF2DF14_fshared (Il2CppFullySharedGenericAny ___0_self, RuntimeObject* ___1_dictionary, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -18058,7 +18058,7 @@ IL_0085:
 		return;
 	}
 }
-// Method Definition Index: 102791
+// Method Definition Index: 102793
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DictionaryExtensions_ValueEquals_TisIl2CppSharedGenericObject_TisIl2CppSharedGenericObject_m3D35D284334EFF0C5B46622DE923858FEE980C7E_gshared (RuntimeObject* ___0_x, RuntimeObject* ___1_y, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -18073,7 +18073,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DictionaryExtensions_ValueEquals_TisIl2C
 		return L_3;
 	}
 }
-// Method Definition Index: 102791
+// Method Definition Index: 102793
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DictionaryExtensions_ValueEquals_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_m657608AD665F515CBD8DE41812D5F955EEC2963D_fshared (RuntimeObject* ___0_x, RuntimeObject* ___1_y, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -18088,7 +18088,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DictionaryExtensions_ValueEquals_TisIl2C
 		return L_3;
 	}
 }
-// Method Definition Index: 102792
+// Method Definition Index: 102794
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DictionaryExtensions_ValueEquals_TisIl2CppSharedGenericObject_TisIl2CppSharedGenericObject_TisIl2CppSharedGenericObject_m16B01AAE91291E7A25112C75443C980053DCCEA5_gshared (RuntimeObject* ___0_x, RuntimeObject* ___1_y, Il2CppSharedGenericObject* ___2_valueComparer, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -18282,7 +18282,7 @@ IL_0087:
 		return L_24;
 	}
 }
-// Method Definition Index: 102792
+// Method Definition Index: 102794
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DictionaryExtensions_ValueEquals_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_m17991EC7814062A9676E8F78BA940C368DDCC2C2_fshared (RuntimeObject* ___0_x, RuntimeObject* ___1_y, Il2CppFullySharedGenericAny ___2_valueComparer, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -18489,7 +18489,7 @@ IL_0087:
 		return L_28;
 	}
 }
-// Method Definition Index: 101851
+// Method Definition Index: 101853
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictionaryExtensions_First_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_m4CCC3E339E7DF3C25DAB6173FC6BB0177CA658E9_fshared (Dictionary_2_t5C32AF17A5801FB3109E5B0E622BA8402A04E08E* ___0_dictionary, KeyValuePair_2_t28EF90BF7804CE5D7F99A364266351E7DC652669* il2cppRetVal, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);

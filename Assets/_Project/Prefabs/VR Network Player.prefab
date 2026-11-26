@@ -884,7 +884,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStartingRifle
   ShowTopMostFoldoutHeaderGroup: 1
-  riflePrefab: {fileID: 8473569956689620845, guid: c25af5b97dea8415684836e665b3ceab, type: 3}
+  levelRiflePrefabs:
+  - {fileID: 8473569956689620845, guid: 491fc627e9bb54d95855a009cf20c4f5, type: 3}
+  - {fileID: 8473569956689620845, guid: c25af5b97dea8415684836e665b3ceab, type: 3}
+  - {fileID: 8473569956689620845, guid: 66c2e58508b9f4052835e0bd29623820, type: 3}
+  - {fileID: 8473569956689620845, guid: 285d4604006bd41689b09cd5a32cd6f7, type: 3}
+  - {fileID: 8473569956689620845, guid: 79c316eee06ef4f3ab42b3cf3ac73040, type: 3}
+  - {fileID: 8473569956689620845, guid: a085dc30fe3524ba6a4591a2bcb0a626, type: 3}
 --- !u!1 &5902115899942212363
 GameObject:
   m_ObjectHideFlags: 0
