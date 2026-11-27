@@ -507,7 +507,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6335073540964111372}
         m_TargetAssemblyTypeName: RifleWeapon, Assembly-CSharp
-        m_MethodName: StopFiring
+        m_MethodName: EndFiringInput
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -618,7 +618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RifleWeapon
   ShowTopMostFoldoutHeaderGroup: 1
-  definition: {fileID: 11400000, guid: 0a8267450186a432b80a24844ff10b8c, type: 2}
+  definition: {fileID: 11400000, guid: b2ef6c0fd70e14a9fa945962dbf6903d, type: 2}
   firePoint: {fileID: 5554953435654431471}
   ammoDisplay: {fileID: 1922619770562401268}
   hitLayers:

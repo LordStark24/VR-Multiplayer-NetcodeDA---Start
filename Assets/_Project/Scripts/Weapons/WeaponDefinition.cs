@@ -19,6 +19,9 @@ public class WeaponDefinition : ScriptableObject
     [Tooltip("Number of shots per second.")]
     [Min(0.1f)] public float fireRate = 5f;
 
+    [Tooltip("Shots per trigger press. Use 0 for automatic fire while held.")]
+    [Min(0)] public int shotsPerTriggerPull = 1;
+
     [Tooltip("Maximum firing distance in metres.")]
     [Min(1f)] public float range = 50f;
 

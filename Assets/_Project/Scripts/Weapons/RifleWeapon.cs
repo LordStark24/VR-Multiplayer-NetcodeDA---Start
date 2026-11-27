@@ -37,6 +37,7 @@ public class RifleWeapon : NetworkBehaviour
 
     private XRGrabInteractable grab;
     private bool triggerHeld;
+    private int burstShotsRemaining;
     private float nextShotTime;
 
     public int CurrentAmmo => currentAmmo.Value;
@@ -98,15 +99,58 @@ public class RifleWeapon : NetworkBehaviour
 
     public void BeginFiring()
     {
-        if (!IsSpawned || !IsOwner || !grab.isSelected)
+        if (!IsSpawned || !IsOwner ||
+            !initialized.Value ||
+            definition == null ||
+            !grab.isSelected ||
+            triggerHeld)
+        {
             return;
+        }
 
         triggerHeld = true;
+        Debug.Log(
+    $"[Weapon Input] Rifle: {name} | " +
+    $"Definition: {definition.name} | " +
+    $"Shots per pull: {definition.shotsPerTriggerPull} | " +
+    $"Ammo: {CurrentAmmo}", this);
+
+        // Another press cannot add shots to an unfinished burst.
+        if (burstShotsRemaining > 0)
+            return;
+
+        if (!weaponActivated.Value ||
+            CurrentAmmo <= 0 ||
+            !LocalPlayerIsAlive() ||
+            !MatchIsPlaying())
+        {
+            return;
+        }
+
+        if (definition.shotsPerTriggerPull > 0)
+        {
+            burstShotsRemaining = Mathf.Min(
+                definition.shotsPerTriggerPull,
+                CurrentAmmo);
+        }
     }
 
+    // Trigger release stops automatic fire but lets a burst finish.
+    public void EndFiringInput()
+    {
+        Debug.Log($"[Weapon Input] Trigger released: {name}", this);
+        triggerHeld = false;
+    }
+
+    // Dropping, holstering, death, or ownership loss cancels all fire.
     public void StopFiring()
     {
+        if (triggerHeld || burstShotsRemaining > 0)
+        {
+            Debug.Log($"[Weapon Input] Firing cancelled: {name}", this);
+        }
         triggerHeld = false;
+        burstShotsRemaining = 0;
     }
 
     private void OnDisable()
@@ -132,14 +176,25 @@ public class RifleWeapon : NetworkBehaviour
             return;
         }
 
-        if (!triggerHeld || !weaponActivated.Value ||
+        bool shotRequested = definition.shotsPerTriggerPull == 0
+    ? triggerHeld
+    : burstShotsRemaining > 0;
+
+        if (!shotRequested || !weaponActivated.Value ||
             CurrentAmmo <= 0 || Time.time < nextShotTime)
+        {
             return;
+        }
 
         nextShotTime = Time.time +
             1f / Mathf.Max(0.1f, definition.fireRate);
 
         currentAmmo.Value--;
+        if (burstShotsRemaining > 0)
+            burstShotsRemaining--;
+
+        if (CurrentAmmo <= 0)
+            burstShotsRemaining = 0;
 
         Vector3 origin = firePoint.position;
         Vector3 direction = firePoint.forward;

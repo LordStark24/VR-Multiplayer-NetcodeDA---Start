@@ -16,7 +16,8 @@ MonoBehaviour:
   displayName: Regular  Rifle
   weaponPrefab: {fileID: 8473569956689620845, guid: c25af5b97dea8415684836e665b3ceab, type: 3}
   requiredPlayerLevel: 2
-  damage: 25
+  damage: 10
   fireRate: 7
+  shotsPerTriggerPull: 2
   range: 55
   magazineCapacity: 35

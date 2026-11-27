@@ -3175,7 +3175,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b24c418804a84cacbc2aa873e53e8cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KeepAccrossScenes
-  persistenceKey: 
 --- !u!114 &427203832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5850,7 +5849,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b24c418804a84cacbc2aa873e53e8cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KeepAccrossScenes
-  persistenceKey: 
 --- !u!114 &887591950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6787,7 +6785,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b24c418804a84cacbc2aa873e53e8cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KeepAccrossScenes
-  persistenceKey: 
 --- !u!114 &976124870
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -40009,6 +40009,7 @@ struct WeaponDefinition_t08649372CC84A34D573B2116DCF34B36D7A156D6  : public Scri
 	int32_t ___requiredPlayerLevel;
 	int32_t ___damage;
 	float ___fireRate;
+	int32_t ___shotsPerTriggerPull;
 	float ___range;
 	int32_t ___magazineCapacity;
 };
@@ -46440,6 +46441,7 @@ struct RifleWeapon_tD9427F81D94BB9549AD909EA51A9923AA05F9B40  : public NetworkBe
 	NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4* ___initialized;
 	XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B* ___grab;
 	bool ___triggerHeld;
+	int32_t ___burstShotsRemaining;
 	float ___nextShotTime;
 };
 struct RotationAxisLockGrabTransformer_t607B7577937EE7AD454A59499B6266FBA4832DD7  : public XRBaseGrabTransformer_t928B47DA234790117C35A173C92AF6A7776F48AE

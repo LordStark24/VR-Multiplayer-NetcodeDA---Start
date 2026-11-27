@@ -307,6 +307,7 @@ extern void RifleWeapon_OnNetworkSpawn_m819890ECBE69E32CB0EAD4E1318F74B35D44465B
 extern void RifleWeapon_OnNetworkDespawn_m8F88EEDD253127182A1E0A37C434807BCA1724F1 (void);
 extern void RifleWeapon_OnLostOwnership_m81CC58E7ACF533610BFEB01E8FB234815B7C6D18 (void);
 extern void RifleWeapon_BeginFiring_mBD736B47D5959E8D04CE3E5116E073E4E3540B15 (void);
+extern void RifleWeapon_EndFiringInput_m93903C45204E54F686DA40CAD81BAB55D527C474 (void);
 extern void RifleWeapon_StopFiring_m92372CA5B774B9F4FC81626DBA857701CAF9F2C5 (void);
 extern void RifleWeapon_OnDisable_m2BD808F2C070038AE774A663557B432DFC2E08F6 (void);
 extern void RifleWeapon_Update_m4B98C0A1236F03D69C02F37BE4CB061269C8C9B4 (void);
@@ -354,7 +355,7 @@ extern void ParticleShowcase_Update_m16F5D24DC9E722E6B295F9F78C0994201B02DA90 (v
 extern void ParticleShowcase__ctor_m1DC1655BC29FD40E871EA0FD3B1080BAB1E07D4F (void);
 extern void SelectionBase__ctor_mB91EB1579AC854F6D8027294AF239C5CD47F6241 (void);
 extern void NetworkVariableSerializationHelper_InitializeSerialization_mA4F17C9D8F4934C552263003358AF8CC0E55E6E3 (void);
-static Il2CppMethodPointer s_methodPointers[347] = 
+static Il2CppMethodPointer s_methodPointers[348] = 
 {
 	NM_Wind_Start_m5BD85A14AA020D566F4418961475F3C9C3055E46,
 	NM_Wind_Update_m9F7E839CC558D1308DD4F48FB3DD126E3469D9AB,
@@ -656,6 +657,7 @@ static Il2CppMethodPointer s_methodPointers[347] =
 	RifleWeapon_OnNetworkDespawn_m8F88EEDD253127182A1E0A37C434807BCA1724F1,
 	RifleWeapon_OnLostOwnership_m81CC58E7ACF533610BFEB01E8FB234815B7C6D18,
 	RifleWeapon_BeginFiring_mBD736B47D5959E8D04CE3E5116E073E4E3540B15,
+	RifleWeapon_EndFiringInput_m93903C45204E54F686DA40CAD81BAB55D527C474,
 	RifleWeapon_StopFiring_m92372CA5B774B9F4FC81626DBA857701CAF9F2C5,
 	RifleWeapon_OnDisable_m2BD808F2C070038AE774A663557B432DFC2E08F6,
 	RifleWeapon_Update_m4B98C0A1236F03D69C02F37BE4CB061269C8C9B4,
@@ -771,7 +773,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	347,
+	348,
 	s_methodPointers,
 	30,
 	s_adjustorThunks,

@@ -16,7 +16,8 @@ MonoBehaviour:
   displayName: Better  Rifle
   weaponPrefab: {fileID: 8473569956689620845, guid: 66c2e58508b9f4052835e0bd29623820, type: 3}
   requiredPlayerLevel: 3
-  damage: 30
+  damage: 5
   fireRate: 10
+  shotsPerTriggerPull: 4
   range: 60
   magazineCapacity: 40
