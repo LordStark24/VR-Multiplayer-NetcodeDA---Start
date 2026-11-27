@@ -7,10 +7,20 @@ using TMPro;
 [RequireComponent(typeof(XRGrabInteractable))]
 public class RifleWeapon : NetworkBehaviour
 {
+    [Header("Shot Effects")]
+    [SerializeField] private GameObject muzzleFlashRoot;
+
     [SerializeField] private WeaponDefinition definition;
     [SerializeField] private Transform firePoint;
     [SerializeField] private TMP_Text ammoDisplay;
     [SerializeField] private LayerMask hitLayers = ~0;
+
+    [Header("Impact Effects")]
+    [SerializeField] private GameObject impactPrefab;
+    [SerializeField, Min(0.1f)] private float impactLifetime = 3f;
+    [SerializeField] private Vector3 impactRotationOffset;
+
+
 
     [Header("Temporary Testing")]
     [SerializeField] private bool startReadyForTesting;
@@ -190,6 +200,7 @@ public class RifleWeapon : NetworkBehaviour
             1f / Mathf.Max(0.1f, definition.fireRate);
 
         currentAmmo.Value--;
+        PlayMuzzleFlashRpc();
         if (burstShotsRemaining > 0)
             burstShotsRemaining--;
 
@@ -209,6 +220,8 @@ public class RifleWeapon : NetworkBehaviour
 
         if (hitSomething)
         {
+            PlayImpactRpc(hit.point, hit.normal);
+
             var targetHealth =
                 hit.collider.GetComponentInParent<NetworkPlayerHealth>();
 
@@ -270,6 +283,29 @@ public class RifleWeapon : NetworkBehaviour
         }
     }
 
+    [Rpc(SendTo.Everyone, RequireOwnership = true)]
+    private void PlayMuzzleFlashRpc()
+    {
+        if (muzzleFlashRoot == null)
+            return;
+
+        var systems =
+            muzzleFlashRoot.GetComponentsInChildren<ParticleSystem>();
+
+        foreach (var system in systems)
+        {
+            // Skip effects deliberately disabled in the prefab.
+            if (!system.gameObject.activeInHierarchy)
+                continue;
+
+            // Restart this system without also restarting its children.
+            system.Stop(
+                false,
+                ParticleSystemStopBehavior.StopEmittingAndClear);
+
+            system.Play(false);
+        }
+    }
     private bool MatchIsPlaying()
     {
         if (matchController == null)
@@ -297,5 +333,25 @@ public class RifleWeapon : NetworkBehaviour
             .GetComponent<NetworkPlayerHealth>();
 
         return playerHealth != null && playerHealth.IsAlive;
+    }
+
+    [Rpc(SendTo.Everyone, RequireOwnership = true)]
+    private void PlayImpactRpc(Vector3 position, Vector3 normal)
+    {
+        if (impactPrefab == null || normal.sqrMagnitude < 0.001f)
+            return;
+
+        normal.Normalize();
+
+        Quaternion rotation =
+            Quaternion.LookRotation(normal) *
+            Quaternion.Euler(impactRotationOffset);
+
+        GameObject effect = Instantiate(
+            impactPrefab,
+            position + normal * 0.01f,
+            rotation);
+
+        Destroy(effect, impactLifetime);
     }
 }
